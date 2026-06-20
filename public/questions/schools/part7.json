@@ -1,0 +1,22 @@
+{
+  "prompts": [
+    {
+      "intro": "Look at the three pictures. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "a boy leaves home on his bicycle on a sunny morning",           "image": "images/part7/cafe-rain_p1.webp" },
+        { "label": "Picture 2", "text": "it starts raining and the boy shelters at a bus stop with a friend", "image": "images/part7/cafe-rain_p2.webp" },
+        { "label": "Picture 3", "text": "the two friends sit together in a café eating cakes and laughing", "image": "images/part7/cafe-rain_p3.webp" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three pictures. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "a boy finds a lost dog wandering alone in a park",     "image": "images/part7/lost-dog_p1.webp" },
+        { "label": "Picture 2", "text": "the boy notices a lost dog poster on the street",       "image": "images/part7/lost-dog_p2.webp" },
+        { "label": "Picture 3", "text": "the boy returns the dog to its happy owner in a garden","image": "images/part7/lost-dog_p3.webp" }
+      ],
+      "minWords": 35
+    }
+  ]
+}

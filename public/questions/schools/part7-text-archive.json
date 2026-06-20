@@ -1,0 +1,94 @@
+{
+  "prompts": [
+    {
+      "intro": "Look at the three pictures. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "a boy finds a lost dog in the park" },
+        { "label": "Picture 2", "text": "the boy looks at the dog's collar and reads the address" },
+        { "label": "Picture 3", "text": "the boy returns the dog to a happy family" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three pictures. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "a girl forgets her lunch box at home" },
+        { "label": "Picture 2", "text": "her friend shares her food with her at school" },
+        { "label": "Picture 3", "text": "the two girls laugh together and become good friends" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three pictures. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "a group of students start working on a school project together" },
+        { "label": "Picture 2", "text": "they have a problem and cannot agree on an idea" },
+        { "label": "Picture 3", "text": "they present their project and win first prize" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three pictures. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "a boy is late for school and runs down the street" },
+        { "label": "Picture 2", "text": "he sees an old woman who needs help crossing the road" },
+        { "label": "Picture 3", "text": "his teacher smiles when he explains why he was late" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three pictures. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "a girl plants a small seed in her garden" },
+        { "label": "Picture 2", "text": "she waters the plant every day and watches it grow" },
+        { "label": "Picture 3", "text": "she picks the first vegetables and cooks them for her family" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three pictures. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "two friends arrive at the cinema but the film is sold out" },
+        { "label": "Picture 2", "text": "they decide to go to the park instead and play football" },
+        { "label": "Picture 3", "text": "they agree it was a better afternoon than the cinema would have been" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three pictures. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "a student is nervous before a big music performance at school" },
+        { "label": "Picture 2", "text": "she starts playing her guitar and the audience listens" },
+        { "label": "Picture 3", "text": "everyone claps and she smiles with happiness" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three pictures. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "a boy finds a wallet with money on the floor in a shop" },
+        { "label": "Picture 2", "text": "he takes it to the shop manager" },
+        { "label": "Picture 3", "text": "the owner of the wallet comes back and thanks the boy" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three pictures. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "a class decides to clean up the school garden" },
+        { "label": "Picture 2", "text": "students pull out weeds and plant new flowers together" },
+        { "label": "Picture 3", "text": "the headteacher takes a photo of the beautiful garden" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three pictures. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "a girl tries to fix her broken bicycle wheel" },
+        { "label": "Picture 2", "text": "her older brother comes out and shows her how to do it" },
+        { "label": "Picture 3", "text": "she rides her bicycle happily down the street" }
+      ],
+      "minWords": 35
+    }
+  ]
+}
