@@ -9,15 +9,16 @@ export default defineConfig({
     react(),
     tailwindcss(),
     VitePWA({
-      registerType: 'autoUpdate',
+      registerType: 'prompt',
       workbox: {
-        globPatterns: ['**/*.{js,css,html,ico,png,svg}'],
+        globPatterns: ['**/*.{js,css,html,ico,png,svg}', 'questions/**/*.json'],
         runtimeCaching: [
           {
             urlPattern: /\/mocktest\/questions\/.+\.json$/,
-            handler: 'CacheFirst',
+            handler: 'NetworkFirst',
             options: {
               cacheName: 'question-banks',
+              networkTimeoutSeconds: 4,
               expiration: { maxAgeSeconds: 60 * 60 * 24 * 7 },
             },
           },

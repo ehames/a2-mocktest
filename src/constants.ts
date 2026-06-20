@@ -33,5 +33,6 @@ export const PART_SCORE_RANGES = [
 ]
 
 export const LS_KEY = 'a2key_v1'
+export const BANK_CACHE = 'question-banks'
 
 export const BASE = import.meta.env.BASE_URL

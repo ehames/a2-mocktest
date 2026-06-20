@@ -1,4 +1,5 @@
 import { useReducer, useEffect, useCallback } from 'react'
+import { useRegisterSW } from 'virtual:pwa-register/react'
 import { reducer, initialState } from './reducer'
 import { useTimer } from './hooks/useTimer'
 import { loadBanks } from './loadBanks'
@@ -26,6 +27,8 @@ function writeLS(state: AppState) {
 }
 
 export default function App() {
+  const { needRefresh: [needRefresh], updateServiceWorker } = useRegisterSW()
+
   const [state, dispatch] = useReducer(reducer, initialState, () => {
     const saved = readLS()
     if (saved) return { ...initialState, ...saved }
@@ -35,9 +38,14 @@ export default function App() {
   useEffect(() => { writeLS(state) }, [state])
 
   useEffect(() => {
+    if (needRefresh && state.step === 0) updateServiceWorker(true)
+  }, [needRefresh, state.step, updateServiceWorker])
+
+  useEffect(() => {
+    if (state.step !== 0) return
     const parts = ['part1.json','part2.json','part3.json','part4.json','part5.json','part6.json','part7.json']
     parts.forEach(p => fetch(`${BASE}questions/${p}`).catch(() => {}))
-  }, [])
+  }, [state.step])
 
   const handleTick = useCallback(() => {
     if (state.secondsLeft <= 1 && state.started && !state.submitted) {
