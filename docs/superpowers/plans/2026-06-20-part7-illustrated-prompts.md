@@ -1,0 +1,423 @@
+# Part 7 Illustrated Prompts Implementation Plan
+
+> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
+
+**Goal:** Replace Part 7's text-keyword picture cards with a horizontally swipeable strip of flat-cartoon WebP illustrations, starting with a 2-prompt pilot.
+
+**Architecture:** `PicCard` gains a required `image` field; the active JSON bank (`schools/part7.json`) is replaced with 2 illustrated prompts; `Part7Writing` renders a scroll-snap image strip instead of keyword cards; Workbox CacheFirst handles image caching at runtime so images are not bloating the precache manifest.
+
+**Tech Stack:** React 18 + TypeScript, Vite + vite-plugin-pwa (Workbox), WebP images (512×512)
+
+## Global Constraints
+
+- Images stored at `public/images/part7/{slug}_p{1|2|3}.webp`; served at `images/part7/...` (root-relative)
+- WebP format, 512×512px, flat cartoon style
+- `image` field on `PicCard` is required — no text-only fallback
+- `text` field kept as `alt` on `<img>` for accessibility
+- `LS_KEY` must be bumped to `'a2key_v2'` to clear stale localStorage sessions
+- App base path is `/mocktest/`; Workbox runtime caching pattern must match full URL
+
+---
+
+### Task 1: Update `PicCard` type and `LS_KEY`
+
+**Files:**
+- Modify: `src/types.ts:96-99`
+- Modify: `src/constants.ts:35`
+
+**Interfaces:**
+- Produces: `PicCard { label: string; text: string; image: string }` — consumed by Tasks 3 and 4
+
+- [ ] **Step 1: Add `image` to `PicCard` in `src/types.ts`**
+
+Replace lines 96–99:
+
+```ts
+export interface PicCard {
+  label: string
+  text: string
+  image: string
+}
+```
+
+- [ ] **Step 2: Bump `LS_KEY` in `src/constants.ts`**
+
+Replace line 35:
+
+```ts
+export const LS_KEY = 'a2key_v2'
+```
+
+- [ ] **Step 3: Verify TypeScript compiles with no errors**
+
+```bash
+npm run build
+```
+
+Expected: build succeeds. The only TypeScript impact is that `PicCard` now requires `image`; the existing component reads `pic.label` and `pic.text` only, so no error there. The JSON bank is validated at runtime, not compile time.
+
+- [ ] **Step 4: Commit**
+
+```bash
+git add src/types.ts src/constants.ts
+git commit -m "feat: add image field to PicCard, bump LS_KEY to v2"
+```
+
+---
+
+### Task 2: Replace `schools/part7.json` with illustrated pilot bank
+
+**Files:**
+- Rename: `public/questions/schools/part7.json` → `public/questions/schools/part7-text-archive.json`
+- Create: `public/questions/schools/part7.json`
+
+**Interfaces:**
+- Produces: `Part7Bank` with 2 `Part7Prompt` entries each having `PicCard.image` set — consumed by Task 4 at runtime
+
+- [ ] **Step 1: Archive the existing bank**
+
+```bash
+mv public/questions/schools/part7.json public/questions/schools/part7-text-archive.json
+```
+
+- [ ] **Step 2: Write the new `public/questions/schools/part7.json`**
+
+```json
+{
+  "prompts": [
+    {
+      "intro": "Look at the three pictures. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "a boy leaves home on his bicycle on a sunny morning",           "image": "images/part7/cafe-rain_p1.webp" },
+        { "label": "Picture 2", "text": "it starts raining and the boy shelters at a bus stop with a friend", "image": "images/part7/cafe-rain_p2.webp" },
+        { "label": "Picture 3", "text": "the two friends sit together in a café eating cakes and laughing", "image": "images/part7/cafe-rain_p3.webp" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three pictures. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "a boy finds a lost dog wandering alone in a park",     "image": "images/part7/lost-dog_p1.webp" },
+        { "label": "Picture 2", "text": "the boy notices a lost dog poster on the street",       "image": "images/part7/lost-dog_p2.webp" },
+        { "label": "Picture 3", "text": "the boy returns the dog to its happy owner in a garden","image": "images/part7/lost-dog_p3.webp" }
+      ],
+      "minWords": 35
+    }
+  ]
+}
+```
+
+- [ ] **Step 3: Verify build still passes**
+
+```bash
+npm run build
+```
+
+Expected: success. The JSON is fetched at runtime; no build-time validation.
+
+- [ ] **Step 4: Commit**
+
+```bash
+git add public/questions/schools/part7.json public/questions/schools/part7-text-archive.json
+git commit -m "feat: replace part7 bank with 2 illustrated pilot prompts, archive text-only bank"
+```
+
+---
+
+### Task 3: Add Workbox runtime caching for part7 images
+
+**Files:**
+- Modify: `vite.config.ts:15` (inside the existing `runtimeCaching` array)
+
+**Interfaces:**
+- Consumes: nothing from other tasks
+- Produces: Workbox `CacheFirst` rule matching `*/images/part7/*`
+
+- [ ] **Step 1: Add the `CacheFirst` rule to `vite.config.ts`**
+
+In `vite.config.ts`, inside the `runtimeCaching` array (after the existing `question-banks` entry), add:
+
+```ts
+{
+  urlPattern: /\/images\/part7\//,
+  handler: 'CacheFirst',
+  options: {
+    cacheName: 'part7-images',
+    expiration: { maxEntries: 500 },
+  },
+},
+```
+
+The full `runtimeCaching` array becomes:
+
+```ts
+runtimeCaching: [
+  {
+    urlPattern: /\/mocktest\/questions\/.+\.json$/,
+    handler: 'NetworkFirst',
+    options: {
+      cacheName: 'question-banks',
+      networkTimeoutSeconds: 4,
+      expiration: { maxAgeSeconds: 60 * 60 * 24 * 7 },
+    },
+  },
+  {
+    urlPattern: /\/images\/part7\//,
+    handler: 'CacheFirst',
+    options: {
+      cacheName: 'part7-images',
+      expiration: { maxEntries: 500 },
+    },
+  },
+  {
+    urlPattern: /^https:\/\/fonts\.(googleapis|gstatic)\.com\//,
+    handler: 'CacheFirst',
+    options: {
+      cacheName: 'google-fonts',
+      expiration: { maxAgeSeconds: 60 * 60 * 24 * 365 },
+    },
+  },
+],
+```
+
+Note: WebP files are not in `globPatterns` (`**/*.{js,css,html,ico,png,svg}`) so they won't be precached — runtime caching is the only caching layer for images, which is intentional.
+
+- [ ] **Step 2: Verify build passes**
+
+```bash
+npm run build
+```
+
+Expected: success. The generated `sw.js` will include the new `CacheFirst` rule.
+
+- [ ] **Step 3: Commit**
+
+```bash
+git add vite.config.ts
+git commit -m "feat: add CacheFirst runtime caching for part7 images"
+```
+
+---
+
+### Task 4: Update `Part7Writing` component to horizontal image strip
+
+**Files:**
+- Modify: `src/components/parts/WritingPart.tsx:77-103`
+- Create: `public/images/part7/` directory with 6 pilot WebP images
+
+**Interfaces:**
+- Consumes: `PicCard { label: string; text: string; image: string }` from Task 1
+- Consumes: `Part7Prompt.pics` with `image` fields from Task 2
+
+- [ ] **Step 1: Generate the 6 pilot images**
+
+Use an AI image tool (DALL-E, Midjourney, Adobe Firefly, etc.) with this prompt template:
+
+```
+Flat cartoon illustration. Clean vector style, bold outlines, bright saturated
+colors, simple expressive characters, no text or UI elements. Square format.
+Scene: [scene description below].
+```
+
+Scenes to generate:
+
+| File | Scene description |
+|------|-------------------|
+| `cafe-rain_p1.webp` | A boy leaves home on his bicycle on a sunny morning |
+| `cafe-rain_p2.webp` | It starts raining; the boy shelters at a bus stop with a friend |
+| `cafe-rain_p3.webp` | Two friends sit together in a café eating cakes and laughing |
+| `lost-dog_p1.webp`  | A boy finds a lost dog wandering alone in a park |
+| `lost-dog_p2.webp`  | A boy notices a lost-dog poster on the street |
+| `lost-dog_p3.webp`  | A boy returns the dog to its happy owner in a garden |
+
+Export each as WebP at 512×512px, quality 80. Place all 6 files in `public/images/part7/`.
+
+```bash
+mkdir -p public/images/part7
+# Place the 6 .webp files here before continuing
+ls public/images/part7/
+```
+
+Expected output:
+```
+cafe-rain_p1.webp  cafe-rain_p2.webp  cafe-rain_p3.webp
+lost-dog_p1.webp   lost-dog_p2.webp   lost-dog_p3.webp
+```
+
+- [ ] **Step 2: Replace `Part7Writing` in `src/components/parts/WritingPart.tsx`**
+
+Replace lines 77–103 (the entire `Part7Writing` function) with:
+
+```tsx
+export function Part7Writing({ prompt, value, review, onChange }: Part7Props) {
+  const count = wc(value)
+  return (
+    <>
+      <div style={{ marginBottom: 16 }}>
+        <div style={{ font: "500 15px/1.5 'Libre Franklin'", color: 'var(--ink)', marginBottom: 13 }}>{prompt.intro}</div>
+        <div
+          data-testid="part7-image-strip"
+          style={{
+            display: 'flex',
+            gap: 12,
+            overflowX: 'auto',
+            scrollSnapType: 'x mandatory',
+            WebkitOverflowScrolling: 'touch',
+            paddingBottom: 4,
+          }}
+        >
+          {prompt.pics.map((pic, i) => (
+            <div
+              key={i}
+              style={{
+                flex: '0 0 260px',
+                borderRadius: 12,
+                overflow: 'hidden',
+                position: 'relative',
+                scrollSnapAlign: 'start',
+                boxShadow: '0 2px 8px rgba(0,0,0,0.12)',
+              }}
+            >
+              <img
+                src={pic.image}
+                alt={pic.text}
+                style={{ display: 'block', width: '100%', aspectRatio: '1 / 1', objectFit: 'cover' }}
+              />
+              <div style={{
+                position: 'absolute',
+                bottom: 8,
+                left: 8,
+                background: 'rgba(0,0,0,0.55)',
+                color: '#fff',
+                borderRadius: 6,
+                padding: '3px 8px',
+                font: "700 11px 'Libre Franklin'",
+                letterSpacing: '0.05em',
+              }}>
+                {pic.label}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+      <textarea
+        value={value}
+        onChange={e => onChange(e.target.value)}
+        readOnly={review}
+        placeholder="Write your answer here..."
+        aria-label="Part 7 writing answer"
+        style={textareaStyle(review)}
+      />
+      <WordCountIndicator count={count} min={prompt.minWords} />
+    </>
+  )
+}
+```
+
+- [ ] **Step 3: Verify TypeScript and build**
+
+```bash
+npm run build
+```
+
+Expected: success, no type errors.
+
+- [ ] **Step 4: Verify in browser with Playwright**
+
+Make sure the dev server is running (`npm run dev`), then run this Node script:
+
+```js
+// verify-part7.js  (run with: node verify-part7.js)
+const { chromium } = require('playwright')
+
+;(async () => {
+  const browser = await chromium.launch({ headless: false })
+  const page = await browser.newPage()
+
+  await page.goto('http://localhost:5173/mocktest/')
+
+  // Inject a pre-assembled AppState directly into localStorage so we land
+  // on Part 7 without clicking through all previous parts.
+  const state = {
+    step: 7,
+    started: true,
+    submitted: false,
+    review: false,
+    secondsLeft: 3540,
+    answers: {},
+    text: {},
+    writing: { 6: '', 7: '' },
+    name: 'Tester',
+    activeTest: {
+      part1: [],
+      part2: { people: [], questions: [] },
+      part3: { title: '', paragraphs: [], questions: [] },
+      part4: { title: '', paragraphs: [], questions: [] },
+      part5: { title: '', paragraphs: [], gaps: [] },
+      part6: { intro: '', bullets: ['', '', ''], minWords: 25 },
+      part7: {
+        intro: 'Look at the three pictures. Write the story shown in the pictures.',
+        pics: [
+          { label: 'Picture 1', text: 'a boy leaves home on his bicycle on a sunny morning',             image: 'images/part7/cafe-rain_p1.webp' },
+          { label: 'Picture 2', text: 'it starts raining and the boy shelters at a bus stop with a friend', image: 'images/part7/cafe-rain_p2.webp' },
+          { label: 'Picture 3', text: 'the two friends sit together in a café eating cakes and laughing',  image: 'images/part7/cafe-rain_p3.webp' },
+        ],
+        minWords: 35,
+      },
+    },
+    loadError: null,
+  }
+
+  await page.evaluate((s) => localStorage.setItem('a2key_v2', JSON.stringify(s)), state)
+  await page.reload()
+
+  // Verify the image strip is present
+  const strip = await page.waitForSelector('[data-testid="part7-image-strip"]', { timeout: 5000 })
+  console.assert(strip !== null, 'Image strip not found')
+
+  // Verify 3 images are rendered
+  const imgs = await page.$$('[data-testid="part7-image-strip"] img')
+  console.assert(imgs.length === 3, `Expected 3 images, got ${imgs.length}`)
+
+  // Verify first image src points to the correct file
+  const src = await imgs[0].getAttribute('src')
+  console.assert(src === 'images/part7/cafe-rain_p1.webp', `Unexpected src: ${src}`)
+
+  // Verify alt text is set
+  const alt = await imgs[0].getAttribute('alt')
+  console.assert(alt === 'a boy leaves home on his bicycle on a sunny morning', `Unexpected alt: ${alt}`)
+
+  // Verify "Picture 1" label overlay is visible
+  const labels = await page.$$eval(
+    '[data-testid="part7-image-strip"] div[style*="position: absolute"]',
+    els => els.map(el => el.textContent)
+  )
+  console.assert(labels.includes('Picture 1'), `Labels: ${JSON.stringify(labels)}`)
+
+  console.log('✓ All Part 7 image strip checks passed')
+  await browser.close()
+})()
+```
+
+Run it:
+```bash
+node verify-part7.js
+```
+
+Expected:
+```
+✓ All Part 7 image strip checks passed
+```
+
+Visually confirm in the opened browser window:
+- 3 cartoon image cards visible, ~1.5 cards wide on screen
+- "Picture 1 / 2 / 3" pill label overlaid at bottom-left of each card
+- Horizontal swipe scrolls to Picture 2 and 3 with snap
+- Textarea and word count appear below the strip
+
+- [ ] **Step 5: Commit**
+
+```bash
+git add src/components/parts/WritingPart.tsx public/images/part7/
+git commit -m "feat: Part 7 horizontal illustrated image strip with scroll-snap"
+```
