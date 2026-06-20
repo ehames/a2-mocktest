@@ -78,13 +78,49 @@ export function Part7Writing({ prompt, value, review, onChange }: Part7Props) {
   const count = wc(value)
   return (
     <>
-      <div style={{ background: 'var(--surface)', border: '1px solid var(--border)', borderRadius: 14, padding: 18, marginBottom: 16 }}>
+      <div style={{ marginBottom: 16 }}>
         <div style={{ font: "500 15px/1.5 'Libre Franklin'", color: 'var(--ink)', marginBottom: 13 }}>{prompt.intro}</div>
-        <div style={{ display: 'flex', gap: 9 }}>
+        <div
+          data-testid="part7-image-strip"
+          style={{
+            display: 'flex',
+            gap: 12,
+            overflowX: 'auto',
+            scrollSnapType: 'x mandatory',
+            WebkitOverflowScrolling: 'touch',
+            paddingBottom: 4,
+          }}
+        >
           {prompt.pics.map((pic, i) => (
-            <div key={i} style={{ flex: 1, background: 'var(--pic-bg)', border: '1px dashed var(--input-border)', borderRadius: 11, padding: '14px 8px', textAlign: 'center' }}>
-              <div style={{ font: "700 10px 'Libre Franklin'", letterSpacing: '.1em', textTransform: 'uppercase', color: 'var(--muted)', marginBottom: 7 }}>{pic.label}</div>
-              <div style={{ font: "600 12px/1.3 'Libre Franklin'", color: 'var(--ink)' }}>{pic.text}</div>
+            <div
+              key={i}
+              style={{
+                flex: '0 0 260px',
+                borderRadius: 12,
+                overflow: 'hidden',
+                position: 'relative',
+                scrollSnapAlign: 'start',
+                boxShadow: '0 2px 8px rgba(0,0,0,0.12)',
+              }}
+            >
+              <img
+                src={pic.image}
+                alt={pic.text}
+                style={{ display: 'block', width: '100%', aspectRatio: '1 / 1', objectFit: 'cover' }}
+              />
+              <div style={{
+                position: 'absolute',
+                bottom: 8,
+                left: 8,
+                background: 'rgba(0,0,0,0.55)',
+                color: '#fff',
+                borderRadius: 6,
+                padding: '3px 8px',
+                font: "700 11px 'Libre Franklin'",
+                letterSpacing: '0.05em',
+              }}>
+                {pic.label}
+              </div>
             </div>
           ))}
         </div>
