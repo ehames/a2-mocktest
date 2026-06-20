@@ -23,6 +23,14 @@ export default defineConfig({
             },
           },
           {
+            urlPattern: /\/images\/part7\//,
+            handler: 'CacheFirst',
+            options: {
+              cacheName: 'part7-images',
+              expiration: { maxEntries: 500 },
+            },
+          },
+          {
             urlPattern: /^https:\/\/fonts\.(googleapis|gstatic)\.com\//,
             handler: 'CacheFirst',
             options: {
