@@ -1,0 +1,284 @@
+{
+  "sets": [
+    {
+      "people": [
+        {
+          "letter": "A",
+          "name": "Maya",
+          "text": "I go to the cooking club on Mondays. We learn easy recipes, like soup and fruit salad. I like it because we work in small groups. Last week I made sandwiches for my family. Next month we are going to cook food from different countries."
+        },
+        {
+          "letter": "B",
+          "name": "Ben",
+          "text": "My club is photography. We meet in the computer room on Wednesdays. We take pictures around the school and then choose the best ones. I enjoy using the new camera, but I also like taking photos with my phone."
+        },
+        {
+          "letter": "C",
+          "name": "Nina",
+          "text": "I am in the school running club. We practise in the park after lessons. It is sometimes cold, but our teacher says warm clothes help. I could not run far at first. Now I can run three kilometres, and I am going to enter a small race."
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "Who uses a computer in the club?",
+          "answer": 1,
+          "rationale": "Ben says his club meets 'in the computer room' and they choose the best photos there. Neither Maya nor Nina mentions using a computer."
+        },
+        {
+          "prompt": "Who does the activity outside?",
+          "answer": 2,
+          "rationale": "Nina says her running club practises 'in the park'. Maya cooks indoors, and Ben's photography club meets in the computer room."
+        },
+        {
+          "prompt": "Who made something for people at home?",
+          "answer": 0,
+          "rationale": "Maya says 'Last week I made sandwiches for my family' — she brought food home. Ben takes photos at school, and Nina runs in the park."
+        },
+        {
+          "prompt": "Who says the weather can be a problem?",
+          "answer": 2,
+          "rationale": "Nina mentions 'It is sometimes cold' when practising outside. Neither Maya's cooking club nor Ben's photography club in the computer room is affected by weather."
+        },
+        {
+          "prompt": "Who uses more than one kind of camera?",
+          "answer": 1,
+          "rationale": "Ben says he enjoys 'using the new camera, but I also like taking photos with my phone' — two different devices. No one else mentions using cameras."
+        },
+        {
+          "prompt": "Who is going to take part in a race?",
+          "answer": 2,
+          "rationale": "Nina says 'I am going to enter a small race'. Maya is planning to cook international food, and Ben has no future plans mentioned."
+        },
+        {
+          "prompt": "Who is going to learn about food from other places?",
+          "answer": 0,
+          "rationale": "Maya says 'Next month we are going to cook food from different countries'. Ben and Nina's clubs have nothing to do with food."
+        }
+      ]
+    },
+    {
+      "people": [
+        {
+          "letter": "A",
+          "name": "Liam",
+          "text": "I love swimming. I go to the pool near my house every Saturday morning. My coach taught me the backstroke last month, and now it is my favourite style. I swim with a team and we train for competitions. Next year I want to swim in a national event."
+        },
+        {
+          "letter": "B",
+          "name": "Sara",
+          "text": "My favourite sport is football. I play with my school team every Thursday afternoon. We practise passing and shooting on the school field. Last week we won our first match of the season, and everyone was very happy. Our next match is against the best team in the city."
+        },
+        {
+          "letter": "C",
+          "name": "Tom",
+          "text": "I really enjoy cycling. My dad bought me a new bike for my birthday, and I ride it every weekend. I usually go on a long route through the countryside with my older brother. Sometimes we stop at a small café to drink something. I have never had an accident, but I always wear my helmet."
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "Who does their sport with a family member?",
+          "answer": 2,
+          "rationale": "Tom says he rides with 'my older brother' at weekends. Liam trains with a team and Sara plays with her school team — neither mentions a family member."
+        },
+        {
+          "prompt": "Who recently won a game?",
+          "answer": 1,
+          "rationale": "Sara says 'Last week we won our first match of the season'. Liam trains for competitions but mentions no recent win, and Tom cycles for fun rather than competing."
+        },
+        {
+          "prompt": "Who received sports equipment as a present?",
+          "answer": 2,
+          "rationale": "Tom says 'My dad bought me a new bike for my birthday'. Liam goes to a pool and Sara plays on a school team — neither mentions receiving equipment as a gift."
+        },
+        {
+          "prompt": "Who learned a new skill recently?",
+          "answer": 0,
+          "rationale": "Liam says 'My coach taught me the backstroke last month'. Sara already practises passing and shooting, and Tom has been cycling for some time without mentioning learning something new."
+        },
+        {
+          "prompt": "Who always wears safety equipment?",
+          "answer": 2,
+          "rationale": "Tom says 'I always wear my helmet' when cycling. Liam swims in a pool where helmets are not needed, and Sara plays football without mentioning any protective gear."
+        },
+        {
+          "prompt": "Who wants to take part in a big event in the future?",
+          "answer": 0,
+          "rationale": "Liam says 'Next year I want to swim in a national event'. Sara's next challenge is a local city match, not a national event, and Tom does not mention any competitive goals."
+        },
+        {
+          "prompt": "Who is going to play against a strong opponent?",
+          "answer": 1,
+          "rationale": "Sara says 'Our next match is against the best team in the city', which is clearly a strong opponent. Liam trains for future competitions and Tom rides for leisure — neither faces an opponent soon."
+        }
+      ]
+    },
+    {
+      "people": [
+        {
+          "letter": "A",
+          "name": "Chloe",
+          "text": "I travel to school by bus every day. The bus stop is five minutes from my house. The journey takes about twenty minutes because the school is far away. I usually listen to music or read a book on the bus. Sometimes the bus is late and I arrive after the first lesson starts."
+        },
+        {
+          "letter": "B",
+          "name": "Oscar",
+          "text": "I ride my bike to school. It only takes ten minutes, so it is faster than the bus. My mum checks my bike every Sunday to make sure it is safe. I wear a helmet and a bright yellow jacket so that drivers can see me. I like cycling because it helps me wake up in the morning."
+        },
+        {
+          "letter": "C",
+          "name": "Ella",
+          "text": "I walk to school with my best friend Emma. We meet at the corner of our street at eight o'clock. The walk takes fifteen minutes and we talk the whole way. On rainy days my dad drives us, but that does not happen very often. I enjoy walking because it is good exercise."
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "Who sometimes arrives at school late?",
+          "answer": 0,
+          "rationale": "Chloe says 'Sometimes the bus is late and I arrive after the first lesson starts'. Oscar's bike is faster than the bus, and Ella walks on a fixed schedule with a friend."
+        },
+        {
+          "prompt": "Who travels to school with a friend?",
+          "answer": 2,
+          "rationale": "Ella says she walks 'with my best friend Emma'. Chloe takes the bus alone, and Oscar cycles alone."
+        },
+        {
+          "prompt": "Who wears special clothes to be seen on the road?",
+          "answer": 1,
+          "rationale": "Oscar wears 'a bright yellow jacket so that drivers can see me'. Chloe is on a bus and Ella walks on a pavement — neither needs to be visible to drivers."
+        },
+        {
+          "prompt": "Who sometimes travels to school by car?",
+          "answer": 2,
+          "rationale": "Ella says 'On rainy days my dad drives us'. Chloe always uses the bus and Oscar always cycles — neither mentions going by car."
+        },
+        {
+          "prompt": "Who says their way to school is good for their health?",
+          "answer": 2,
+          "rationale": "Ella says 'I enjoy walking because it is good exercise'. Oscar mentions waking up but not health specifically, and Chloe sits on a bus."
+        },
+        {
+          "prompt": "Who does something to pass the time on the journey?",
+          "answer": 0,
+          "rationale": "Chloe says she 'usually listen to music or read a book on the bus'. Oscar concentrates on cycling safely, and Ella talks to her friend rather than using a device or book."
+        },
+        {
+          "prompt": "Who has an adult that checks their transport is safe?",
+          "answer": 1,
+          "rationale": "Oscar says 'My mum checks my bike every Sunday to make sure it is safe'. Chloe's bus is checked by the bus company, not a parent, and Ella's walk needs no safety check."
+        }
+      ]
+    },
+    {
+      "people": [
+        {
+          "letter": "A",
+          "name": "Jake",
+          "text": "Last summer I went to Spain with my parents. We stayed in a small hotel near the beach. Every day I swam in the sea and ate delicious food. One afternoon we visited an old castle on a hill. I took lots of photos and I am going to put them in an album."
+        },
+        {
+          "letter": "B",
+          "name": "Mia",
+          "text": "I had a great holiday in the mountains with my grandparents. We rented a small house and went for long walks every morning. The views were amazing, but the paths were quite difficult. One day I fell and hurt my knee, but it was not serious. I want to go back there next summer."
+        },
+        {
+          "letter": "C",
+          "name": "Leo",
+          "text": "My family went to a city in France for a long weekend. We travelled by train, which was very fast. We visited two museums and ate lunch near the river every day. The city was very busy and a bit noisy, but I thought it was exciting. My favourite part was the food market we found on Saturday."
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "Who visited a historical building during their trip?",
+          "answer": 0,
+          "rationale": "Jake says 'we visited an old castle on a hill'. Mia went walking in the mountains and Leo visited museums, but only Jake mentions a historical building like a castle."
+        },
+        {
+          "prompt": "Who got injured on holiday?",
+          "answer": 1,
+          "rationale": "Mia says 'One day I fell and hurt my knee'. Jake swam and visited a castle without any injury, and Leo had a busy but uneventful city trip."
+        },
+        {
+          "prompt": "Who used a fast form of transport to travel?",
+          "answer": 2,
+          "rationale": "Leo says 'We travelled by train, which was very fast'. Jake and Mia do not mention their transport, only their activities at the destination."
+        },
+        {
+          "prompt": "Who wants to return to the same place again?",
+          "answer": 1,
+          "rationale": "Mia says 'I want to go back there next summer'. Jake plans to make a photo album but does not say he will return, and Leo does not mention going back to France."
+        },
+        {
+          "prompt": "Who is going to create something with their holiday memories?",
+          "answer": 0,
+          "rationale": "Jake says 'I am going to put them in an album' referring to his holiday photos. Mia and Leo do not mention making or creating anything after their trips."
+        },
+        {
+          "prompt": "Who enjoyed a local food market?",
+          "answer": 2,
+          "rationale": "Leo says 'My favourite part was the food market we found on Saturday'. Jake ate good food in Spain but did not visit a market, and Mia's holiday was focused on walking in the mountains."
+        },
+        {
+          "prompt": "Who stayed in a rented house on holiday?",
+          "answer": 1,
+          "rationale": "Mia says 'We rented a small house' in the mountains. Jake stayed in a hotel and Leo does not specify the type of accommodation."
+        }
+      ]
+    },
+    {
+      "people": [
+        {
+          "letter": "A",
+          "name": "Zoe",
+          "text": "I help at a local bakery on Saturday mornings. I arrive at seven o'clock to put the bread and cakes in the window. The owner pays me a small amount of money, and I save it all. I want to buy a new laptop with the money. The work is tiring, but I really enjoy talking to the customers."
+        },
+        {
+          "letter": "B",
+          "name": "Ryan",
+          "text": "I help my parents at home by doing the shopping every Friday. I make a list, walk to the supermarket and carry everything back. My parents give me some money for doing this. I also clean the kitchen after dinner every night. I think it is important to help your family."
+        },
+        {
+          "letter": "C",
+          "name": "Ava",
+          "text": "I look after my neighbour's dog twice a week when she is at work. I take it for a walk in the park and give it water. The dog is very friendly and I love playing with it. My neighbour pays me five euros each time. I am saving the money to go on a school trip."
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "Who is saving money for something to use at school?",
+          "answer": 2,
+          "rationale": "Ava says she is 'saving the money to go on a school trip'. Zoe is saving for a laptop, which is not specifically for school, and Ryan spends or keeps his money without a stated goal."
+        },
+        {
+          "prompt": "Who helps with jobs inside the home every day?",
+          "answer": 1,
+          "rationale": "Ryan says he 'cleans the kitchen after dinner every night' — a daily indoor chore. Zoe works at a bakery on Saturdays and Ava walks a dog twice a week outside."
+        },
+        {
+          "prompt": "Who works with animals?",
+          "answer": 2,
+          "rationale": "Ava looks after her neighbour's dog, taking it for walks and giving it water. Zoe works in a bakery and Ryan does shopping and cleaning — neither involves animals."
+        },
+        {
+          "prompt": "Who starts their job very early in the morning?",
+          "answer": 0,
+          "rationale": "Zoe says 'I arrive at seven o'clock' at the bakery. Ryan goes shopping on Fridays without specifying the time, and Ava's schedule depends on her neighbour's work hours."
+        },
+        {
+          "prompt": "Who enjoys talking to people as part of their work?",
+          "answer": 0,
+          "rationale": "Zoe says 'I really enjoy talking to the customers' at the bakery. Ryan shops and cleans without mentioning customer contact, and Ava interacts with a dog, not with many people."
+        },
+        {
+          "prompt": "Who is saving money to buy a piece of technology?",
+          "answer": 0,
+          "rationale": "Zoe says 'I want to buy a new laptop with the money'. Ava is saving for a school trip and Ryan does not mention a specific savings goal."
+        },
+        {
+          "prompt": "Who does more than one type of job to help?",
+          "answer": 1,
+          "rationale": "Ryan does the shopping every Friday AND cleans the kitchen every night — two separate tasks. Zoe has one job at the bakery, and Ava has one job caring for the dog."
+        }
+      ]
+    }
+  ]
+}

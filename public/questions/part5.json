@@ -1,0 +1,79 @@
+{
+  "sets": [
+    {
+      "title": "At the health centre",
+      "paragraphs": [
+        "Last week I had a bad cold. I went to the health centre (1) ____ my dad. The nurse asked me (2) ____ I felt. I said I had a headache and a cough.",
+        "She told me to drink (3) ____ of water and rest at home. I did not go to school (4) ____ two days. Now I feel better, but I still go to bed early (5) ____ night. My dad says sleep is important (6) ____ everyone."
+      ],
+      "gaps": [
+        { "accept": ["with"], "rationale": "'With my dad' means he accompanied the speaker. Other prepositions (by, for, from) do not express accompaniment in this context." },
+        { "accept": ["how"], "rationale": "The nurse asked 'how I felt' — an indirect question about the manner/state of feeling. 'What' or 'if' would not fit naturally with 'felt' here." },
+        { "accept": ["lots", "plenty"], "rationale": "'Lots of water' and 'plenty of water' both express a large quantity. These are the standard fixed expressions used before 'of' to mean 'a large amount'." },
+        { "accept": ["for"], "rationale": "'For two days' expresses a duration of time. 'During', 'in', or 'since' do not correctly express a completed period of time in this sentence." },
+        { "accept": ["at"], "rationale": "'At night' is a fixed time expression in English. We say 'at night' but 'in the morning / afternoon / evening'." },
+        { "accept": ["for"], "rationale": "'Important for everyone' uses 'for' to indicate who something benefits or applies to. 'To' everyone or 'with' everyone are not standard here." }
+      ]
+    },
+    {
+      "title": "Preparing a family meal",
+      "paragraphs": [
+        "Last Saturday my family had a big dinner at home. My mum asked me (1) ____ help her in the kitchen. First, I washed (2) ____ vegetables and put them on the table. Then my mum showed me (3) ____ to cut them into small pieces.",
+        "I also helped (4) ____ making the salad. It was not difficult (5) ____ all. When the food was ready, my dad said it looked delicious. I felt very proud (6) ____ myself because it was my first time cooking a real meal."
+      ],
+      "gaps": [
+        { "accept": ["to"], "rationale": "'Asked me to help' is the correct infinitive construction after 'ask someone'. 'Asked me for help' changes the meaning and requires 'for', not 'to'. 'Asked me helping' is grammatically incorrect." },
+        { "accept": ["the"], "rationale": "The definite article 'the' is needed because these are specific vegetables already known in context (the vegetables that were going to be used for the meal). 'A vegetables' is impossible with a plural noun, and no article would sound unnatural here." },
+        { "accept": ["how"], "rationale": "'Showed me how to cut' introduces the manner of an action with an infinitive. 'What to cut' would change the meaning to the object being cut. 'When to cut' or 'where to cut' do not fit the context of learning a skill." },
+        { "accept": ["with"], "rationale": "'Helped with making the salad' uses 'with' before a gerund to describe the activity someone assisted with. 'Helped for making' and 'helped in making' are not standard in British English at this level." },
+        { "accept": ["at"], "rationale": "'Not difficult at all' is a fixed phrase using 'at'. 'Not difficult in all' or 'not difficult for all' are incorrect collocations — 'at all' is the only natural intensifier here." },
+        { "accept": ["of"], "rationale": "'Proud of myself' is the fixed preposition collocation with 'proud'. 'Proud about myself' or 'proud for myself' are common learner errors but are not correct in standard English." }
+      ]
+    },
+    {
+      "title": "My daily routine",
+      "paragraphs": [
+        "Every morning I wake up (1) ____ seven o'clock. I have a shower and (2) ____ get dressed. Then I eat breakfast with my family. I usually have toast and a glass of juice. I never miss breakfast (3) ____ it gives me energy for school.",
+        "In the afternoon, I (4) ____ my homework as soon as I get home. After that, I sometimes go (5) ____ a walk with my dog. I go to bed (6) ____ ten o'clock because I have to get up early the next day."
+      ],
+      "gaps": [
+        { "accept": ["at"], "rationale": "'At seven o'clock' is the standard preposition for clock times. 'In seven o'clock' and 'on seven o'clock' are incorrect — 'in' is used for months and years, 'on' for days and dates." },
+        { "accept": ["then"], "rationale": "'Then get dressed' signals the next step in a sequence of actions. 'After' would need an object ('after that'), 'so' indicates a result, and 'but' indicates contrast — none of these fit a simple sequence here." },
+        { "accept": ["because"], "rationale": "'Because it gives me energy' introduces a reason clause. 'So' would need to introduce a result ('I don't miss breakfast so I have energy'), not a reason. 'Although' and 'but' indicate contrast, which does not fit." },
+        { "accept": ["do"], "rationale": "'Do my homework' is the correct verb collocation — 'homework' is a task or activity that collocates with 'do', not 'make'. 'Make my homework' is a very common learner error but is not correct in English." },
+        { "accept": ["for"], "rationale": "'Go for a walk' is a fixed phrasal expression in English. 'Go on a walk' is occasionally heard but 'go for a walk' is the standard A2-level phrase. 'Go to a walk' and 'go in a walk' are incorrect." },
+        { "accept": ["at"], "rationale": "'At ten o'clock' requires the preposition 'at' for clock times, identical to gap 1. This tests consistent recognition of the rule across both paragraphs." }
+      ]
+    },
+    {
+      "title": "My school journey",
+      "paragraphs": [
+        "I live quite far (1) ____ my school, so I have to leave home early every morning. I usually take (2) ____ bus with my friend Lucia. The journey takes about thirty minutes. (3) ____ the bus, we talk and listen to music.",
+        "When it rains, the bus is always very crowded (4) ____ people. Sometimes I prefer to go by bike (5) ____ the weather is good. My school starts (6) ____ half past eight, so I must not be late."
+      ],
+      "gaps": [
+        { "accept": ["from"], "rationale": "'Far from my school' uses 'from' to express distance between two points. 'Far to my school' and 'far of my school' are incorrect — 'far from' is the fixed preposition collocation for describing distance away from a place." },
+        { "accept": ["the"], "rationale": "'Take the bus' requires the definite article — we say 'take the bus / the train / the tram' as fixed expressions for public transport. 'Take a bus' is possible for a single unspecified bus trip, but 'take the bus' is standard for habitual use, making 'the' the expected answer here." },
+        { "accept": ["on"], "rationale": "'On the bus' is the fixed preposition for being inside a vehicle such as a bus, train or plane. 'In the bus' is a common learner error; English uses 'on' for public transport and 'in' only for private cars and taxis." },
+        { "accept": ["with"], "rationale": "'Crowded with people' uses 'with' to indicate what fills or occupies a space. 'Crowded by people' and 'crowded of people' are incorrect collocations — 'crowded with' is the standard adjective–preposition pairing." },
+        { "accept": ["when"], "rationale": "'When the weather is good' introduces a conditional time clause describing the circumstances for choosing to cycle. 'If the weather is good' is also grammatically possible, but 'when' is preferred here as the speaker treats good weather as a regular occurrence, not a hypothesis." },
+        { "accept": ["at"], "rationale": "'Starts at half past eight' requires 'at' before a clock time. 'Starts in half past eight' and 'starts on half past eight' are incorrect — 'at' is always used with specific times of day." }
+      ]
+    },
+    {
+      "title": "My favourite season",
+      "paragraphs": [
+        "My favourite season is winter. I love it (1) ____ the snow makes everything look beautiful. When I wake up and see snow outside, I feel very happy. My sister and I always go (2) ____ and play in the garden. We build snowmen (3) ____ our friends from next door.",
+        "In the evening, we sit (4) ____ the sofa and drink hot chocolate. My mum makes it (5) ____ us. It is the best feeling in the world! I think winter is special (6) ____ there are so many fun things to do together as a family."
+      ],
+      "gaps": [
+        { "accept": ["because"], "rationale": "'I love it because the snow makes everything look beautiful' gives the reason for loving winter. 'So' would need to introduce a result after a cause, not a reason clause. 'Although' and 'but' indicate contrast, which contradicts the positive meaning." },
+        { "accept": ["outside"], "rationale": "'Go outside' means to go out of the house into the open air. 'Go outside' is the natural expression before an activity like playing. 'Go out' is also natural but 'and play in the garden' follows, making 'outside' the more precise answer that avoids repeating 'out' before 'and'." },
+        { "accept": ["with"], "rationale": "'Build snowmen with our friends' uses 'with' to indicate the people involved in a shared activity (accompaniment). 'Build snowmen by our friends' or 'build snowmen and our friends' are not grammatically natural here." },
+        { "accept": ["on"], "rationale": "'Sit on the sofa' uses 'on' for surfaces you sit on top of, such as sofas, chairs and benches. 'Sit in the sofa' and 'sit at the sofa' are incorrect — 'in' is used only for armchairs or enclosed seating ('sit in an armchair')." },
+        { "accept": ["for"], "rationale": "'Makes it for us' uses 'for' to indicate the beneficiary of an action — the person someone does something on behalf of. 'Makes it to us' and 'makes it us' (without a preposition) are not correct in this context." },
+        { "accept": ["because"], "rationale": "'Special because there are so many fun things' introduces the reason for winter being special. This mirrors gap 1, testing consistent use of 'because' for reasons. 'So' (introducing a result) and 'although' (introducing a contrast) do not fit the meaning." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "sets": [
+    {
+      "title": "My new tablet",
+      "paragraphs": [
+        "I got a new tablet for my birthday. It is smaller (1) ____ my laptop, so I can take it to school easily. I usually use it (2) ____ the evening to read books and watch short videos.",
+        "Yesterday, I (3) ____ a drawing app. It was free and very easy to use. My sister wants to try it too, but she (4) ____ use it before I finish my homework.",
+        "Tomorrow we are (5) ____ to make a birthday card for Dad. I think he will like (6) ____ card because it will have a picture of our dog."
+      ],
+      "questions": [
+        {
+          "opts": ["than", "then", "that"],
+          "answer": 0,
+          "rationale": "'Smaller than' is the correct comparative structure in English. 'Then' is used for time sequences, and 'that' does not fit after a comparative adjective."
+        },
+        {
+          "opts": ["at", "in", "on"],
+          "answer": 1,
+          "rationale": "We use 'in the evening' (also 'in the morning / afternoon'). 'At' is used with specific times (at 7pm), and 'on' is used with days (on Monday)."
+        },
+        {
+          "opts": ["download", "downloaded", "downloading"],
+          "answer": 1,
+          "rationale": "'Yesterday' signals simple past tense, so 'downloaded' is correct. 'Download' is present and 'downloading' requires an auxiliary verb (was downloading)."
+        },
+        {
+          "opts": ["can't", "don't", "isn't"],
+          "answer": 0,
+          "rationale": "The sentence means the sister is not able/permitted to use it yet, so 'can't' (cannot) is correct. 'Don't' and 'isn't' don't fit the meaning of ability/permission here."
+        },
+        {
+          "opts": ["go", "going", "went"],
+          "answer": 1,
+          "rationale": "'Are going to' is the correct future structure here. 'Go' and 'went' cannot follow 'are' in this construction."
+        },
+        {
+          "opts": ["a", "an", "the"],
+          "answer": 2,
+          "rationale": "'The card' refers back to the specific card they are going to make — already known to both speaker and listener. 'A/an' would be used for something mentioned for the first time."
+        }
+      ]
+    },
+    {
+      "title": "My new bicycle",
+      "paragraphs": [
+        "Last Saturday, my parents gave me a new bicycle. It is faster (1) ____ my old one and it has a light on the front. I rode it (2) ____ the park near our house for the first time.",
+        "I did not know how to change the gears, so my dad showed me. Now I can ride much more quickly. My friend Carlos says I (3) ____ wear a helmet every time I go out.",
+        "Next weekend we are going to (4) ____ a long ride to the lake. Before we leave, I (5) ____ to make sure my tyres have enough air. I think cycling is the (6) ____ hobby I have ever tried!"
+      ],
+      "questions": [
+        {
+          "opts": ["than", "as", "then"],
+          "answer": 0,
+          "rationale": "'Faster than' is the standard comparative structure. 'As' is used in 'as fast as' to express equality, and 'then' expresses time sequence or consequence, not comparison."
+        },
+        {
+          "opts": ["in", "at", "to"],
+          "answer": 2,
+          "rationale": "We use 'to' with places we move towards (rode to the park). 'In' describes being located inside a place, and 'at' marks a general point in space — neither expresses movement towards a destination."
+        },
+        {
+          "opts": ["should", "could", "would"],
+          "answer": 0,
+          "rationale": "'Should' expresses advice or recommendation — the correct modal for saying what is the right thing to do. 'Could' expresses ability or possibility, and 'would' expresses willingness or hypothetical situations, not advice."
+        },
+        {
+          "opts": ["do", "go", "make"],
+          "answer": 1,
+          "rationale": "The fixed collocation is 'go for a ride' or 'go on a ride'. We also say 'go a long ride' in informal use, but the core verb for leisure activities involving movement is 'go'. 'Do' collocates with tasks and sports that take effort (do exercise), and 'make' collocates with creating things."
+        },
+        {
+          "opts": ["need", "want", "have"],
+          "answer": 0,
+          "rationale": "'Need to' expresses necessity — something that must be done. 'Want to' expresses desire but not obligation, and 'have to' also expresses obligation but requires 'have', which does not fit the blank because the sentence already contains 'to' after the gap."
+        },
+        {
+          "opts": ["good", "better", "best"],
+          "answer": 2,
+          "rationale": "'The best hobby I have ever tried' is the superlative construction with present perfect. 'Good' is the base adjective and 'better' is the comparative — only the superlative 'best' can follow 'the' in this 'ever + present perfect' structure."
+        }
+      ]
+    },
+    {
+      "title": "Visiting my grandparents",
+      "paragraphs": [
+        "Last weekend my family (1) ____ to my grandparents' house in the countryside. It takes about two hours by car. My grandparents have a big garden and two cats.",
+        "When we arrived, my grandmother was cooking lunch (2) ____ the kitchen. She made a delicious soup. After lunch, my grandfather showed me (3) ____ new books he had bought at the market.",
+        "We stayed until Sunday evening. Before we left, my grandmother gave (4) ____ a jar of homemade jam. I have (5) ____ eaten half of it because it is the most delicious thing I have (6) ____ tasted!"
+      ],
+      "questions": [
+        {
+          "opts": ["go", "went", "gone"],
+          "answer": 1,
+          "rationale": "'Last weekend' signals simple past tense, so 'went' is correct. 'Go' is the base/present form and cannot follow a past time expression. 'Gone' is the past participle and needs an auxiliary (have gone) to form a complete tense."
+        },
+        {
+          "opts": ["in", "at", "on"],
+          "answer": 0,
+          "rationale": "We use 'in' with rooms and enclosed spaces (in the kitchen, in the bedroom). 'At' marks a general location point, and 'on' is used for surfaces — neither is used with the names of rooms."
+        },
+        {
+          "opts": ["a", "an", "his"],
+          "answer": 2,
+          "rationale": "The sentence refers to the grandfather's own new books, so the possessive pronoun 'his' is correct. 'A' and 'an' are indefinite articles and cannot show possession; they also do not agree grammatically with the plural 'books'."
+        },
+        {
+          "opts": ["us", "we", "our"],
+          "answer": 0,
+          "rationale": "'Gave us' is correct because 'us' is the object pronoun — it receives the action of giving. 'We' is a subject pronoun and cannot function as an object. 'Our' is a possessive adjective, not an object pronoun."
+        },
+        {
+          "opts": ["yet", "already", "still"],
+          "answer": 1,
+          "rationale": "'Have already eaten' means the action happened sooner than expected — typical use of 'already' in affirmative present perfect sentences. 'Yet' is used in questions and negatives (haven't eaten yet). 'Still' combined with present perfect would require a negative (still haven't eaten)."
+        },
+        {
+          "opts": ["ever", "never", "always"],
+          "answer": 0,
+          "rationale": "'Have ever tasted' is the standard superlative + present perfect structure expressing the best experience up to now. 'Never' makes the sentence negative and illogical in context. 'Always' does not fit with present perfect to describe a single best experience."
+        }
+      ]
+    },
+    {
+      "title": "My new hobby: gardening",
+      "paragraphs": [
+        "Three weeks ago I tried gardening for the first time. My mum has a small garden and she taught me how to plant flowers. I was surprised (1) ____ how much I enjoyed it.",
+        "Now I go to the garden (2) ____ Saturday morning to water the plants and pull out the weeds. It is more relaxing (3) ____ playing video games, I think. Last week, I planted six tomato seeds (4) ____ my mum.",
+        "My mum says the tomatoes (5) ____ be ready to pick in summer. I am also thinking (6) ____ growing carrots next year."
+      ],
+      "questions": [
+        {
+          "opts": ["at", "by", "of"],
+          "answer": 0,
+          "rationale": "'Surprised at' is the fixed collocation used to describe a reaction to something unexpected. 'Surprised of' is not correct English. 'By' can also follow 'surprised' in passive structures (I was surprised by the news), but 'at' is the standard collocation when followed by a noun clause starting with 'how'."
+        },
+        {
+          "opts": ["in", "on", "at"],
+          "answer": 1,
+          "rationale": "We use 'on' with days of the week and named day-parts, such as 'on Saturday morning'. 'In' is used for general periods like 'in the morning', but once a specific day is mentioned, 'on' is required. 'At' is used with clock times, not day-parts."
+        },
+        {
+          "opts": ["than", "that", "then"],
+          "answer": 0,
+          "rationale": "'More relaxing than' is the correct comparative structure. 'That' does not follow a comparative adjective. 'Then' expresses time sequence or consequence, not comparison."
+        },
+        {
+          "opts": ["with", "by", "for"],
+          "answer": 2,
+          "rationale": "'With my mum' means alongside her (both planting together), while 'for my mum' means on her behalf. The context suggests the writer planted the seeds together with their mum, so 'with' is the intended meaning. 'With' collocates with joint activity here. 'By' would mean the planting was done by means of the mum, which is awkward."
+        },
+        {
+          "opts": ["will", "are", "would"],
+          "answer": 0,
+          "rationale": "'Will be ready' is the correct future simple form for a factual prediction. 'Are ready' is present tense and does not express future meaning. 'Would be ready' is conditional and implies an unlikely or hypothetical situation, which does not match the confident prediction here."
+        },
+        {
+          "opts": ["about", "of", "on"],
+          "answer": 0,
+          "rationale": "'Thinking about' is the fixed collocation for considering or planning something. 'Thinking of' is also possible in informal English, but 'about' is more standard. 'Thinking on' is not a correct English collocation."
+        }
+      ]
+    },
+    {
+      "title": "Getting ready for the school party",
+      "paragraphs": [
+        "Our school is having a big end-of-year party (1) ____ Friday afternoon. My class is in charge of the decorations, and we have been working on them all week.",
+        "Yesterday, my teacher asked me to make a list of things we still need. We must buy some balloons and (2) ____ sure there is enough juice for everyone. I went (3) ____ the shop after school to look at prices.",
+        "I am a little nervous (4) ____ I have to stand up and welcome the guests at the start. My friend Ana said I (5) ____ practise my speech in front of a mirror. I think that is a great idea, so I (6) ____ doing it tonight after dinner."
+      ],
+      "questions": [
+        {
+          "opts": ["on", "in", "at"],
+          "answer": 0,
+          "rationale": "We use 'on' with specific days and named day-parts, such as 'on Friday afternoon'. 'In' is used for general periods (in the afternoon), but once a specific day is named, 'on' is required. 'At' is used for clock times or points like 'at noon', not for day-parts."
+        },
+        {
+          "opts": ["do", "make", "have"],
+          "answer": 1,
+          "rationale": "'Make sure' is a fixed collocation meaning to verify or ensure something. 'Do sure' and 'have sure' are not correct English expressions; 'do' collocates with tasks (do homework) and 'have' collocates with experiences (have fun), neither of which fits here."
+        },
+        {
+          "opts": ["to", "in", "at"],
+          "answer": 0,
+          "rationale": "We use 'to' to express movement towards a destination (went to the shop). 'In' describes being inside a place without movement, and 'at' marks a general location — neither expresses the direction of travel that 'went' requires."
+        },
+        {
+          "opts": ["because", "but", "so"],
+          "answer": 0,
+          "rationale": "'Because' introduces the reason or cause for being nervous (having to stand up). 'But' shows contrast between two ideas, and 'so' introduces a result or consequence — neither introduces a reason clause in this context."
+        },
+        {
+          "opts": ["could", "should", "would"],
+          "answer": 1,
+          "rationale": "'Should' expresses advice — what the friend recommends doing. 'Could' expresses ability or possibility rather than a recommendation, and 'would' expresses willingness or a hypothetical situation, not advice."
+        },
+        {
+          "opts": ["am", "is", "are"],
+          "answer": 0,
+          "rationale": "The subject is 'I', so the correct auxiliary for the present continuous is 'am' (I am doing). 'Is' is used with he/she/it, and 'are' is used with you/we/they — both are wrong with the subject 'I'."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+:root {
+  --navy: #0B2447;
+  --ink: #16263D;
+  --muted: #5B6B7F;
+  --faint: #9AA7B6;
+  --page-bg: #EEF1F5;
+  --surface: #ffffff;
+  --border: #E2E8F0;
+  --input-border: #C2CEDC;
+  --option-border: #DCE3EC;
+  --instr-bg: #E8EEF6;
+  --accent: #5B9BD5;
+  --green: #2E7D32;
+  --green-bg: #EAF6EE;
+  --red: #C62828;
+  --red-bg: #FCEDED;
+  --outer-bg: #15263b;
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  background: var(--outer-bg);
+  font-family: 'Libre Franklin', -apple-system, BlinkMacSystemFont, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+textarea, input, button {
+  font-family: inherit;
+}
+
+.serif {
+  font-family: 'Source Serif 4', Georgia, serif;
+}
+
+.scrollbar-hidden::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+@keyframes pop-in {
+  from { transform: scale(0.985); opacity: 0.4; }
+  to   { transform: scale(1);     opacity: 1;   }
+}
+
+.animate-pop {
+  animation: pop-in 0.2s ease;
+}
