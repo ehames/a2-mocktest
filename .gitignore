@@ -22,3 +22,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Generated / local workflow files
+test-results/
+support.js
+.impeccable/
+A2 Key Mock Test.dc.html

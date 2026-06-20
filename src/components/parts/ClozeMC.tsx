@@ -13,10 +13,10 @@ interface Props {
 export default function ClozeMC({ set, answers, review, onChoose, baseIndex }: Props) {
   return (
     <>
-      <div style={{ background: '#fff', border: '1px solid #E2E8F0', borderRadius: 14, padding: 18, marginBottom: 20 }}>
-        <div style={{ font: "700 18px 'Libre Franklin'", color: '#0B2447', marginBottom: 11 }}>{set.title}</div>
+      <div style={{ background: 'var(--surface)', border: '1px solid var(--border)', borderRadius: 14, padding: 18, marginBottom: 20 }}>
+        <div style={{ font: "700 18px 'Libre Franklin'", color: 'var(--navy)', marginBottom: 11 }}>{set.title}</div>
         {set.paragraphs.map((p, i) => (
-          <p key={i} className="serif" style={{ fontSize: 16, lineHeight: 1.62, color: '#1E2D40', margin: '0 0 12px' }}>{p}</p>
+          <p key={i} className="serif" style={{ fontSize: 16, lineHeight: 1.62, color: 'var(--passage-ink)', margin: '0 0 12px' }}>{p}</p>
         ))}
       </div>
 
@@ -26,7 +26,7 @@ export default function ClozeMC({ set, answers, review, onChoose, baseIndex }: P
         return (
           <div key={qi} style={{ marginBottom: 14 }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: 10, flexWrap: 'wrap' }}>
-              <div style={{ flexShrink: 0, width: 30, height: 30, borderRadius: '50%', background: '#0B2447', color: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center', font: "700 13px 'Libre Franklin'" }}>
+              <div style={{ flexShrink: 0, width: 30, height: 30, borderRadius: '50%', background: 'var(--navy)', color: 'var(--surface)', display: 'flex', alignItems: 'center', justifyContent: 'center', font: "700 13px 'Libre Franklin'" }}>
                 {baseIndex + qi + 1}
               </div>
               {q.opts.map((opt, oi) => {

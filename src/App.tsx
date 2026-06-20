@@ -2,7 +2,7 @@ import { useReducer, useEffect, useCallback } from 'react'
 import { reducer, initialState } from './reducer'
 import { useTimer } from './hooks/useTimer'
 import { loadBanks } from './loadBanks'
-import { LS_KEY, DURATION_MINUTES_DEFAULT } from './constants'
+import { LS_KEY, DURATION_MINUTES_DEFAULT, BASE } from './constants'
 import type { AppState, Action } from './types'
 import IntroScreen from './components/IntroScreen'
 import TestScreen from './components/TestScreen'
@@ -34,6 +34,11 @@ export default function App() {
 
   useEffect(() => { writeLS(state) }, [state])
 
+  useEffect(() => {
+    const parts = ['part1.json','part2.json','part3.json','part4.json','part5.json','part6.json','part7.json']
+    parts.forEach(p => fetch(`${BASE}questions/${p}`).catch(() => {}))
+  }, [])
+
   const handleTick = useCallback(() => {
     if (state.secondsLeft <= 1 && state.started && !state.submitted) {
       dispatch({ type: 'SUBMIT' })
@@ -58,7 +63,7 @@ export default function App() {
 
   return (
     <div style={{ minHeight: '100vh', display: 'flex', justifyContent: 'center', alignItems: 'stretch', background: 'var(--outer-bg)' }}>
-      <div style={{ width: '100%', maxWidth: 440, height: '100vh', background: 'var(--page-bg)', display: 'flex', flexDirection: 'column', position: 'relative', boxShadow: '0 0 80px rgba(0,0,0,.35)', overflow: 'hidden' }}>
+      <main style={{ width: '100%', maxWidth: 440, height: '100vh', background: 'var(--page-bg)', display: 'flex', flexDirection: 'column', position: 'relative', boxShadow: 'var(--shadow-column)', overflow: 'hidden' }}>
         {state.step === 0 && (
           <IntroScreen
             name={state.name}
@@ -80,7 +85,7 @@ export default function App() {
             dispatch={d}
           />
         )}
-      </div>
+      </main>
     </div>
   )
 }

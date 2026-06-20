@@ -11,13 +11,15 @@ export default function RationaleToggle({ rationale }: Props) {
     <div style={{ marginTop: 8 }}>
       <button
         onClick={() => setOpen(o => !o)}
+        aria-expanded={open}
         style={{
           background: 'none',
-          border: '1px solid #C2CEDC',
-          borderRadius: 7,
-          padding: '5px 10px',
+          border: '1px solid var(--input-border)',
+          borderRadius: 8,
+          padding: '10px 14px',
+          minHeight: 44,
           font: "600 12px 'Libre Franklin'",
-          color: '#5B6B7F',
+          color: 'var(--muted)',
           cursor: 'pointer',
           display: 'flex',
           alignItems: 'center',
@@ -28,14 +30,13 @@ export default function RationaleToggle({ rationale }: Props) {
         {open ? 'Hide rationale' : 'Show rationale'}
       </button>
       {open && (
-        <div style={{
+        <div className="rationale-body" style={{
           marginTop: 8,
           padding: '10px 13px',
-          background: '#F4F7FB',
+          background: 'var(--instr-bg)',
           borderRadius: 8,
-          borderLeft: '3px solid #5B9BD5',
           font: "400 13px/1.5 'Libre Franklin'",
-          color: '#3A4A5E',
+          color: 'var(--instr-ink)',
         }}>
           {rationale}
         </div>

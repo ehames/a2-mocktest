@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import type { AppState, Action, Step } from '../types'
 import { PART_META } from '../constants'
 import TimerPill from './ui/TimerPill'
@@ -16,16 +17,22 @@ interface Props {
 }
 
 export default function TestScreen({ step, state, dispatch }: Props) {
+  const [confirmingSubmit, setConfirmingSubmit] = useState(false)
+
   const { activeTest, answers, text, writing, review } = state
   if (!activeTest) return null
 
   const meta = PART_META[step]!
 
   const canBack = review ? true : step > 1
-  const nextLabel = review ? (step < 7 ? 'Next' : 'Results') : (step < 7 ? 'Next' : 'Submit')
+  const isSubmitStep = !review && step === 7
+  const nextLabel = review
+    ? (step < 7 ? 'Next' : 'Results')
+    : (step < 7 ? 'Next' : confirmingSubmit ? 'Confirm →' : 'Submit')
   const partOf = review ? `Reviewing · Part ${step} of 7` : `Part ${step} of 7`
 
   function handleBack() {
+    setConfirmingSubmit(false)
     if (review) {
       if (step > 1) dispatch({ type: 'NAV_STEP', step: (step - 1) as Step })
       else dispatch({ type: 'NAV_STEP', step: 8 })
@@ -38,20 +45,24 @@ export default function TestScreen({ step, state, dispatch }: Props) {
     if (review) {
       if (step < 7) dispatch({ type: 'NAV_STEP', step: (step + 1) as Step })
       else dispatch({ type: 'NAV_STEP', step: 8 })
+    } else if (step < 7) {
+      dispatch({ type: 'NAV_STEP', step: (step + 1) as Step })
+    } else if (!confirmingSubmit) {
+      setConfirmingSubmit(true)
     } else {
-      if (step < 7) dispatch({ type: 'NAV_STEP', step: (step + 1) as Step })
-      else dispatch({ type: 'SUBMIT' })
+      setConfirmingSubmit(false)
+      dispatch({ type: 'SUBMIT' })
     }
   }
 
   return (
     <div style={{ flex: 1, display: 'flex', flexDirection: 'column', minHeight: 0 }}>
       {/* Header */}
-      <div style={{ background: '#0B2447', color: '#fff', padding: '16px 18px 14px', flexShrink: 0 }}>
+      <div style={{ background: 'var(--navy)', color: 'var(--surface)', padding: '16px 18px 14px', flexShrink: 0 }}>
         <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: 12 }}>
           <div>
             <div style={{ font: "800 19px 'Libre Franklin'", lineHeight: 1.1 }}>{meta.label}</div>
-            <div style={{ font: "500 12px 'Libre Franklin'", color: '#9FB3CC', marginTop: 3, letterSpacing: '.02em' }}>{meta.subtitle}</div>
+            <div style={{ font: "500 12px 'Libre Franklin'", color: 'var(--header-muted)', marginTop: 3, letterSpacing: '.02em' }}>{meta.subtitle}</div>
           </div>
           <TimerPill secondsLeft={state.secondsLeft} />
         </div>
@@ -60,7 +71,7 @@ export default function TestScreen({ step, state, dispatch }: Props) {
 
       {/* Scrollable body */}
       <div className="scrollbar-hidden" style={{ flex: 1, overflowY: 'auto', minHeight: 0, padding: '20px 18px 28px' }}>
-        <div style={{ background: '#E8EEF6', borderRadius: 10, padding: '11px 14px', marginBottom: 20, font: "500 13px/1.45 'Libre Franklin'", color: '#3A4A5E' }}>
+        <div style={{ background: 'var(--instr-bg)', borderRadius: 10, padding: '11px 14px', marginBottom: 20, font: "500 13px/1.45 'Libre Franklin'", color: 'var(--instr-ink)' }}>
           {meta.instr}
         </div>
 
@@ -133,19 +144,21 @@ export default function TestScreen({ step, state, dispatch }: Props) {
       </div>
 
       {/* Footer */}
-      <div style={{ background: '#fff', borderTop: '1px solid #E2E8F0', padding: '12px 16px', display: 'flex', alignItems: 'center', gap: 12, flexShrink: 0 }}>
+      <div style={{ background: 'var(--surface)', borderTop: '1px solid var(--border)', padding: '12px 16px', display: 'flex', alignItems: 'center', gap: 12, flexShrink: 0 }}>
         {canBack && (
           <button
             onClick={handleBack}
-            style={{ background: '#fff', color: '#0B2447', border: '1.5px solid #C2CEDC', borderRadius: 11, padding: '13px 18px', font: "600 14px 'Libre Franklin'", cursor: 'pointer' }}
+            className="btn-ghost"
+            style={{ background: 'var(--surface)', color: 'var(--navy)', border: '1.5px solid var(--input-border)', borderRadius: 11, padding: '14px 18px', font: "600 14px 'Libre Franklin'", cursor: 'pointer' }}
           >
             Back
           </button>
         )}
-        <div style={{ flex: 1, textAlign: 'center', font: "600 13px 'Libre Franklin'", color: '#5B6B7F' }}>{partOf}</div>
+        <div style={{ flex: 1, textAlign: 'center', font: "600 13px 'Libre Franklin'", color: 'var(--muted)' }}>{partOf}</div>
         <button
           onClick={handleNext}
-          style={{ background: '#0B2447', color: '#fff', border: 'none', borderRadius: 11, padding: '13px 22px', font: "700 14px 'Libre Franklin'", cursor: 'pointer' }}
+          className={isSubmitStep && confirmingSubmit ? 'btn-danger' : 'btn-primary'}
+          style={{ background: isSubmitStep && confirmingSubmit ? 'var(--red)' : 'var(--navy)', color: 'var(--surface)', border: 'none', borderRadius: 11, padding: '14px 22px', font: "700 14px 'Libre Franklin'", cursor: 'pointer' }}
         >
           {nextLabel}
         </button>
@@ -153,4 +166,3 @@ export default function TestScreen({ step, state, dispatch }: Props) {
     </div>
   )
 }
-

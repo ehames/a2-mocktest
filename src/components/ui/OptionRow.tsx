@@ -11,8 +11,8 @@ interface Props {
 }
 
 const C = {
-  navy: '#0B2447', ink: '#16263D', border: '#DCE3EC', bb: '#C2CEDC',
-  green: '#2E7D32', greenBg: '#EAF6EE', red: '#C62828', redBg: '#FCEDED',
+  navy: 'var(--navy)', ink: 'var(--ink)', border: 'var(--option-border)', bb: 'var(--input-border)',
+  green: 'var(--green)', greenBg: 'var(--green-bg)', red: 'var(--red)', redBg: 'var(--red-bg)',
 }
 
 export default function OptionRow({ letter, label, variant, optionState, onClick, showMark }: Props) {
@@ -20,13 +20,13 @@ export default function OptionRow({ letter, label, variant, optionState, onClick
   const isCorrect = st === 'correct'
   const isWrong = st === 'wrong'
 
-  let bd = C.border, bg = '#fff', tx = C.ink
-  let bBg = '#fff', bBd = C.bb, bTx = C.navy
+  let bd = C.border, bg = 'var(--surface)', tx = C.ink
+  let bBg = 'var(--surface)', bBd = C.bb, bTx = C.navy
 
   if (variant === 'letter' && st === 'idle') { tx = C.navy }
-  if (st === 'selected')  { bd = C.navy;       bg = C.navy;       tx = '#fff';  bBg = '#fff';      bBd = '#fff';  bTx = C.navy }
-  if (st === 'correct')   { bd = C.green;      bg = C.greenBg;    tx = C.ink;   bBg = C.green;     bBd = C.green; bTx = '#fff' }
-  if (st === 'wrong')     { bd = C.red;        bg = C.redBg;      tx = C.ink;   bBg = C.red;       bBd = C.red;   bTx = '#fff' }
+  if (st === 'selected')  { bd = C.navy;       bg = C.navy;       tx = 'var(--surface)';  bBg = 'var(--surface)';  bBd = 'var(--surface)';  bTx = C.navy }
+  if (st === 'correct')   { bd = C.green;      bg = C.greenBg;    tx = C.ink;             bBg = C.green;           bBd = C.green;           bTx = 'var(--surface)' }
+  if (st === 'wrong')     { bd = C.red;        bg = C.redBg;      tx = C.ink;             bBg = C.red;             bBd = C.red;             bTx = 'var(--surface)' }
 
   const cursor = onClick ? 'pointer' : 'default'
 
@@ -34,6 +34,8 @@ export default function OptionRow({ letter, label, variant, optionState, onClick
     return (
       <button
         onClick={onClick}
+        aria-disabled={!onClick}
+        className="option-btn"
         style={{ display: 'flex', alignItems: 'center', gap: 12, width: '100%', textAlign: 'left', padding: 14, borderRadius: 12, border: `1.5px solid ${bd}`, background: bg, color: tx, font: "500 15px/1.45 'Libre Franklin',sans-serif", cursor, minHeight: 54 }}
       >
         <span style={{ flex: 'none', width: 28, height: 28, borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', font: "700 13px 'Libre Franklin'", border: `1.5px solid ${bBd}`, color: bTx, background: bBg }}>
@@ -53,7 +55,9 @@ export default function OptionRow({ letter, label, variant, optionState, onClick
     return (
       <button
         onClick={onClick}
-        style={{ display: 'inline-flex', alignItems: 'center', gap: 8, padding: '10px 13px', borderRadius: 10, border: `1.5px solid ${bd}`, background: bg, color: tx, font: "600 15px 'Libre Franklin'", cursor }}
+        aria-disabled={!onClick}
+        className="option-btn"
+        style={{ display: 'inline-flex', alignItems: 'center', gap: 8, padding: '10px 13px', borderRadius: 10, border: `1.5px solid ${bd}`, background: bg, color: tx, font: "600 15px 'Libre Franklin'", cursor, minHeight: 44 }}
       >
         <span style={{ flex: 'none', width: 22, height: 22, borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', font: "700 11px 'Libre Franklin'", border: `1.5px solid ${bBd}`, color: bTx, background: bBg }}>
           {letter}
@@ -72,6 +76,8 @@ export default function OptionRow({ letter, label, variant, optionState, onClick
   return (
     <button
       onClick={onClick}
+      aria-disabled={!onClick}
+      className="option-btn"
       style={{ flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 6, padding: '13px 0', borderRadius: 10, border: `1.5px solid ${bd}`, background: bg, color: tx, font: "700 17px 'Libre Franklin'", cursor, minHeight: 50 }}
     >
       {letter}

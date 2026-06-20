@@ -2,6 +2,8 @@
 
 :root {
   --navy: #0B2447;
+  --navy-hover: #163d72;
+  --navy-active: #081d3a;
   --ink: #16263D;
   --muted: #5B6B7F;
   --faint: #9AA7B6;
@@ -15,8 +17,16 @@
   --green: #2E7D32;
   --green-bg: #EAF6EE;
   --red: #C62828;
+  --red-hover: #b02424;
   --red-bg: #FCEDED;
   --outer-bg: #15263b;
+  --passage-ink: #1E2D40;
+  --instr-ink: #3A4A5E;
+  --header-muted: #9FB3CC;
+  --pic-bg: #F4F6F9;
+  --button-loading-bg: #4a6a9a;
+  --shadow-column: 0 0 80px rgba(0,0,0,.35);
+  --shadow-cta: 0 6px 18px rgba(11,36,71,.22);
 }
 
 * {
@@ -56,4 +66,118 @@ textarea, input, button {
 
 .animate-pop {
   animation: pop-in 0.2s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-pop {
+    animation: none;
+  }
+}
+
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: var(--faint);
+}
+
+/* Primary button (navy fill) */
+.btn-primary {
+  transition: background 0.12s ease, box-shadow 0.12s ease, transform 0.1s ease;
+}
+.btn-primary:hover:not(:disabled) {
+  background: var(--navy-hover) !important;
+}
+.btn-primary:active:not(:disabled) {
+  background: var(--navy-active) !important;
+  transform: scale(0.98);
+  box-shadow: 0 3px 9px rgba(11,36,71,0.18) !important;
+}
+.btn-primary:disabled {
+  cursor: default;
+}
+
+/* Ghost button (surface fill, navy text) */
+.btn-ghost {
+  transition: background 0.12s ease, border-color 0.12s ease, transform 0.1s ease;
+}
+.btn-ghost:hover {
+  background: var(--page-bg) !important;
+  border-color: var(--navy) !important;
+}
+.btn-ghost:active {
+  background: var(--instr-bg) !important;
+  transform: scale(0.98);
+}
+
+/* Danger button (red fill) */
+.btn-danger {
+  transition: background 0.12s ease, transform 0.1s ease;
+}
+.btn-danger:hover {
+  background: var(--red-hover) !important;
+}
+.btn-danger:active {
+  transform: scale(0.98);
+}
+
+/* Option row buttons — smooth state transitions */
+.option-btn {
+  transition: background 0.14s ease, border-color 0.14s ease, color 0.14s ease;
+}
+.option-btn:not([aria-disabled="true"]):hover {
+  filter: brightness(0.96);
+}
+.option-btn:not([aria-disabled="true"]):active {
+  filter: brightness(0.92);
+  transform: scale(0.99);
+}
+
+/* Bar fill animation for results screen */
+@keyframes bar-fill {
+  from { transform: scaleX(0); }
+}
+
+.bar-animated {
+  animation: bar-fill 0.55s ease-out var(--bar-delay, 0s) both;
+}
+
+/* Rationale reveal */
+@keyframes fade-down {
+  from { opacity: 0; transform: translateY(-6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.rationale-body {
+  animation: fade-down 0.18s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .btn-primary,
+  .btn-ghost,
+  .btn-danger,
+  .option-btn {
+    transition: none;
+  }
+  .rationale-body,
+  .bar-animated {
+    animation: none;
+  }
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
 }
