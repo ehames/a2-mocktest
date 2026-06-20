@@ -86,6 +86,7 @@ export interface Part6Prompt {
   intro: string
   bullets: [string, string, string]
   minWords: number
+  sampleResponse?: string
 }
 
 export interface Part6Bank {
@@ -95,6 +96,7 @@ export interface Part6Bank {
 export interface PicCard {
   label: string
   text: string
+  image: string
 }
 
 export interface Part7Prompt {
