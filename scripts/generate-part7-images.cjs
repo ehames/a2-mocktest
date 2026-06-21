@@ -33,7 +33,7 @@ function buildPanelPrompt(characters, pic, panelNum, totalPanels) {
     `CHARACTERS IN THIS STORY:\n${charList}`,
     `PANEL ${panelNum} OF ${totalPanels} — Setting: ${pic.setting}. ` +
       `Background shows: ${pic.background}. ` +
-      `${pic.scene} and fills most of the frame. ` +
+      `${pic.scene}, filling most of the frame. ` +
       `Background is simple but clearly shows the location. ` +
       `The characters' faces clearly show ${pic.emotion}.`,
   ].join('\n\n');
