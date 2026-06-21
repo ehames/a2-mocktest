@@ -1,4 +1,5 @@
-import type { Part6Prompt, Part7Prompt } from '../../types'
+import { useState } from 'react'
+import type { Part6Prompt, Part7Prompt, PicCard as PicCardType } from '../../types'
 import { wc } from '../../scoring'
 
 interface Part6Props {
@@ -28,6 +29,58 @@ function WordCountIndicator({ count, min }: { count: number; min: number }) {
       <span style={{ font: "700 13px 'Libre Franklin'", color: statusColor }}>
         {statusText}
       </span>
+    </div>
+  )
+}
+
+function PicCard({ pic }: { pic: PicCardType }) {
+  const [failed, setFailed] = useState(false)
+  return (
+    <div style={{
+      flex: '0 0 260px',
+      borderRadius: 12,
+      overflow: 'hidden',
+      position: 'relative',
+      scrollSnapAlign: 'start',
+      boxShadow: '0 2px 8px rgba(0,0,0,0.12)',
+      background: 'var(--surface)',
+      border: '1px solid var(--border)',
+    }}>
+      {failed ? (
+        <div style={{
+          width: '100%',
+          aspectRatio: '1 / 1',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          padding: 16,
+          font: "400 13px/1.5 'Libre Franklin'",
+          color: 'var(--ink)',
+          textAlign: 'center',
+        }}>
+          {pic.text}
+        </div>
+      ) : (
+        <img
+          src={pic.image}
+          alt={pic.text}
+          onError={() => setFailed(true)}
+          style={{ display: 'block', width: '100%', aspectRatio: '1 / 1', objectFit: 'contain' }}
+        />
+      )}
+      <div style={{
+        position: 'absolute',
+        bottom: 8,
+        left: 8,
+        background: 'rgba(0,0,0,0.55)',
+        color: '#fff',
+        borderRadius: 6,
+        padding: '3px 8px',
+        font: "700 11px 'Libre Franklin'",
+        letterSpacing: '0.05em',
+      }}>
+        {pic.label}
+      </div>
     </div>
   )
 }
@@ -87,41 +140,11 @@ export function Part7Writing({ prompt, value, review, onChange }: Part7Props) {
             gap: 12,
             overflowX: 'auto',
             scrollSnapType: 'x mandatory',
-            WebkitOverflowScrolling: 'touch',
             paddingBottom: 4,
           }}
         >
           {prompt.pics.map((pic, i) => (
-            <div
-              key={i}
-              style={{
-                flex: '0 0 260px',
-                borderRadius: 12,
-                overflow: 'hidden',
-                position: 'relative',
-                scrollSnapAlign: 'start',
-                boxShadow: '0 2px 8px rgba(0,0,0,0.12)',
-              }}
-            >
-              <img
-                src={pic.image}
-                alt={pic.text}
-                style={{ display: 'block', width: '100%', aspectRatio: '1 / 1', objectFit: 'cover' }}
-              />
-              <div style={{
-                position: 'absolute',
-                bottom: 8,
-                left: 8,
-                background: 'rgba(0,0,0,0.55)',
-                color: '#fff',
-                borderRadius: 6,
-                padding: '3px 8px',
-                font: "700 11px 'Libre Franklin'",
-                letterSpacing: '0.05em',
-              }}>
-                {pic.label}
-              </div>
-            </div>
+            <PicCard key={i} pic={pic} />
           ))}
         </div>
       </div>

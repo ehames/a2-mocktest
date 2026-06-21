@@ -101,6 +101,7 @@ export interface PicCard {
 
 export interface Part7Prompt {
   intro: string
+  character: string
   pics: [PicCard, PicCard, PicCard]
   minWords: number
 }
