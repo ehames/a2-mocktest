@@ -37,11 +37,9 @@ function PicCard({ pic }: { pic: PicCardType }) {
   const [failed, setFailed] = useState(false)
   return (
     <div style={{
-      flex: '0 0 260px',
-      borderRadius: 12,
+      borderRadius: 10,
       overflow: 'hidden',
       position: 'relative',
-      scrollSnapAlign: 'start',
       boxShadow: '0 2px 8px rgba(0,0,0,0.12)',
       background: 'var(--surface)',
       border: '1px solid var(--border)',
@@ -136,11 +134,9 @@ export function Part7Writing({ prompt, value, review, onChange }: Part7Props) {
         <div
           data-testid="part7-image-strip"
           style={{
-            display: 'flex',
-            gap: 12,
-            overflowX: 'auto',
-            scrollSnapType: 'x mandatory',
-            paddingBottom: 4,
+            display: 'grid',
+            gridTemplateColumns: 'repeat(3, 1fr)',
+            gap: 8,
           }}
         >
           {prompt.pics.map((pic, i) => (
