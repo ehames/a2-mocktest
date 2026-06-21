@@ -1,0 +1,104 @@
+{
+  "prompts": [
+    {
+      "intro": "You have just joined a new sports club. Write an email to your English friend Sam.",
+      "bullets": [
+        "which sport you are doing",
+        "why you joined the club",
+        "invite Sam to come with you"
+      ],
+      "minWords": 25,
+      "sampleResponse": "Hi Sam,\n\nI have joined a football club near my house. I joined because I want to get fit and meet new friends. The training is on Saturday mornings.\n\nWould you like to come with me next week? It is really fun!\n\nSee you soon,\nAlex"
+    },
+    {
+      "intro": "You went to a school trip last week. Write an email to your English friend Jamie.",
+      "bullets": [
+        "where you went",
+        "what you did there",
+        "what you liked best"
+      ],
+      "minWords": 25,
+      "sampleResponse": "Hi Jamie,\n\nLast week my class went to the science museum in the city. We saw many interesting machines and did some experiments. I liked the space exhibition best because the photos of planets were amazing.\n\nWish you were there!\n\nBest,\nMia"
+    },
+    {
+      "intro": "You want to organise a picnic with your friends. Write an email to your English friend Taylor.",
+      "bullets": [
+        "when and where you want to have the picnic",
+        "what food to bring",
+        "what activities you can do"
+      ],
+      "minWords": 25,
+      "sampleResponse": "Hi Taylor,\n\nI want to organise a picnic in the park on Saturday afternoon. Can you bring some sandwiches and juice? I will make a salad.\n\nWe can play games and listen to music. Please ask your brother to come too!\n\nSee you soon,\nRio"
+    },
+    {
+      "intro": "You started learning a new hobby. Write an email to your English friend Jordan.",
+      "bullets": [
+        "what the new hobby is",
+        "how you started it",
+        "ask Jordan about their hobbies"
+      ],
+      "minWords": 25,
+      "sampleResponse": "Hi Jordan,\n\nI have started learning to play the guitar! My uncle gave me his old guitar and now I take lessons every Thursday. It is difficult but very exciting.\n\nDo you have any hobbies? I would love to know!\n\nBest wishes,\nSofia"
+    },
+    {
+      "intro": "You are going to a birthday party next weekend. Write an email to your English friend Casey.",
+      "bullets": [
+        "whose birthday it is",
+        "what you are going to do at the party",
+        "ask Casey to come"
+      ],
+      "minWords": 25,
+      "sampleResponse": "Hi Casey,\n\nMy friend Pablo is having a birthday party on Saturday. We are going to eat pizza, watch a film and play music. It will be at his house from 5 pm.\n\nWould you like to come? Everyone is welcome!\n\nSee you,\nLena"
+    },
+    {
+      "intro": "You recently read a great book. Write an email to your English friend Morgan.",
+      "bullets": [
+        "what the book is about",
+        "why you liked it",
+        "recommend that Morgan reads it"
+      ],
+      "minWords": 25,
+      "sampleResponse": "Hi Morgan,\n\nI just finished a book called 'The Lost Island'. It is about two teenagers who find a secret island during their summer holiday. I loved it because it was very exciting and funny.\n\nYou should read it! I think you will enjoy it.\n\nTake care,\nNia"
+    },
+    {
+      "intro": "You are going on a school trip abroad next month. Write an email to your English friend Riley.",
+      "bullets": [
+        "where you are going",
+        "how long you will be away",
+        "what you are looking forward to"
+      ],
+      "minWords": 25,
+      "sampleResponse": "Hi Riley,\n\nI am going on a school trip to Paris next month! We will be away for four days. I am really looking forward to seeing the Eiffel Tower and trying French food.\n\nI will send you photos!\n\nBye for now,\nKai"
+    },
+    {
+      "intro": "You saw a great film last night. Write an email to your English friend Avery.",
+      "bullets": [
+        "what the film was about",
+        "who you watched it with",
+        "ask Avery to watch it too"
+      ],
+      "minWords": 25,
+      "sampleResponse": "Hi Avery,\n\nI watched a fantastic film last night with my sister. It was a comedy about a group of students who start a band. We laughed a lot!\n\nYou should watch it this weekend. I am sure you will love it.\n\nBest,\nPia"
+    },
+    {
+      "intro": "Your school has a new computer room. Write an email to your English friend Dakota.",
+      "bullets": [
+        "what is new in the room",
+        "how students use it",
+        "what you think of it"
+      ],
+      "minWords": 25,
+      "sampleResponse": "Hi Dakota,\n\nOur school just opened a new computer room with 30 fast computers and a big screen. Students use it for research and also to learn to code. I think it is really useful and it is much better than our old one.\n\nDo you have something like this at your school?\n\nWrite back soon,\nSam"
+    },
+    {
+      "intro": "You are helping to organise a school fair. Write an email to your English friend Remy.",
+      "bullets": [
+        "when the fair will be",
+        "what activities there will be",
+        "ask Remy to help"
+      ],
+      "minWords": 25,
+      "sampleResponse": "Hi Remy,\n\nOur school fair is on the 15th of next month. There will be food stalls, games and a talent show. It starts at 10 am and finishes at 4 pm.\n\nWould you like to help us prepare? We need more people to work at the food stall.\n\nHope to see you there,\nBlake"
+    }
+  ]
+}

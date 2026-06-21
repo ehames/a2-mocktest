@@ -2,6 +2,7 @@
   "prompts": [
     {
       "intro": "Look at the three pictures. Write the story shown in the pictures.",
+      "storyArc": "Tom sets off on his bike on a sunny day, gets caught in the rain and meets Sam at a bus stop, and they end up in a café together laughing over cakes.",
       "characters": [
         { "name": "Tom", "description": "a boy of about 12, short dark hair, white school shirt and dark trousers" },
         { "name": "Sam", "description": "a girl of about 12, short straight hair, blue jacket and jeans" }
@@ -39,6 +40,7 @@
     },
     {
       "intro": "Look at the three pictures. Write the story shown in the pictures.",
+      "storyArc": "Sofia is walking Biscuit in the park, Biscuit goes missing between panels, and Sofia eventually finds him and hugs him with relief.",
       "characters": [
         { "name": "Sofia", "description": "a girl of about 13, long curly hair, jeans and a green hoodie" },
         { "name": "Biscuit", "description": "a small fluffy white dog with floppy ears" }
@@ -58,8 +60,9 @@
           "text": "street / poster / worried",
           "setting": "a street with a brick wall",
           "background": "brick wall, street lamp, pavement",
-          "scene": "Sofia pins a lost-dog poster to the wall",
+          "scene": "Sofia stands alone at the wall — Biscuit is nowhere to be seen. Sofia pins a lost-dog poster (completely blank, no text, no image on it) to the wall",
           "emotion": "worried and upset",
+          "absent": ["Biscuit"],
           "image": "images/part7/lost-dog_p2.webp"
         },
         {

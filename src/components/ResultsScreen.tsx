@@ -81,6 +81,14 @@ export default function ResultsScreen({ state, dispatch }: Props) {
           Writing — review yourself
         </div>
         {writingCard('Part 6 — Email', writing[6], activeTest.part6.minWords)}
+        {state.review && activeTest.part6.sampleResponse && (
+          <div style={{ background: 'var(--green-bg)', border: '1px solid var(--green)', borderRadius: 14, padding: 16, marginBottom: 12, marginTop: -6 }}>
+            <div style={{ font: "700 12px 'Libre Franklin'", letterSpacing: '.1em', textTransform: 'uppercase', color: 'var(--green)', marginBottom: 8 }}>Sample answer</div>
+            <div style={{ fontFamily: "'Source Serif 4', Georgia, serif", fontSize: 14, lineHeight: 1.55, color: 'var(--passage-ink)', whiteSpace: 'pre-wrap' }}>
+              {activeTest.part6.sampleResponse}
+            </div>
+          </div>
+        )}
         {writingCard('Part 7 — Story', writing[7], activeTest.part7.minWords)}
 
         {/* Actions */}

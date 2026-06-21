@@ -1,0 +1,164 @@
+{
+  "sets": [
+    {
+      "title": "A New Hobby",
+      "paragraphs": [
+        "Last year I decided to (1) ___ up photography as a hobby. I borrowed my dad's old camera and started taking photos (2) ___ my neighbourhood. At first my photos were not very good, but I kept practising.",
+        "I watched videos online (3) ___ taught me about lighting and composition. Slowly my pictures began to improve. Now I enter (4) ___ school competitions and have already won one prize.",
+        "Photography has helped me see the world (5) ___ differently. I notice small details (6) ___ I never noticed before, like the way light reflects on a puddle or how shadows fall on walls."
+      ],
+      "gaps": [
+        { "accept": ["take"], "rationale": "'Take up' is the fixed phrasal verb meaning to start a new hobby." },
+        { "accept": ["around", "in"], "rationale": "'Around my neighbourhood' or 'in my neighbourhood' are both correct." },
+        { "accept": ["that", "which"], "rationale": "Relative pronoun referring to the videos — 'that' or 'which'." },
+        { "accept": ["some"], "rationale": "'Enter some competitions' — 'some' is the natural quantifier here." },
+        { "accept": ["so", "completely", "quite"], "rationale": "'See the world so/completely differently' expresses a change in perspective." },
+        { "accept": ["that", "which"], "rationale": "Relative clause referring to details — 'that' or 'which'." }
+      ]
+    },
+    {
+      "title": "My Best Friend",
+      "paragraphs": [
+        "I have known my best friend Sara (1) ___ we were seven years old. We met at primary school and quickly became friends because (2) ___ of us liked the same things: books, music and animals.",
+        "We do not go to (3) ___ same school any more because her family moved to another part of the city. However, we still see each other (4) ___ the weekend and chat online almost every day.",
+        "I think a good friendship is (5) ___ on trust and honesty. Sara always tells me the truth, even when I do not want to hear it. That is (6) ___ I think she is my best friend."
+      ],
+      "gaps": [
+        { "accept": ["since"], "rationale": "'Known her since we were seven' — 'since' introduces the starting point." },
+        { "accept": ["both"], "rationale": "'Both of us liked the same things' — 'both' refers to the two friends." },
+        { "accept": ["the"], "rationale": "Definite article before 'same school'." },
+        { "accept": ["at"], "rationale": "'See each other at the weekend' — 'at' is used with 'weekend' in British English." },
+        { "accept": ["based"], "rationale": "'Based on trust and honesty' — the correct participle adjective." },
+        { "accept": ["why"], "rationale": "'That is why I think she is my best friend' — reason connector." }
+      ]
+    },
+    {
+      "title": "My School Day",
+      "paragraphs": [
+        "I usually wake (1) ___ at half past six and get ready for school. I have breakfast (2) ___ my family before leaving the house at quarter past seven.",
+        "School starts at eight o'clock. (3) ___ the morning we have four lessons. We have a twenty-minute break at ten thirty and then two more lessons before lunch.",
+        "I eat in the school canteen with my friends. In (4) ___ afternoon we have two more lessons and then we finish at four o'clock. After school I go (5) ___ to the library to do my homework. I try to finish (6) ___ before dinner so I have time to relax in the evening."
+      ],
+      "gaps": [
+        { "accept": ["up"], "rationale": "'Wake up' — fixed phrasal verb meaning to stop sleeping." },
+        { "accept": ["with"], "rationale": "'Have breakfast with my family' — 'with' for shared activity." },
+        { "accept": ["In"], "rationale": "'In the morning' — standard time expression." },
+        { "accept": ["the"], "rationale": "'In the afternoon' — definite article before 'afternoon'." },
+        { "accept": ["straight", "back", "directly"], "rationale": "'Go straight to the library' or 'go back to the library'." },
+        { "accept": ["it"], "rationale": "'Finish it before dinner' — 'it' refers to the homework." }
+      ]
+    },
+    {
+      "title": "The School Play",
+      "paragraphs": [
+        "Every year our school puts (1) ___ a play for parents and students. This year we are performing a comedy, which is (2) ___ harder to act than a serious drama because the timing of each joke must be perfect.",
+        "I am playing one (3) ___ the main characters. I have been learning my lines for (4) ___ months and I still make mistakes sometimes. My drama teacher says the most important thing is not to stop (5) ___ you forget a word — just keep going and the audience will not notice.",
+        "The performance is next Friday. I am a (6) ___ nervous but also very excited about it."
+      ],
+      "gaps": [
+        { "accept": ["on"], "rationale": "'Put on a play' — fixed phrasal verb meaning to organise a performance." },
+        { "accept": ["much", "a lot", "far"], "rationale": "'Much harder' or 'a lot harder' — comparative with uncountable degree." },
+        { "accept": ["of"], "rationale": "'One of the main characters' — partitive structure." },
+        { "accept": ["two", "three", "several", "a few"], "rationale": "Any plural count indicating several months of practice." },
+        { "accept": ["if", "when"], "rationale": "'Don't stop if/when you forget a word' — conditional or temporal." },
+        { "accept": ["little", "bit"], "rationale": "'A little nervous' or 'a bit nervous' — both are natural hedges." }
+      ]
+    },
+    {
+      "title": "Healthy Eating at School",
+      "paragraphs": [
+        "Our school has recently (1) ___ changes to its canteen menu. There are (2) ___ more vegetables, salads and fruit available, and less fried food.",
+        "Some students were not happy (3) ___ first because they liked the old menu. However, most people now agree that the food tastes better (4) ___ it is fresher.",
+        "The school also runs a programme to teach students (5) ___ to cook simple healthy meals. Students learn how to prepare dishes using ingredients (6) ___ are in season, which means they are usually cheaper and more nutritious."
+      ],
+      "gaps": [
+        { "accept": ["made"], "rationale": "'Made changes' — 'make changes' collocates; past participle after 'has'." },
+        { "accept": ["now", "many", "far"], "rationale": "'Now more vegetables' or 'many more vegetables' — quantity or recency." },
+        { "accept": ["at"], "rationale": "'Not happy at first' — 'at first' is a fixed adverbial phrase." },
+        { "accept": ["because", "as", "since"], "rationale": "Causal connectors — 'because/as/since it is fresher'." },
+        { "accept": ["how"], "rationale": "'Teach students how to cook' — indirect question with 'how'." },
+        { "accept": ["that", "which"], "rationale": "Relative pronoun for 'ingredients that/which are in season'." }
+      ]
+    },
+    {
+      "title": "Learning a Language",
+      "paragraphs": [
+        "I have been learning French (1) ___ three years. I started because I wanted to speak to my grandmother, (2) ___ moved to France when she was young. She is very pleased that I am learning her language.",
+        "At school we do reading, writing and listening exercises. (3) ___ my opinion, speaking is the most difficult skill because you have to think quickly and there is no time to check a dictionary.",
+        "I try to practise as (4) ___ as possible by watching French films and listening (5) ___ French music. I also chat online (6) ___ a French pen pal I found through a language exchange website."
+      ],
+      "gaps": [
+        { "accept": ["for"], "rationale": "'Learning French for three years' — 'for' expresses duration." },
+        { "accept": ["who"], "rationale": "Relative pronoun referring to grandmother — subject of the clause." },
+        { "accept": ["In"], "rationale": "'In my opinion' — fixed expression." },
+        { "accept": ["much", "often"], "rationale": "'As much as possible' or 'as often as possible' — both natural here." },
+        { "accept": ["to"], "rationale": "'Listening to French music' — 'listen to' is the fixed phrasal verb." },
+        { "accept": ["with"], "rationale": "'Chat with a pen pal' — 'with' for interacting with someone." }
+      ]
+    },
+    {
+      "title": "Weekend in the Mountains",
+      "paragraphs": [
+        "Last weekend my family and I went (1) ___ a camping trip in the mountains. We drove for about two hours (2) ___ we arrived at the campsite.",
+        "We set (3) ___ our tent and cooked dinner over an open fire. It was much colder than I expected, (4) ___ we had sleeping bags and warm clothes. In the morning we went on a long walk through the forest.",
+        "I am not usually (5) ___ of outdoor activities, but this trip was really special. I am already (6) ___ forward to the next one."
+      ],
+      "gaps": [
+        { "accept": ["on"], "rationale": "'Go on a camping trip' — 'on' is fixed with 'trip'." },
+        { "accept": ["before", "until"], "rationale": "'Drove for two hours before/until we arrived' — temporal connector." },
+        { "accept": ["up"], "rationale": "'Set up a tent' — fixed phrasal verb." },
+        { "accept": ["but"], "rationale": "'Colder than expected, but we had sleeping bags' — contrast connector." },
+        { "accept": ["keen", "fond"], "rationale": "'Keen on outdoor activities' or 'fond of outdoor activities'." },
+        { "accept": ["looking"], "rationale": "'Looking forward to the next one' — fixed phrase with 'look forward to'." }
+      ]
+    },
+    {
+      "title": "Being a Good Student",
+      "paragraphs": [
+        "Being a good student does not (1) ___ mean getting top marks in every test. It also means being curious, asking questions and (2) ___ your best even when something is difficult.",
+        "Good students usually have a regular study routine and make (3) ___ of class time. They also ask for help (4) ___ they do not understand something rather than pretending they do.",
+        "It is important to look (5) ___ your physical and mental health too. If you are tired or stressed, it is hard to concentrate. Getting enough sleep and taking breaks (6) ___ study helps your brain work better."
+      ],
+      "gaps": [
+        { "accept": ["just", "only", "always"], "rationale": "'Does not just mean' — 'just' narrows the meaning." },
+        { "accept": ["doing", "trying"], "rationale": "'Doing your best' or 'trying your best' — gerund as subject complement." },
+        { "accept": ["use"], "rationale": "'Make use of class time' — fixed phrasal noun." },
+        { "accept": ["when", "if"], "rationale": "'Ask for help when/if they don't understand' — conditional/temporal." },
+        { "accept": ["after"], "rationale": "'Look after your health' — phrasal verb meaning take care of." },
+        { "accept": ["from"], "rationale": "'Taking breaks from study' — 'from' indicates the activity paused." }
+      ]
+    },
+    {
+      "title": "A Special Teacher",
+      "paragraphs": [
+        "When I think (1) ___ the teachers who have influenced me most, I always think of my primary school English teacher, Ms Patel. She made every lesson (2) ___ interesting and fun.",
+        "Ms Patel was always patient and never made us (3) ___ embarrassed if we made a mistake. She believed that mistakes were part of learning. She encouraged us to read books that we enjoyed (4) ___ of books we had to read for school.",
+        "Because of her, I developed a love (5) ___ reading and writing that I still have today. I sometimes wonder (6) ___ would have happened if I had not had such a great teacher."
+      ],
+      "gaps": [
+        { "accept": ["about", "of"], "rationale": "'Think about' or 'think of' teachers — both correct." },
+        { "accept": ["feel", "seem", "look"], "rationale": "'Made every lesson feel/seem interesting' — causative with adjective." },
+        { "accept": ["feel"], "rationale": "'Made us feel embarrassed' — causative construction." },
+        { "accept": ["instead"], "rationale": "'Instead of books we had to read' — fixed preposition phrase." },
+        { "accept": ["of", "for"], "rationale": "'A love of reading' or 'a love for reading' — both accepted." },
+        { "accept": ["what"], "rationale": "'Wonder what would have happened' — embedded question with 'what'." }
+      ]
+    },
+    {
+      "title": "Climate Change and Young People",
+      "paragraphs": [
+        "Many young people (1) ___ the world are concerned about climate change. They want governments and companies to take action (2) ___ protect the environment for future generations.",
+        "Some teenagers show their concern by joining environmental groups or taking (3) ___ in protests. Others focus on making small changes in (4) ___ own lives, such as using less plastic, cycling instead of travelling by car, and buying second-hand clothes.",
+        "Experts say that young people's voices (5) ___ important because they will live with the consequences of climate change for longer than older people. Every action, (6) ___ small, can make a difference."
+      ],
+      "gaps": [
+        { "accept": ["around", "across"], "rationale": "'Around the world' or 'across the world' — both mean globally." },
+        { "accept": ["to"], "rationale": "'Take action to protect' — infinitive of purpose." },
+        { "accept": ["part"], "rationale": "'Taking part in protests' — 'take part in' is the fixed phrasal verb." },
+        { "accept": ["their"], "rationale": "'In their own lives' — possessive pronoun referring back to teenagers." },
+        { "accept": ["are"], "rationale": "'Voices are important' — plural subject needs plural verb." },
+        { "accept": ["however", "no matter how"], "rationale": "'However small' or 'no matter how small' — concessive clause." }
+      ]
+    }
+  ]
+}

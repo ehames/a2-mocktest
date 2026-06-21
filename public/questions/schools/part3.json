@@ -1,0 +1,154 @@
+{
+  "sets": [
+    {
+      "title": "A Teenage Inventor",
+      "paragraphs": [
+        "At the age of fourteen, Jamie Chen from Singapore became interested in solving problems with technology. One day, his grandmother could not remember whether she had taken her daily medicine. Jamie decided to make a small device to help her. He spent three months learning to build a simple electronic alarm system.",
+        "The device was a small box that lit up and made a sound at the time his grandmother needed to take her medicine. It also had a button she could press to confirm she had taken it. If she forgot to press the button, it would remind her again thirty minutes later.",
+        "Jamie entered the invention in a school competition and came second. His science teacher encouraged him to develop the idea further and apply for a young inventors programme at a local university. Jamie is now working with engineering students there to improve his design and hopes to sell the product one day."
+      ],
+      "questions": [
+        { "prompt": "Why did Jamie decide to make the device?", "opts": ["His teacher asked him to", "He wanted to win a competition", "He wanted to help his grandmother"], "answer": 2, "rationale": "Jamie made the device because his grandmother had trouble remembering to take her medicine." },
+        { "prompt": "How long did it take Jamie to build the device?", "opts": ["One month", "Three months", "One year"], "answer": 1, "rationale": "The text says he spent three months learning to build the alarm system." },
+        { "prompt": "What does the button on the device do?", "opts": ["It turns off the alarm", "It confirms the medicine was taken", "It sets the time"], "answer": 1, "rationale": "The button lets his grandmother confirm she has taken her medicine." },
+        { "prompt": "What result did Jamie get in the school competition?", "opts": ["He won first place", "He came second", "He did not finish the competition"], "answer": 1, "rationale": "Jamie came second in the school competition." },
+        { "prompt": "What is Jamie doing now?", "opts": ["Studying engineering at university", "Working with university students to improve his design", "Selling his product online"], "answer": 1, "rationale": "Jamie is working with engineering students at a local university to improve his design." }
+      ]
+    },
+    {
+      "title": "School Garden Project",
+      "paragraphs": [
+        "When Green Valley High School decided to turn an unused piece of land behind the sports hall into a garden, no one expected it to become such an important part of school life. The project started two years ago when a group of students proposed the idea to the school principal.",
+        "Today the garden produces vegetables, herbs and fruit which are used in the school canteen. Students from different year groups look after different sections of the garden. There is also a small greenhouse where seedlings are grown before being moved outside.",
+        "The garden has also become part of the school curriculum. Biology students study plants there, and geography students learn about soil types and weather. Students say the garden has helped them feel more connected to nature, and many have started growing plants at home too."
+      ],
+      "questions": [
+        { "prompt": "Who first suggested the garden project?", "opts": ["The school principal", "A group of students", "A biology teacher"], "answer": 1, "rationale": "A group of students proposed the idea to the principal." },
+        { "prompt": "What happens to the food grown in the garden?", "opts": ["It is sold to local shops", "It is used in the school canteen", "Students take it home"], "answer": 1, "rationale": "Vegetables, herbs and fruit from the garden are used in the school canteen." },
+        { "prompt": "What is the greenhouse used for?", "opts": ["Storing tools", "Growing plants before they go outside", "Teaching biology lessons"], "answer": 1, "rationale": "The greenhouse is used to grow seedlings before they are moved outside." },
+        { "prompt": "Which subjects use the garden for lessons?", "opts": ["Biology and geography", "Chemistry and maths", "Art and geography"], "answer": 0, "rationale": "Biology and geography students use the garden as part of their curriculum." },
+        { "prompt": "How has the garden affected students outside school?", "opts": ["They spend less time on screens", "Many have begun growing plants at home", "They eat healthier food"], "answer": 1, "rationale": "Many students have started growing plants at home too." }
+      ]
+    },
+    {
+      "title": "The Young Chef",
+      "paragraphs": [
+        "Elena Russo is sixteen and already runs her own small catering business. It started when she began helping her aunt prepare food for family celebrations. People tasted her cooking and asked her to cook for their events too. Now she gets several requests a month.",
+        "Elena prepares everything herself in her family's kitchen. She specialises in Italian food but has learnt to cook dishes from other countries too because clients often want variety. Her most popular dish is a type of pasta she invented herself.",
+        "Balancing school and work is not always easy. Elena does most of her cooking at weekends and sometimes during school holidays. Her parents help her with the practical side of running a business, such as managing orders and accounting. Elena says she wants to study at a professional cookery school after she finishes her education."
+      ],
+      "questions": [
+        { "prompt": "How did Elena start her catering business?", "opts": ["She answered an advertisement", "People liked her food and asked her to cook for them", "Her school helped her set it up"], "answer": 1, "rationale": "People tasted her cooking and asked her to cook for their events." },
+        { "prompt": "Why has Elena learnt to cook dishes from other countries?", "opts": ["She prefers international food", "Her aunt taught her", "Clients like to have variety"], "answer": 2, "rationale": "She learnt other cuisines because clients often want variety." },
+        { "prompt": "What is Elena's most popular dish?", "opts": ["A traditional Italian recipe", "A pasta dish she created herself", "A dessert from another country"], "answer": 1, "rationale": "Her most popular dish is a pasta recipe she invented herself." },
+        { "prompt": "When does Elena usually do her cooking?", "opts": ["Every evening after school", "At weekends and during holidays", "On Tuesday and Thursday evenings"], "answer": 1, "rationale": "Elena does most of her cooking at weekends and during school holidays." },
+        { "prompt": "What do Elena's parents help with?", "opts": ["Cooking the food", "Managing orders and accounts", "Advertising the business"], "answer": 1, "rationale": "Her parents help with managing orders and accounting." }
+      ]
+    },
+    {
+      "title": "A Very Long Walk",
+      "paragraphs": [
+        "Last summer, fifteen-year-old Marcus and his father completed a 120 kilometre walk across a national park. It took them seven days. Marcus had never done anything like it before and was nervous at the beginning. His father, who had done long walks before, helped him prepare.",
+        "They trained for four months before the walk, going on shorter trips at weekends to build up strength and practise using their equipment. Marcus also learnt to read maps, which was a skill he had never needed before.",
+        "During the walk they passed through forests, over mountains and along rivers. Marcus says the hardest part was the third day, when it rained all day and the paths were very muddy. But he also says that finishing the walk was the proudest moment of his life so far. He is already planning his next challenge."
+      ],
+      "questions": [
+        { "prompt": "How long did the walk take to complete?", "opts": ["Five days", "Seven days", "Ten days"], "answer": 1, "rationale": "The walk took them seven days." },
+        { "prompt": "Who had experience of long walks before?", "opts": ["Marcus", "Marcus's father", "Both of them"], "answer": 1, "rationale": "Marcus's father had done long walks before." },
+        { "prompt": "What new skill did Marcus learn while preparing?", "opts": ["How to cook outdoors", "How to read maps", "How to set up a tent"], "answer": 1, "rationale": "Marcus learnt to read maps, a skill he had never needed before." },
+        { "prompt": "What was the most difficult part of the walk for Marcus?", "opts": ["Crossing the mountains", "Walking in the rain on the third day", "The last day when he was very tired"], "answer": 1, "rationale": "The hardest part was the third day when it rained all day." },
+        { "prompt": "How does Marcus feel about completing the walk?", "opts": ["He is glad it is over", "It was the proudest moment of his life so far", "He does not want to do it again"], "answer": 1, "rationale": "Marcus says finishing was the proudest moment of his life so far." }
+      ]
+    },
+    {
+      "title": "Saving Pocket Money",
+      "paragraphs": [
+        "When Jade was thirteen, she decided she wanted to buy herself a new laptop for school. Her parents said they could not afford to buy one for her. Instead of being disappointed, Jade decided to save up her pocket money and do extra chores around the house to earn more.",
+        "She made a plan and calculated that she needed to save for about eight months. She wrote down all her spending and cut back on things like cinema visits and buying snacks at school. She also took on a job delivering newspapers at weekends.",
+        "After ten months – a little longer than planned – Jade had enough money. She researched laptops carefully before buying one that was good quality but not too expensive. She says the experience taught her to be more careful with money and to think about what she really needs before spending."
+      ],
+      "questions": [
+        { "prompt": "Why did Jade need to save money herself?", "opts": ["She wanted to choose her own laptop", "Her parents could not afford to buy one", "The laptop was a birthday gift she wanted"], "answer": 1, "rationale": "Her parents said they could not afford to buy a laptop for her." },
+        { "prompt": "How long did Jade originally plan to save?", "opts": ["Six months", "Eight months", "Ten months"], "answer": 1, "rationale": "She calculated she needed to save for about eight months." },
+        { "prompt": "How did Jade reduce her spending?", "opts": ["She stopped going out with friends", "She cut back on cinema and snacks", "She stopped buying new clothes"], "answer": 1, "rationale": "She cut back on cinema visits and buying snacks at school." },
+        { "prompt": "What job did Jade do to earn extra money?", "opts": ["Babysitting", "Washing cars", "Delivering newspapers"], "answer": 2, "rationale": "She took on a job delivering newspapers at weekends." },
+        { "prompt": "What did the experience teach Jade?", "opts": ["To ask her parents for more pocket money", "To think more carefully about spending", "To choose expensive but high-quality products"], "answer": 1, "rationale": "Jade says the experience taught her to be more careful with money and think about what she really needs." }
+      ]
+    },
+    {
+      "title": "An Online Tutor",
+      "paragraphs": [
+        "Fifteen-year-old Ava from Canada started tutoring other students online after lockdown. During that difficult period, she helped her younger brothers with their schoolwork and realised she was good at explaining things clearly. She then decided to offer her help to other students.",
+        "Ava mainly helps students aged ten to thirteen with maths and English. She has three regular students and charges a small fee per lesson. She prepares her lessons carefully, making worksheets and videos to explain difficult concepts.",
+        "Ava finds running her mini-business alongside school challenging but rewarding. The money she earns goes into a savings account she plans to use for university. She also says that tutoring has helped her own understanding of the subjects she teaches."
+      ],
+      "questions": [
+        { "prompt": "What made Ava realise she was good at teaching?", "opts": ["A teacher told her she was good at explaining", "She helped her brothers and did it well", "She got top marks in her exams"], "answer": 1, "rationale": "She helped her younger brothers and realised she was good at explaining." },
+        { "prompt": "Which students does Ava teach?", "opts": ["Students the same age as her", "Students who are younger than her", "Students from her school only"], "answer": 1, "rationale": "She teaches students aged 10 to 13, who are younger than her." },
+        { "prompt": "What materials does Ava make for her lessons?", "opts": ["Books and tests", "Worksheets and videos", "Flashcards and posters"], "answer": 1, "rationale": "Ava makes worksheets and videos to explain concepts." },
+        { "prompt": "What does Ava do with the money she earns?", "opts": ["She spends it on technology", "She saves it for university", "She gives it to her parents"], "answer": 1, "rationale": "The money goes into a savings account she plans to use for university." },
+        { "prompt": "How has tutoring helped Ava?", "opts": ["It has helped her make more friends", "It has improved her understanding of what she teaches", "It has made school much easier for her"], "answer": 1, "rationale": "Ava says tutoring has helped her own understanding of the subjects she teaches." }
+      ]
+    },
+    {
+      "title": "A Green School",
+      "paragraphs": [
+        "Hillside School in Wales decided two years ago to become more environmentally friendly. Students and teachers worked together to come up with ideas. The first change was to stop using single-use plastic in the canteen. Students now bring reusable water bottles and lunch boxes.",
+        "The school also put solar panels on the roof of the main building. These provide around 30% of the school's electricity. Any extra electricity the panels produce goes back to the local energy grid. The school has already saved a significant amount of money on electricity bills.",
+        "A student environmental committee meets once a month to discuss new ideas. Recent projects include planting a wildflower area on the school field and starting a composting system for food waste. Students say they feel proud of these changes and that it has made them more aware of environmental issues in daily life."
+      ],
+      "questions": [
+        { "prompt": "What was the first environmental change the school made?", "opts": ["Installing solar panels", "Starting a composting system", "Stopping the use of single-use plastic"], "answer": 2, "rationale": "The first change was to stop using single-use plastic in the canteen." },
+        { "prompt": "How much electricity do the solar panels produce?", "opts": ["All of the school's electricity", "Around 30% of the school's electricity", "Enough for the canteen only"], "answer": 1, "rationale": "The panels provide around 30% of the school's electricity." },
+        { "prompt": "What happens to extra electricity from the solar panels?", "opts": ["It is stored in batteries", "It goes back to the local energy grid", "It powers the school at night"], "answer": 1, "rationale": "Extra electricity goes back to the local energy grid." },
+        { "prompt": "How often does the student environmental committee meet?", "opts": ["Every week", "Once a month", "Once a term"], "answer": 1, "rationale": "The committee meets once a month." },
+        { "prompt": "How have the changes affected students?", "opts": ["They spend more time outdoors", "They are more aware of environmental issues", "They have less homework to do"], "answer": 1, "rationale": "Students say it has made them more aware of environmental issues." }
+      ]
+    },
+    {
+      "title": "Learning to Fail",
+      "paragraphs": [
+        "When fourteen-year-old Daniel failed his first music exam, he was very upset. He had practised hard but made too many mistakes on the day. His music teacher told him that failing was an important part of learning and that many great musicians had failed exams early in their careers.",
+        "Daniel decided not to give up. He changed his practice routine, working on his weaknesses instead of just playing the pieces he already knew well. He also started recording himself and listening back to spot mistakes more easily.",
+        "Six months later Daniel took the exam again and passed with a high mark. He now helps other students at his school who are nervous about exams. He tells them that failure is not the end and that understanding why you failed is more useful than just feeling bad about it."
+      ],
+      "questions": [
+        { "prompt": "Why did Daniel fail his first music exam?", "opts": ["He did not practise enough", "He made too many mistakes on the day", "He played the wrong pieces"], "answer": 1, "rationale": "He had practised hard but made too many mistakes on the day." },
+        { "prompt": "What did Daniel's teacher tell him about failing?", "opts": ["He needed to practise more", "Failing is an important part of learning", "He should choose a different instrument"], "answer": 1, "rationale": "His teacher said failing was an important part of learning." },
+        { "prompt": "How did Daniel change his practice?", "opts": ["He practised for longer hours every day", "He focused on his weak areas instead of easy pieces", "He found a new teacher"], "answer": 1, "rationale": "He worked on his weaknesses instead of playing pieces he already knew." },
+        { "prompt": "What new technique did Daniel use to find mistakes?", "opts": ["He asked his teacher to watch him", "He recorded himself and listened back", "He practised with a friend"], "answer": 1, "rationale": "He started recording himself and listening back to spot mistakes." },
+        { "prompt": "What does Daniel do now to help other students?", "opts": ["He gives them extra music lessons", "He tells them that failure is not the end", "He helps them choose exam pieces"], "answer": 1, "rationale": "Daniel tells nervous students that failure is not the end." }
+      ]
+    },
+    {
+      "title": "Life in a New Country",
+      "paragraphs": [
+        "When Leila moved from Morocco to the UK at the age of thirteen, she could not speak much English. The first few months at her new school were very hard. She felt lonely and struggled to follow lessons. Her teachers were supportive and gave her extra help after school.",
+        "Leila decided to immerse herself in the language as much as possible. She watched English TV programmes, read simple books and tried to talk to classmates during breaks. Within a year her English was good enough to take part fully in all her classes.",
+        "Now, two years after arriving, Leila is one of the best students in her year. She has made many friends and is part of the school's student council. She wants to study law when she finishes school. She says that struggling with a new language taught her to be patient and to keep working even when things are difficult."
+      ],
+      "questions": [
+        { "prompt": "How did Leila feel when she first arrived at her new school?", "opts": ["Excited and happy", "Lonely and struggled to follow lessons", "Nervous but hopeful"], "answer": 1, "rationale": "She felt lonely and struggled to follow lessons." },
+        { "prompt": "How did Leila's teachers help her?", "opts": ["They spoke to her in French", "They gave her extra help after school", "They put her in a special class"], "answer": 1, "rationale": "Her teachers were supportive and gave her extra help after school." },
+        { "prompt": "What did Leila do to improve her English?", "opts": ["She took private English lessons", "She watched TV, read books and spoke to classmates", "She joined a language class at weekends"], "answer": 1, "rationale": "She watched TV, read books and tried talking to classmates." },
+        { "prompt": "How long did it take Leila to take part fully in all her classes?", "opts": ["Three months", "One year", "Two years"], "answer": 1, "rationale": "Within a year her English was good enough to take part fully." },
+        { "prompt": "What has Leila learnt from her experience?", "opts": ["To ask for help when she needs it", "To be patient and keep working when things are hard", "To make friends quickly in a new place"], "answer": 1, "rationale": "She says struggling taught her to be patient and keep working even when things are difficult." }
+      ]
+    },
+    {
+      "title": "The School Radio Station",
+      "paragraphs": [
+        "Three years ago, a group of students at Park Lane School set up a radio station that broadcasts through the school's speakers and online. The station, called PL Radio, plays music and includes shows about sport, school news and student interviews. It runs every day during the lunch break.",
+        "Any student can join and present a show after a short training session. Around twenty students currently take part. The most popular show is a weekly quiz where listeners can win small prizes. The station is run entirely by students with occasional advice from a media studies teacher.",
+        "The headteacher says the station has improved confidence and communication skills among students. Listeners say it makes the school day more enjoyable. The station has even won a regional award for the best school media project in its area."
+      ],
+      "questions": [
+        { "prompt": "When does PL Radio broadcast?", "opts": ["In the morning before school", "During the lunch break every day", "After school in the evenings"], "answer": 1, "rationale": "It runs every day during the lunch break." },
+        { "prompt": "What does a student need to do before presenting a show?", "opts": ["Get permission from the headteacher", "Pass a test about media", "Complete a short training session"], "answer": 2, "rationale": "Students must complete a short training session before presenting." },
+        { "prompt": "Which show is most popular with listeners?", "opts": ["The sport show", "The weekly quiz", "The student interviews"], "answer": 1, "rationale": "The most popular show is the weekly quiz." },
+        { "prompt": "Who runs the station?", "opts": ["The media studies teacher", "Students, with occasional teacher advice", "The headteacher and senior students"], "answer": 1, "rationale": "The station is run entirely by students with occasional advice from a teacher." },
+        { "prompt": "What award has the station received?", "opts": ["Best school radio station nationally", "Best school media project in the region", "Best new community radio project"], "answer": 1, "rationale": "The station won a regional award for best school media project in its area." }
+      ]
+    }
+  ]
+}

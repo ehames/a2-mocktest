@@ -1,0 +1,164 @@
+{
+  "sets": [
+    {
+      "title": "After-school Clubs",
+      "paragraphs": [
+        "Many schools (1) ___ a wide range of after-school clubs for students. These clubs give young people the (2) ___ to try new activities and meet friends with similar interests. Some of the most popular clubs include drama, coding and chess.",
+        "Joining a club is a great (3) ___ to develop new skills. Students who take part regularly often (4) ___ more confident and organised. Teachers say that club activities can also help students do (5) ___ in their school lessons because they learn to focus and work as a team.",
+        "If you are (6) ___ in joining a club, speak to your school office for more information."
+      ],
+      "questions": [
+        { "opts": ["offer", "give", "make"], "answer": 0, "rationale": "'Offer' collocates with 'a wide range of activities'." },
+        { "opts": ["chance", "luck", "time"], "answer": 0, "rationale": "'Chance' fits as an opportunity to try new activities." },
+        { "opts": ["reason", "way", "goal"], "answer": 1, "rationale": "'Way' fits — 'a great way to develop new skills'." },
+        { "opts": ["become", "feel", "grow"], "answer": 0, "rationale": "'Become' collocates with 'more confident and organised'." },
+        { "opts": ["better", "good", "well"], "answer": 0, "rationale": "'Do better' is the correct collocation meaning improve in lessons." },
+        { "opts": ["interested", "keen", "fond"], "answer": 0, "rationale": "'Interested in' is the correct preposition structure here." }
+      ]
+    },
+    {
+      "title": "A Class Trip to the Museum",
+      "paragraphs": [
+        "Last month our class (1) ___ a trip to the local history museum. We (2) ___ about two hours looking at the exhibitions. There were displays about life in our town one hundred years ago, which we found very (3) ___.",
+        "Our guide was very (4) ___ and answered all our questions patiently. We saw old photographs, tools and clothing from the past. At the end of the visit, we had to (5) ___ a quiz about what we had learnt.",
+        "I think museum trips are a (6) ___ way to learn about history because you can see real objects instead of just reading about them in books."
+      ],
+      "questions": [
+        { "opts": ["went on", "did", "made"], "answer": 0, "rationale": "'Go on a trip' is the correct phrasal collocation." },
+        { "opts": ["took", "spent", "used"], "answer": 1, "rationale": "'Spend time' is the correct collocation." },
+        { "opts": ["interesting", "excited", "bored"], "answer": 0, "rationale": "'Interesting' is an adjective describing the exhibitions." },
+        { "opts": ["helpful", "kind", "friendly"], "answer": 0, "rationale": "'Helpful' best describes a guide who answers questions patiently." },
+        { "opts": ["do", "make", "take"], "answer": 0, "rationale": "'Do a quiz' is the correct collocation." },
+        { "opts": ["great", "big", "long"], "answer": 0, "rationale": "'A great way to learn' is the standard fixed expression." }
+      ]
+    },
+    {
+      "title": "My Favourite Season",
+      "paragraphs": [
+        "My favourite (1) ___ of the year is autumn. I love the (2) ___ the leaves change colour and fall from the trees. In my town, there is a big park where you can walk (3) ___ the leaves on the ground.",
+        "The weather in autumn is (4) ___ cold and warm at the same time. It is perfect for going on long walks with friends or family. I also enjoy (5) ___ hot chocolate at home when it is a windy day outside.",
+        "Some people prefer summer because they like the sun, but I think autumn has a special (6) ___."
+      ],
+      "questions": [
+        { "opts": ["time", "period", "moment"], "answer": 0, "rationale": "'Time of the year' is the natural fixed expression." },
+        { "opts": ["way", "moment", "sight"], "answer": 0, "rationale": "'The way the leaves change' uses 'way' to describe how something happens." },
+        { "opts": ["between", "through", "over"], "answer": 1, "rationale": "'Walk through the leaves' is the natural preposition." },
+        { "opts": ["quite", "very", "too"], "answer": 0, "rationale": "'Quite cold and warm' — 'quite' softens both adjectives at once." },
+        { "opts": ["drinking", "having", "tasting"], "answer": 0, "rationale": "'Drinking hot chocolate' is the natural verb choice here." },
+        { "opts": ["feeling", "atmosphere", "look"], "answer": 1, "rationale": "'A special atmosphere' is the correct noun collocation." }
+      ]
+    },
+    {
+      "title": "Healthy Habits for Teenagers",
+      "paragraphs": [
+        "Doctors say that teenagers should try to (1) ___ at least eight hours of sleep every night. Sleep helps the brain (2) ___ new information and improves concentration during school lessons.",
+        "It is also important to eat a (3) ___ diet with plenty of fruit, vegetables and protein. Drinking enough water every day is equally important. (4) ___ you feel tired and find it hard to concentrate, drinking a glass of water often helps.",
+        "Regular (5) ___ such as walking, cycling or swimming is also important for both physical and mental health. Experts recommend that young people do at least sixty minutes of activity every day. Small (6) ___ like walking to school instead of taking the bus can make a big difference."
+      ],
+      "questions": [
+        { "opts": ["get", "take", "have"], "answer": 0, "rationale": "'Get enough sleep' is the most natural collocation for this context." },
+        { "opts": ["keep", "store", "remember"], "answer": 1, "rationale": "'Store new information' fits how the brain retains things." },
+        { "opts": ["balanced", "healthy", "good"], "answer": 0, "rationale": "'A balanced diet' is the standard fixed expression." },
+        { "opts": ["If", "When", "Because"], "answer": 0, "rationale": "'If you feel tired' introduces a conditional situation." },
+        { "opts": ["exercise", "sport", "movement"], "answer": 0, "rationale": "'Regular exercise' is the standard phrase used in health contexts." },
+        { "opts": ["changes", "habits", "steps"], "answer": 0, "rationale": "'Small changes' refers to modifications in behaviour." }
+      ]
+    },
+    {
+      "title": "A New School Year",
+      "paragraphs": [
+        "The first day of a new school year can feel both (1) ___ and exciting. You might see friends you have not seen all summer, but you also have to (2) ___ to a new timetable and perhaps new teachers.",
+        "Getting organised is very (3) ___. Write down your lessons and homework in a planner and check it every morning. It is also a good (4) ___ to prepare your school bag the night before so you do not forget anything important.",
+        "Try not to (5) ___ about making mistakes. Everyone finds the start of a new year a little difficult. If you need help, (6) ___ ask your teacher or a classmate. Most people are happy to help."
+      ],
+      "questions": [
+        { "opts": ["nervous", "scared", "afraid"], "answer": 0, "rationale": "'Nervous' is the most natural adjective for this situation alongside 'exciting'." },
+        { "opts": ["adapt", "change", "get"], "answer": 0, "rationale": "'Adapt to a new timetable' is the correct collocation." },
+        { "opts": ["important", "helpful", "necessary"], "answer": 0, "rationale": "'Very important' is the most natural fit in this advice context." },
+        { "opts": ["idea", "plan", "tip"], "answer": 0, "rationale": "'A good idea to do something' is the standard fixed expression." },
+        { "opts": ["worry", "think", "care"], "answer": 0, "rationale": "'Worry about making mistakes' is the natural verb-preposition collocation." },
+        { "opts": ["just", "only", "always"], "answer": 0, "rationale": "'Just ask your teacher' uses 'just' for encouragement and simplicity." }
+      ]
+    },
+    {
+      "title": "Social Media and Teenagers",
+      "paragraphs": [
+        "Social media is a big part of many teenagers' lives. It can be a great (1) ___ to stay in touch with friends and share your interests. However, it is important to use it in a (2) ___ way.",
+        "One common problem is spending too (3) ___ time scrolling through feeds without noticing how long you have been online. Experts recommend (4) ___ limits on how long you use social media each day. This can help you find more time for other activities.",
+        "It is also important to think (5) ___ about what you post. Information that is shared online can be difficult to (6) ___. Always be kind and respectful towards others online, just as you would be in real life."
+      ],
+      "questions": [
+        { "opts": ["way", "tool", "place"], "answer": 0, "rationale": "'A great way to stay in touch' is the standard fixed expression." },
+        { "opts": ["responsible", "safe", "careful"], "answer": 0, "rationale": "'A responsible way' is the best fit in an advice context about digital habits." },
+        { "opts": ["much", "long", "many"], "answer": 0, "rationale": "'Too much time' uses 'much' with uncountable noun 'time'." },
+        { "opts": ["setting", "putting", "making"], "answer": 0, "rationale": "'Setting limits' is the natural collocation for time management." },
+        { "opts": ["carefully", "clearly", "deeply"], "answer": 0, "rationale": "'Think carefully about what you post' is the standard adverb collocation." },
+        { "opts": ["delete", "remove", "undo"], "answer": 0, "rationale": "'Difficult to delete' — information once posted is hard to remove permanently." }
+      ]
+    },
+    {
+      "title": "Team Sports at School",
+      "paragraphs": [
+        "Playing team sports at school has many (1) ___. As well as improving your fitness, they teach you how to (2) ___ with others and communicate effectively. These are skills that are useful in everyday life.",
+        "Being part of a team means everyone has to do their (3) ___. If one person does not (4) ___ up to their responsibilities, the whole team can suffer. This teaches young people about accountability.",
+        "Losing a game can be disappointing, but it is a (5) ___ part of sport. Learning to (6) ___ with losing helps you become more resilient and better prepared for challenges in other areas of life."
+      ],
+      "questions": [
+        { "opts": ["benefits", "advantages", "reasons"], "answer": 0, "rationale": "'Benefits' is most natural when describing the positive effects of an activity." },
+        { "opts": ["work", "play", "act"], "answer": 0, "rationale": "'Work with others' is the standard phrase for collaboration." },
+        { "opts": ["part", "best", "job"], "answer": 0, "rationale": "'Do your part' means contribute your share — standard fixed expression." },
+        { "opts": ["live", "come", "keep"], "answer": 1, "rationale": "'Come up to responsibilities' means meet expectations." },
+        { "opts": ["normal", "natural", "common"], "answer": 1, "rationale": "'A natural part of sport' — losing is inherent to competition." },
+        { "opts": ["deal", "cope", "live"], "answer": 1, "rationale": "'Cope with losing' is the standard collocation for handling adversity." }
+      ]
+    },
+    {
+      "title": "Reading for Pleasure",
+      "paragraphs": [
+        "Research shows that students who read for (1) ___ outside school perform better in many subjects. Reading improves vocabulary, writing skills and the (2) ___ to understand complex texts.",
+        "The (3) ___ of book you choose to read is not very important. Whether you enjoy adventure stories, science fiction or non-fiction, any reading is beneficial. The most important thing is that you (4) ___ it enjoyable.",
+        "If you are not sure where to start, ask a librarian or a friend to (5) ___ you a book. Many teenagers find that once they find a book they love, they cannot (6) ___ reading."
+      ],
+      "questions": [
+        { "opts": ["pleasure", "fun", "joy"], "answer": 0, "rationale": "'Read for pleasure' is the standard fixed expression." },
+        { "opts": ["ability", "skill", "power"], "answer": 0, "rationale": "'The ability to understand' is the correct noun-infinitive structure." },
+        { "opts": ["type", "sort", "kind"], "answer": 0, "rationale": "'The type of book' is the most natural collocation." },
+        { "opts": ["find", "think", "feel"], "answer": 0, "rationale": "'Find it enjoyable' is the correct verb-adjective collocation." },
+        { "opts": ["recommend", "suggest", "lend"], "answer": 0, "rationale": "'Recommend a book to someone' is the standard collocation." },
+        { "opts": ["stop", "finish", "leave"], "answer": 0, "rationale": "'Cannot stop reading' is the natural expression for being absorbed in a book." }
+      ]
+    },
+    {
+      "title": "School Trips Abroad",
+      "paragraphs": [
+        "Going on a school trip (1) ___ is a wonderful experience. You get the chance to (2) ___ a different country and culture while learning a language.",
+        "Most school exchange programmes (3) ___ you to stay with a host family. This means you can practise the language in a real (4) ___ and learn about everyday life in another country. It can feel a little strange at (5) ___, but most students quickly feel comfortable.",
+        "Students who have done exchanges often say it was one of the best (6) ___ of their school life."
+      ],
+      "questions": [
+        { "opts": ["abroad", "overseas", "foreign"], "answer": 0, "rationale": "'A trip abroad' — 'abroad' is the standard adverb for going to another country." },
+        { "opts": ["explore", "visit", "discover"], "answer": 0, "rationale": "'Explore a different country' is the most active and natural choice here." },
+        { "opts": ["allow", "let", "make"], "answer": 0, "rationale": "'Allow you to stay' is the correct formal verb-infinitive structure." },
+        { "opts": ["environment", "situation", "place"], "answer": 0, "rationale": "'A real environment' — practising language in an authentic environment." },
+        { "opts": ["first", "the start", "beginning"], "answer": 0, "rationale": "'At first' is the fixed adverbial phrase for 'in the beginning'." },
+        { "opts": ["experiences", "memories", "moments"], "answer": 0, "rationale": "'Best experiences' is the most natural collocation in this concluding sentence." }
+      ]
+    },
+    {
+      "title": "Preparing for Exams",
+      "paragraphs": [
+        "Preparing well for exams can make a big (1) ___ to your results. The most important thing is to start early and not (2) ___ everything until the last moment.",
+        "Make a study (3) ___ and divide your time between all the subjects you need to revise. Take short breaks every hour to help your brain (4) ___ and avoid getting too tired. Studying with a friend can also be useful (5) ___ you stay focused and do not spend all the time chatting.",
+        "Remember to get enough sleep (6) ___ the exam. A tired mind cannot work as well as a rested one, even if you know the subject well."
+      ],
+      "questions": [
+        { "opts": ["difference", "change", "effect"], "answer": 0, "rationale": "'Make a big difference' is the standard fixed expression." },
+        { "opts": ["leave", "keep", "save"], "answer": 0, "rationale": "'Leave everything until the last moment' is the natural collocation for procrastination." },
+        { "opts": ["plan", "schedule", "timetable"], "answer": 0, "rationale": "'A study plan' is the most natural collocation in this context." },
+        { "opts": ["rest", "recover", "relax"], "answer": 1, "rationale": "'Recover' means to regain energy — appropriate after mental effort." },
+        { "opts": ["if", "as long as", "provided"], "answer": 1, "rationale": "'As long as you stay focused' — a conditional proviso for the advice to work." },
+        { "opts": ["before", "for", "during"], "answer": 0, "rationale": "'Get enough sleep before the exam' — the night before the exam." }
+      ]
+    }
+  ]
+}

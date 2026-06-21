@@ -1,0 +1,284 @@
+{
+  "sets": [
+    {
+      "people": [
+        {
+          "letter": "A",
+          "name": "Sofia",
+          "text": "I love spending time outdoors. At the weekend I usually go cycling with my dad. I am also in the school swimming team and we train three times a week. I do not play team sports because I prefer individual activities where I can focus on my own performance."
+        },
+        {
+          "letter": "B",
+          "name": "Marco",
+          "text": "Sport is important to me but I like being part of a group. I play basketball for my school and we have matches every Saturday. I also enjoy watching live football games with my friends. I am not very good at water sports but I would like to try them one day."
+        },
+        {
+          "letter": "C",
+          "name": "Priya",
+          "text": "I enjoy creative hobbies more than sport. I paint and draw in my free time, and I have joined the school art club. I am also learning to play the violin. I do some sport at school because it is compulsory, but I would rather do something artistic."
+        }
+      ],
+      "questions": [
+        { "prompt": "Who is a member of a school sports team?", "answer": 0, "rationale": "Sofia is in the school swimming team." },
+        { "prompt": "Who prefers activities where they work alone?", "answer": 0, "rationale": "Sofia prefers individual activities." },
+        { "prompt": "Who enjoys watching sport as well as playing it?", "answer": 1, "rationale": "Marco watches live football games." },
+        { "prompt": "Who plays a musical instrument?", "answer": 2, "rationale": "Priya is learning the violin." },
+        { "prompt": "Who would like to try a new sport in the future?", "answer": 1, "rationale": "Marco says he would like to try water sports one day." },
+        { "prompt": "Who does sport only because they have to?", "answer": 2, "rationale": "Priya does sport because it is compulsory." },
+        { "prompt": "Who takes part in a weekend sports competition?", "answer": 1, "rationale": "Marco has basketball matches every Saturday." }
+      ]
+    },
+    {
+      "people": [
+        {
+          "letter": "A",
+          "name": "Lucas",
+          "text": "I spend a lot of time online. I enjoy playing video games with friends from other countries. I also make short videos about technology and post them on the internet. My parents think I spend too much time on screens, but I think it is a useful skill for the future."
+        },
+        {
+          "letter": "B",
+          "name": "Aisha",
+          "text": "I am very interested in nature and the environment. I joined a local group that plants trees and cleans up parks. Every month we work together to make our neighbourhood cleaner. I also grow vegetables in our garden at home. I want to study biology at university."
+        },
+        {
+          "letter": "C",
+          "name": "Tom",
+          "text": "I love cooking and trying food from different countries. At home I help my parents prepare dinner and I have even invented some of my own recipes. I watch cooking programmes on TV and learn new techniques. I think I would like to work in a restaurant when I am older."
+        }
+      ],
+      "questions": [
+        { "prompt": "Who has contact with people from other countries through a hobby?", "answer": 0, "rationale": "Lucas plays video games with friends from other countries." },
+        { "prompt": "Who creates content and shares it online?", "answer": 0, "rationale": "Lucas makes videos and posts them on the internet." },
+        { "prompt": "Who works with other people to help the local area?", "answer": 1, "rationale": "Aisha joins a group that plants trees and cleans parks." },
+        { "prompt": "Who has a hobby that they do at home in the garden?", "answer": 1, "rationale": "Aisha grows vegetables in the garden at home." },
+        { "prompt": "Who has a hobby they would like to turn into a career?", "answer": 2, "rationale": "Tom wants to work in a restaurant." },
+        { "prompt": "Who learns from watching television?", "answer": 2, "rationale": "Tom watches cooking programmes and learns new techniques." },
+        { "prompt": "Who has parents who are not happy about a hobby?", "answer": 0, "rationale": "Lucas's parents think he spends too much time on screens." }
+      ]
+    },
+    {
+      "people": [
+        {
+          "letter": "A",
+          "name": "Emma",
+          "text": "I read a lot in my free time. I prefer adventure and mystery stories. I am part of a reading club at school where we discuss books once a month. I am also trying to write my own story. I find it difficult but very interesting. I read at least 30 minutes every night before I go to sleep."
+        },
+        {
+          "letter": "B",
+          "name": "Yusuf",
+          "text": "I am very into music. I play the drums in a band with three friends. We practise in my garage every weekend and hope to play at the school event next term. I listen to all types of music but I like rock the best. I am also learning music production on my computer."
+        },
+        {
+          "letter": "C",
+          "name": "Nina",
+          "text": "I love fashion and design. I make my own clothes and accessories at home. I take photos of my designs and put them on social media where I have many followers. I want to study fashion design after school. I also help decorate the school for special events."
+        }
+      ],
+      "questions": [
+        { "prompt": "Who is trying to make something creative for the first time?", "answer": 0, "rationale": "Emma is trying to write her own story for the first time." },
+        { "prompt": "Who is part of a group that meets regularly to discuss a hobby?", "answer": 0, "rationale": "Emma is in a reading club that meets monthly." },
+        { "prompt": "Who performs with other people as a group?", "answer": 1, "rationale": "Yusuf plays in a band with friends." },
+        { "prompt": "Who hopes to share their hobby with the school community soon?", "answer": 1, "rationale": "Yusuf hopes to play at the school event next term." },
+        { "prompt": "Who has many people following their work online?", "answer": 2, "rationale": "Nina has many followers on social media." },
+        { "prompt": "Who helps with decorating at school events?", "answer": 2, "rationale": "Nina helps decorate the school for special events." },
+        { "prompt": "Who does their hobby every day?", "answer": 0, "rationale": "Emma reads at least 30 minutes every night." }
+      ]
+    },
+    {
+      "people": [
+        {
+          "letter": "A",
+          "name": "Mia",
+          "text": "I enjoy travelling with my family. Every summer we visit a different country. I keep a travel journal where I write about the places I visit and the people I meet. Learning about different cultures is my favourite thing. I have visited twelve countries so far and I want to visit more."
+        },
+        {
+          "letter": "B",
+          "name": "Jack",
+          "text": "I am very interested in space and science. I read books and watch documentaries about planets and the universe. I have a telescope that I use on clear nights. I want to become an astronaut or a scientist. I also go to a science club at school every Thursday."
+        },
+        {
+          "letter": "C",
+          "name": "Lily",
+          "text": "I care a lot about animals. I volunteer at a local animal shelter at weekends. I help feed and look after dogs and cats that need a home. I also do a lot of research about animal behaviour because I want to become a vet. I have three pets at home."
+        }
+      ],
+      "questions": [
+        { "prompt": "Who keeps a written record of their experiences?", "answer": 0, "rationale": "Mia keeps a travel journal." },
+        { "prompt": "Who has already done their hobby in many different places?", "answer": 0, "rationale": "Mia has visited twelve countries." },
+        { "prompt": "Who uses equipment to explore their hobby?", "answer": 1, "rationale": "Jack uses a telescope to look at the sky." },
+        { "prompt": "Who attends a club at school related to their interest?", "answer": 1, "rationale": "Jack goes to a science club at school on Thursdays." },
+        { "prompt": "Who gives their free time to help others?", "answer": 2, "rationale": "Lily volunteers at an animal shelter." },
+        { "prompt": "Who wants a career connected to their hobby?", "answer": 2, "rationale": "Lily wants to become a vet." },
+        { "prompt": "Who is interested in learning about how other people live?", "answer": 0, "rationale": "Mia says learning about different cultures is her favourite thing." }
+      ]
+    },
+    {
+      "people": [
+        {
+          "letter": "A",
+          "name": "Carlos",
+          "text": "I enjoy photography. I take photos of my city, especially old buildings and busy street markets. I have entered two photo competitions at school and won one of them. My photos are on the school website. I hope to study photography at art school when I finish school."
+        },
+        {
+          "letter": "B",
+          "name": "Zoe",
+          "text": "I am really into languages. I can speak three languages and I am learning a fourth one online. I enjoy watching films in other languages to improve. I also have a pen pal in Japan and we write to each other every month. I love the idea of working as a translator one day."
+        },
+        {
+          "letter": "C",
+          "name": "Leo",
+          "text": "My hobby is skateboarding. I practise tricks in the park near my house with a group of friends. We also watch online videos of professional skateboarders to learn new techniques. I have hurt myself a few times, but I still enjoy it. I am saving up to buy better equipment."
+        }
+      ],
+      "questions": [
+        { "prompt": "Who has won a prize for their hobby?", "answer": 0, "rationale": "Carlos won one of two photo competitions." },
+        { "prompt": "Who wants a career connected to communication in other languages?", "answer": 1, "rationale": "Zoe wants to work as a translator." },
+        { "prompt": "Who has a regular written contact with someone from another country?", "answer": 1, "rationale": "Zoe has a pen pal in Japan and they write each month." },
+        { "prompt": "Who learns new skills by watching videos online?", "answer": 2, "rationale": "Leo watches online videos of professional skateboarders." },
+        { "prompt": "Who practises their hobby with a group of friends?", "answer": 2, "rationale": "Leo skateboards with a group of friends." },
+        { "prompt": "Who has their work shown to other students?", "answer": 0, "rationale": "Carlos's photos are on the school website." },
+        { "prompt": "Who is planning to spend money to improve at their hobby?", "answer": 2, "rationale": "Leo is saving up to buy better equipment." }
+      ]
+    },
+    {
+      "people": [
+        {
+          "letter": "A",
+          "name": "Hannah",
+          "text": "I love baking. At weekends I make cakes, biscuits and bread for my family. I find recipes in books and online. Last month I baked a cake for my grandmother's birthday and everyone said it was delicious. I would like to take a proper baking course one day."
+        },
+        {
+          "letter": "B",
+          "name": "Oliver",
+          "text": "I enjoy making things with my hands. I build models of cars and aeroplanes using kits. I also make things from wood with my grandfather in his workshop. It takes patience but I really enjoy the results. I am making a wooden box for my mum's birthday present."
+        },
+        {
+          "letter": "C",
+          "name": "Sena",
+          "text": "I am passionate about dancing. I take street dance lessons every Saturday and I also practise at home. My dance group has performed at school events and local festivals. I watch dance shows on TV and try to learn the moves. I hope to join a professional dance company in the future."
+        }
+      ],
+      "questions": [
+        { "prompt": "Who has made something for a family member's celebration?", "answer": 0, "rationale": "Hannah baked a cake for her grandmother's birthday." },
+        { "prompt": "Who wants to improve their hobby by studying it formally?", "answer": 0, "rationale": "Hannah wants to take a proper baking course." },
+        { "prompt": "Who does a hobby together with a family member?", "answer": 1, "rationale": "Oliver makes things with his grandfather in the workshop." },
+        { "prompt": "Who is making a present for someone?", "answer": 1, "rationale": "Oliver is making a wooden box for his mum's birthday." },
+        { "prompt": "Who has performed in public more than once?", "answer": 2, "rationale": "Sena's group has performed at school events and local festivals." },
+        { "prompt": "Who hopes to work professionally in their hobby area?", "answer": 2, "rationale": "Sena hopes to join a professional dance company." },
+        { "prompt": "Who tries to learn from watching television?", "answer": 2, "rationale": "Sena watches dance shows on TV and tries to learn the moves." }
+      ]
+    },
+    {
+      "people": [
+        {
+          "letter": "A",
+          "name": "Alex",
+          "text": "I am a big fan of board games and strategy games. I play with my family at home and also at a games club at school. I like games that make me think carefully about what to do next. I sometimes watch online videos about game strategies and I have even designed a simple card game myself."
+        },
+        {
+          "letter": "B",
+          "name": "Fatima",
+          "text": "I love reading about history. I visit museums when I can and I enjoy watching documentaries about past events. I am especially interested in ancient civilisations. I have a collection of books about history. My dream is to become an archaeologist and find ancient objects."
+        },
+        {
+          "letter": "C",
+          "name": "Sam",
+          "text": "I spend a lot of time drawing. I draw characters and scenes from films and books I like. I put my drawings on the internet and get comments from people all over the world. I am studying art at school and my teacher says I have a lot of talent. I want to work as a graphic designer."
+        }
+      ],
+      "questions": [
+        { "prompt": "Who has created their own version of a game?", "answer": 0, "rationale": "Alex has designed a simple card game." },
+        { "prompt": "Who takes part in a club at school related to their hobby?", "answer": 0, "rationale": "Alex is in a games club at school." },
+        { "prompt": "Who visits places connected to their interest?", "answer": 1, "rationale": "Fatima visits museums related to history." },
+        { "prompt": "Who wants to find objects from the past as a career?", "answer": 1, "rationale": "Fatima wants to be an archaeologist and find ancient objects." },
+        { "prompt": "Who receives feedback from people in different countries?", "answer": 2, "rationale": "Sam gets comments from people all over the world online." },
+        { "prompt": "Who has been told by a teacher that they are good at their hobby?", "answer": 2, "rationale": "Sam's art teacher says he has a lot of talent." },
+        { "prompt": "Who watches videos online to improve at their hobby?", "answer": 0, "rationale": "Alex watches online videos about game strategies." }
+      ]
+    },
+    {
+      "people": [
+        {
+          "letter": "A",
+          "name": "Isabel",
+          "text": "I love fitness. I go running every morning before school and I do yoga at home in the evenings. I do not belong to a gym but I follow exercise programmes online. My goal is to run a 5 km race next spring. I feel much better and more focused at school since I started this routine."
+        },
+        {
+          "letter": "B",
+          "name": "David",
+          "text": "I enjoy making music on my computer. I use special software to create beats and mix tracks. I have uploaded some of my music online and people can listen for free. Some of my friends are interested in doing this together and we want to create a music channel online."
+        },
+        {
+          "letter": "C",
+          "name": "Keiko",
+          "text": "My hobby is learning about astronomy. I read articles and watch videos about stars, galaxies and black holes. I have a small telescope at home that I use at night. I also joined an online community of young astronomers from around the world where we share what we see in the sky."
+        }
+      ],
+      "questions": [
+        { "prompt": "Who has a specific future goal connected to their hobby?", "answer": 0, "rationale": "Isabel wants to run a 5 km race next spring." },
+        { "prompt": "Who says their hobby has helped them with schoolwork?", "answer": 0, "rationale": "Isabel says she feels more focused at school since starting her routine." },
+        { "prompt": "Who shares their work online for others to access for free?", "answer": 1, "rationale": "David has uploaded his music and people can listen for free." },
+        { "prompt": "Who plans to do a hobby together with friends in the future?", "answer": 1, "rationale": "David and friends want to create a music channel together." },
+        { "prompt": "Who uses equipment at home to explore a science-related hobby?", "answer": 2, "rationale": "Keiko uses a telescope at home." },
+        { "prompt": "Who is part of an international online community?", "answer": 2, "rationale": "Keiko is in an online community of young astronomers from around the world." },
+        { "prompt": "Who exercises at home without going to a sports centre?", "answer": 0, "rationale": "Isabel does not belong to a gym and follows programmes at home." }
+      ]
+    },
+    {
+      "people": [
+        {
+          "letter": "A",
+          "name": "Maria",
+          "text": "I enjoy writing poetry and short stories. I write about things that happen in my life and about nature. I have had one poem published in a local magazine. I also help edit the school newspaper. I find it easier to express my feelings through writing than by talking."
+        },
+        {
+          "letter": "B",
+          "name": "Ben",
+          "text": "I like doing experiments and building things. I often do science experiments at home using things I find in the kitchen. I am also building a robot from old computer parts. I come first in science class most of the time. I want to study engineering at university."
+        },
+        {
+          "letter": "C",
+          "name": "Nadia",
+          "text": "My passion is helping other people learn. I started tutoring younger students in maths and English after school. I prepare worksheets and exercises for them. It gives me a great feeling when they improve. I also run a small study group for students who have exams soon."
+        }
+      ],
+      "questions": [
+        { "prompt": "Who has published their creative work?", "answer": 0, "rationale": "Maria had a poem published in a local magazine." },
+        { "prompt": "Who works on the school newspaper?", "answer": 0, "rationale": "Maria helps edit the school newspaper." },
+        { "prompt": "Who uses things found at home to practise their hobby?", "answer": 1, "rationale": "Ben does science experiments using things from the kitchen." },
+        { "prompt": "Who is building something from parts they already have?", "answer": 1, "rationale": "Ben is building a robot from old computer parts." },
+        { "prompt": "Who has created materials to help others learn?", "answer": 2, "rationale": "Nadia prepares worksheets and exercises for the students she tutors." },
+        { "prompt": "Who organises extra help for students before exams?", "answer": 2, "rationale": "Nadia runs a study group for students who have exams." },
+        { "prompt": "Who finds writing easier than speaking to express feelings?", "answer": 0, "rationale": "Maria says she finds it easier to express feelings through writing." }
+      ]
+    },
+    {
+      "people": [
+        {
+          "letter": "A",
+          "name": "Theo",
+          "text": "I am really into fitness and healthy eating. I track what I eat every day and try to cook healthy meals for myself. I go to the gym three times a week and I am learning about nutrition online. My friends say I am an expert on healthy food already. I want to become a personal trainer."
+        },
+        {
+          "letter": "B",
+          "name": "Grace",
+          "text": "I love theatre and acting. I have been in three school plays and always play one of the main characters. I practise my lines every evening. I also help younger students with their acting at the school drama club. My dream is to study at a famous drama school."
+        },
+        {
+          "letter": "C",
+          "name": "Ravi",
+          "text": "I enjoy chess. I am the best player in my school and I have played in regional competitions. My coach says I need to study famous games from the past to improve further. I spend two hours a week training with my coach and I practise online every day."
+        }
+      ],
+      "questions": [
+        { "prompt": "Who tracks what they do every day as part of their hobby?", "answer": 0, "rationale": "Theo tracks what he eats every day." },
+        { "prompt": "Who teaches other students something connected to their hobby?", "answer": 1, "rationale": "Grace helps younger students with their acting at drama club." },
+        { "prompt": "Who has played an important role in a school performance?", "answer": 1, "rationale": "Grace always plays one of the main characters in school plays." },
+        { "prompt": "Who has taken part in competitions outside school?", "answer": 2, "rationale": "Ravi has played in regional competitions." },
+        { "prompt": "Who works with a professional to improve their skills?", "answer": 2, "rationale": "Ravi trains with his coach two hours a week." },
+        { "prompt": "Who wants to study a subject related to their hobby at a specialist school?", "answer": 1, "rationale": "Grace wants to study at a famous drama school." },
+        { "prompt": "Who is learning about their hobby topic from the internet?", "answer": 0, "rationale": "Theo is learning about nutrition online." }
+      ]
+    }
+  ]
+}

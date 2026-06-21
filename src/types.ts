@@ -101,6 +101,7 @@ export interface PicCard {
   background?: string
   scene?: string
   emotion?: string
+  absent?: string[]
 }
 
 export interface Character {
@@ -110,6 +111,7 @@ export interface Character {
 
 export interface Part7Prompt {
   intro: string
+  storyArc: string
   characters: Character[]
   pics: [PicCard, PicCard, PicCard]
   minWords: number

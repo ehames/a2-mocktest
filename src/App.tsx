@@ -44,7 +44,7 @@ export default function App() {
   useEffect(() => {
     if (state.step !== 0) return
     const parts = ['part1.json','part2.json','part3.json','part4.json','part5.json','part6.json','part7.json']
-    parts.forEach(p => fetch(`${BASE}questions/${p}`).catch(() => {}))
+    parts.forEach(p => fetch(`${BASE}questions/schools/${p}`).catch(() => {}))
   }, [state.step])
 
   const handleTick = useCallback(() => {

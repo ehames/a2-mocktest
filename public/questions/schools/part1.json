@@ -1,0 +1,84 @@
+{
+  "items": [
+    {
+      "tag": "Notice",
+      "text": "SCHOOL LIBRARY\nAll books must be returned by Friday.\nStudents who keep books longer will pay a small fine.",
+      "prompt": "What must students do by Friday?",
+      "opts": ["Pay a fine", "Return their books", "Visit the library"],
+      "answer": 1,
+      "rationale": "The notice says books must be returned by Friday."
+    },
+    {
+      "tag": "Text message",
+      "text": "Hey! Football practice is cancelled today because the pitch is wet. We'll play on Thursday instead. Don't forget your kit!",
+      "prompt": "Why is football practice cancelled?",
+      "opts": ["The coach is away", "The pitch is wet", "It is raining now"],
+      "answer": 1,
+      "rationale": "The message says practice is cancelled because the pitch is wet."
+    },
+    {
+      "tag": "Sign",
+      "text": "CANTEEN HOURS\nBreakfast: 7:30–9:00\nLunch: 12:00–14:00\nNo food served outside these times.",
+      "prompt": "When can students get food at school?",
+      "opts": ["All day", "Only at lunch", "At set times only"],
+      "answer": 2,
+      "rationale": "The sign gives fixed hours — students cannot get food outside those times."
+    },
+    {
+      "tag": "Email",
+      "text": "Hi everyone,\nThe science fair will be on 20 March. Please bring your projects by 8:30 am. Projects must fit on a normal desk.",
+      "prompt": "What does the email say about projects?",
+      "opts": ["They must arrive before 8:30", "They must be very small", "They must be about science"],
+      "answer": 0,
+      "rationale": "The email says projects must be brought by 8:30 am."
+    },
+    {
+      "tag": "Website",
+      "text": "City Youth Sports Club\nNew members welcome!\nFirst month FREE\nBring a friend and both get 10% off",
+      "prompt": "What offer does the club give new members?",
+      "opts": ["A free T-shirt", "A free first month", "A free one-year membership"],
+      "answer": 1,
+      "rationale": "The website says the first month is free for new members."
+    },
+    {
+      "tag": "Notice",
+      "text": "LOST: One blue school bag\nFound near the gym on Monday morning\nPlease collect from school office.",
+      "prompt": "Where can the owner pick up the bag?",
+      "opts": ["Near the gym", "From the school office", "From the sports teacher"],
+      "answer": 1,
+      "rationale": "The notice says the bag can be collected from the school office."
+    },
+    {
+      "tag": "Text message",
+      "text": "Mum, I forgot my PE kit. Can you bring it to school before noon? My lesson is at 2 pm. Thanks!",
+      "prompt": "Why does the student contact their mum?",
+      "opts": ["To ask her to watch the PE lesson", "To tell her the lesson time changed", "To ask her to bring forgotten kit"],
+      "answer": 2,
+      "rationale": "The student forgot their PE kit and needs mum to bring it."
+    },
+    {
+      "tag": "Advertisement",
+      "text": "SUMMER CODING CAMP\nLearn to make apps and games\nAges 12–16\nMonday–Friday, 9 am–3 pm\nLimited places — book now!",
+      "prompt": "Who is the coding camp for?",
+      "opts": ["All ages", "Teenagers only", "Adults who want to learn"],
+      "answer": 1,
+      "rationale": "The advertisement says the camp is for ages 12–16."
+    },
+    {
+      "tag": "Notice",
+      "text": "DRAMA CLUB\nJoin us every Wednesday after school\nNo experience needed\nFirst session is free\nRoom 14",
+      "prompt": "What does the notice say about experience?",
+      "opts": ["You need some acting experience", "Experience is not necessary", "Students must audition first"],
+      "answer": 1,
+      "rationale": "The notice says no experience is needed."
+    },
+    {
+      "tag": "Text message",
+      "text": "The homework for tomorrow has changed. Mr Torres says we only need to do exercises 3 and 4 now, not the whole page.",
+      "prompt": "What has changed about the homework?",
+      "opts": ["The homework is cancelled", "Students must do less than before", "The homework is due next week"],
+      "answer": 1,
+      "rationale": "Students now only do exercises 3 and 4 instead of the whole page."
+    }
+  ]
+}

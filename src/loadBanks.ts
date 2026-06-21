@@ -15,7 +15,7 @@ function shuffle<T>(arr: T[]): T[] {
 }
 
 async function fetchJSON<T>(path: string): Promise<T> {
-  const res = await fetch(`${BASE}questions/${path}`)
+  const res = await fetch(`${BASE}questions/schools/${path}`)
   if (!res.ok) throw new Error(`Failed to load ${path}: ${res.status}`)
   return res.json() as Promise<T>
 }
