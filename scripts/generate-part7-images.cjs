@@ -20,6 +20,8 @@ const { OpenAI } = require('openai');
 const BANK_PATH = 'public/questions/schools/part7.json';
 const OUT_DIR = 'public/images/part7';
 const DRY_RUN = process.argv.includes('--dry-run');
+const STORY_ARG = process.argv.indexOf('--story');
+const STORY_FILTER = STORY_ARG !== -1 ? parseInt(process.argv[STORY_ARG + 1], 10) : null;
 
 const STYLE_PREFIX =
   "B&W pencil sketch illustration, simple children's book line drawing style. " +
@@ -53,7 +55,9 @@ async function main() {
   let generated = 0;
   let skipped = 0;
 
-  for (const prompt of bank.prompts) {
+  const prompts = STORY_FILTER !== null ? [bank.prompts[STORY_FILTER]] : bank.prompts;
+
+  for (const prompt of prompts) {
     const panelPaths = prompt.pics.map(pic =>
       path.join(OUT_DIR, path.basename(pic.image))
     );
