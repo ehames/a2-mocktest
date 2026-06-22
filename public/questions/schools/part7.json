@@ -131,7 +131,7 @@
           "background": "kitchen cupboards, window with daylight",
           "scene": "Leo sits at the kitchen table staring at a large colourfully wrapped present, while Gran stands beside him smiling",
           "emotion": "Leo excited and curious, Gran warm and happy",
-          "image": "images/part7/test-story_p1.webp"
+          "image": "images/part7/birthday-gift_p1.webp"
         },
         {
           "label": "Picture 2",
@@ -140,7 +140,7 @@
           "background": "torn wrapping paper on the table, kitchen cupboards behind",
           "scene": "Leo holds up a football with both hands, beaming, while Gran claps her hands",
           "emotion": "both delighted and proud",
-          "image": "images/part7/test-story_p2.webp"
+          "image": "images/part7/birthday-gift_p2.webp"
         },
         {
           "label": "Picture 3",
@@ -149,7 +149,7 @@
           "background": "garden fence, green grass, a few plants",
           "scene": "Leo and Gran hug in the garden, with the football sitting on the grass beside them",
           "emotion": "both happy and close",
-          "image": "images/part7/test-story_p3.webp"
+          "image": "images/part7/birthday-gift_p3.webp"
         }
       ],
       "minWords": 35

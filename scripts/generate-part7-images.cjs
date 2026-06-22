@@ -27,6 +27,7 @@
 const fs = require('fs');
 const path = require('path');
 const sharp = require('sharp');
+const { QUALITY_MAP, buildPanelPrompt, readMeta, writeMeta } = require('./part7-helpers.cjs');
 
 const BANK_PATH = 'public/questions/schools/part7.json';
 const OUT_DIR = 'public/images/part7';
@@ -40,33 +41,10 @@ const PANEL_TARGET = PANEL_ARG !== -1 ? parseInt(process.argv[PANEL_ARG + 1], 10
 
 const QUALITY_ARG = process.argv.indexOf('--quality');
 const QUALITY_INPUT = QUALITY_ARG !== -1 ? process.argv[QUALITY_ARG + 1] : 'high';
-const QUALITY_MAP = { low: 'low', med: 'medium', high: 'high' };
 const QUALITY = QUALITY_MAP[QUALITY_INPUT];
 if (!QUALITY) {
   console.error(`Error: --quality must be low, med, or high (got "${QUALITY_INPUT}")`);
   process.exit(1);
-}
-
-const STYLE_PREFIX =
-  "B&W pencil sketch illustration, simple children's book line drawing style. " +
-  'Clean outline only, no colour, no shading, no gradients. Pure white background. ' +
-  'Square composition. No speech bubbles, no labels, no captions.';
-
-function buildPanelPrompt(characters, storyPrompt, pic, panelNum, totalPanels) {
-  const charList = characters.map(c => `- ${c.name}: ${c.description}.`).join('\n');
-  const absentBlock = (pic.absent && pic.absent.length > 0)
-    ? `\nCHARACTERS NOT IN THIS PANEL (do NOT draw them): ${pic.absent.join(', ')}.`
-    : '';
-  return [
-    STYLE_PREFIX,
-    `STORY CONTEXT: ${storyPrompt.storyArc}`,
-    `CHARACTERS IN THIS STORY:\n${charList}${absentBlock}`,
-    `PANEL ${panelNum} OF ${totalPanels} — Setting: ${pic.setting}. ` +
-      `Background shows: ${pic.background}. ` +
-      `${pic.scene}, filling most of the frame. ` +
-      `Background is simple but clearly shows the location. ` +
-      `The characters' faces clearly show ${pic.emotion}.`,
-  ].join('\n\n');
 }
 
 async function callApi(promptText, previousResponseId) {
@@ -93,20 +71,6 @@ async function callApi(promptText, previousResponseId) {
   const imageCall = data.output.find(o => o.type === 'image_generation_call');
   if (!imageCall) throw new Error('No image_generation_call in response');
   return { b64: imageCall.result, responseId: data.id };
-}
-
-function metaPath(slug) {
-  return path.join(OUT_DIR, `${slug}_meta.json`);
-}
-
-function readMeta(slug) {
-  const p = metaPath(slug);
-  if (!fs.existsSync(p)) return {};
-  try { return JSON.parse(fs.readFileSync(p, 'utf8')); } catch { return {}; }
-}
-
-function writeMeta(slug, meta) {
-  fs.writeFileSync(metaPath(slug), JSON.stringify(meta, null, 2));
 }
 
 async function savePanel(b64, destPath) {
@@ -151,12 +115,10 @@ async function main() {
     console.log(`\nstory: ${slug}  (${label})`);
     console.log(`chars: ${prompt.characters.map(c => c.name).join(', ')}`);
 
-    const meta = readMeta(slug);
+    const meta = readMeta(OUT_DIR, slug);
 
-    // Determine panels to generate
-    // --panel 1 → regenerate all 3 (no prior context exists)
-    // --panel N → regenerate only panel N, seeded with stored response ID of panel N-1
-    // no --panel  → regenerate all panels from 0 (existing idempotency check already ran)
+    // Determine panels to generate and seed response ID
+    // --panel 1 → all 3 from scratch; --panel N>1 → only panel N, seeded from stored N-1 ID
     let panelIndices; // 0-based
     let seedResponseId = null;
 
@@ -166,13 +128,12 @@ async function main() {
       if (storedId) {
         console.log(`  chaining from stored ${priorKey}`);
         seedResponseId = storedId;
-        panelIndices = [PANEL_TARGET - 1]; // only the one panel
+        panelIndices = [PANEL_TARGET - 1];
       } else {
         console.warn(`  warning: no stored response ID for panel ${PANEL_TARGET - 1} — generating panel ${PANEL_TARGET} without cross-panel context`);
         panelIndices = [PANEL_TARGET - 1];
       }
     } else {
-      // PANEL_TARGET === 1 or null: regenerate from start
       panelIndices = prompt.pics.map((_, i) => i);
     }
 
@@ -209,9 +170,8 @@ async function main() {
       await savePanel(result.b64, destPath);
       console.log(`  saved ${path.basename(destPath)}`);
 
-      // Persist response ID so future --panel runs can chain from it
       meta[`p${i + 1}_response_id`] = result.responseId;
-      writeMeta(slug, meta);
+      writeMeta(OUT_DIR, slug, meta);
 
       previousResponseId = result.responseId;
       generated++;
