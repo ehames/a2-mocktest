@@ -1,0 +1,504 @@
+{
+  "prompts": [
+    {
+      "intro": "You are going to visit your cousin next weekend. Write an email to your cousin. In your email:",
+      "bullets": ["say when you are going to arrive","say what you want to do together","ask one question about the weekend"],
+      "minWords": 25
+    },
+    {
+      "intro": "Your friend helped you move to a new flat last Saturday. Write an email to your friend. In your email:",
+      "bullets": ["thank your friend for helping you","say something you like about your new flat","invite your friend to visit you soon"],
+      "minWords": 25
+    },
+    {
+      "intro": "You cannot go to your friend's birthday party next Friday. Write an email to your friend. In your email:",
+      "bullets": ["say why you cannot go to the party","say something nice about your friend's birthday","suggest another day to celebrate together"],
+      "minWords": 25
+    },
+    {
+      "intro": "You want to invite a classmate to study with you at the library. Write an email to your classmate. In your email:",
+      "bullets": ["say which day and time you want to meet","explain why you need help with your studies","ask if your classmate is free that day"],
+      "minWords": 25
+    },
+    {
+      "intro": "You went on a school trip to a science museum yesterday. Write an email to your parent. In your email:",
+      "bullets": ["say what you saw at the museum","say what you enjoyed most about the trip","ask a question about the weekend"],
+      "minWords": 25
+    },
+    {
+      "intro": "You found a package outside your neighbour's door. Write a note to your neighbour. In your note:",
+      "bullets": ["say where you found the package","say what you did with it","ask your neighbour to contact you"],
+      "minWords": 25
+    },
+    {
+      "intro": "You have just started a new hobby. Write an email to a friend. In your email:",
+      "bullets": ["say what your new hobby is","explain why you like it","ask if your friend wants to try it with you"],
+      "minWords": 25
+    },
+    {
+      "intro": "You received an invitation to your classmate's house for dinner next week. Write an email to your classmate. In your email:",
+      "bullets": ["say you are happy to come to dinner","ask what time you should arrive","offer to bring something for dinner"],
+      "minWords": 25
+    },
+    {
+      "intro": "You and a classmate are working on a school project together. Write an email to your classmate. In your email:",
+      "bullets": ["say what part of the project you have finished","suggest a time to meet and work together","ask your classmate a question about the project"],
+      "minWords": 25
+    },
+    {
+      "intro": "You are going on holiday with your family next month. Write an email to a friend. In your email:",
+      "bullets": ["say where you are going on holiday","say what you are planning to do there","ask your friend about their summer plans"],
+      "minWords": 25
+    },
+    {
+      "intro": "You saw a film last weekend that you really liked. Write an email to a friend. In your email:",
+      "bullets": ["say what film you saw","say why you liked the film","suggest watching it together"],
+      "minWords": 25
+    },
+    {
+      "intro": "You are going to take part in a school sports event next week. Write an email to your parent. In your email:",
+      "bullets": ["say what sport you are going to do","say when and where the event is","ask your parent to come and watch you"],
+      "minWords": 25
+    },
+    {
+      "intro": "Your neighbour's dog came into your garden yesterday. Write a note to your neighbour. In your note:",
+      "bullets": ["say what happened with the dog","say what you did to help the dog","ask your neighbour to check their garden fence"],
+      "minWords": 25
+    },
+    {
+      "intro": "You want to ask a friend for help with your English homework. Write an email to your friend. In your email:",
+      "bullets": ["explain what homework you need help with","say when you need to finish it","ask if you can meet at your friend's house"],
+      "minWords": 25
+    },
+    {
+      "intro": "You have just moved to a new school. Write an email to your old classmate. In your email:",
+      "bullets": ["describe something about your new school","say how you feel about the change","ask about what is happening at your old school"],
+      "minWords": 25
+    },
+    {
+      "intro": "You want to visit a new café in town with a friend. Write an email to your friend. In your email:",
+      "bullets": ["say how you heard about the café","say why you think it sounds nice","suggest a day and time to go"],
+      "minWords": 25
+    },
+    {
+      "intro": "You missed an important class last week because you were ill. Write an email to your classmate. In your email:",
+      "bullets": ["explain why you missed the class","ask what the teacher talked about in class","ask if you can borrow your classmate's notes"],
+      "minWords": 25
+    },
+    {
+      "intro": "You are going to take a cooking class next month. Write an email to a family member. In your email:",
+      "bullets": ["say what kind of cooking class it is","explain why you want to learn to cook","ask the family member for a favourite recipe"],
+      "minWords": 25
+    },
+    {
+      "intro": "You played in a football match last Saturday. Write an email to a friend. In your email:",
+      "bullets": ["say what the result of the match was","describe one thing that happened during the game","invite your friend to come and watch your next match"],
+      "minWords": 25
+    },
+    {
+      "intro": "You want to buy a birthday present for a classmate but you need some ideas. Write an email to another classmate. In your email:",
+      "bullets": ["say whose birthday it is and when","ask for ideas about what to buy","suggest going to the shops together"],
+      "minWords": 25
+    },
+    {
+      "intro": "You are thinking about joining a local sports club. Write an email to a friend who is already a member. In your email:",
+      "bullets": ["say which sport you are interested in","ask about the days and times of the classes","ask if you can go with your friend one day to try it"],
+      "minWords": 25
+    },
+    {
+      "intro": "You had a great family dinner last Sunday for your grandparent's birthday. Write an email to a cousin who could not come. In your email:",
+      "bullets": ["say what food you ate at the dinner","describe something funny or special that happened","ask why your cousin could not come"],
+      "minWords": 25
+    },
+    {
+      "intro": "You are going to a concert with a friend next weekend. Write an email to your friend. In your email:",
+      "bullets": ["say what time you want to meet before the concert","suggest a place to have dinner before the show","ask your friend what they want to wear"],
+      "minWords": 25
+    },
+    {
+      "intro": "You borrowed a book from a classmate last month and you want to return it. Write an email to your classmate. In your email:",
+      "bullets": ["say something you liked about the book","explain when you can return the book","ask your classmate if they have another book you can borrow"],
+      "minWords": 25
+    },
+    {
+      "intro": "You are going to visit a new city for the first time next month. Write an email to a friend who lives there. In your email:",
+      "bullets": ["say when you are going to arrive in the city","ask your friend to recommend some places to visit","suggest meeting up while you are there"],
+      "minWords": 25
+    },
+    {
+      "intro": "Your class is going to have a picnic in the park next Friday. Write an email to a classmate. In your email:",
+      "bullets": ["say what food you are going to bring to the picnic","ask your classmate what they are bringing","suggest a game you can all play in the park"],
+      "minWords": 25
+    },
+    {
+      "intro": "You found a lost cat near your house yesterday. Write a note to your neighbour. In your note:",
+      "bullets": ["describe what the cat looks like","say where you found the cat","ask your neighbour if they know who the cat belongs to"],
+      "minWords": 25
+    },
+    {
+      "intro": "You want to start a study group with some classmates. Write an email to a classmate. In your email:",
+      "bullets": ["explain why you think a study group is a good idea","say which subject you want to study first","ask your classmate if they want to join the group"],
+      "minWords": 25
+    },
+    {
+      "intro": "You are going to start learning to play a musical instrument. Write an email to a family member. In your email:",
+      "bullets": ["say which instrument you are going to learn","explain why you chose that instrument","ask the family member if they have any advice for you"],
+      "minWords": 25
+    },
+    {
+      "intro": "You are organising a surprise party for a friend next Saturday. Write an email to another friend. In your email:",
+      "bullets": ["say what time and where the party is going to be","ask the friend to help you with the preparations","say what you need the friend to bring to the party"],
+      "minWords": 25
+    },
+    {
+      "intro": "You read a book last week that you think a friend would enjoy. Write an email to your friend. In your email:",
+      "bullets": ["say what the book is about","explain why you think your friend will like it","ask if your friend has read any good books recently"],
+      "minWords": 25
+    },
+    {
+      "intro": "You want to borrow a classmate's bicycle for the weekend. Write an email to your classmate. In your email:",
+      "bullets": ["explain why you need to borrow the bicycle","say when you will return it","offer to do something in return"],
+      "minWords": 25
+    },
+    {
+      "intro": "Your family has just got a new pet dog from a shelter. Write an email to a friend. In your email:",
+      "bullets": ["describe what the dog looks like","say how the dog is settling in at home","ask if your friend wants to come and meet the dog"],
+      "minWords": 25
+    },
+    {
+      "intro": "You want to invite a friend to your birthday party next month. Write an email to your friend. In your email:",
+      "bullets": ["say when and where the party is going to be","say what you are going to do at the party","ask your friend to let you know if they can come"],
+      "minWords": 25
+    },
+    {
+      "intro": "You were absent from school last Tuesday because you had a doctor's appointment. Write an email to your teacher. In your email:",
+      "bullets": ["explain why you were absent","ask what work you missed that day","say when you will hand in any homework"],
+      "minWords": 25
+    },
+    {
+      "intro": "You want to find a new sports centre in your town. Write an email to a friend who goes to one. In your email:",
+      "bullets": ["ask where the sports centre is","ask how much it costs to become a member","say which sport you want to do there"],
+      "minWords": 25
+    },
+    {
+      "intro": "You have started taking painting lessons after school. Write an email to a friend. In your email:",
+      "bullets": ["say when and where the lessons are","describe what you have painted so far","ask if your friend does any art activities"],
+      "minWords": 25
+    },
+    {
+      "intro": "You have to give a short presentation to your class next week. Write an email to a classmate. In your email:",
+      "bullets": ["say what topic you chose for your presentation","ask for your classmate's opinion on your topic","suggest practising together before the presentation"],
+      "minWords": 25
+    },
+    {
+      "intro": "You want to visit a town with a classmate next weekend and need to plan the journey. Write an email to your classmate. In your email:",
+      "bullets": ["suggest how you could travel to the town","ask what time your classmate wants to leave","say what you would like to do when you get there"],
+      "minWords": 25
+    },
+    {
+      "intro": "There is a new local street festival in your town this weekend. Write an email to a cousin. In your email:",
+      "bullets": ["describe what is happening at the festival","say why you think your cousin would enjoy it","ask if your cousin can come to the festival with you"],
+      "minWords": 25
+    },
+    {
+      "intro": "The weather has been unusually hot this week. Write an email to a friend. In your email:",
+      "bullets": ["describe what the weather has been like","say how the hot weather is affecting you","ask what your friend has been doing to keep cool"],
+      "minWords": 25
+    },
+    {
+      "intro": "You need to move some heavy furniture in your bedroom. Write an email to a friend. In your email:",
+      "bullets": ["explain why you need to move the furniture","ask if your friend can come and help you","say what day and time would be best for you"],
+      "minWords": 25
+    },
+    {
+      "intro": "A member of your family has just started a new job. Write an email to a friend. In your email:",
+      "bullets": ["say who in your family has the new job","describe what the job is","say how your family member feels about the new job"],
+      "minWords": 25
+    },
+    {
+      "intro": "You have made a new friend at an after-school club. Write an email to a classmate. In your email:",
+      "bullets": ["say where you met your new friend","describe something interesting about your new friend","say what you are going to do together next weekend"],
+      "minWords": 25
+    },
+    {
+      "intro": "You have not seen an old friend for a long time and want to meet up. Write an email to your friend. In your email:",
+      "bullets": ["say it has been a long time since you met","suggest a place and a time to meet","ask how your friend has been"],
+      "minWords": 25
+    },
+    {
+      "intro": "You want to thank your aunt for a birthday present she sent you. Write an email to your aunt. In your email:",
+      "bullets": ["thank your aunt for the present","say what you like about it","tell her something you have been doing recently"],
+      "minWords": 25
+    },
+    {
+      "intro": "Your school basketball team won an important match last week. Write an email to a friend who could not come. In your email:",
+      "bullets": ["say what the score was","describe one exciting moment from the match","invite your friend to come to the next game"],
+      "minWords": 25
+    },
+    {
+      "intro": "You cooked a meal for your family for the first time last weekend. Write an email to a classmate. In your email:",
+      "bullets": ["say what dish you cooked","describe how it turned out","ask if your classmate knows how to cook"],
+      "minWords": 25
+    },
+    {
+      "intro": "A new gym has opened near your home. Write an email to a neighbour who you think might like it. In your email:",
+      "bullets": ["say where the gym is and when it opened","describe what the gym has to offer","ask if your neighbour would like to go and try it with you"],
+      "minWords": 25
+    },
+    {
+      "intro": "You watched a really good film at home last night. Write an email to a friend. In your email:",
+      "bullets": ["say what the film is called and what it is about","say what you liked most about the film","ask if your friend has seen it or wants to watch it"],
+      "minWords": 25
+    },
+    {
+      "intro": "You had to change your plans for this weekend because of bad weather. Write an email to a friend. In your email:",
+      "bullets": ["explain what your original plans were","say why you had to change them","suggest something else you can do together instead"],
+      "minWords": 25
+    },
+    {
+      "intro": "You have just come back from a visit to a village in the countryside. Write an email to your grandparent. In your email:",
+      "bullets": ["describe the village you visited","say what you did there","ask your grandparent if they have ever been to that area"],
+      "minWords": 25
+    },
+    {
+      "intro": "Your neighbour often cooks delicious food and you want their recipe. Write a note to your neighbour. In your note:",
+      "bullets": ["say which dish you would like the recipe for","explain why you want to make it","ask if they can write the recipe down for you"],
+      "minWords": 25
+    },
+    {
+      "intro": "You had a problem this week but managed to solve it. Write an email to a friend. In your email:",
+      "bullets": ["describe what the problem was","say how you solved it","ask if your friend has ever had a similar problem"],
+      "minWords": 25
+    },
+    {
+      "intro": "Something funny happened to you at the supermarket yesterday. Write an email to a cousin. In your email:",
+      "bullets": ["describe what happened at the supermarket","say how you felt at the time","ask if your cousin has ever had a funny experience like that"],
+      "minWords": 25
+    },
+    {
+      "intro": "You watched a sports competition live last weekend. Write an email to a friend. In your email:",
+      "bullets": ["say what sport or competition you watched","describe one exciting moment","say if you would like to watch it again"],
+      "minWords": 25
+    },
+    {
+      "intro": "You want to borrow your classmate's history notes from last week. Write an email to your classmate. In your email:",
+      "bullets": ["explain why you need the notes","ask when you can come and collect them","say when you will return them"],
+      "minWords": 25
+    },
+    {
+      "intro": "You won an award at school this term. Write an email to a parent. In your email:",
+      "bullets": ["say what award you won and why","describe how you felt when you heard the news","say what you are going to work on next"],
+      "minWords": 25
+    },
+    {
+      "intro": "You want to invite a younger child in your neighbourhood to your birthday celebration. Write a note to the child's parent. In your note:",
+      "bullets": ["say when and where the celebration is","explain what activities there will be","ask the parent to let you know if the child can come"],
+      "minWords": 25
+    },
+    {
+      "intro": "You have a new idea for a school project and want your teacher's opinion. Write an email to your teacher. In your email:",
+      "bullets": ["describe your project idea","explain why you think it would be interesting","ask if your teacher thinks it is a good idea"],
+      "minWords": 25
+    },
+    {
+      "intro": "You want to buy a gift for a friend but cannot decide what to get. Write an email to another friend. In your email:",
+      "bullets": ["say whose birthday it is and when","ask for suggestions about what to buy","say how much money you want to spend"],
+      "minWords": 25
+    },
+    {
+      "intro": "You have recently redecorated your bedroom. Write an email to a friend. In your email:",
+      "bullets": ["describe the new colours and furniture in your room","say how the changes make you feel","invite your friend to come and see it"],
+      "minWords": 25
+    },
+    {
+      "intro": "You went to a concert last weekend with a friend. Write an email to a cousin. In your email:",
+      "bullets": ["say who you saw in concert","describe the best part of the evening","say whether you would go to that concert again"],
+      "minWords": 25
+    },
+    {
+      "intro": "You want to form a study group with classmates before your exams. Write an email to a classmate. In your email:",
+      "bullets": ["explain when the exams are","suggest which subjects to study in the group","ask your classmate if they want to join"],
+      "minWords": 25
+    },
+    {
+      "intro": "You have decided to join a new after-school sports club. Write an email to a family member. In your email:",
+      "bullets": ["say which sport the club is for","say why you decided to join","ask the family member to come and watch your first session"],
+      "minWords": 25
+    },
+    {
+      "intro": "Your family is planning a day trip next weekend. Write an email to a friend. In your email:",
+      "bullets": ["say where you are going for the day trip","describe what you are going to do there","ask if your friend has ever been to that place"],
+      "minWords": 25
+    },
+    {
+      "intro": "You want to ask a friend in another town to recommend a good restaurant. Write an email to your friend. In your email:",
+      "bullets": ["say when you are going to visit their town","ask them to recommend a restaurant","say what kind of food you like"],
+      "minWords": 25
+    },
+    {
+      "intro": "You went on a school trip to a factory last week. Write an email to your parent. In your email:",
+      "bullets": ["say what the factory makes","describe the most interesting thing you saw","say what you learned from the visit"],
+      "minWords": 25
+    },
+    {
+      "intro": "You are looking forward to seeing a new film at the cinema next week. Write an email to a friend. In your email:",
+      "bullets": ["say what the film is about","explain why you are excited to see it","ask if your friend wants to go to the cinema with you"],
+      "minWords": 25
+    },
+    {
+      "intro": "Your class has a new student who has just joined from another country. Write an email to a friend at another school. In your email:",
+      "bullets": ["describe the new student","say how the class has welcomed them","ask your friend if there are any new students at their school"],
+      "minWords": 25
+    },
+    {
+      "intro": "You want to ask a classmate to swap a job with you at your school event. Write an email to your classmate. In your email:",
+      "bullets": ["explain what job you have been given","say which job you would prefer to do","ask if your classmate is happy to swap with you"],
+      "minWords": 25
+    },
+    {
+      "intro": "A new café has just opened near your school. Write an email to a friend. In your email:",
+      "bullets": ["describe what the café looks like","say what kind of food and drinks it serves","suggest going there together after school one day"],
+      "minWords": 25
+    },
+    {
+      "intro": "You want to tell your grandparent about your end-of-year school results. Write an email to your grandparent. In your email:",
+      "bullets": ["say how you did in your exams","say which subject you did best in","ask your grandparent a question about their week"],
+      "minWords": 25
+    },
+    {
+      "intro": "You are organising a picnic and need your friend to bring some things. Write an email to your friend. In your email:",
+      "bullets": ["say when and where the picnic is","ask your friend to bring some specific items","say what you are going to bring"],
+      "minWords": 25
+    },
+    {
+      "intro": "You spent a rainy afternoon at home doing something fun. Write an email to a friend. In your email:",
+      "bullets": ["describe what you did at home","say why you enjoyed it","suggest doing the same activity together next time it rains"],
+      "minWords": 25
+    },
+    {
+      "intro": "You have started using a new app that helps you study. Write an email to a classmate. In your email:",
+      "bullets": ["say what the app is called and what it does","explain why you think it is useful","ask if your classmate wants to try it"],
+      "minWords": 25
+    },
+    {
+      "intro": "You went to a family celebration last weekend. Write an email to a cousin who was not there. In your email:",
+      "bullets": ["say what the celebration was for","describe one thing you ate or did at the celebration","say you hope to see your cousin at the next family event"],
+      "minWords": 25
+    },
+    {
+      "intro": "You want to ask a friend to look after your pet while you are on holiday. Write an email to your friend. In your email:",
+      "bullets": ["say when you are going away and for how long","describe what your pet needs each day","ask if your friend is able to help"],
+      "minWords": 25
+    },
+    {
+      "intro": "You met an interesting person during your holiday and want to tell a friend. Write an email to your friend. In your email:",
+      "bullets": ["say where you met this person","describe what was interesting about them","say what you did together during the holiday"],
+      "minWords": 25
+    },
+    {
+      "intro": "A new park has opened near your home. Write an email to a classmate. In your email:",
+      "bullets": ["describe what the park looks like","say what you can do there","suggest going to the park together at the weekend"],
+      "minWords": 25
+    },
+    {
+      "intro": "You need advice about choosing which subject to study next year. Write an email to your teacher. In your email:",
+      "bullets": ["say which subjects you are choosing between","explain what you enjoy about each one","ask your teacher which one they think is better for you"],
+      "minWords": 25
+    },
+    {
+      "intro": "Your bicycle had a problem this week but you fixed it. Write an email to a friend. In your email:",
+      "bullets": ["describe what the problem was with the bicycle","say how you fixed it","ask if your friend wants to go cycling with you this weekend"],
+      "minWords": 25
+    },
+    {
+      "intro": "A neighbour helped you last week and you want to say thank you. Write a note to your neighbour. In your note:",
+      "bullets": ["say what your neighbour did to help you","explain why it was so helpful","offer to help your neighbour with something in return"],
+      "minWords": 25
+    },
+    {
+      "intro": "Your school is organising a charity event and you want a friend to join. Write an email to your friend. In your email:",
+      "bullets": ["say what the charity event is for","explain what will happen at the event","ask if your friend would like to take part"],
+      "minWords": 25
+    },
+    {
+      "intro": "You are reading a book you enjoy very much. Write an email to a friend. In your email:",
+      "bullets": ["say what the book is called and what it is about","describe your favourite part so far","ask if your friend likes reading"],
+      "minWords": 25
+    },
+    {
+      "intro": "You want to learn to cook and need advice. Write an email to a cousin who is a good cook. In your email:",
+      "bullets": ["say you want to learn to cook","ask for a simple recipe to start with","ask if your cousin can teach you in person"],
+      "minWords": 25
+    },
+    {
+      "intro": "You played in an important local football match last weekend. Write an email to a parent who was not there. In your email:",
+      "bullets": ["say what the result of the match was","describe how you played","say when your next match is"],
+      "minWords": 25
+    },
+    {
+      "intro": "You organised a surprise for a friend or family member this week. Write an email to a classmate. In your email:",
+      "bullets": ["describe what the surprise was","say how the person reacted","ask if your classmate has ever organised a surprise"],
+      "minWords": 25
+    },
+    {
+      "intro": "You missed a class last week and need the notes. Write an email to a classmate. In your email:",
+      "bullets": ["say why you missed the class","ask what topics were covered","ask if you can copy your classmate's notes"],
+      "minWords": 25
+    },
+    {
+      "intro": "There is a new swimming pool in your area that you want to try. Write an email to a friend. In your email:",
+      "bullets": ["say where the new swimming pool is","ask if your friend wants to go with you","suggest a day and time to go"],
+      "minWords": 25
+    },
+    {
+      "intro": "You have started enjoying a new school subject this term. Write an email to a family member. In your email:",
+      "bullets": ["say which subject you have started to enjoy","explain what you like about it","ask if the family member was good at that subject at school"],
+      "minWords": 25
+    },
+    {
+      "intro": "You visited a zoo with your family last weekend. Write an email to a younger sibling who was not there. In your email:",
+      "bullets": ["say which animals you saw at the zoo","describe your favourite animal at the zoo","say you hope to go back together next time"],
+      "minWords": 25
+    },
+    {
+      "intro": "Your class is going to take part in a school quiz competition. Write an email to a classmate. In your email:",
+      "bullets": ["say when and where the quiz is going to be","ask if your classmate wants to be on your team","suggest what subjects you should study to prepare"],
+      "minWords": 25
+    },
+    {
+      "intro": "You heard some news in your town that surprised you. Write an email to a friend. In your email:",
+      "bullets": ["say what the news was about","explain why it surprised you","ask your friend what they think about it"],
+      "minWords": 25
+    },
+    {
+      "intro": "The local bus route near your home has changed. Write a note to your neighbour. In your note:",
+      "bullets": ["say what has changed about the bus route","explain how this affects the journey","suggest a different way to travel if needed"],
+      "minWords": 25
+    },
+    {
+      "intro": "You want to try a new hobby with a friend. Write an email to your friend. In your email:",
+      "bullets": ["say what hobby you want to try","explain why you think it would be fun","ask if your friend wants to do it with you"],
+      "minWords": 25
+    },
+    {
+      "intro": "You made a funny mistake while learning something new this week. Write an email to a classmate. In your email:",
+      "bullets": ["describe what you were trying to learn","say what mistake you made","say what you learned from the experience"],
+      "minWords": 25
+    },
+    {
+      "intro": "Your friend has exams coming up and you want to offer help. Write an email to your friend. In your email:",
+      "bullets": ["ask how your friend's exam preparation is going","offer to help your friend study","suggest a time and place to meet and study together"],
+      "minWords": 25
+    },
+    {
+      "intro": "You are making plans for the summer holidays. Write an email to a cousin. In your email:",
+      "bullets": ["say what you are planning to do this summer","ask what your cousin is going to do","suggest doing something together during the holidays"],
+      "minWords": 25
+    },
+    {
+      "intro": "You discovered a piece of music you really enjoy. Write an email to a friend. In your email:",
+      "bullets": ["say what the music is and who it is by","describe why you like it","ask if your friend has listened to it"],
+      "minWords": 25
+    }
+  ]
+}

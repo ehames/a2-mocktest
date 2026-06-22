@@ -1,0 +1,100 @@
+{
+  "sets": [
+    {
+      "title": "A weekend in Greenhill",
+      "paragraphs": [
+        "Last Saturday, my class visited Greenhill, a small town near the river. We went by train because it was cheaper than the coach. The journey took forty minutes, and our teacher, Mr Clark, gave us a map when we arrived.",
+        "First, we walked to the market. There were many stalls with bread, fruit and old books. I bought a small notebook for my sister because she likes drawing. My friend Amir wanted a football shirt, but it was too expensive.",
+        "After that, we had lunch in the park. The weather was sunny, but it was windy, so we sat near some trees. In the afternoon, we visited the town museum. It was not very big, but it had interesting photos of Greenhill in the past. I liked the old train photos best.",
+        "Before we went home, Mr Clark asked us to write three sentences about the trip. I wrote that Greenhill was quieter than our town and that I wanted to go there again with my family."
+      ],
+      "questions": [
+        { "prompt": "Why did the class travel by train?", "opts": ["It cost less.", "It was faster than the coach.", "The coach was full."], "answer": 0, "rationale": "The text says they went by train 'because it was cheaper than the coach' — cost was the reason. Speed and availability are not mentioned." },
+        { "prompt": "What did the writer buy at the market?", "opts": ["fruit", "a notebook", "a football shirt"], "answer": 1, "rationale": "The writer bought 'a small notebook for my sister'. Amir wanted a football shirt but it was too expensive; the writer did not buy fruit." },
+        { "prompt": "Where did the class eat lunch?", "opts": ["at the market", "in the museum", "in the park"], "answer": 2, "rationale": "The text says 'we had lunch in the park'. The market came first, and the museum was visited in the afternoon, after lunch." },
+        { "prompt": "What did the writer like most in the museum?", "opts": ["photos of trains", "old books", "pictures of the river"], "answer": 0, "rationale": "The writer says 'I liked the old train photos best'. Old books were at the market, not the museum, and there is no mention of pictures of the river." },
+        { "prompt": "What did the writer say about Greenhill?", "opts": ["It was busier than his town.", "He did not want to visit it again.", "It was quieter than his town."], "answer": 2, "rationale": "The writer wrote that 'Greenhill was quieter than our town' and wanted to return with family — the opposite of the other two options." }
+      ]
+    },
+    {
+      "title": "A day at the wildlife park",
+      "paragraphs": [
+        "Last month, my family and I went to Oakfield Wildlife Park. We drove there because my dad said it was too far to go by bus. It took about an hour to get there. When we arrived, my mum bought a map at the entrance so we did not get lost.",
+        "We saw many animals in the morning. I liked the giraffes best because they were so tall. My little brother was afraid of the lions, so we did not stay near them for long. There was also a bird show at eleven o'clock, and a ranger explained how the birds learned to fly back to him.",
+        "At lunchtime, we ate sandwiches on the grass near the lake. We could see some ducks swimming close to us. After lunch, we visited the reptile house. It was very warm inside and a little dark. I saw a large snake sleeping on a rock, which was very exciting.",
+        "Before we left, I bought a small toy giraffe from the gift shop. My brother chose a poster of tigers. We were both very tired on the drive home, but we agreed it was the best day of the holidays."
+      ],
+      "questions": [
+        { "prompt": "Why did the family travel by car?", "opts": ["The bus was too expensive.", "The park was too far for the bus.", "They did not know the bus route."], "answer": 1, "rationale": "The text says the dad explained 'it was too far to go by bus', so distance was the reason. Cost and route knowledge are not mentioned." },
+        { "prompt": "Which animal did the writer like best?", "opts": ["the lions", "the ducks", "the giraffes"], "answer": 2, "rationale": "The writer says 'I liked the giraffes best because they were so tall'. The brother was afraid of the lions, and the ducks appeared at lunchtime near the lake." },
+        { "prompt": "What did the writer see in the reptile house?", "opts": ["a snake on a rock", "a bird show", "a ranger with animals"], "answer": 0, "rationale": "The text says the writer 'saw a large snake sleeping on a rock' in the reptile house. The bird show was outside at eleven o'clock, not in the reptile house." },
+        { "prompt": "What did the writer buy at the gift shop?", "opts": ["a poster of tigers", "a toy giraffe", "a book about birds"], "answer": 1, "rationale": "The writer bought 'a small toy giraffe'. The brother chose a poster of tigers; there is no mention of a book about birds." },
+        { "prompt": "How did the writer and his brother feel on the way home?", "opts": ["They were hungry.", "They were bored.", "They were tired."], "answer": 2, "rationale": "The text says 'We were both very tired on the drive home'. Hunger and boredom are not mentioned — in fact they agreed it was a great day." }
+      ]
+    },
+    {
+      "title": "Making bread for the first time",
+      "paragraphs": [
+        "Two weeks ago, my aunt came to stay with us and she taught me how to make bread. I was excited because I had never cooked anything with flour before. She brought all the ingredients from her house, including special yeast that she said was very important.",
+        "First, we mixed the flour, water, salt and yeast in a large bowl. It was hard work because we had to stir everything for a long time. Then we covered the bowl with a cloth and waited for the dough to grow bigger. My aunt said we had to wait at least one hour.",
+        "After the dough was ready, we put it in a tin and placed it in the oven. While the bread was baking, the kitchen smelled wonderful. We had to wait thirty minutes. I was nervous because I did not want to burn it.",
+        "When the bread came out of the oven, it looked golden and perfect. We let it cool for a while, then we tried it with some butter. It tasted much better than the bread from the shop. My aunt said I could teach my mum next time, and I felt very proud."
+      ],
+      "questions": [
+        { "prompt": "Who brought the ingredients for the bread?", "opts": ["the writer's mum", "the writer", "the writer's aunt"], "answer": 2, "rationale": "The text clearly states 'She brought all the ingredients from her house', meaning the aunt. The writer's mum and the writer are not mentioned in connection with the ingredients." },
+        { "prompt": "What did they do after mixing the dough?", "opts": ["They put it in the oven.", "They covered it and waited.", "They added more flour."], "answer": 1, "rationale": "After mixing, 'we covered the bowl with a cloth and waited for the dough to grow bigger'. Putting it in the oven was a later step, and adding more flour is not mentioned." },
+        { "prompt": "How long did the bread bake in the oven?", "opts": ["one hour", "thirty minutes", "forty-five minutes"], "answer": 1, "rationale": "The text says 'We had to wait thirty minutes' while it baked. One hour was the waiting time for the dough to rise, not the baking time. Forty-five minutes is not mentioned." },
+        { "prompt": "How did the writer feel while the bread was in the oven?", "opts": ["bored", "nervous", "happy"], "answer": 1, "rationale": "The writer says 'I was nervous because I did not want to burn it'. Though the kitchen smelled wonderful, the emotion described is nervousness, not boredom or happiness." },
+        { "prompt": "What did the writer think of the homemade bread?", "opts": ["It was the same as shop bread.", "It needed more butter.", "It tasted better than shop bread."], "answer": 2, "rationale": "The writer says it 'tasted much better than the bread from the shop'. The text makes no suggestion it was similar to or worse than shop bread." }
+      ]
+    },
+    {
+      "title": "My first day as a library helper",
+      "paragraphs": [
+        "Last summer, I started as a volunteer at the local library. I chose this because I love books and wanted to do something useful in my holidays. On my first day, a woman called Ms Patel met me at the door and showed me around the building.",
+        "In the morning, I helped to put returned books back on the shelves. It was more difficult than I expected because I had to find the right place for each book using a number system. Ms Patel showed me how it worked, and after a while I got faster at it.",
+        "After lunch, some children came to the library for a reading session. My job was to help them choose books and sit with the younger ones while they read. One little girl asked me to read to her, and I really enjoyed that part of the day.",
+        "At the end of the afternoon, Ms Patel asked me what I thought of the work. I told her it was harder than I imagined but that I wanted to come back the next week. She smiled and said I was doing very well for my first day."
+      ],
+      "questions": [
+        { "prompt": "Why did the writer choose to volunteer at the library?", "opts": ["His teacher suggested it.", "He wanted to earn money.", "He loved books and wanted to help."], "answer": 2, "rationale": "The writer says 'I chose this because I love books and wanted to do something useful'. There is no mention of a teacher's suggestion or earning money." },
+        { "prompt": "What did the writer find difficult in the morning?", "opts": ["talking to Ms Patel", "finding the right place for each book", "carrying heavy boxes"], "answer": 1, "rationale": "The text says it was 'more difficult than I expected because I had to find the right place for each book using a number system'. Ms Patel was helpful, and boxes are not mentioned." },
+        { "prompt": "What did the writer do during the children's reading session?", "opts": ["He organised the shelves.", "He helped children choose books.", "He gave a talk about the library."], "answer": 1, "rationale": "The writer's job was 'to help them choose books and sit with the younger ones while they read'. Organising shelves was a morning task, and giving a talk is not mentioned." },
+        { "prompt": "What did one child ask the writer to do?", "opts": ["read to her", "find a book about animals", "help her write a story"], "answer": 0, "rationale": "The text says 'One little girl asked me to read to her'. Finding a specific book or helping write a story are not mentioned in the text." },
+        { "prompt": "What did Ms Patel say to the writer at the end of the day?", "opts": ["He needed to work faster.", "He was doing very well.", "He could not come back next week."], "answer": 1, "rationale": "Ms Patel 'said I was doing very well for my first day'. She did not criticise his speed and the writer was the one who asked to return next week — she did not refuse this." }
+      ]
+    },
+    {
+      "title": "Camping in the forest",
+      "paragraphs": [
+        "Last August, my family went camping in Pinewood Forest for three nights. My parents borrowed a large tent from our neighbour because ours was too small for all five of us. We packed the car the evening before and left early in the morning to avoid traffic.",
+        "When we arrived, my dad and I put up the tent together while my mum made sandwiches for lunch. It was my first time helping with a tent and I made a few mistakes, but my dad was patient with me. After lunch, my sisters and I explored the forest path near our campsite.",
+        "On the second day, we walked to a waterfall about two kilometres away. The path was steep in some places, but the waterfall was beautiful when we finally reached it. My youngest sister was very tired, so my dad carried her on his shoulders for part of the walk back.",
+        "On the last evening, we sat around a campfire and my mum told funny stories. We cooked sausages over the fire, which tasted delicious. I did not want to go home the next morning. My mum said we could go camping again in the spring."
+      ],
+      "questions": [
+        { "prompt": "Where did the family get the large tent?", "opts": ["They bought it from a shop.", "A friend lent it to them.", "Their neighbour lent it to them."], "answer": 2, "rationale": "The text says 'my parents borrowed a large tent from our neighbour'. It was a neighbour, not a friend, and they borrowed rather than bought it." },
+        { "prompt": "What did the writer do when they arrived at the campsite?", "opts": ["He explored the forest path.", "He helped put up the tent.", "He cooked lunch for the family."], "answer": 1, "rationale": "The writer says 'my dad and I put up the tent together' on arrival. Exploring the forest path happened after lunch, and his mum made the sandwiches." },
+        { "prompt": "How far was the waterfall from the campsite?", "opts": ["five kilometres", "one kilometre", "two kilometres"], "answer": 2, "rationale": "The text states the waterfall was 'about two kilometres away'. Five kilometres and one kilometre are not mentioned in the text." },
+        { "prompt": "Why did the dad carry the youngest sister?", "opts": ["She was afraid of the path.", "She was very tired.", "She hurt her foot."], "answer": 1, "rationale": "The text says 'My youngest sister was very tired, so my dad carried her on his shoulders'. Fear of the path and a hurt foot are not mentioned." },
+        { "prompt": "What did the family do on the last evening?", "opts": ["They went for a walk.", "They played a game.", "They sat by a fire and ate sausages."], "answer": 2, "rationale": "The text says 'we sat around a campfire' and 'cooked sausages over the fire'. An evening walk and games are not mentioned for the last night." }
+      ]
+    },
+    {
+      "title": "Joining the swimming club",
+      "paragraphs": [
+        "Six months ago, I joined the swimming club at the sports centre near my school. My friend Lucia was already a member and she told me it was a lot of fun. I was a little nervous before my first session because I had not swum in a competition before.",
+        "The coach, Mr Benson, met all the new members before the session started. He explained the rules of the club and showed us the different lanes in the pool. He said the most important thing was to arrive on time and to always listen carefully during training.",
+        "During the first session, we practised swimming in a straight line and turning at the wall. I was slower than the other swimmers at first, but Mr Benson said that was normal for beginners. At the end of the session, he timed everyone over twenty-five metres.",
+        "After training, I spoke to Lucia and she said I had done really well for a first session. I felt happy and tired at the same time. I went home and told my parents I wanted to enter a competition as soon as possible. My mum said she would come and watch."
+      ],
+      "questions": [
+        { "prompt": "How did the writer hear about the swimming club?", "opts": ["A teacher recommended it.", "His friend Lucia told him about it.", "He saw a poster at school."], "answer": 1, "rationale": "The text says 'My friend Lucia was already a member and she told me it was a lot of fun'. A teacher and a poster are not mentioned." },
+        { "prompt": "What did Mr Benson say was the most important rule?", "opts": ["to arrive on time and listen", "to swim in the correct lane", "to practise every day"], "answer": 0, "rationale": "Mr Benson said 'the most important thing was to arrive on time and to always listen carefully during training'. Swimming in a lane and daily practice are not stated as the most important rule." },
+        { "prompt": "What did the swimmers do at the end of the first session?", "opts": ["They had a race.", "Mr Benson timed them over twenty-five metres.", "They watched a video about swimming."], "answer": 1, "rationale": "The text says 'he timed everyone over twenty-five metres' at the end of the session. There was no race or video mentioned." },
+        { "prompt": "How did the writer feel after the first session?", "opts": ["disappointed and cold", "happy and tired", "nervous and slow"], "answer": 1, "rationale": "The writer says 'I felt happy and tired at the same time'. Disappointment and cold are not mentioned; being slow was during training, not how the writer felt afterwards." },
+        { "prompt": "What did the writer tell his parents when he got home?", "opts": ["He wanted to quit the club.", "He wanted to be a professional swimmer.", "He wanted to enter a competition."], "answer": 2, "rationale": "The writer 'told my parents I wanted to enter a competition as soon as possible'. Quitting and becoming a professional are not mentioned." }
+      ]
+    }
+  ]
+}

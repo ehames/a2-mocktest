@@ -1,0 +1,787 @@
+{
+  "prompts": [
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "bike / house / sunny" },
+        { "label": "Picture 2", "text": "rain / bus stop / friend" },
+        { "label": "Picture 3", "text": "cafe / cakes / happy" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "park / dog / lost" },
+        { "label": "Picture 2", "text": "street / poster / worried" },
+        { "label": "Picture 3", "text": "garden / dog / relieved" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "kitchen / birthday cake / excited" },
+        { "label": "Picture 2", "text": "supermarket / eggs / busy" },
+        { "label": "Picture 3", "text": "party / candles / proud" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "train station / suitcase / morning" },
+        { "label": "Picture 2", "text": "mountains / map / tired" },
+        { "label": "Picture 3", "text": "hotel / view / happy" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "school / wallet / missing" },
+        { "label": "Picture 2", "text": "classroom / teacher / anxious" },
+        { "label": "Picture 3", "text": "library / wallet / relieved" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "beach / sunny / family" },
+        { "label": "Picture 2", "text": "sea / boy / dolphin" },
+        { "label": "Picture 3", "text": "shore / photo / amazed" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "shopping centre / coat / expensive" },
+        { "label": "Picture 2", "text": "market / coat / cheaper" },
+        { "label": "Picture 3", "text": "mirror / coat / pleased" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "sports field / team / nervous" },
+        { "label": "Picture 2", "text": "football / goal / surprised" },
+        { "label": "Picture 3", "text": "trophy / friends / proud" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "airport / plane / excited" },
+        { "label": "Picture 2", "text": "city / map / confused" },
+        { "label": "Picture 3", "text": "restaurant / new friend / happy" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "office / printer / broken" },
+        { "label": "Picture 2", "text": "telephone / repair man / waiting" },
+        { "label": "Picture 3", "text": "desk / documents / finished" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "river / boat / sunny" },
+        { "label": "Picture 2", "text": "storm / rain / scared" },
+        { "label": "Picture 3", "text": "bank / dry / laughing" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "classroom / new girl / shy" },
+        { "label": "Picture 2", "text": "lunch / table / alone" },
+        { "label": "Picture 3", "text": "playground / friends / smiling" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "forest / path / hiking" },
+        { "label": "Picture 2", "text": "ankle / injury / painful" },
+        { "label": "Picture 3", "text": "camp / tent / resting" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "garden / seeds / spring" },
+        { "label": "Picture 2", "text": "watering can / plants / growing" },
+        { "label": "Picture 3", "text": "flowers / neighbour / grateful" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "bus / ticket / forgot" },
+        { "label": "Picture 2", "text": "street / running / late" },
+        { "label": "Picture 3", "text": "cinema / friend / laughing" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "kitchen / recipe / grandmother" },
+        { "label": "Picture 2", "text": "flour / mixing / messy" },
+        { "label": "Picture 3", "text": "table / bread / delicious" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "swimming pool / competition / nervous" },
+        { "label": "Picture 2", "text": "water / fast / last" },
+        { "label": "Picture 3", "text": "medal / parents / proud" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "bookshop / old book / curious" },
+        { "label": "Picture 2", "text": "park / bench / reading" },
+        { "label": "Picture 3", "text": "home / letter / surprised" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "bus stop / elderly woman / heavy bags" },
+        { "label": "Picture 2", "text": "street / boy / helping" },
+        { "label": "Picture 3", "text": "door / smile / thankful" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "zoo / map / family" },
+        { "label": "Picture 2", "text": "lion / fence / amazed" },
+        { "label": "Picture 3", "text": "gift shop / toy / excited" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "flat / boxes / moving" },
+        { "label": "Picture 2", "text": "new street / neighbour / hello" },
+        { "label": "Picture 3", "text": "living room / unpacked / comfortable" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "classroom / science project / partners" },
+        { "label": "Picture 2", "text": "experiment / explosion / shocked" },
+        { "label": "Picture 3", "text": "teacher / prize / laughing" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "campsite / tent / evening" },
+        { "label": "Picture 2", "text": "sky / stars / telescope" },
+        { "label": "Picture 3", "text": "notebook / drawing / amazed" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "market / stall / colourful" },
+        { "label": "Picture 2", "text": "purse / empty / worried" },
+        { "label": "Picture 3", "text": "friend / money / grateful" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "concert / ticket / excited" },
+        { "label": "Picture 2", "text": "stage / singer / crowd" },
+        { "label": "Picture 3", "text": "backstage / autograph / happy" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "hospital / flowers / visiting" },
+        { "label": "Picture 2", "text": "bed / games / laughing" },
+        { "label": "Picture 3", "text": "door / home / recovered" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "bedroom / alarm / morning" },
+        { "label": "Picture 2", "text": "kitchen / no bread / surprised" },
+        { "label": "Picture 3", "text": "bakery / fresh bread / satisfied" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "lake / canoe / sunny" },
+        { "label": "Picture 2", "text": "water / fallen / wet" },
+        { "label": "Picture 3", "text": "bonfire / dry clothes / laughing" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "art class / canvas / nervous" },
+        { "label": "Picture 2", "text": "paint / colours / focused" },
+        { "label": "Picture 3", "text": "gallery / painting / proud" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "street / kitten / cold" },
+        { "label": "Picture 2", "text": "vet / blanket / cared for" },
+        { "label": "Picture 3", "text": "home / sofa / cosy" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "bedroom / phone / text message" },
+        { "label": "Picture 2", "text": "park / two friends / angry" },
+        { "label": "Picture 3", "text": "café / handshake / smiling" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "school / notice board / audition" },
+        { "label": "Picture 2", "text": "stage / microphone / trembling" },
+        { "label": "Picture 3", "text": "hall / audience / clapping" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "street / man / dropped coins" },
+        { "label": "Picture 2", "text": "girl / picking up / smiling" },
+        { "label": "Picture 3", "text": "bus / seat / chatting" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "library / book / wrong shelf" },
+        { "label": "Picture 2", "text": "librarian / directions / confused" },
+        { "label": "Picture 3", "text": "table / book / reading" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "house / ladder / window" },
+        { "label": "Picture 2", "text": "locked door / worried / neighbour" },
+        { "label": "Picture 3", "text": "sofa / spare key / relieved" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "beach / sandcastle / competition" },
+        { "label": "Picture 2", "text": "wave / broken / upset" },
+        { "label": "Picture 3", "text": "friends / rebuilt / winner" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "park / kite / tangled tree" },
+        { "label": "Picture 2", "text": "boy / climbing / cautious" },
+        { "label": "Picture 3", "text": "grass / kite / flying again" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "classroom / test paper / worried" },
+        { "label": "Picture 2", "text": "library / studying / night" },
+        { "label": "Picture 3", "text": "teacher / result / delighted" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "station / platform / missed train" },
+        { "label": "Picture 2", "text": "café / waiting / bored" },
+        { "label": "Picture 3", "text": "train / seat / old friend" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "supermarket / shopping list / fruit" },
+        { "label": "Picture 2", "text": "cashier / no money / embarrassed" },
+        { "label": "Picture 3", "text": "stranger / coins / kind" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "farm / calf / escaped" },
+        { "label": "Picture 2", "text": "field / running / chasing" },
+        { "label": "Picture 3", "text": "barn / calf / safe" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "school trip / bus / excited" },
+        { "label": "Picture 2", "text": "museum / dinosaur / amazed" },
+        { "label": "Picture 3", "text": "notebook / drawings / home" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "bedroom / headphones / music" },
+        { "label": "Picture 2", "text": "guitar / practising / determined" },
+        { "label": "Picture 3", "text": "school / stage / performing" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "street / balloon / sky" },
+        { "label": "Picture 2", "text": "crying child / sad / mother" },
+        { "label": "Picture 3", "text": "ice cream / smile / comforted" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "cupboard / old clothes / grandmother" },
+        { "label": "Picture 2", "text": "dress / photos / memories" },
+        { "label": "Picture 3", "text": "family / together / smiling" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "park / bird / hurt wing" },
+        { "label": "Picture 2", "text": "girl / box / careful" },
+        { "label": "Picture 3", "text": "garden / flying / free" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "playground / boy / alone" },
+        { "label": "Picture 2", "text": "bench / girl / football" },
+        { "label": "Picture 3", "text": "pitch / team / laughing" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "street / scaffolding / falling brick" },
+        { "label": "Picture 2", "text": "passerby / jumping back / shocked" },
+        { "label": "Picture 3", "text": "ambulance / safe / relief" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "field / tent / camping" },
+        { "label": "Picture 2", "text": "rain / puddle / flooded" },
+        { "label": "Picture 3", "text": "hotel / warm / dry" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "kitchen / recipe / wrong ingredient" },
+        { "label": "Picture 2", "text": "oven / smoke / alarm" },
+        { "label": "Picture 3", "text": "takeaway / pizza / laughing" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "stadium / crowd / whistle" },
+        { "label": "Picture 2", "text": "pitch / last minute / penalty" },
+        { "label": "Picture 3", "text": "fans / celebrating / scarves" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "attic / old box / dusty" },
+        { "label": "Picture 2", "text": "chess board / grandfather / memories" },
+        { "label": "Picture 3", "text": "table / playing chess / together" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "street / ice / slippery" },
+        { "label": "Picture 2", "text": "man / fallen / shopping" },
+        { "label": "Picture 3", "text": "woman / helping / grateful" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "pet shop / rabbit / cage" },
+        { "label": "Picture 2", "text": "garden / hutch / escaping" },
+        { "label": "Picture 3", "text": "neighbour / returning rabbit / laughing" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "science class / frog / jumping" },
+        { "label": "Picture 2", "text": "classroom / chaos / screaming" },
+        { "label": "Picture 3", "text": "teacher / jar / calm" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "park / rain / no umbrella" },
+        { "label": "Picture 2", "text": "bench / puddle / soaked" },
+        { "label": "Picture 3", "text": "café / hot drink / warm" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "road / cyclist / puncture" },
+        { "label": "Picture 2", "text": "car / stopped / friendly driver" },
+        { "label": "Picture 3", "text": "garage / fixed / waving goodbye" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "flat / painting walls / roller" },
+        { "label": "Picture 2", "text": "floor / cat / painted paws" },
+        { "label": "Picture 3", "text": "carpet / footprints / laughing" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "market / vegetable stall / queue" },
+        { "label": "Picture 2", "text": "bag / torn / vegetables on ground" },
+        { "label": "Picture 3", "text": "strangers / helping / smiling" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "school hall / play / costume" },
+        { "label": "Picture 2", "text": "stage / spotlight / forgot words" },
+        { "label": "Picture 3", "text": "audience / laughing kindly / clapping" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "harbour / fishing boat / early morning" },
+        { "label": "Picture 2", "text": "sea / big fish / struggling" },
+        { "label": "Picture 3", "text": "dock / fish / celebrating" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "school gates / new uniform / nervous" },
+        { "label": "Picture 2", "text": "classroom / desk / kind classmate" },
+        { "label": "Picture 3", "text": "corridor / laughing / friends" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "bedroom / spider / screaming" },
+        { "label": "Picture 2", "text": "brother / cup / catching" },
+        { "label": "Picture 3", "text": "garden / released / relieved" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "attic / old guitar / dusty" },
+        { "label": "Picture 2", "text": "teacher / lessons / concentrating" },
+        { "label": "Picture 3", "text": "family / living room / playing" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "road / lost tourists / map" },
+        { "label": "Picture 2", "text": "local / pointing / directions" },
+        { "label": "Picture 3", "text": "castle / photo / grateful" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "park / charity race / starting line" },
+        { "label": "Picture 2", "text": "middle / stumbled / lying" },
+        { "label": "Picture 3", "text": "finish / limping / cheering crowd" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "town / power cut / dark" },
+        { "label": "Picture 2", "text": "family / candles / board game" },
+        { "label": "Picture 3", "text": "lights back / still playing / happy" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "bakery / display / beautiful cake" },
+        { "label": "Picture 2", "text": "counter / last coin / just enough" },
+        { "label": "Picture 3", "text": "birthday / family / delighted" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "snowy day / sledge / hill" },
+        { "label": "Picture 2", "text": "slope / fast / crashing" },
+        { "label": "Picture 3", "text": "snow / friends / laughing" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "park / frisbee / dog" },
+        { "label": "Picture 2", "text": "pond / frisbee / floating" },
+        { "label": "Picture 3", "text": "dog / swimming / returning" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "classroom / art project / paint" },
+        { "label": "Picture 2", "text": "shirt / paint spill / shocked" },
+        { "label": "Picture 3", "text": "teacher / laughing / apron" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "street / charity box / old man" },
+        { "label": "Picture 2", "text": "pocket / coins / giving" },
+        { "label": "Picture 3", "text": "charity worker / note / surprised" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "kitchen / bread / burning" },
+        { "label": "Picture 2", "text": "window / open / smoke" },
+        { "label": "Picture 3", "text": "neighbour / funny / toast" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "alley / kitten / meowing" },
+        { "label": "Picture 2", "text": "vet / healthy / good news" },
+        { "label": "Picture 3", "text": "home / basket / sleeping" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "sports hall / table tennis / match" },
+        { "label": "Picture 2", "text": "bat / broken / worried" },
+        { "label": "Picture 3", "text": "opponent / lent bat / fair play" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "village / poster / lost dog" },
+        { "label": "Picture 2", "text": "park / dog / sleeping under bush" },
+        { "label": "Picture 3", "text": "family / reunited / hugging" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "school / computer / screen broken" },
+        { "label": "Picture 2", "text": "library / old books / searching" },
+        { "label": "Picture 3", "text": "teacher / handwritten / surprised" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "coast / cliff path / sunny" },
+        { "label": "Picture 2", "text": "sea / whale / jumping" },
+        { "label": "Picture 3", "text": "bench / sketchbook / drawing" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "airport / bag / wrong one" },
+        { "label": "Picture 2", "text": "phone / calling / stressed" },
+        { "label": "Picture 3", "text": "conveyor / right bag / laughing" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "park / bench / couple / anniversary" },
+        { "label": "Picture 2", "text": "old photo / same bench / smiling" },
+        { "label": "Picture 3", "text": "bench / selfie / happy" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "community garden / neighbours / seeds" },
+        { "label": "Picture 2", "text": "summer / vegetables / watering" },
+        { "label": "Picture 3", "text": "table / harvest / sharing" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "street / boy / dropped phone" },
+        { "label": "Picture 2", "text": "screen / cracked / upset" },
+        { "label": "Picture 3", "text": "repair shop / fixed / relieved" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "mountain / clouds / starting walk" },
+        { "label": "Picture 2", "text": "summit / fog / lost path" },
+        { "label": "Picture 3", "text": "hut / guide / safe" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "class / spelling test / confused" },
+        { "label": "Picture 2", "text": "desk / dictionary / studying" },
+        { "label": "Picture 3", "text": "paper / top mark / beaming" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "street / ice cream van / queue" },
+        { "label": "Picture 2", "text": "ice cream / dropped / pavement" },
+        { "label": "Picture 3", "text": "driver / free cone / smiling" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "home / package / delivery" },
+        { "label": "Picture 2", "text": "box / wrong address / realising" },
+        { "label": "Picture 3", "text": "neighbour / right person / happy" }
+      ],
+      "minWords": 35
+    },
+    {
+      "intro": "Look at the three picture prompts. Write the story shown in the pictures.",
+      "pics": [
+        { "label": "Picture 1", "text": "school / book fair / choosing" },
+        { "label": "Picture 2", "text": "lunchtime / reading / absorbed" },
+        { "label": "Picture 3", "text": "night / torch / bed / reading on" }
+      ],
+      "minWords": 35
+    }
+  ]
+}

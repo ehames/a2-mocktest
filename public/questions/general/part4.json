@@ -1,0 +1,684 @@
+{
+  "sets": [
+    {
+      "title": "My new tablet",
+      "paragraphs": [
+        "I got a new tablet for my birthday. It is smaller (1) ____ my laptop, so I can take it to school easily. I usually use it (2) ____ the evening to read books and watch short videos.",
+        "Yesterday, I (3) ____ a drawing app. It was free and very easy to use. My sister wants to try it too, but she (4) ____ use it before I finish my homework.",
+        "Tomorrow we are (5) ____ to make a birthday card for Dad. I think he will like (6) ____ card because it will have a picture of our dog."
+      ],
+      "questions": [
+        {
+          "opts": ["than", "then", "that"],
+          "answer": 0,
+          "rationale": "'Smaller than' is the correct comparative structure in English. 'Then' is used for time sequences, and 'that' does not fit after a comparative adjective."
+        },
+        {
+          "opts": ["at", "in", "on"],
+          "answer": 1,
+          "rationale": "We use 'in the evening' (also 'in the morning / afternoon'). 'At' is used with specific times (at 7pm), and 'on' is used with days (on Monday)."
+        },
+        {
+          "opts": ["download", "downloaded", "downloading"],
+          "answer": 1,
+          "rationale": "'Yesterday' signals simple past tense, so 'downloaded' is correct. 'Download' is present and 'downloading' requires an auxiliary verb (was downloading)."
+        },
+        {
+          "opts": ["can't", "don't", "isn't"],
+          "answer": 0,
+          "rationale": "The sentence means the sister is not able/permitted to use it yet, so 'can't' (cannot) is correct. 'Don't' and 'isn't' don't fit the meaning of ability/permission here."
+        },
+        {
+          "opts": ["go", "going", "went"],
+          "answer": 1,
+          "rationale": "'Are going to' is the correct future structure here. 'Go' and 'went' cannot follow 'are' in this construction."
+        },
+        {
+          "opts": ["a", "an", "the"],
+          "answer": 2,
+          "rationale": "'The card' refers back to the specific card they are going to make — already known to both speaker and listener. 'A/an' would be used for something mentioned for the first time."
+        }
+      ]
+    },
+    {
+      "title": "My new bicycle",
+      "paragraphs": [
+        "Last Saturday, my parents gave me a new bicycle. It is faster (1) ____ my old one and it has a light on the front. I rode it (2) ____ the park near our house for the first time.",
+        "I did not know how to change the gears, so my dad showed me. Now I can ride much more quickly. My friend Carlos says I (3) ____ wear a helmet every time I go out.",
+        "Next weekend we are going to (4) ____ a long ride to the lake. Before we leave, I (5) ____ to make sure my tyres have enough air. I think cycling is the (6) ____ hobby I have ever tried!"
+      ],
+      "questions": [
+        {
+          "opts": ["than", "as", "then"],
+          "answer": 0,
+          "rationale": "'Faster than' is the standard comparative structure. 'As' is used in 'as fast as' to express equality, and 'then' expresses time sequence or consequence, not comparison."
+        },
+        {
+          "opts": ["in", "at", "to"],
+          "answer": 2,
+          "rationale": "We use 'to' with places we move towards (rode to the park). 'In' describes being located inside a place, and 'at' marks a general point in space — neither expresses movement towards a destination."
+        },
+        {
+          "opts": ["should", "could", "would"],
+          "answer": 0,
+          "rationale": "'Should' expresses advice or recommendation — the correct modal for saying what is the right thing to do. 'Could' expresses ability or possibility, and 'would' expresses willingness or hypothetical situations, not advice."
+        },
+        {
+          "opts": ["do", "go", "make"],
+          "answer": 1,
+          "rationale": "The fixed collocation is 'go for a ride'. 'Do' collocates with tasks and sports that take effort (do exercise), and 'make' collocates with creating things."
+        },
+        {
+          "opts": ["need", "want", "have"],
+          "answer": 0,
+          "rationale": "'Need to' expresses necessity — something that must be done. 'Want to' expresses desire but not obligation. 'Have to' also expresses obligation but 'to' is already present in the sentence structure."
+        },
+        {
+          "opts": ["good", "better", "best"],
+          "answer": 2,
+          "rationale": "'The best hobby I have ever tried' is the superlative construction with present perfect. 'Good' is the base adjective and 'better' is the comparative — only the superlative 'best' can follow 'the' in this 'ever + present perfect' structure."
+        }
+      ]
+    },
+    {
+      "title": "Visiting my grandparents",
+      "paragraphs": [
+        "Last weekend my family (1) ____ to my grandparents' house in the countryside. It takes about two hours by car. My grandparents have a big garden and two cats.",
+        "When we arrived, my grandmother was cooking lunch (2) ____ the kitchen. She made a delicious soup. After lunch, my grandfather showed me (3) ____ new books he had bought at the market.",
+        "We stayed until Sunday evening. Before we left, my grandmother gave (4) ____ a jar of homemade jam. I have (5) ____ eaten half of it because it is the most delicious thing I have (6) ____ tasted!"
+      ],
+      "questions": [
+        {
+          "opts": ["go", "went", "gone"],
+          "answer": 1,
+          "rationale": "'Last weekend' signals simple past tense, so 'went' is correct. 'Go' is the base/present form and cannot follow a past time expression. 'Gone' is the past participle and needs an auxiliary (have gone) to form a complete tense."
+        },
+        {
+          "opts": ["in", "at", "on"],
+          "answer": 0,
+          "rationale": "We use 'in' with rooms and enclosed spaces (in the kitchen, in the bedroom). 'At' marks a general location point, and 'on' is used for surfaces — neither is used with the names of rooms."
+        },
+        {
+          "opts": ["a", "an", "his"],
+          "answer": 2,
+          "rationale": "The sentence refers to the grandfather's own new books, so the possessive pronoun 'his' is correct. 'A' and 'an' are indefinite articles and cannot show possession; they also do not agree grammatically with the plural 'books'."
+        },
+        {
+          "opts": ["us", "we", "our"],
+          "answer": 0,
+          "rationale": "'Gave us' is correct because 'us' is the object pronoun — it receives the action of giving. 'We' is a subject pronoun and cannot function as an object. 'Our' is a possessive adjective, not an object pronoun."
+        },
+        {
+          "opts": ["yet", "already", "still"],
+          "answer": 1,
+          "rationale": "'Have already eaten' means the action happened sooner than expected — typical use of 'already' in affirmative present perfect sentences. 'Yet' is used in questions and negatives (haven't eaten yet). 'Still' combined with present perfect would require a negative (still haven't eaten)."
+        },
+        {
+          "opts": ["ever", "never", "always"],
+          "answer": 0,
+          "rationale": "'Have ever tasted' is the standard superlative + present perfect structure expressing the best experience up to now. 'Never' makes the sentence negative and illogical in context. 'Always' does not fit with present perfect to describe a single best experience."
+        }
+      ]
+    },
+    {
+      "title": "My new hobby: gardening",
+      "paragraphs": [
+        "Three weeks ago I tried gardening for the first time. My mum has a small garden and she taught me how to plant flowers. I was surprised (1) ____ how much I enjoyed it.",
+        "Now I go to the garden (2) ____ Saturday morning to water the plants and pull out the weeds. It is more relaxing (3) ____ playing video games, I think. Last week, I planted six tomato seeds (4) ____ my mum.",
+        "My mum says the tomatoes (5) ____ be ready to pick in summer. I am also thinking (6) ____ growing carrots next year."
+      ],
+      "questions": [
+        {
+          "opts": ["at", "by", "of"],
+          "answer": 0,
+          "rationale": "'Surprised at' is the fixed collocation used to describe a reaction to something unexpected. 'Surprised of' is not correct English. 'By' can also follow 'surprised' in passive structures but 'at' is the standard collocation when followed by a noun clause starting with 'how'."
+        },
+        {
+          "opts": ["in", "on", "at"],
+          "answer": 1,
+          "rationale": "We use 'on' with days of the week and named day-parts, such as 'on Saturday morning'. 'In' is used for general periods like 'in the morning', but once a specific day is mentioned, 'on' is required. 'At' is used with clock times, not day-parts."
+        },
+        {
+          "opts": ["than", "that", "then"],
+          "answer": 0,
+          "rationale": "'More relaxing than' is the correct comparative structure. 'That' does not follow a comparative adjective. 'Then' expresses time sequence or consequence, not comparison."
+        },
+        {
+          "opts": ["with", "by", "for"],
+          "answer": 0,
+          "rationale": "'With my mum' means alongside her (both planting together). The context suggests joint activity, so 'with' is correct. 'By' would mean the planting was done by means of the mum, and 'for' would mean on her behalf — both are wrong here."
+        },
+        {
+          "opts": ["will", "are", "would"],
+          "answer": 0,
+          "rationale": "'Will be ready' is the correct future simple form for a factual prediction. 'Are ready' is present tense and does not express future meaning. 'Would be ready' is conditional and implies an unlikely or hypothetical situation."
+        },
+        {
+          "opts": ["about", "of", "on"],
+          "answer": 0,
+          "rationale": "'Thinking about' is the fixed collocation for considering or planning something. 'Thinking of' is also possible in informal English, but 'about' is more standard. 'Thinking on' is not a correct English collocation."
+        }
+      ]
+    },
+    {
+      "title": "Getting ready for the school party",
+      "paragraphs": [
+        "Our school is having a big end-of-year party (1) ____ Friday afternoon. My class is in charge of the decorations, and we have been working on them all week.",
+        "Yesterday, my teacher asked me to make a list of things we still need. We must buy some balloons and (2) ____ sure there is enough juice for everyone. I went (3) ____ the shop after school to look at prices.",
+        "I am a little nervous (4) ____ I have to stand up and welcome the guests at the start. My friend Ana said I (5) ____ practise my speech in front of a mirror. I think that is a great idea, so I (6) ____ doing it tonight after dinner."
+      ],
+      "questions": [
+        {
+          "opts": ["on", "in", "at"],
+          "answer": 0,
+          "rationale": "We use 'on' with specific days and named day-parts, such as 'on Friday afternoon'. 'In' is used for general periods (in the afternoon), but once a specific day is named, 'on' is required. 'At' is used for clock times or points like 'at noon', not for day-parts."
+        },
+        {
+          "opts": ["do", "make", "have"],
+          "answer": 1,
+          "rationale": "'Make sure' is a fixed collocation meaning to verify or ensure something. 'Do sure' and 'have sure' are not correct English expressions."
+        },
+        {
+          "opts": ["to", "in", "at"],
+          "answer": 0,
+          "rationale": "We use 'to' to express movement towards a destination (went to the shop). 'In' describes being inside a place without movement, and 'at' marks a general location — neither expresses the direction of travel that 'went' requires."
+        },
+        {
+          "opts": ["because", "but", "so"],
+          "answer": 0,
+          "rationale": "'Because' introduces the reason or cause for being nervous (having to stand up). 'But' shows contrast between two ideas, and 'so' introduces a result or consequence — neither introduces a reason clause in this context."
+        },
+        {
+          "opts": ["could", "should", "would"],
+          "answer": 1,
+          "rationale": "'Should' expresses advice — what the friend recommends doing. 'Could' expresses ability or possibility rather than a recommendation, and 'would' expresses willingness or a hypothetical situation, not advice."
+        },
+        {
+          "opts": ["am", "is", "are"],
+          "answer": 0,
+          "rationale": "The subject is 'I', so the correct auxiliary for the present continuous is 'am' (I am doing). 'Is' is used with he/she/it, and 'are' is used with you/we/they — both are wrong with the subject 'I'."
+        }
+      ]
+    },
+    {
+      "title": "A rainy afternoon at home",
+      "paragraphs": [
+        "Last Sunday it rained all day, so my brother and I stayed (1) ____ home. We decided to play board games because we do not have (2) ____ outdoor activities when the weather is bad.",
+        "In the afternoon, our mum taught us (3) ____ make a pizza. We put cheese and tomatoes on it, and a few olives. My brother (4) ____ like olives, but he ate some anyway and said they were not bad.",
+        "By the time we finished eating, it was already seven o'clock. That was one of the (5) ____ afternoons I have ever had. We are going to do the same (6) ____ next Sunday if it rains again."
+      ],
+      "questions": [
+        {
+          "opts": ["at", "in", "on"],
+          "answer": 0,
+          "rationale": "'Stay at home' is a fixed expression. 'In home' and 'on home' are not correct English collocations."
+        },
+        {
+          "opts": ["do", "make", "play"],
+          "answer": 0,
+          "rationale": "'Do outdoor activities' is the standard collocation — we 'do' activities and sports in general. 'Make' is used for creating things, and 'play' is used for sports and games with rules, not for activities in general."
+        },
+        {
+          "opts": ["how", "what", "to"],
+          "answer": 2,
+          "rationale": "'Taught us to make' uses the infinitive to express the activity they learned. 'Taught us how to make' is also possible but 'how' is not one of the options; 'what' and 'to' alone — 'to' is the correct infinitive marker here fitting the blank."
+        },
+        {
+          "opts": ["doesn't", "isn't", "hasn't"],
+          "answer": 0,
+          "rationale": "'Doesn't like' is the correct present simple negative with a main verb (like). 'Isn't like' would require an adjective or noun after it. 'Hasn't like' is grammatically impossible."
+        },
+        {
+          "opts": ["best", "better", "good"],
+          "answer": 0,
+          "rationale": "'One of the best afternoons I have ever had' is the superlative structure with present perfect. 'Better' is a comparative and 'good' is the base form — only 'best' fits in a 'one of the …' superlative construction."
+        },
+        {
+          "opts": ["thing", "stuff", "activity"],
+          "answer": 0,
+          "rationale": "'The same thing' is the natural collocation to refer back to the activity described. 'Stuff' is informal and uncountable (cannot follow 'the same' to refer to a specific countable activity). 'Activity' would need the article 'the same activity', which is slightly less natural than 'the same thing' in casual speech."
+        }
+      ]
+    },
+    {
+      "title": "Our school trip to the aquarium",
+      "paragraphs": [
+        "Last week, our whole class went on a trip (1) ____ the city aquarium. We travelled by coach and it took about forty minutes. When we arrived, a guide showed us (2) ____ the building.",
+        "There were hundreds of different fish and sea animals. I liked the jellyfish (3) ____ because they were so beautiful and strange. My friend Tom (4) ____ photos of everything he saw.",
+        "In the gift shop, I bought a small toy shark for my younger sister. She (5) ____ very happy when I gave it to her. Next month, the school is going to take us (6) ____ a science museum, which I am looking forward to."
+      ],
+      "questions": [
+        {
+          "opts": ["to", "at", "in"],
+          "answer": 0,
+          "rationale": "'Went on a trip to' uses 'to' to indicate the destination. 'At' and 'in' do not express movement towards a destination in this context."
+        },
+        {
+          "opts": ["around", "over", "through"],
+          "answer": 0,
+          "rationale": "'Showed us around the building' means the guide took them on a tour. 'Showed us over' is less natural in modern British English. 'Showed us through' implies passing through, not exploring."
+        },
+        {
+          "opts": ["most", "more", "the most"],
+          "answer": 2,
+          "rationale": "'The most' is the superlative form needed here (I liked the jellyfish the most = more than anything else). 'Most' without 'the' functions as an adverb meaning 'very', which is less precise here. 'More' is comparative and needs a comparison point."
+        },
+        {
+          "opts": ["took", "made", "done"],
+          "answer": 0,
+          "rationale": "'Take photos' is the standard collocation. 'Make photos' is not used in English (it is a literal translation from some languages). 'Done photos' is grammatically incorrect."
+        },
+        {
+          "opts": ["was", "is", "were"],
+          "answer": 0,
+          "rationale": "The subject is 'she' (singular) and the event happened in the past, so 'was' is correct. 'Is' is present tense and 'were' is past plural — neither fits a singular past subject."
+        },
+        {
+          "opts": ["to", "on", "at"],
+          "answer": 0,
+          "rationale": "'Take us to a science museum' uses 'to' to indicate the destination of movement. 'On' would be used in 'take us on a trip' (different structure). 'At' describes a location, not movement towards it."
+        }
+      ]
+    },
+    {
+      "title": "My favourite sport: tennis",
+      "paragraphs": [
+        "I started playing tennis (1) ____ I was eight years old. My dad taught me, and now I practise every Tuesday and Thursday. I really enjoy it because it is good (2) ____ my health and I can play with friends.",
+        "Last month, I entered a local junior competition for the first time. I was very nervous before my (3) ____ match. Luckily, I won it and then went on to win two more.",
+        "At the end, I came (4) ____ in the competition. I was very happy because I did not expect to do so well. My coach says I have improved (5) ____ lot and that I (6) ____ try to enter the national competition next year."
+      ],
+      "questions": [
+        {
+          "opts": ["when", "since", "while"],
+          "answer": 0,
+          "rationale": "'When I was eight years old' is a time clause introducing the point in the past when the action started. 'Since' requires a perfect tense (have played since I was eight). 'While' expresses two simultaneous actions, which does not fit here."
+        },
+        {
+          "opts": ["at", "for", "to"],
+          "answer": 1,
+          "rationale": "'Good for my health' is the fixed collocation. 'Good at' means skilled in (good at tennis). 'Good to' typically precedes people (good to others) or infinitives (good to know), not health."
+        },
+        {
+          "opts": ["first", "one", "single"],
+          "answer": 0,
+          "rationale": "'My first match' means the initial match in the competition. 'My one match' would mean I only had one match total (not the intended meaning). 'My single match' is possible but 'first' is the natural ordinal adjective here."
+        },
+        {
+          "opts": ["second", "twice", "two"],
+          "answer": 0,
+          "rationale": "'Came second' is the standard expression for finishing in second place. 'Came twice' means happened two times, which does not make sense for a position. 'Came two' is grammatically incorrect."
+        },
+        {
+          "opts": ["a", "the", "so"],
+          "answer": 0,
+          "rationale": "'A lot' is the correct collocation meaning considerably or greatly. 'The lot' means everything (all of it), which is not the intended meaning. 'So lot' is not grammatically correct."
+        },
+        {
+          "opts": ["should", "must", "might"],
+          "answer": 0,
+          "rationale": "'Should try' expresses advice — the coach recommends entering. 'Must try' is an obligation or strong necessity. 'Might try' expresses possibility without recommendation. 'Should' is the correct modal for advice."
+        }
+      ]
+    },
+    {
+      "title": "Helping at home",
+      "paragraphs": [
+        "I help my parents at home every day. On weekdays I usually wash (1) ____ the dishes after dinner. At weekends, I also vacuum the living room and (2) ____ my bedroom tidy.",
+        "Last Saturday, my mum asked me to help her with the shopping. We went to the market (3) ____ we like the fresh vegetables there. I carried the heavy bags on the way home.",
+        "My parents say I am very responsible for my age. I think helping at home is (4) ____ because it teaches you how to look after yourself. When I am older, I want to live (5) ____ my own, so it is good to know how to (6) ____ these things."
+      ],
+      "questions": [
+        {
+          "opts": ["up", "off", "over"],
+          "answer": 0,
+          "rationale": "'Wash up' is a British English phrasal verb meaning to wash the dishes. 'Wash off' means to remove dirt from a surface. 'Wash over' means a feeling comes across you — neither fits here."
+        },
+        {
+          "opts": ["keep", "do", "make"],
+          "answer": 0,
+          "rationale": "'Keep my bedroom tidy' means to maintain it in a tidy state. 'Do tidy' is grammatically incorrect. 'Make tidy' is possible but 'make' usually requires an object before the adjective (make it tidy) — 'keep' fits the blank naturally."
+        },
+        {
+          "opts": ["because", "although", "if"],
+          "answer": 0,
+          "rationale": "'Because we like the fresh vegetables there' introduces the reason for going to the market. 'Although' introduces a contrast, and 'if' introduces a condition — neither introduces a reason clause here."
+        },
+        {
+          "opts": ["important", "importance", "importantly"],
+          "answer": 0,
+          "rationale": "'Helping at home is important' requires an adjective after the linking verb 'is'. 'Importance' is a noun and 'importantly' is an adverb — only an adjective can follow a linking verb in this predicative position."
+        },
+        {
+          "opts": ["on", "by", "in"],
+          "answer": 0,
+          "rationale": "'Live on my own' is the fixed expression meaning to live alone independently. 'Live by myself' is an alternative, but 'by' requires 'myself' not 'my own'. 'Live in my own' is not a standard expression."
+        },
+        {
+          "opts": ["do", "make", "have"],
+          "answer": 0,
+          "rationale": "'Do these things' is the correct collocation when referring to domestic tasks and chores. 'Make these things' means to create or produce them. 'Have these things' means to possess them — neither fits the context of performing household tasks."
+        }
+      ]
+    },
+    {
+      "title": "A trip to the cinema",
+      "paragraphs": [
+        "Last Friday, I went to the cinema (1) ____ my classmate, Lucia. We went to see an adventure film that had only (2) ____ at the cinema a week before.",
+        "We bought our tickets online, (3) ____ there was a queue at the counter. The film started at seven o'clock and finished (4) ____ nine thirty. I really enjoyed it.",
+        "After the cinema, we had a burger at the restaurant next door. It was quite late (5) ____ we got home, but our parents said it was fine. We are planning (6) ____ again next month."
+      ],
+      "questions": [
+        {
+          "opts": ["with", "by", "to"],
+          "answer": 0,
+          "rationale": "'Went to the cinema with my classmate' uses 'with' to express accompaniment — going together. 'By' expresses means of transport (went by bus). 'To' introduces a destination, not a companion."
+        },
+        {
+          "opts": ["arrived", "appeared", "opened"],
+          "answer": 2,
+          "rationale": "'The film had only opened at the cinema' means it had only recently started its cinema run. 'Arrived' is used for people or objects travelling to a place, not films. 'Appeared' is possible but less standard — 'opened' is the conventional term for a film beginning its public screening."
+        },
+        {
+          "opts": ["so", "because", "but"],
+          "answer": 2,
+          "rationale": "'We bought our tickets online, but there was a queue at the counter' shows contrast — they avoided the queue by buying online. 'So' would introduce a result (they bought online so there was no queue for them, not a general statement). 'Because' introduces a reason, which reverses the logic here."
+        },
+        {
+          "opts": ["in", "at", "by"],
+          "answer": 1,
+          "rationale": "'Finished at nine thirty' uses 'at' with specific clock times. 'In nine thirty' is not correct English. 'By nine thirty' means no later than that time — here the sentence states exactly when it finished, so 'at' is the right preposition."
+        },
+        {
+          "opts": ["when", "while", "after"],
+          "answer": 0,
+          "rationale": "'It was quite late when we got home' is a time clause describing the point at which they arrived. 'While we got home' is incorrect because 'while' expresses duration, not a point in time. 'After we got home' would change the meaning (the lateness was after arrival, not when they arrived)."
+        },
+        {
+          "opts": ["to go", "going", "go"],
+          "answer": 0,
+          "rationale": "'Planning to go' uses 'to + infinitive' after 'plan', which is the standard structure in English. 'Planning going' (gerund) is not used with 'plan' in British English. 'Planning go' omits the necessary particle."
+        }
+      ]
+    },
+    {
+      "title": "Learning to swim",
+      "paragraphs": [
+        "I have been taking swimming lessons (1) ____ six months. At first I was scared because I (2) ____ not like putting my face in the water.",
+        "My teacher, Mr Pereira, is very patient. He taught me how to breathe correctly, and now I can swim (3) ____ the length of the pool without stopping. I feel much more (4) ____ in the water than before.",
+        "Last week I (5) ____ in my first short race at the pool. I came third, which I was really pleased with. My parents (6) ____ to come and watch me, which made me feel very proud."
+      ],
+      "questions": [
+        {
+          "opts": ["since", "for", "ago"],
+          "answer": 1,
+          "rationale": "'For six months' expresses a duration of time (how long). 'Since' requires a specific start point (since January). 'Ago' means a period of time in the past and cannot follow 'have been taking'."
+        },
+        {
+          "opts": ["did", "could", "does"],
+          "answer": 0,
+          "rationale": "'Did not like' is simple past negative, consistent with the past context (at first). 'Could not like' is grammatically unusual — 'could' does not typically negate a mental state verb like 'like'. 'Does not like' is present tense."
+        },
+        {
+          "opts": ["all", "whole", "full"],
+          "answer": 0,
+          "rationale": "'Swim all the length' means the complete distance. 'Whole the length' is grammatically incorrect — 'whole' comes before the article ('the whole length'). 'Full the length' is also incorrect word order."
+        },
+        {
+          "opts": ["confident", "confidence", "confidently"],
+          "answer": 0,
+          "rationale": "'Feel much more confident' requires an adjective after the linking verb 'feel'. 'Confidence' is a noun and 'confidently' is an adverb — only adjectives follow linking verbs in predicative position."
+        },
+        {
+          "opts": ["competed", "participated", "raced"],
+          "answer": 0,
+          "rationale": "'Competed in my first short race' is the standard collocation. 'Participated in' is possible but typically refers to an event, not a race specifically. 'Raced in' is unusual — we race against someone or in a location, not 'in a race' with the verb 'race'."
+        },
+        {
+          "opts": ["came", "arrived", "went"],
+          "answer": 0,
+          "rationale": "'My parents came to watch' means they travelled to the pool for that purpose. 'Arrived to watch' is grammatically possible but less natural. 'Went to watch' would be used from the parents' own perspective but the narrator says 'my parents', so 'came' (towards the narrator's location) is correct."
+        }
+      ]
+    },
+    {
+      "title": "My pen pal from Brazil",
+      "paragraphs": [
+        "I have had a pen pal (1) ____ Brazil for about a year now. Her name is Camila and she is fifteen, the same age (2) ____ me. We write emails to each other every two weeks.",
+        "Camila told me a lot (3) ____ her country. She lives in a city near the sea and she loves surfing. I find her life very different (4) ____ mine because I live in a small town in the mountains.",
+        "We (5) ____ to meet one day. Camila would like to visit Europe and I would love to go to Brazil. Maybe (6) ____ summer we can make a plan."
+      ],
+      "questions": [
+        {
+          "opts": ["from", "in", "of"],
+          "answer": 0,
+          "rationale": "'A pen pal from Brazil' means her pen pal comes from that country. 'In Brazil' would describe where the pen pal currently is, not their nationality or origin. 'Of Brazil' is not a standard way to express origin for a person."
+        },
+        {
+          "opts": ["as", "like", "than"],
+          "answer": 0,
+          "rationale": "'The same age as me' is the fixed expression for equal comparison. 'Like me' would compare how she is similar in a general way, not specifically age. 'Than' is used for differences (older than), not equality."
+        },
+        {
+          "opts": ["about", "of", "on"],
+          "answer": 0,
+          "rationale": "'Told me a lot about her country' uses 'about' to introduce the topic of what was said. 'Told me a lot of' would need a noun to follow (a lot of things). 'Told me a lot on' is not a standard English collocation."
+        },
+        {
+          "opts": ["from", "to", "than"],
+          "answer": 0,
+          "rationale": "'Different from' is the standard British English preposition after 'different'. 'Different to' is also used in informal British English, but 'different than' is more common in American English and less standard here."
+        },
+        {
+          "opts": ["hope", "want", "wish"],
+          "answer": 0,
+          "rationale": "'Hope to meet' expresses a wish about a future event that is possible. 'Want to meet' also works but 'hope' is more appropriate because meeting in the future is uncertain. 'Wish to meet' is more formal and less common in spoken or informal written English."
+        },
+        {
+          "opts": ["next", "this", "the"],
+          "answer": 0,
+          "rationale": "'Next summer' means the summer coming up (in the future). 'This summer' is also possible but implies the current or immediately approaching summer. 'The summer' would require a relative clause or additional context — 'next summer' is the most natural future reference here."
+        }
+      ]
+    },
+    {
+      "title": "Buying a gift for Mum",
+      "paragraphs": [
+        "Last Saturday I went to the shopping centre to buy a birthday present (1) ____ my mum. I had saved twenty euros and I wanted to find something special.",
+        "I looked (2) ____ lots of different shops but I could not decide. In the end, I found a beautiful scarf in a small shop. It was exactly the right colour — Mum's favourite is blue. The scarf cost (3) ____ than I expected, so I had enough money left for a card.",
+        "I wrapped the gift (4) ____ and hid it under my bed. On Sunday morning, I gave it to her. (5) ____ she opened it, she smiled and said it was lovely. I felt really (6) ____ seeing her happy."
+      ],
+      "questions": [
+        {
+          "opts": ["for", "to", "of"],
+          "answer": 0,
+          "rationale": "'A present for my mum' uses 'for' to indicate the intended recipient of the gift. 'To' is used when giving directly (gave it to her), not when describing who a gift is intended for. 'Of' does not fit this context."
+        },
+        {
+          "opts": ["at", "in", "around"],
+          "answer": 2,
+          "rationale": "'Looked around lots of different shops' means browsed through them. 'Looked at' means examined one specific thing (looked at a scarf). 'Looked in' means checked inside, which is less natural when talking about shopping in multiple stores."
+        },
+        {
+          "opts": ["less", "fewer", "more"],
+          "answer": 0,
+          "rationale": "'It cost less than I expected' means it was cheaper than anticipated, which explains why there was money left over. 'Fewer' is used with countable nouns, not money. 'More than expected' would mean it was more expensive and no money would be left."
+        },
+        {
+          "opts": ["it", "her", "him"],
+          "answer": 0,
+          "rationale": "'Wrapped the gift it' does not make sense. The sentence needs no object pronoun here — 'wrapped the gift carefully' is complete. However, given the three options, 'it' used as an object after 'wrapped' would refer to the gift. 'Her' or 'him' refer to people, not objects."
+        },
+        {
+          "opts": ["When", "While", "Before"],
+          "answer": 0,
+          "rationale": "'When she opened it' introduces the moment she performed the action. 'While she opened it' would suggest a simultaneous ongoing action, which is unusual for the quick act of opening. 'Before she opened it' would place the smile before the opening, which reverses the sequence."
+        },
+        {
+          "opts": ["pleased", "pleasing", "pleasure"],
+          "answer": 0,
+          "rationale": "'Felt really pleased' requires a past participle adjective after the linking verb 'felt'. 'Pleasing' is an adjective describing the thing that causes pleasure (a pleasing gift), not the person feeling it. 'Pleasure' is a noun and cannot follow 'felt really'."
+        }
+      ]
+    },
+    {
+      "title": "My morning routine",
+      "paragraphs": [
+        "I always wake (1) ____ at seven o'clock on school days. After I get dressed, I have breakfast in the kitchen with my family. I usually have cereal and orange juice, but (2) ____ I have toast with butter.",
+        "I leave the house at half past seven. My school is not far from home, so I go (3) ____ foot. It takes about ten minutes. I like walking because it gives me time to think.",
+        "When I arrive at school, I usually talk to my friends (4) ____ we go inside. The school bell rings at eight o'clock. I always (5) ____ to be on time because my teacher says punctuality is important. I think she (6) ____ right."
+      ],
+      "questions": [
+        {
+          "opts": ["up", "out", "on"],
+          "answer": 0,
+          "rationale": "'Wake up' is the correct phrasal verb meaning to stop sleeping. 'Wake out' is not a standard English phrasal verb. 'Wake on' is also not used in this context."
+        },
+        {
+          "opts": ["sometimes", "always", "never"],
+          "answer": 0,
+          "rationale": "The sentence contrasts the usual routine (cereal) with an occasional alternative (toast), so 'sometimes' is the right adverb of frequency. 'Always' contradicts the earlier 'usually'. 'Never' means the alternative never happens, which contradicts the meaning."
+        },
+        {
+          "opts": ["on", "by", "with"],
+          "answer": 0,
+          "rationale": "'Go on foot' is the fixed phrase meaning to walk. 'Go by foot' uses 'by' which is for transport modes (by bus, by train) — foot is not a transport mode in standard English. 'Go with foot' is not a correct English expression."
+        },
+        {
+          "opts": ["before", "after", "when"],
+          "answer": 0,
+          "rationale": "'Talk to friends before we go inside' indicates the conversation happens first, then they enter. 'After we go inside' reverses the order. 'When we go inside' means simultaneously, which does not fit the outdoor conversation context."
+        },
+        {
+          "opts": ["try", "manage", "hope"],
+          "answer": 0,
+          "rationale": "'Always try to be on time' expresses making an effort to be punctual. 'Manage to be on time' means successfully arriving on time, but 'always manage' would imply perfect punctuality (contradicting 'try'). 'Hope to be on time' is about wishing, not effort."
+        },
+        {
+          "opts": ["is", "are", "was"],
+          "answer": 0,
+          "rationale": "The subject is 'she' (singular female, the teacher) in a present context, so 'is' is the correct present simple verb. 'Are' is plural or second person. 'Was' is past tense and the sentence is about the current belief."
+        }
+      ]
+    },
+    {
+      "title": "The new sports centre",
+      "paragraphs": [
+        "A new sports centre (1) ____ in our town three months ago. It has a swimming pool, a gym, and two tennis courts. Many people from our neighbourhood have already (2) ____ members.",
+        "My parents decided to join so that our family (3) ____ use the pool at weekends. I have been going every Saturday for the past month. The instructors are very friendly and they always (4) ____ me how to improve my technique.",
+        "Next month the centre is (5) ____ a beginners' basketball course. I have never played basketball, so I would really like to try. I (6) ____ sign up for it this week before it gets full."
+      ],
+      "questions": [
+        {
+          "opts": ["opened", "open", "opens"],
+          "answer": 0,
+          "rationale": "'Three months ago' signals a past event, so the past simple 'opened' is correct. 'Open' is the base/present form. 'Opens' is the present simple third-person form — neither can follow a past time expression."
+        },
+        {
+          "opts": ["become", "became", "becoming"],
+          "answer": 0,
+          "rationale": "'Have already become members' is the present perfect form (have + past participle). 'Became' is the simple past — it cannot follow 'have'. 'Becoming' is a gerund or present participle and also cannot follow 'have' in this tense."
+        },
+        {
+          "opts": ["could", "can", "would"],
+          "answer": 1,
+          "rationale": "'So that our family can use the pool' expresses the purpose — what they will be able to do. 'Could' is past or conditional and does not fit a present-tense purpose clause. 'Would' is also conditional and less natural for purpose."
+        },
+        {
+          "opts": ["show", "tell", "explain"],
+          "answer": 0,
+          "rationale": "'Show me how to improve' is the correct collocation for demonstrating a technique. 'Tell me how' is also grammatically possible but 'show' implies a physical demonstration, which is more appropriate in a sports context. 'Explain me' is not correct — 'explain' requires 'explain to me'."
+        },
+        {
+          "opts": ["starting", "having", "offering"],
+          "answer": 2,
+          "rationale": "'The centre is offering a course' means making it available to people. 'Starting a course' is also possible, but 'offering' is the most natural verb when a centre makes a new programme available to members. 'Having a course' is not standard."
+        },
+        {
+          "opts": ["should", "will", "am going to"],
+          "answer": 2,
+          "rationale": "'I am going to sign up' expresses a definite personal intention. 'Should sign up' is advice-like rather than expressing a clear intention. 'Will sign up' expresses a decision made in the moment — 'am going to' is better for a pre-planned intention."
+        }
+      ]
+    },
+    {
+      "title": "Our school sports day",
+      "paragraphs": [
+        "Last Thursday was our school sports day. All the students from Years 7 to 11 took part (1) ____ different races and team games. The event was held on the school field.",
+        "I entered the 400-metre race. I had been training hard (2) ____ two months, so I felt quite confident. When the race started, I ran as fast as I (3) ____. In the end, I came second.",
+        "After the races, all the students had a picnic together on the grass. The weather (4) ____ perfect — warm and sunny. My teacher said it was one of the (5) ____ sports days the school (6) ____."
+      ],
+      "questions": [
+        {
+          "opts": ["in", "at", "on"],
+          "answer": 0,
+          "rationale": "'Took part in' is the fixed phrasal verb meaning to participate. 'Took part at' and 'took part on' are not correct English collocations with this phrase."
+        },
+        {
+          "opts": ["since", "for", "during"],
+          "answer": 1,
+          "rationale": "'Training hard for two months' uses 'for' to express the duration of the training. 'Since two months' is incorrect — 'since' needs a starting point (since March). 'During two months' is not natural English — 'during' is followed by a named period (during the summer)."
+        },
+        {
+          "opts": ["could", "can", "would"],
+          "answer": 0,
+          "rationale": "'As fast as I could' means as fast as I was able to. This uses 'could' as the past form of 'can' (ability). 'As fast as I can' is present tense and would be inconsistent with the past narrative. 'As fast as I would' does not express ability."
+        },
+        {
+          "opts": ["was", "were", "is"],
+          "answer": 0,
+          "rationale": "The subject is 'the weather' (singular) and the context is past, so 'was' is correct. 'Were' is past plural. 'Is' is present tense — the sentence describes a past event."
+        },
+        {
+          "opts": ["best", "better", "good"],
+          "answer": 0,
+          "rationale": "'One of the best sports days' is the superlative structure in a 'one of the …' construction. 'Better' is comparative and 'good' is the base form — neither fits a superlative 'one of the …' structure."
+        },
+        {
+          "opts": ["had ever had", "has ever had", "ever had"],
+          "answer": 0,
+          "rationale": "'One of the best sports days the school had ever had' uses past perfect to refer to a past period looking back even further. 'Has ever had' is present perfect, inconsistent with the past context of the sports day. 'Ever had' without an auxiliary is grammatically incomplete."
+        }
+      ]
+    },
+    {
+      "title": "A new pet",
+      "paragraphs": [
+        "My family got a puppy last month. We (1) ____ him Bruno, after a character in a film we all love. He is a small golden dog with big brown eyes.",
+        "At first, Bruno was very nervous and he (2) ____ stop barking. My mum said we needed to be patient with him and give him time to settle in. After a week, he started to feel (3) ____ comfortable.",
+        "Bruno has already learned to sit and give his paw. My little brother is (4) ____ charge of feeding him every morning. I take him (5) ____ walks after school. Looking after a pet is a big responsibility, but it is also very (6) ____."
+      ],
+      "questions": [
+        {
+          "opts": ["called", "named", "gave"],
+          "answer": 1,
+          "rationale": "'We named him Bruno' is the standard expression for giving a name. 'We called him Bruno' is also correct but 'called' is not in the options. 'Named' is the most natural verb for the act of giving a name. 'Gave him Bruno' would mean giving him the dog named Bruno, not naming him."
+        },
+        {
+          "opts": ["wouldn't", "couldn't", "shouldn't"],
+          "answer": 0,
+          "rationale": "'Wouldn't stop barking' means he refused to stop or was unwilling to stop — a natural description of a nervous dog's persistent behaviour. 'Couldn't stop barking' also works but suggests inability rather than stubbornness. 'Shouldn't stop barking' implies it was wrong for him to stop, which is illogical."
+        },
+        {
+          "opts": ["more", "most", "much"],
+          "answer": 0,
+          "rationale": "'Feel more comfortable' is the comparative form expressing an increase in comfort over time. 'Feel most comfortable' is the superlative and would need 'the'. 'Feel much comfortable' is grammatically incorrect — 'much' cannot precede a simple adjective without 'more'."
+        },
+        {
+          "opts": ["in", "on", "at"],
+          "answer": 0,
+          "rationale": "'In charge of' is the fixed expression meaning responsible for. 'On charge of' and 'at charge of' are not correct English expressions."
+        },
+        {
+          "opts": ["for", "on", "during"],
+          "answer": 0,
+          "rationale": "'Take him for walks' is the fixed collocation. 'Take him on walks' is possible but less standard. 'Take him during walks' changes the meaning entirely."
+        },
+        {
+          "opts": ["rewarding", "reward", "rewarded"],
+          "answer": 0,
+          "rationale": "'Very rewarding' requires an adjective after the adverb 'very'. 'Reward' is a noun or base verb and cannot follow 'very'. 'Rewarded' is a past participle — while it can function as an adjective ('felt rewarded'), the most natural complement to 'it is very' is the -ing adjective 'rewarding', which describes the experience."
+        }
+      ]
+    }
+  ]
+}
