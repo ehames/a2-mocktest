@@ -17,7 +17,11 @@ export default function TimerPill({ secondsLeft }: Props) {
         aria-live="assertive"
         aria-atomic="true"
       >
-        {secondsLeft === 300 ? 'Warning: five minutes remaining' : ''}
+        {secondsLeft <= 300 && secondsLeft > 295
+          ? 'Warning: five minutes remaining'
+          : secondsLeft <= 60 && secondsLeft > 55
+          ? 'Warning: one minute remaining'
+          : ''}
       </span>
       <div
         role="timer"

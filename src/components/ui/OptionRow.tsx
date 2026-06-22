@@ -8,6 +8,7 @@ interface Props {
   optionState: State
   onClick?: () => void
   showMark?: boolean
+  ariaLabel?: string
 }
 
 const C = {
@@ -15,7 +16,14 @@ const C = {
   green: 'var(--green)', greenBg: 'var(--green-bg)', red: 'var(--red)', redBg: 'var(--red-bg)',
 }
 
-export default function OptionRow({ letter, label, variant, optionState, onClick, showMark }: Props) {
+function suppressIfDisabled(onClick?: () => void) {
+  if (onClick) return undefined
+  return (e: React.KeyboardEvent) => {
+    if (e.key === 'Enter' || e.key === ' ') e.preventDefault()
+  }
+}
+
+export default function OptionRow({ letter, label, variant, optionState, onClick, showMark, ariaLabel }: Props) {
   const st = optionState
   const isCorrect = st === 'correct'
   const isWrong = st === 'wrong'
@@ -35,6 +43,8 @@ export default function OptionRow({ letter, label, variant, optionState, onClick
       <button
         onClick={onClick}
         aria-disabled={!onClick}
+        aria-label={ariaLabel}
+        onKeyDown={suppressIfDisabled(onClick)}
         className="option-btn"
         style={{ display: 'flex', alignItems: 'center', gap: 12, width: '100%', textAlign: 'left', padding: 14, borderRadius: 12, border: `1.5px solid ${bd}`, background: bg, color: tx, font: "500 15px/1.45 'Libre Franklin',sans-serif", cursor, minHeight: 54 }}
       >
@@ -56,6 +66,8 @@ export default function OptionRow({ letter, label, variant, optionState, onClick
       <button
         onClick={onClick}
         aria-disabled={!onClick}
+        aria-label={ariaLabel}
+        onKeyDown={suppressIfDisabled(onClick)}
         className="option-btn"
         style={{ display: 'inline-flex', alignItems: 'center', gap: 8, padding: '10px 13px', borderRadius: 10, border: `1.5px solid ${bd}`, background: bg, color: tx, font: "600 15px 'Libre Franklin'", cursor, minHeight: 44 }}
       >
@@ -77,6 +89,8 @@ export default function OptionRow({ letter, label, variant, optionState, onClick
     <button
       onClick={onClick}
       aria-disabled={!onClick}
+      aria-label={ariaLabel}
+      onKeyDown={suppressIfDisabled(onClick)}
       className="option-btn"
       style={{ flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 6, padding: '13px 0', borderRadius: 10, border: `1.5px solid ${bd}`, background: bg, color: tx, font: "700 17px 'Libre Franklin'", cursor, minHeight: 50 }}
     >
