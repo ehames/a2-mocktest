@@ -115,6 +115,44 @@
         }
       ],
       "minWords": 35
+    },
+    {
+      "intro": "Look at the three pictures. Write the story shown in the pictures.",
+      "storyArc": "Leo gets a big wrapped present from Gran at the kitchen table, unwraps it to find a football, and they go to the garden where they hug happily with the football on the grass.",
+      "characters": [
+        { "name": "Leo", "description": "a boy of about 10, red cap, jeans and a striped T-shirt" },
+        { "name": "Gran", "description": "a woman of about 65, curly grey hair, floral blouse" }
+      ],
+      "pics": [
+        {
+          "label": "Picture 1",
+          "text": "kitchen / present / surprise",
+          "setting": "a kitchen table",
+          "background": "kitchen cupboards, window with daylight",
+          "scene": "Leo sits at the kitchen table staring at a large colourfully wrapped present, while Gran stands beside him smiling",
+          "emotion": "Leo excited and curious, Gran warm and happy",
+          "image": "images/part7/test-story_p1.webp"
+        },
+        {
+          "label": "Picture 2",
+          "text": "football / unwrap / happy",
+          "setting": "the same kitchen table",
+          "background": "torn wrapping paper on the table, kitchen cupboards behind",
+          "scene": "Leo holds up a football with both hands, beaming, while Gran claps her hands",
+          "emotion": "both delighted and proud",
+          "image": "images/part7/test-story_p2.webp"
+        },
+        {
+          "label": "Picture 3",
+          "text": "garden / hug / celebrate",
+          "setting": "a back garden",
+          "background": "garden fence, green grass, a few plants",
+          "scene": "Leo and Gran hug in the garden, with the football sitting on the grass beside them",
+          "emotion": "both happy and close",
+          "image": "images/part7/test-story_p3.webp"
+        }
+      ],
+      "minWords": 35
     }
   ]
 }
