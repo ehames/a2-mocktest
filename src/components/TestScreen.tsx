@@ -157,6 +157,7 @@ export default function TestScreen({ step, state, dispatch }: Props) {
         <div style={{ flex: 1, textAlign: 'center', font: "600 13px 'Libre Franklin'", color: 'var(--muted)' }}>{partOf}</div>
         <button
           onClick={handleNext}
+          aria-label={isSubmitStep && confirmingSubmit ? 'Confirm submission' : undefined}
           className={isSubmitStep && confirmingSubmit ? 'btn-danger' : 'btn-primary'}
           style={{ background: isSubmitStep && confirmingSubmit ? 'var(--red)' : 'var(--navy)', color: 'var(--surface)', border: 'none', borderRadius: 11, padding: '14px 22px', font: "700 14px 'Libre Franklin'", cursor: 'pointer' }}
         >

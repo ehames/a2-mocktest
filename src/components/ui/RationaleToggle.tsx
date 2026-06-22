@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useId } from 'react'
 
 interface Props {
   rationale: string
@@ -6,12 +6,14 @@ interface Props {
 
 export default function RationaleToggle({ rationale }: Props) {
   const [open, setOpen] = useState(false)
+  const panelId = useId()
 
   return (
     <div style={{ marginTop: 8 }}>
       <button
         onClick={() => setOpen(o => !o)}
         aria-expanded={open}
+        aria-controls={panelId}
         style={{
           background: 'none',
           border: '1px solid var(--input-border)',
@@ -30,7 +32,7 @@ export default function RationaleToggle({ rationale }: Props) {
         {open ? 'Hide rationale' : 'Show rationale'}
       </button>
       {open && (
-        <div className="rationale-body" style={{
+        <div id={panelId} className="rationale-body" style={{
           marginTop: 8,
           padding: '10px 13px',
           background: 'var(--instr-bg)',

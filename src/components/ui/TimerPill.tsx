@@ -28,7 +28,7 @@ export default function TimerPill({ secondsLeft }: Props) {
         aria-label={`${mm} minutes ${pad(ss)} seconds remaining`}
         style={{
           font: "700 15px 'Libre Franklin'",
-          background: warn ? 'rgba(200,40,40,.92)' : 'rgba(255,255,255,.14)',
+          background: warn ? 'var(--timer-warn-bg)' : 'var(--timer-normal-bg)',
           color: 'var(--surface)',
           padding: '7px 12px',
           borderRadius: 8,

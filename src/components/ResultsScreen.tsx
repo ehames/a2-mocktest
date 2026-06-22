@@ -47,7 +47,7 @@ export default function ResultsScreen({ state, dispatch }: Props) {
       <div className="scrollbar-hidden" style={{ flex: 1, overflowY: 'auto', minHeight: 0, padding: '22px 18px 26px' }}>
 
         {/* Score ring */}
-        <div className="animate-pop" style={{ display: 'flex', alignItems: 'center', gap: 18, background: 'var(--surface)', border: '1px solid var(--border)', borderRadius: 16, padding: 20, marginBottom: 18 }}>
+        <div role="group" aria-label="Score summary" className="animate-pop" style={{ display: 'flex', alignItems: 'center', gap: 18, background: 'var(--surface)', border: '1px solid var(--border)', borderRadius: 16, padding: 20, marginBottom: 18 }}>
           <div style={{ flexShrink: 0, width: 128, height: 128, borderRadius: '50%', background: `conic-gradient(var(--accent) ${ringDeg}deg, var(--border) 0)`, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
             <div style={{ width: 96, height: 96, borderRadius: '50%', background: 'var(--surface)', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
               <div style={{ font: "800 27px 'Libre Franklin'", color: 'var(--navy)', lineHeight: 1 }}>{r.score}</div>
