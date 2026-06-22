@@ -47,7 +47,7 @@ function buildPanelPrompt(characters, storyPrompt, pic, panelNum, totalPanels) {
 
 async function generatePanel(promptText, previousResponseId = null) {
   const body = {
-    model: 'gpt-4o',
+    model: 'gpt-5.5',
     input: promptText,
     tools: [{ type: 'image_generation', quality: 'high', size: '1024x1024' }],
   };
