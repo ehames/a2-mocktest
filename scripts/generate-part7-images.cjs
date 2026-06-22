@@ -75,7 +75,7 @@ async function callApi(promptText, previousResponseId) {
 
 async function savePanel(b64, destPath) {
   const pngBuffer = Buffer.from(b64, 'base64');
-  const webpBuffer = await sharp(pngBuffer).webp({ quality: 85 }).toBuffer();
+  const webpBuffer = await sharp(pngBuffer).resize(512, 512, { fit: 'inside', withoutEnlargement: true }).webp({ quality: 85 }).toBuffer();
   fs.writeFileSync(destPath, webpBuffer);
 }
 

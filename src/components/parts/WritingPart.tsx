@@ -33,7 +33,7 @@ function WordCountIndicator({ count, min }: { count: number; min: number }) {
   )
 }
 
-function PicCard({ pic }: { pic: PicCardType }) {
+function PicCard({ pic, eager }: { pic: PicCardType; eager?: boolean }) {
   const [failed, setFailed] = useState(false)
   return (
     <div style={{
@@ -63,6 +63,8 @@ function PicCard({ pic }: { pic: PicCardType }) {
         <img
           src={pic.image}
           alt={pic.text}
+          loading={eager ? 'eager' : 'lazy'}
+          fetchPriority={eager ? 'high' : 'auto'}
           onError={() => setFailed(true)}
           style={{ display: 'block', width: '100%', aspectRatio: '1 / 1', objectFit: 'contain' }}
         />
@@ -143,7 +145,7 @@ export function Part7Writing({ prompt, value, review, onChange }: Part7Props) {
           }}
         >
           {prompt.pics.map((pic, i) => (
-            <PicCard key={i} pic={pic} />
+            <PicCard key={i} pic={pic} eager={i === 0} />
           ))}
         </div>
       </div>
