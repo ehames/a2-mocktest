@@ -6,7 +6,7 @@ colors:
   navy-outer: "#15263b"
   ink: "#16263D"
   muted: "#5B6B7F"
-  faint: "#9AA7B6"
+  faint: "#627589"
   page-bg: "#EEF1F5"
   surface: "#ffffff"
   border: "#E2E8F0"
@@ -148,7 +148,7 @@ A restrained palette dominated by one deep navy, one cool neutral surface, and t
 ### Neutral
 - **Examination Ink** (`#16263D`): Primary body text. Question stems, answer labels, card content, and all high-legibility text on light surfaces.
 - **Muted Annotation** (`#5B6B7F`): Secondary text. Part subtitles in the header, metadata labels, navigation counters, section markers.
-- **Faint Hint** (`#9AA7B6`): Placeholder and optional-field text. Communicates "this can be ignored" without being illegible.
+- **Faint Hint** (`#627589`): Placeholder and optional-field text. Communicates "this can be ignored" without being illegible.
 - **Page Ground** (`#EEF1F5`): The test body background. Cool blue-grey; not warm, not beige. The institutional register demands cool neutrals.
 - **Surface White** (`#ffffff`): Card and panel backgrounds. Cards read above the page ground by contrast alone — no shadow.
 - **Structural Border** (`#E2E8F0`): Card outlines and row dividers. The primary way surfaces define themselves against each other.
@@ -218,7 +218,7 @@ Three layout variants, four semantic states. The state system is the most comple
 - **Style:** White background, `1.5px solid #C2CEDC` border, 11px radius
 - **Padding:** 13px 14px
 - **Font:** Libre Franklin, 500, 15px
-- **Placeholder:** Faint Hint (`#9AA7B6`) — intentionally quiet; the name field is optional and low-stakes
+- **Placeholder:** Faint Hint (`#627589`) — intentionally quiet; the name field is optional and low-stakes
 
 ### Info Cards (Test metadata / Writing review)
 

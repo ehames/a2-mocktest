@@ -42,7 +42,6 @@ function PicCard({ pic }: { pic: PicCardType }) {
       borderRadius: 10,
       overflow: 'hidden',
       position: 'relative',
-      boxShadow: '0 2px 8px rgba(0,0,0,0.12)',
       background: 'var(--surface)',
       border: '1px solid var(--border)',
     }}>
