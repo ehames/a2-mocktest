@@ -30,7 +30,7 @@ export default function MatchingPart({ set, answers, review, onChoose, baseIndex
         const sel = answers[qIndex]
         return (
           <div key={qi} style={{ background: 'var(--surface)', border: '1px solid var(--border)', borderRadius: 12, padding: '14px 15px', marginBottom: 11 }}>
-            <div style={{ font: "600 15px/1.4 'Libre Franklin'", color: 'var(--ink)', marginBottom: 11 }}>{baseIndex + qi + 1}. {q.prompt}</div>
+            <div style={{ font: "600 15px/1.4 'Libre Franklin'", color: 'var(--ink)', marginBottom: 11 }}>{qi + 1}. {q.prompt}</div>
             <div style={{ display: 'flex', gap: 10 }}>
               {([0, 1, 2] as const).map(oi => {
                 const isSel = sel === oi

@@ -25,7 +25,7 @@ export default function PassageMC({ set, answers, review, onChoose, baseIndex }:
         const sel = answers[qIndex]
         return (
           <div key={qi} style={{ marginBottom: 22 }}>
-            <div style={{ font: "600 16px/1.4 'Libre Franklin'", color: 'var(--ink)', marginBottom: 12 }}>{baseIndex + qi + 1}. {q.prompt}</div>
+            <div style={{ font: "600 16px/1.4 'Libre Franklin'", color: 'var(--ink)', marginBottom: 12 }}>{qi + 1}. {q.prompt}</div>
             <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
               {q.opts.map((opt, oi) => {
                 const isSel = sel === oi
