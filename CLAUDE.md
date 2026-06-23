@@ -7,7 +7,7 @@ Cambridge A2 Key Reading & Writing practice test. Mobile-first web app deployed 
 - **Vite + React 18 + TypeScript** — `npm run dev` to start, `npm run build` to build
 - **Tailwind CSS v4** via `@tailwindcss/vite` — utility classes + CSS variables in `src/index.css`
 - **vite-plugin-pwa** — offline support, service worker auto-updates
-- **GitHub Pages** — deployed via `.github/workflows/deploy.yml` on push to `main`; base path `/mocktest/`
+- **GitHub Pages** — deployed via `.github/workflows/deploy.yml` on push to `main`; base path `/a2-mocktest/`
 
 ## Architecture
 
@@ -117,6 +117,6 @@ The dev server must be running (`npm run dev`) before launching Playwright scrip
 ## Deploy
 
 Push to `main` → GitHub Actions builds and deploys to `gh-pages` branch automatically.
-Live URL: `https://ehames.github.io/mocktest/`
+Live URL: `https://ehames.github.io/a2-mocktest/`
 
 To deploy manually: `npm run build` then push `dist/` to `gh-pages`.

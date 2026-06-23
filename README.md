@@ -2,7 +2,7 @@
 
 Mobile-first Cambridge A2 Key Reading & Writing practice test. Students complete all 7 parts under timed conditions, then review scored results with answer rationales.
 
-**Live:** https://ehames.github.io/mocktest/
+**Live:** https://ehames.github.io/a2-mocktest/
 
 ## Stack
 

@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 import { VitePWA } from 'vite-plugin-pwa'
 
 export default defineConfig({
-  base: '/mocktest/',
+  base: '/a2-mocktest/',
   test: {
     include: ['src/**/*.test.ts', 'src/**/*.test.tsx'],
     environment: 'node',
@@ -20,7 +20,7 @@ export default defineConfig({
         globPatterns: ['**/*.{js,css,html,ico,png,svg}'],
         runtimeCaching: [
           {
-            urlPattern: /\/mocktest\/questions\/.+\.json$/,
+            urlPattern: /\/a2-mocktest\/questions\/.+\.json$/,
             handler: 'NetworkFirst',
             options: {
               cacheName: 'question-banks',
