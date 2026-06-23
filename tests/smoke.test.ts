@@ -50,7 +50,7 @@ test('submit test and see results screen', async ({ page }) => {
 
   // Two-click submit confirmation
   await page.getByRole('button', { name: 'Submit' }).click()
-  await page.getByRole('button', { name: 'Confirm →' }).click()
+  await page.getByRole('button', { name: 'Confirm submission' }).click()
 
   await expect(page.getByText('Your results')).toBeVisible()
 })
@@ -62,7 +62,7 @@ test('results screen shows action buttons', async ({ page }) => {
     await page.getByRole('button', { name: 'Next', exact: true }).click()
   }
   await page.getByRole('button', { name: 'Submit' }).click()
-  await page.getByRole('button', { name: 'Confirm →' }).click()
+  await page.getByRole('button', { name: 'Confirm submission' }).click()
   await expect(page.getByText('Your results')).toBeVisible()
 
   await expect(page.getByRole('button', { name: 'Review answers' })).toBeVisible()
@@ -76,7 +76,7 @@ test('review mode navigates all 7 parts and returns to results', async ({ page }
     await page.getByRole('button', { name: 'Next', exact: true }).click()
   }
   await page.getByRole('button', { name: 'Submit' }).click()
-  await page.getByRole('button', { name: 'Confirm →' }).click()
+  await page.getByRole('button', { name: 'Confirm submission' }).click()
   await expect(page.getByText('Your results')).toBeVisible()
 
   await page.getByRole('button', { name: 'Review answers' }).click()
@@ -98,7 +98,7 @@ test('restart returns to intro screen', async ({ page }) => {
     await page.getByRole('button', { name: 'Next', exact: true }).click()
   }
   await page.getByRole('button', { name: 'Submit' }).click()
-  await page.getByRole('button', { name: 'Confirm →' }).click()
+  await page.getByRole('button', { name: 'Confirm submission' }).click()
   await expect(page.getByText('Your results')).toBeVisible()
 
   await page.getByRole('button', { name: 'Restart' }).click()
@@ -112,7 +112,7 @@ test('localStorage is cleared after restart', async ({ page }) => {
     await page.getByRole('button', { name: 'Next', exact: true }).click()
   }
   await page.getByRole('button', { name: 'Submit' }).click()
-  await page.getByRole('button', { name: 'Confirm →' }).click()
+  await page.getByRole('button', { name: 'Confirm submission' }).click()
   await page.getByRole('button', { name: 'Restart' }).click()
 
   const stored = await page.evaluate(() => localStorage.getItem('a2key_v2'))
@@ -174,7 +174,7 @@ test('results screen shows a score', async ({ page }) => {
     await page.getByRole('button', { name: 'Next', exact: true }).click()
   }
   await page.getByRole('button', { name: 'Submit' }).click()
-  await page.getByRole('button', { name: 'Confirm →' }).click()
+  await page.getByRole('button', { name: 'Confirm submission' }).click()
   await expect(page.getByText('Your results')).toBeVisible()
   await expect(page.locator('text=/\\d+%/')).toBeVisible()
 })
