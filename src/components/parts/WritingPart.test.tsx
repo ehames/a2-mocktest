@@ -1,5 +1,5 @@
 // @vitest-environment jsdom
-import { render, screen, cleanup } from '@testing-library/react'
+import { render, screen, cleanup, fireEvent } from '@testing-library/react'
 import { afterEach, describe, test, expect, vi } from 'vitest'
 
 afterEach(cleanup)
@@ -71,5 +71,39 @@ describe('Part7Writing', () => {
   test('hides sample answer when prompt has none', () => {
     render(<Part7Writing prompt={part7PromptNoSample} value="My story." review={true} onChange={noop} />)
     expect(screen.queryByText('Sample answer')).not.toBeInTheDocument()
+  })
+})
+
+describe('Part7Writing — offline image fallback', () => {
+  test('replaces each failed image with its description text', () => {
+    render(<Part7Writing prompt={part7Prompt} value="" review={false} onChange={noop} />)
+
+    const imgs = screen.getAllByRole('img')
+    expect(imgs).toHaveLength(3)
+
+    // Simulate all three images failing to load (offline / broken URL)
+    for (const img of imgs) {
+      fireEvent.error(img)
+    }
+
+    // Each PicCard shows its text description instead
+    expect(screen.getByText('bike / sunny')).toBeInTheDocument()
+    expect(screen.getByText('rain / bus stop')).toBeInTheDocument()
+    expect(screen.getByText('café / cakes')).toBeInTheDocument()
+
+    // No img elements remain
+    expect(screen.queryAllByRole('img')).toHaveLength(0)
+  })
+
+  test('only replaces the image that failed, leaving others intact', () => {
+    render(<Part7Writing prompt={part7Prompt} value="" review={false} onChange={noop} />)
+
+    const imgs = screen.getAllByRole('img')
+    fireEvent.error(imgs[0])
+
+    // First pic degraded to text
+    expect(screen.getByText('bike / sunny')).toBeInTheDocument()
+    // Other two images still present
+    expect(screen.getAllByRole('img')).toHaveLength(2)
   })
 })
