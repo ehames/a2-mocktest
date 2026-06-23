@@ -1,73 +1,45 @@
-# React + TypeScript + Vite
+# A2 Key Mock Test
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Mobile-first Cambridge A2 Key Reading & Writing practice test. Students complete all 7 parts under timed conditions, then review scored results with answer rationales.
 
-Currently, two official plugins are available:
+**Live:** https://ehames.github.io/mocktest/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Stack
 
-## React Compiler
+Vite · React 18 · TypeScript · Tailwind CSS v4 · vite-plugin-pwa
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Run locally
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm install
+npm run dev        # http://localhost:5173/mocktest/
+npm run build      # production build → dist/
+npm test           # Playwright smoke tests (requires dev server)
+npm run test:unit  # Vitest unit tests
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+First-time Playwright setup:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm run test:install   # downloads Chromium
 ```
+
+## Add questions
+
+Question banks live in `public/questions/schools/` — one JSON file per part. To add questions, append to the relevant file and push; no code changes needed.
+
+| File | Format | Selection |
+|---|---|---|
+| `part1.json` | `{ items: Part1Item[] }` | shuffle, take 6 |
+| `part2.json` | `{ sets: Part2Set[] }` | pick 1 random set |
+| `part3.json` | `{ sets: Part3Set[] }` | pick 1 random set |
+| `part4.json` | `{ sets: Part4Set[] }` | pick 1 random set |
+| `part5.json` | `{ sets: Part5Set[] }` | pick 1 random set |
+| `part6.json` | `{ prompts: Part6Prompt[] }` | pick 1 random prompt |
+| `part7.json` | `{ prompts: Part7Prompt[] }` | pick 1 random prompt |
+
+Part 7 prompts use illustrated picture strips (`public/images/part7/`). See `src/types.ts` for the full schema.
+
+## Deploy
+
+Push to `main` → GitHub Actions builds and deploys to `gh-pages` automatically.
