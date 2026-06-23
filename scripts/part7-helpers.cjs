@@ -5,6 +5,12 @@ const path = require('path');
 
 const QUALITY_MAP = { low: 'low', med: 'medium', high: 'high' };
 
+const IMAGEN_QUALITY_MAP = {
+  low:  'gemini-2.5-flash-image',
+  med:  'nano-banana-pro-preview',
+  high: 'gemini-3-pro-image',
+};
+
 const STYLE_PREFIX =
   "B&W pencil sketch illustration, simple children's book line drawing style. " +
   'Clean outline only, no colour, no shading, no gradients. Pure white background. ' +
@@ -37,4 +43,4 @@ function writeMeta(outDir, slug, meta) {
   fs.writeFileSync(path.join(outDir, `${slug}_meta.json`), JSON.stringify(meta, null, 2));
 }
 
-module.exports = { QUALITY_MAP, STYLE_PREFIX, buildPanelPrompt, readMeta, writeMeta };
+module.exports = { QUALITY_MAP, IMAGEN_QUALITY_MAP, STYLE_PREFIX, buildPanelPrompt, readMeta, writeMeta };

@@ -157,5 +157,45 @@
       "minWords": 35,
       "sampleResponse": "One morning, Gran gave Leo a big present at the kitchen table. Leo was very surprised. He opened it and found a football inside. He was very happy and held it up. Then they went to the garden together. Gran and Leo hugged with the football on the grass. It was a wonderful birthday."
     }
+    ,{
+      "intro": "Look at the three pictures. Write the story shown in the pictures.",
+      "storyArc": "Emma feels nervous backstage as Mum helps her with her costume before a school play, then performs confidently on stage alone under the spotlights, and finally takes a bow while Mum cheers from the front row.",
+      "characters": [
+        { "name": "Emma", "description": "a girl of about 11, brown hair in a ponytail, wearing a blue princess dress and a gold crown" },
+        { "name": "Mum", "description": "a woman of about 40, dark shoulder-length hair, red jumper" }
+      ],
+      "pics": [
+        {
+          "label": "Picture 1",
+          "text": "backstage / costume / nervous",
+          "setting": "backstage of a school theatre, behind a heavy red curtain",
+          "background": "red theatre curtain, dim backstage area, school corridor in the distance",
+          "scene": "Mum stands behind Emma and carefully straightens Emma's gold crown",
+          "emotion": "Emma nervous and wide-eyed, Mum smiling and calm",
+          "image": "images/part7/school-play_p1.webp"
+        },
+        {
+          "label": "Picture 2",
+          "text": "stage / spotlight / perform",
+          "setting": "a school stage under bright spotlights",
+          "background": "painted castle backdrop, two bright spotlights shining down, rows of audience silhouettes below",
+          "scene": "Emma stands alone centre-stage with her arms raised, mid-performance",
+          "emotion": "confident and joyful",
+          "absent": ["Mum"],
+          "image": "images/part7/school-play_p2.webp"
+        },
+        {
+          "label": "Picture 3",
+          "text": "bow / clap / proud",
+          "setting": "view from the audience looking toward the stage",
+          "background": "school stage with open curtains and bright spotlights, Emma stands centre-stage taking a deep bow",
+          "scene": "Mum and other audience members sit in the foreground with their backs to us, arms raised clapping; Emma is clearly visible on the raised stage in the background bowing",
+          "emotion": "Mum and audience enthusiastic and proud, Emma beaming",
+          "image": "images/part7/school-play_p3.webp"
+        }
+      ],
+      "minWords": 35,
+      "sampleResponse": "One evening, Emma was backstage at her school play. She felt very nervous. Her mum helped her put on her gold crown and smiled at her. Then Emma walked onto the stage. The spotlights were very bright. She said all her words correctly. At the end, she took a bow. Her mum stood up and cheered. Emma was very proud."
+    }
   ]
 }

@@ -6,7 +6,7 @@ const fs = require('fs');
 const os = require('os');
 const path = require('path');
 
-const { QUALITY_MAP, STYLE_PREFIX, buildPanelPrompt, readMeta, writeMeta } = require('./part7-helpers.cjs');
+const { QUALITY_MAP, IMAGEN_QUALITY_MAP, STYLE_PREFIX, buildPanelPrompt, readMeta, writeMeta } = require('./part7-helpers.cjs');
 
 // ── QUALITY_MAP ──────────────────────────────────────────────────────────────
 
@@ -15,6 +15,13 @@ describe('QUALITY_MAP', () => {
   test('maps med → medium', () => assert.equal(QUALITY_MAP.med, 'medium'));
   test('maps high → high', () => assert.equal(QUALITY_MAP.high, 'high'));
   test('unknown key is undefined', () => assert.equal(QUALITY_MAP.unknown, undefined));
+});
+
+describe('IMAGEN_QUALITY_MAP', () => {
+  test('maps low → gemini-2.5-flash-image', () => assert.equal(IMAGEN_QUALITY_MAP.low, 'gemini-2.5-flash-image'));
+  test('maps med → nano-banana-pro-preview', () => assert.equal(IMAGEN_QUALITY_MAP.med, 'nano-banana-pro-preview'));
+  test('maps high → gemini-3-pro-image', () => assert.equal(IMAGEN_QUALITY_MAP.high, 'gemini-3-pro-image'));
+  test('unknown key is undefined', () => assert.equal(IMAGEN_QUALITY_MAP.unknown, undefined));
 });
 
 // ── buildPanelPrompt ─────────────────────────────────────────────────────────

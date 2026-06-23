@@ -43,3 +43,9 @@ Part 7 prompts use illustrated picture strips (`public/images/part7/`). See `src
 ## Deploy
 
 Push to `main` → GitHub Actions builds and deploys to `gh-pages` automatically.
+
+## License
+
+MIT — see [LICENSE](LICENSE).
+
+The question bank (`public/questions/`) is AI-generated content. It is not subject to copyright and is provided as-is with no guarantees of accuracy or alignment with official Cambridge assessments.
