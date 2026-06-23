@@ -115,6 +115,7 @@ export interface Part7Prompt {
   characters: Character[]
   pics: [PicCard, PicCard, PicCard]
   minWords: number
+  sampleResponse?: string
 }
 
 export interface Part7Bank {

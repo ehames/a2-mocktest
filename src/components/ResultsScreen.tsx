@@ -1,5 +1,5 @@
 import type { AppState, Action } from '../types'
-import { computeResults, wc } from '../scoring'
+import { computeResults } from '../scoring'
 
 interface Props {
   state: AppState
@@ -7,33 +7,11 @@ interface Props {
 }
 
 export default function ResultsScreen({ state, dispatch }: Props) {
-  const { activeTest, answers, text, writing } = state
+  const { activeTest, answers, text } = state
   if (!activeTest) return null
 
   const r = computeResults(activeTest, answers, text)
   const ringDeg = r.pct * 3.6
-
-  function writingCard(label: string, content: string, min: number) {
-    const count = wc(content)
-    const met = count >= min
-    const hasText = content.trim().length > 0
-    return (
-      <div style={{ background: 'var(--surface)', border: '1px solid var(--border)', borderRadius: 14, padding: 16, marginBottom: 12 }}>
-        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 9 }}>
-          <span style={{ font: "700 15px 'Libre Franklin'", color: 'var(--navy)' }}>{label}</span>
-          <span style={{ font: "700 12px 'Libre Franklin'", color: met ? 'var(--green)' : 'var(--red)' }}>
-            {count} words · min {min}
-          </span>
-        </div>
-        <div style={hasText
-          ? { fontFamily: "'Source Serif 4', Georgia, serif", fontSize: 14, lineHeight: 1.55, color: 'var(--passage-ink)', whiteSpace: 'pre-wrap' }
-          : { font: "400 14px 'Libre Franklin'", color: 'var(--faint)', fontStyle: 'italic' }
-        }>
-          {hasText ? content : '— No answer written —'}
-        </div>
-      </div>
-    )
-  }
 
   return (
     <div style={{ flex: 1, display: 'flex', flexDirection: 'column', minHeight: 0 }}>
@@ -75,21 +53,6 @@ export default function ResultsScreen({ state, dispatch }: Props) {
             </div>
           ))}
         </div>
-
-        {/* Writing review */}
-        <div style={{ font: "700 12px 'Libre Franklin'", letterSpacing: '.1em', textTransform: 'uppercase', color: 'var(--muted)', margin: '0 0 11px' }}>
-          Writing — review yourself
-        </div>
-        {writingCard('Part 6 — Email', writing[6], activeTest.part6.minWords)}
-        {state.review && activeTest.part6.sampleResponse && (
-          <div style={{ background: 'var(--green-bg)', border: '1px solid var(--green)', borderRadius: 14, padding: 16, marginBottom: 12, marginTop: -6 }}>
-            <div style={{ font: "700 12px 'Libre Franklin'", letterSpacing: '.1em', textTransform: 'uppercase', color: 'var(--green)', marginBottom: 8 }}>Sample answer</div>
-            <div style={{ fontFamily: "'Source Serif 4', Georgia, serif", fontSize: 14, lineHeight: 1.55, color: 'var(--passage-ink)', whiteSpace: 'pre-wrap' }}>
-              {activeTest.part6.sampleResponse}
-            </div>
-          </div>
-        )}
-        {writingCard('Part 7 — Story', writing[7], activeTest.part7.minWords)}
 
         {/* Actions */}
         <div style={{ display: 'flex', gap: 12, marginTop: 10 }}>

@@ -86,6 +86,19 @@ function PicCard({ pic, eager }: { pic: PicCardType; eager?: boolean }) {
   )
 }
 
+function SampleAnswer({ text }: { text: string }) {
+  return (
+    <div style={{ marginTop: 14, background: 'var(--green-bg)', border: '1px solid var(--green)', borderRadius: 12, padding: 16 }}>
+      <div style={{ font: "700 12px 'Libre Franklin'", letterSpacing: '.1em', textTransform: 'uppercase', color: 'var(--green)', marginBottom: 8 }}>
+        Sample answer
+      </div>
+      <div style={{ fontFamily: "'Source Serif 4', Georgia, serif", fontSize: 14, lineHeight: 1.55, color: 'var(--passage-ink)', whiteSpace: 'pre-wrap' }}>
+        {text}
+      </div>
+    </div>
+  )
+}
+
 const textareaStyle = (review: boolean): React.CSSProperties => ({
   width: '100%',
   minHeight: 210,
@@ -124,6 +137,7 @@ export function Part6Writing({ prompt, value, review, onChange }: Part6Props) {
         style={textareaStyle(review)}
       />
       <WordCountIndicator count={count} min={prompt.minWords} />
+      {review && prompt.sampleResponse && <SampleAnswer text={prompt.sampleResponse} />}
     </>
   )
 }
@@ -158,6 +172,7 @@ export function Part7Writing({ prompt, value, review, onChange }: Part7Props) {
         style={textareaStyle(review)}
       />
       <WordCountIndicator count={count} min={prompt.minWords} />
+      {review && prompt.sampleResponse && <SampleAnswer text={prompt.sampleResponse} />}
     </>
   )
 }

@@ -6,8 +6,10 @@ import { VitePWA } from 'vite-plugin-pwa'
 export default defineConfig({
   base: '/mocktest/',
   test: {
-    include: ['src/**/*.test.ts'],
+    include: ['src/**/*.test.ts', 'src/**/*.test.tsx'],
     environment: 'node',
+    environmentMatchGlobs: [['src/**/*.test.tsx', 'jsdom']],
+    setupFiles: ['./src/test-setup.ts'],
   },
   plugins: [
     react(),
