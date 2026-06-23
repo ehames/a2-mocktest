@@ -29,14 +29,14 @@ export default function OpenCloze({ set, textAnswers, review, onsetText, baseLab
           <div key={i} style={{ marginBottom: 12 }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
               <div style={{ flexShrink: 0, width: 30, height: 30, borderRadius: '50%', background: 'var(--navy)', color: 'var(--surface)', display: 'flex', alignItems: 'center', justifyContent: 'center', font: "700 13px 'Libre Franklin'" }}>
-                {baseLabel + i}
+                {i + 1}
               </div>
               <input
                 value={val}
                 onChange={e => onsetText(i, e.target.value)}
                 readOnly={review}
                 placeholder="one word"
-                aria-label={`Gap ${baseLabel + i}`}
+                aria-label={`Gap ${i + 1}`}
                 style={{ flex: 1, padding: '12px 14px', borderRadius: 10, border: `1.5px solid ${borderColor}`, background: bgColor, font: "500 16px 'Libre Franklin'", color: 'var(--ink)', minWidth: 0 }}
               />
               {review && (

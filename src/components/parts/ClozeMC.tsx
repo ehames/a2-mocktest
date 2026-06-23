@@ -27,7 +27,7 @@ export default function ClozeMC({ set, answers, review, onChoose, baseIndex }: P
           <div key={qi} style={{ marginBottom: 14 }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: 10, flexWrap: 'wrap' }}>
               <div style={{ flexShrink: 0, width: 30, height: 30, borderRadius: '50%', background: 'var(--navy)', color: 'var(--surface)', display: 'flex', alignItems: 'center', justifyContent: 'center', font: "700 13px 'Libre Franklin'" }}>
-                {baseIndex + qi + 1}
+                {qi + 1}
               </div>
               {q.opts.map((opt, oi) => {
                 const isSel = sel === oi
