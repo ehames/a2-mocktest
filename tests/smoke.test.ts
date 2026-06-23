@@ -2,7 +2,7 @@ import { test, expect } from 'playwright/test'
 
 test.beforeEach(async ({ page }) => {
   await page.goto('/')
-  await page.evaluate(() => localStorage.removeItem('a2key_v2'))
+  await page.evaluate(() => localStorage.removeItem('a2key_v3'))
   await page.reload()
 })
 
@@ -115,7 +115,7 @@ test('localStorage is cleared after restart', async ({ page }) => {
   await page.getByRole('button', { name: 'Confirm submission' }).click()
   await page.getByRole('button', { name: 'Restart' }).click()
 
-  const stored = await page.evaluate(() => localStorage.getItem('a2key_v2'))
+  const stored = await page.evaluate(() => localStorage.getItem('a2key_v3'))
   const state = JSON.parse(stored!)
   expect(state.step).toBe(0)
   expect(state.submitted).toBe(false)
@@ -138,7 +138,7 @@ test('selecting an answer updates localStorage', async ({ page }) => {
   await page.getByRole('button', { name: 'Start test' }).click()
   await expect(page.getByText('Part 1 of 7')).toBeVisible({ timeout: 10_000 })
   await page.getByRole('button', { name: /^A/ }).first().click()
-  const stored = await page.evaluate(() => localStorage.getItem('a2key_v2'))
+  const stored = await page.evaluate(() => localStorage.getItem('a2key_v3'))
   const state = JSON.parse(stored!)
   expect(Object.keys(state.answers).length).toBeGreaterThan(0)
 })
@@ -162,7 +162,7 @@ test('typing in a Part 5 gap updates localStorage', async ({ page }) => {
   }
   await expect(page.getByText('Part 5 of 7')).toBeVisible()
   await page.getByRole('textbox').first().fill('the')
-  const stored = await page.evaluate(() => localStorage.getItem('a2key_v2'))
+  const stored = await page.evaluate(() => localStorage.getItem('a2key_v3'))
   const state = JSON.parse(stored!)
   expect(state.text[0]).toBe('the')
 })
