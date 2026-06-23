@@ -1,5 +1,6 @@
 import type { ActiveTest, Part1Bank, Part2Bank, Part3Bank, Part4Bank, Part5Bank, Part6Bank, Part7Bank } from './types'
 import { BASE } from './constants'
+import { prefetchImages, schedulePrefetch } from './prefetch'
 
 function pick<T>(arr: T[]): T {
   return arr[Math.floor(Math.random() * arr.length)]
@@ -31,6 +32,20 @@ export async function loadBanks(): Promise<ActiveTest> {
     fetchJSON<Part7Bank>('part7.json'),
   ])
 
+  const selectedPart7 = pick(b7.prompts)
+
+  // Always prefetch the 3 selected images — test must work offline from the start
+  prefetchImages(selectedPart7.pics.map(p => p.image))
+
+  // Background-warm the remaining prompts' images unless Data Saver is on
+  const saveData = (navigator as any).connection?.saveData ?? false
+  if (!saveData) {
+    const remaining = b7.prompts
+      .filter(p => p !== selectedPart7)
+      .flatMap(p => p.pics.map(pc => pc.image))
+    schedulePrefetch(remaining, 2000)
+  }
+
   return {
     part1: shuffle(b1.items).slice(0, 6),
     part2: pick(b2.sets),
@@ -38,6 +53,6 @@ export async function loadBanks(): Promise<ActiveTest> {
     part4: pick(b4.sets),
     part5: pick(b5.sets),
     part6: pick(b6.prompts),
-    part7: pick(b7.prompts),
+    part7: selectedPart7,
   }
 }
