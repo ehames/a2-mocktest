@@ -402,7 +402,7 @@ export function generatePdfHtml(state: AppState, p7ImageUrls: string[] = []): st
       ? `<img src="${src}" alt="${esc(pic.label)}" style="width:100%;height:160px;object-fit:cover;border-radius:5px;display:block;margin-bottom:6px">`
       : `<div style="width:100%;height:160px;background:#EEF1F5;border-radius:5px;display:flex;align-items:center;justify-content:center;margin-bottom:6px;font-size:11px;color:#8496AA">Image unavailable</div>`
     return `
-<div style="flex:1;min-width:0">
+<div style="flex:1;min-width:0;break-inside:avoid;page-break-inside:avoid">
   ${imgHtml}
   <div style="font-size:11px;font-weight:700;color:#0B2447;margin-bottom:2px">${esc(pic.label)}</div>
   <div style="font-size:11px;color:#5B6B7F;line-height:1.4">${esc(pic.text)}</div>
@@ -419,7 +419,7 @@ export function generatePdfHtml(state: AppState, p7ImageUrls: string[] = []): st
     <div class="wpb">
       <p>${esc(p7intro)}</p>
     </div>
-    <div style="display:flex;gap:12px;margin-bottom:16px">${picCards}</div>
+    <div style="display:flex;gap:12px;margin-bottom:16px;break-inside:avoid;page-break-inside:avoid">${picCards}</div>
     <div class="stb">${esc(p7text) || '<em style="color:#8496AA">(no response)</em>'}</div>
     <div class="wc">${p7wc} word${p7wc !== 1 ? 's' : ''} &nbsp;·&nbsp; Minimum: ${p7min} words</div>
   </div>
