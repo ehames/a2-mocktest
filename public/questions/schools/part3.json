@@ -149,6 +149,306 @@
         { "prompt": "Who runs the station?", "opts": ["The media studies teacher", "Students, with occasional teacher advice", "The headteacher and senior students"], "answer": 1, "rationale": "The station is run entirely by students with occasional advice from a teacher." },
         { "prompt": "What award has the station received?", "opts": ["Best school radio station nationally", "Best school media project in the region", "Best new community radio project"], "answer": 1, "rationale": "The station won a regional award for best school media project in its area." }
       ]
+    },
+    {
+      "title": "A Young Photographer",
+      "paragraphs": [
+        "Thirteen-year-old Sofia from Portugal became interested in photography after she found her grandfather's old film camera in the attic. She asked him to teach her how to use it, and he spent several weekends showing her basic techniques. Sofia loved the idea of capturing moments that would never happen again.",
+        "Sofia began taking photos around her neighbourhood and at school events. She entered a national youth photography competition with a picture she took of an elderly man feeding pigeons in a park. The judges liked the way she used light and shadow. She was one of fifty young photographers selected to take part in an exhibition.",
+        "After the competition, the school asked Sofia to take photos for the school website and newsletter. She is now saving money to buy her own digital camera. Sofia says photography has taught her to look at ordinary things more carefully and find beauty in everyday life."
+      ],
+      "questions": [
+        { "prompt": "Where did Sofia find the camera she first used?", "opts": ["At a second-hand shop", "In her grandfather's attic", "At a school photography club"], "answer": 1, "rationale": "She found her grandfather's old film camera in the attic." },
+        { "prompt": "Who taught Sofia how to use the camera?", "opts": ["A photography teacher at school", "Her grandfather", "A friend who liked photography"], "answer": 1, "rationale": "Her grandfather spent several weekends showing her basic techniques." },
+        { "prompt": "What did Sofia photograph for the competition?", "opts": ["Students at a school event", "An elderly man feeding pigeons in a park", "A landscape near her home"], "answer": 1, "rationale": "She entered with a photo of an elderly man feeding pigeons in a park." },
+        { "prompt": "What did the judges say about Sofia's photo?", "opts": ["The subject was very interesting", "She used light and shadow well", "The colours were very beautiful"], "answer": 1, "rationale": "The judges liked the way she used light and shadow." },
+        { "prompt": "What does Sofia do for her school now?", "opts": ["She runs a photography club", "She takes photos for the website and newsletter", "She teaches other students photography"], "answer": 1, "rationale": "The school asked Sofia to take photos for the school website and newsletter." }
+      ]
+    },
+    {
+      "title": "A Student Exchange Trip",
+      "paragraphs": [
+        "Last spring, fifteen-year-old Tom from England spent two weeks in Germany as part of a school exchange programme. He stayed with a family in a small town near Munich. Tom was nervous before he left because his German was not very good, but the family were kind and patient with him.",
+        "During the two weeks, Tom went to school with his exchange partner, Max. He sat in on German, history and sport lessons. Some things were different from his school in England, such as the school day ending at lunchtime. He also tried local food for the first time, including dishes he had never heard of before.",
+        "When Tom returned home, he continued writing to Max by email. He also started practising his German more seriously. His teacher noticed a big improvement in his speaking skills. Tom says the trip helped him understand that people are friendly everywhere if you make an effort to communicate."
+      ],
+      "questions": [
+        { "prompt": "Why was Tom nervous before the exchange trip?", "opts": ["He had never been on a plane before", "He did not speak much German", "He did not know his exchange partner"], "answer": 1, "rationale": "Tom was nervous because his German was not very good." },
+        { "prompt": "What was one difference Tom noticed at the German school?", "opts": ["There were no sports lessons", "The school day ended at lunchtime", "Students did not have to wear a uniform"], "answer": 1, "rationale": "He noticed the school day ended at lunchtime, which was different from England." },
+        { "prompt": "What did Tom do after he returned home?", "opts": ["He invited Max to visit England", "He continued writing to Max by email", "He joined a German language club"], "answer": 1, "rationale": "Tom continued writing to Max by email after returning home." },
+        { "prompt": "What improvement did Tom's teacher notice?", "opts": ["His written work was better", "His speaking skills had improved a lot", "He understood grammar better"], "answer": 1, "rationale": "His teacher noticed a big improvement in his speaking skills." },
+        { "prompt": "What did Tom learn from the trip?", "opts": ["That Germany is a beautiful country", "That people are friendly everywhere if you try to communicate", "That it is easy to learn a new language quickly"], "answer": 1, "rationale": "Tom says the trip helped him understand that people are friendly everywhere if you make an effort to communicate." }
+      ]
+    },
+    {
+      "title": "The School Newspaper",
+      "paragraphs": [
+        "When sixteen-year-old Maya joined her school newspaper, it only had twelve readers. The paper was printed once a term and contained mostly sports results and announcements. Maya thought the newspaper could be much more interesting, so she spoke to the teacher in charge and offered to help redesign it.",
+        "Maya introduced a new section with interviews of interesting local people, including a retired firefighter and a chef who had worked in five countries. She also added a problem page where students could write in with questions about school life. The newspaper moved online, making it easier for everyone to read.",
+        "Within a year, the newspaper had over two hundred regular readers. Three other students joined the team to help write and design each issue. Maya won a regional young journalist award for her interview section. She says the experience has made her want to study journalism at university."
+      ],
+      "questions": [
+        { "prompt": "What was the school newspaper like before Maya joined?", "opts": ["It had many interesting articles", "It only contained sports and announcements", "It was published every week"], "answer": 1, "rationale": "The paper contained mostly sports results and announcements." },
+        { "prompt": "What new section did Maya add to the newspaper?", "opts": ["A section about school events", "An interview section with local people", "A section about science topics"], "answer": 1, "rationale": "Maya introduced a new section with interviews of interesting local people." },
+        { "prompt": "What change did Maya make to how the newspaper was shared?", "opts": ["She printed more copies", "She moved it online", "She sold it in local shops"], "answer": 1, "rationale": "The newspaper moved online, making it easier for everyone to read." },
+        { "prompt": "How many regular readers did the newspaper have after one year?", "opts": ["Twelve", "One hundred", "Over two hundred"], "answer": 2, "rationale": "Within a year, the newspaper had over two hundred regular readers." },
+        { "prompt": "What does Maya want to do in the future?", "opts": ["Become a teacher", "Study journalism at university", "Start her own business"], "answer": 1, "rationale": "She says the experience has made her want to study journalism at university." }
+      ]
+    },
+    {
+      "title": "A Young Athlete",
+      "paragraphs": [
+        "At the age of twelve, Kofi started running at a local athletics club after his PE teacher noticed he was faster than the other students in his year. At first Kofi was not very interested, but his coach, a former national champion, helped him see that he had real potential. Kofi began training three times a week after school.",
+        "Kofi entered his first regional competition eight months after joining the club. He was nervous and finished in fourth place. His coach told him that his technique needed work, especially his start. Kofi spent the next two months focusing on improving this part of his race.",
+        "A year later, Kofi won the regional under-15 100 metres title. His school gave him a special award at the end-of-year ceremony. Kofi says the most important lesson he has learnt is that natural ability is not enough — you also have to work very hard every single day."
+      ],
+      "questions": [
+        { "prompt": "How did Kofi get started in athletics?", "opts": ["He saw a competition on television", "His PE teacher noticed he was fast and sent him to a club", "His parents entered him for a competition"], "answer": 1, "rationale": "His PE teacher noticed he was faster than others and he joined a local athletics club." },
+        { "prompt": "How often did Kofi train after joining the club?", "opts": ["Every day", "Twice a week", "Three times a week"], "answer": 2, "rationale": "Kofi began training three times a week after school." },
+        { "prompt": "What position did Kofi finish in his first competition?", "opts": ["First", "Third", "Fourth"], "answer": 2, "rationale": "He was nervous and finished in fourth place." },
+        { "prompt": "What part of his race did Kofi work on after the first competition?", "opts": ["His speed in the final stretch", "His start", "His breathing technique"], "answer": 1, "rationale": "His coach said his start needed work, and Kofi focused on improving it." },
+        { "prompt": "What lesson has Kofi learnt from athletics?", "opts": ["That training with a good coach is the most important thing", "That natural ability is not enough — hard work is also needed", "That competitions are more important than training"], "answer": 1, "rationale": "Kofi says natural ability is not enough — you also have to work very hard every day." }
+      ]
+    },
+    {
+      "title": "Helping at a Food Bank",
+      "paragraphs": [
+        "When fourteen-year-old Priya read an article about food banks in her city, she decided she wanted to do something to help. She found a local food bank that accepted volunteers and asked if she could help at weekends. The manager was happy to have her and explained how the food bank worked.",
+        "Every Saturday morning, Priya sorts food donations into boxes and helps pack them for families in need. She has learnt how to organise different types of food according to the date they should be used by. She also helps welcome people who come to collect food, making sure they feel comfortable.",
+        "Priya has now volunteered at the food bank for over a year. Several of her classmates have joined her. The manager has asked her to help train new volunteers. Priya says the experience has shown her how many people in her city need help, and she wants to work in the charity sector when she is older."
+      ],
+      "questions": [
+        { "prompt": "Why did Priya decide to volunteer at the food bank?", "opts": ["Her teacher told her to find volunteer work", "She read an article about food banks", "A friend invited her to join"], "answer": 1, "rationale": "She read an article about food banks and decided she wanted to help." },
+        { "prompt": "What does Priya do at the food bank on Saturday mornings?", "opts": ["She cooks meals for families", "She sorts and packs food donations", "She delivers food to people's homes"], "answer": 1, "rationale": "She sorts food donations into boxes and helps pack them for families." },
+        { "prompt": "What does Priya do when people come to collect food?", "opts": ["She tells them what food is available", "She helps them feel comfortable when they arrive", "She takes their contact details"], "answer": 1, "rationale": "She helps welcome people who come to collect food, making sure they feel comfortable." },
+        { "prompt": "What has the manager asked Priya to do?", "opts": ["To manage the food bank's social media", "To help train new volunteers", "To organise fundraising events"], "answer": 1, "rationale": "The manager has asked her to help train new volunteers." },
+        { "prompt": "What does Priya want to do when she is older?", "opts": ["Open her own food bank", "Work in the charity sector", "Study social work at university"], "answer": 1, "rationale": "She says she wants to work in the charity sector when she is older." }
+      ]
+    },
+    {
+      "title": "A Science Fair Winner",
+      "paragraphs": [
+        "Twelve-year-old Amara had always been curious about science, but she never thought of herself as especially talented at it. When her school announced its annual science fair, her teacher encouraged her to enter. Amara decided to investigate whether plants grow better with music playing nearby — an idea she had heard about but wanted to test properly.",
+        "Amara set up a simple experiment at home using two groups of identical plants. She played classical music to one group and kept the other group in silence. She measured the height of each plant every three days for six weeks and wrote down all her results carefully. She also took photos to record the changes.",
+        "At the fair, the judges were impressed by her careful method and clear data. Amara came first in her age group and received a certificate and a book token. Her science teacher said her project was the most carefully designed she had seen from a student so young. Amara is now planning a new experiment about water quality."
+      ],
+      "questions": [
+        { "prompt": "What was Amara's experiment about?", "opts": ["Whether temperature affects plant growth", "Whether music helps plants grow better", "Whether different soils affect plant height"], "answer": 1, "rationale": "She wanted to test whether plants grow better with music playing nearby." },
+        { "prompt": "How did Amara set up her experiment?", "opts": ["She used one plant and measured it daily", "She used two groups of plants — one with music, one without", "She tested different types of music on the same plant"], "answer": 1, "rationale": "She used two groups of identical plants — one with music and one in silence." },
+        { "prompt": "How often did Amara measure her plants?", "opts": ["Every day", "Every three days", "Once a week"], "answer": 1, "rationale": "She measured the height of each plant every three days." },
+        { "prompt": "What did the judges think of Amara's project?", "opts": ["The idea was very original", "The method was careful and the data was clear", "The presentation was very attractive"], "answer": 1, "rationale": "The judges were impressed by her careful method and clear data." },
+        { "prompt": "What is Amara planning to do next?", "opts": ["Enter the same experiment in another competition", "Plan a new experiment about water quality", "Write an article about her findings"], "answer": 1, "rationale": "Amara is now planning a new experiment about water quality." }
+      ]
+    },
+    {
+      "title": "Learning to Code",
+      "paragraphs": [
+        "When thirteen-year-old Hassan wanted to create a game for his younger sister, he realised he needed to learn how to code. He found a free online course and started learning during evenings and weekends. His parents were worried he was spending too much time on his computer, but Hassan explained that he had a clear goal.",
+        "After three months of learning, Hassan built a simple memory card game using beginner-level programming language. The game had pictures of animals and played a short sound when a player matched two cards correctly. His sister loved it. Hassan shared it with his class and several students asked him to teach them what he had learnt.",
+        "Hassan then started a small coding club at school that meets once a week. Currently eight students attend. Hassan prepares simple exercises for each session and answers questions. His computer science teacher visits the club sometimes to give extra guidance. Hassan says coding has taught him that breaking a big problem into small steps makes everything easier."
+      ],
+      "questions": [
+        { "prompt": "Why did Hassan decide to learn to code?", "opts": ["His teacher set it as homework", "He wanted to make a game for his sister", "He wanted to win a competition at school"], "answer": 1, "rationale": "He wanted to create a game for his younger sister." },
+        { "prompt": "How did Hassan learn to code?", "opts": ["He took lessons at a coding school", "He used a free online course", "A friend at school taught him"], "answer": 1, "rationale": "He found a free online course and studied during evenings and weekends." },
+        { "prompt": "What happened when a player matched two cards in Hassan's game?", "opts": ["The cards disappeared", "The game played a short sound", "Points appeared on screen"], "answer": 1, "rationale": "The game played a short sound when a player matched two cards correctly." },
+        { "prompt": "How many students currently attend Hassan's coding club?", "opts": ["Five", "Eight", "Twelve"], "answer": 1, "rationale": "Currently eight students attend the club." },
+        { "prompt": "What lesson has coding taught Hassan?", "opts": ["That making games is not as hard as it looks", "That breaking big problems into small steps makes things easier", "That sharing what you know helps others learn faster"], "answer": 1, "rationale": "Hassan says coding has taught him that breaking a big problem into small steps makes everything easier." }
+      ]
+    },
+    {
+      "title": "A Young Musician",
+      "paragraphs": [
+        "Fourteen-year-old Clara started learning the violin at the age of six. For the first few years she practised only when her parents reminded her. But when she was eleven, she heard a professional orchestra play live for the first time and decided she wanted to play at that level one day. From that moment she practised every day without being asked.",
+        "Clara now practises for ninety minutes each morning before school. She has lessons every week with a teacher who used to play in a national orchestra. Clara also plays in her school orchestra and in a youth orchestra that meets on Sunday afternoons. Playing with other musicians, she says, is completely different from practising alone.",
+        "Last month, Clara auditioned for a place on a prestigious summer music programme in Austria. She was one of six young violinists selected from over three hundred applicants across Europe. The programme lasts four weeks and includes masterclasses with famous musicians. Clara says she is both very excited and very nervous about going."
+      ],
+      "questions": [
+        { "prompt": "What changed Clara's attitude to practising the violin?", "opts": ["A teacher told her she had special talent", "She heard a live orchestra and wanted to reach that level", "She won her first competition at school"], "answer": 1, "rationale": "After hearing a professional orchestra live, she decided she wanted to play at that level." },
+        { "prompt": "How long does Clara practise each day?", "opts": ["Thirty minutes", "One hour", "Ninety minutes"], "answer": 2, "rationale": "Clara practises for ninety minutes each morning before school." },
+        { "prompt": "Where does Clara's violin teacher come from?", "opts": ["A famous music school", "A national orchestra", "A summer music programme"], "answer": 1, "rationale": "Her teacher used to play in a national orchestra." },
+        { "prompt": "How many young violinists were selected for the summer programme?", "opts": ["Three", "Six", "Twelve"], "answer": 1, "rationale": "She was one of six young violinists selected." },
+        { "prompt": "How does Clara feel about the summer programme?", "opts": ["Only excited", "Only nervous", "Both excited and nervous"], "answer": 2, "rationale": "Clara says she is both very excited and very nervous about going." }
+      ]
+    },
+    {
+      "title": "Starting a Business at School",
+      "paragraphs": [
+        "When sixteen-year-old Sam needed money to buy new sports equipment, his father suggested he think of a way to earn it himself. Sam noticed that many students at his school wanted personalised phone cases but could not find affordable ones in local shops. He decided to design and sell them himself.",
+        "Sam bought a heat-press machine second-hand and learnt to use design software online. He began by selling to friends, charging a fair price that covered his costs and left a small profit. Word spread quickly and he was soon getting five or six orders a week from students across the school.",
+        "After six months Sam had earned enough for his sports equipment and had money left over. His business studies teacher used Sam's business as a case study for the whole class. Sam says the experience taught him about pricing, customer service and managing time. He plans to continue the business part-time while he is at university."
+      ],
+      "questions": [
+        { "prompt": "Why did Sam decide to start a business?", "opts": ["He wanted to learn about business for school", "He needed money to buy sports equipment", "His teacher asked him to find an entrepreneurship project"], "answer": 1, "rationale": "He needed money to buy new sports equipment." },
+        { "prompt": "What problem did Sam notice at his school?", "opts": ["Students wanted personalised phone cases but affordable ones were hard to find", "Students needed help with their homework", "There was no good place to buy school supplies"], "answer": 0, "rationale": "He noticed students wanted personalised phone cases but could not find affordable ones locally." },
+        { "prompt": "How did Sam learn to use the design software?", "opts": ["His father taught him", "He took a class at school", "He learnt online"], "answer": 2, "rationale": "He learnt to use design software online." },
+        { "prompt": "How many orders a week was Sam getting after word spread?", "opts": ["Two or three", "Five or six", "Ten or more"], "answer": 1, "rationale": "He was soon getting five or six orders a week." },
+        { "prompt": "What did Sam's business studies teacher do with his story?", "opts": ["She helped him improve his pricing", "She used his business as a case study for the class", "She encouraged him to enter a business competition"], "answer": 1, "rationale": "His teacher used Sam's business as a case study for the whole class." }
+      ]
+    },
+    {
+      "title": "A Young Writer",
+      "paragraphs": [
+        "Fifteen-year-old Mia has always loved reading, but it was a creative writing competition at her school that turned her into a writer. Her English teacher asked students to write a short story in any genre they liked. Mia decided to write a mystery story set in her own town. She finished it in one weekend and was surprised by how much she enjoyed the process.",
+        "Mia won first place in the competition and her story was published in the school literary magazine. Encouraged by this, she began writing every day in a notebook she kept beside her bed. She started a second, longer story and shared chapters with a small group of friends who gave her feedback.",
+        "Earlier this year, Mia entered a national young writers competition and reached the final twenty from over two thousand entries. Although she did not win, one of the judges wrote to tell her that her writing showed real promise. Mia is now working on her third story and reads widely to improve her style."
+      ],
+      "questions": [
+        { "prompt": "What made Mia start writing stories?", "opts": ["She read a book that inspired her", "A school competition gave her the chance to try", "A friend suggested she write a story"], "answer": 1, "rationale": "A creative writing competition at her school turned her into a writer." },
+        { "prompt": "What type of story did Mia write for the competition?", "opts": ["A science fiction story", "A mystery story", "A love story"], "answer": 1, "rationale": "Mia decided to write a mystery story." },
+        { "prompt": "Where was Mia's first story published?", "opts": ["In a local newspaper", "In the school literary magazine", "On a young writers website"], "answer": 1, "rationale": "Her story was published in the school literary magazine." },
+        { "prompt": "What did Mia do to get feedback on her second story?", "opts": ["She sent it to her English teacher", "She shared chapters with a small group of friends", "She posted it on an online writing forum"], "answer": 1, "rationale": "She shared chapters with a small group of friends who gave her feedback." },
+        { "prompt": "What happened at the national young writers competition?", "opts": ["Mia won first prize", "Mia reached the final twenty but did not win", "Mia did not pass the first round"], "answer": 1, "rationale": "She reached the final twenty from over two thousand entries but did not win." }
+      ]
+    },
+    {
+      "title": "An Eco-Friendly Project",
+      "paragraphs": [
+        "Thirteen-year-old Isla was worried about the amount of rubbish she saw in the river near her school. She researched the problem and discovered that most of the rubbish came from plastic bottles and wrappers that people dropped in the streets. Isla decided to organise a monthly clean-up event with the help of her classmates.",
+        "The first clean-up had only eight participants, but Isla made a short video about it and posted it on the school's social media page. Within two months, the event had grown to over forty volunteers including parents and local residents. Isla worked with the local council to get equipment such as gloves and bags provided for free.",
+        "After six months, the amount of rubbish in the river had reduced noticeably. A local environmental charity invited Isla to speak at one of their events about how young people can make a difference. Isla says she was surprised to see how quickly things changed once people started working together."
+      ],
+      "questions": [
+        { "prompt": "What problem did Isla want to solve?", "opts": ["Air pollution near her school", "Rubbish in the river near her school", "Damage to trees in the local park"], "answer": 1, "rationale": "Isla was worried about the amount of rubbish in the river near her school." },
+        { "prompt": "Where did most of the river rubbish come from, according to Isla's research?", "opts": ["From factories nearby", "From plastic bottles and wrappers dropped in streets", "From the school canteen"], "answer": 1, "rationale": "Most rubbish came from plastic bottles and wrappers that people dropped in the streets." },
+        { "prompt": "How did the clean-up event grow to forty volunteers?", "opts": ["Isla handed out leaflets in the town", "Isla posted a video on the school's social media page", "The local council advertised the event"], "answer": 1, "rationale": "Isla posted a short video on the school's social media page, and the event grew." },
+        { "prompt": "What did the local council provide for the clean-up?", "opts": ["Money for refreshments", "Gloves and bags for free", "Transport to the river"], "answer": 1, "rationale": "The local council provided equipment such as gloves and bags for free." },
+        { "prompt": "What did Isla learn from the project?", "opts": ["That rivers can clean themselves over time", "That things can change quickly when people work together", "That councils are slow to respond to young people"], "answer": 1, "rationale": "Isla says she was surprised to see how quickly things changed once people started working together." }
+      ]
+    },
+    {
+      "title": "A Young Swimmer",
+      "paragraphs": [
+        "When eleven-year-old Hana joined her local swimming club, she could already swim but had never trained seriously. In her first few weeks she found the early morning sessions very hard. She had to get up at five-thirty every day before school and swim for ninety minutes. Many of the other swimmers had been training for years.",
+        "Hana's coach saw that she had a strong kick but needed to improve her arm technique. He gave her extra exercises to do after the main session. Hana followed the advice carefully and within six months she had dropped her personal best time for the fifty metres by three seconds.",
+        "Last year, Hana qualified for the national junior championships for the first time. She finished eighth in her event, which surprised many people as she had only been training seriously for two years. Her coach says that Hana's willingness to listen and work on her weaknesses is what sets her apart from other swimmers her age."
+      ],
+      "questions": [
+        { "prompt": "What did Hana find difficult when she first joined the club?", "opts": ["Learning the different swimming styles", "The early morning sessions before school", "Swimming with experienced competitors"], "answer": 1, "rationale": "She found the early morning sessions very hard — getting up at five-thirty every day." },
+        { "prompt": "What did Hana's coach say she needed to improve?", "opts": ["Her kick", "Her arm technique", "Her speed at the start"], "answer": 1, "rationale": "Her coach said she had a strong kick but needed to improve her arm technique." },
+        { "prompt": "How much did Hana improve her fifty-metre time?", "opts": ["By one second", "By two seconds", "By three seconds"], "answer": 2, "rationale": "She dropped her personal best time by three seconds." },
+        { "prompt": "Where did Hana finish in the national junior championships?", "opts": ["Third", "Fifth", "Eighth"], "answer": 2, "rationale": "She finished eighth in her event." },
+        { "prompt": "According to Hana's coach, what makes her stand out?", "opts": ["Her natural speed in the water", "Her willingness to listen and work on her weaknesses", "Her ability to train early in the morning"], "answer": 1, "rationale": "Her coach says her willingness to listen and work on her weaknesses sets her apart." }
+      ]
+    },
+    {
+      "title": "Travelling by Train for the First Time",
+      "paragraphs": [
+        "When fifteen-year-old Josh decided to visit his cousin in Edinburgh, his parents said he could travel alone for the first time. Josh had never taken a long train journey by himself. He planned the trip carefully, looking up departure times, buying his ticket online in advance, and making a note of which platforms he needed.",
+        "The journey from London to Edinburgh took about four and a half hours. Josh sat by the window and spent most of the time reading and watching the countryside change from flat fields to mountains and forests. At one point the train was delayed for twenty minutes, which made Josh slightly worried he might miss his connection, but the delay was short enough that he arrived on time.",
+        "Josh's cousin met him at Edinburgh station. Josh says the trip made him feel much more independent and confident. He had managed every part of the journey without any help. He is already planning a longer trip by himself next summer to visit a friend in another country."
+      ],
+      "questions": [
+        { "prompt": "Why did Josh travel to Edinburgh?", "opts": ["He was going on a school trip", "He was visiting his cousin", "He wanted to see a new city"], "answer": 1, "rationale": "Josh decided to visit his cousin in Edinburgh." },
+        { "prompt": "How did Josh prepare for the journey?", "opts": ["He asked a travel agent to help him", "He looked up times, bought a ticket and noted his platforms", "He asked his parents to plan the trip for him"], "answer": 1, "rationale": "He looked up departure times, bought his ticket online and made a note of his platforms." },
+        { "prompt": "How long did the train journey take?", "opts": ["About two hours", "About four and a half hours", "About six hours"], "answer": 1, "rationale": "The journey from London to Edinburgh took about four and a half hours." },
+        { "prompt": "Why did the train delay worry Josh?", "opts": ["He was afraid he would arrive in Edinburgh at night", "He thought he might miss his connection", "He had not told his cousin what time he was arriving"], "answer": 1, "rationale": "The delay made him slightly worried he might miss his connection." },
+        { "prompt": "What is Josh planning for next summer?", "opts": ["A train trip across the United Kingdom", "A longer trip by himself to visit a friend abroad", "A camping holiday with his cousin"], "answer": 1, "rationale": "He is already planning a longer trip by himself next summer to visit a friend in another country." }
+      ]
+    },
+    {
+      "title": "A Cooking Competition",
+      "paragraphs": [
+        "Fourteen-year-old Ben entered a regional cooking competition for young people after seeing it advertised at school. Contestants had to prepare a two-course meal for two people using a limited list of ingredients. Ben had no professional training but had been cooking at home since he was ten, often helping his parents prepare meals at weekends.",
+        "On the day of the competition Ben was given one hour to complete both courses. He decided to make a vegetable soup followed by a pasta dish with a herb sauce. Halfway through, he realised he had put too much salt in the soup. He tried to fix it by adding more vegetables and a little cream, which improved the flavour.",
+        "The judges scored Ben's dishes on taste, presentation and creativity. He came third overall and received a trophy and a place at a one-day masterclass with a professional chef. Ben says the competition taught him to stay calm when things go wrong and to think quickly to solve problems."
+      ],
+      "questions": [
+        { "prompt": "Where did Ben see the cooking competition advertised?", "opts": ["On a cooking television programme", "At school", "In a local newspaper"], "answer": 1, "rationale": "Ben saw the competition advertised at school." },
+        { "prompt": "How long had Ben been cooking at home?", "opts": ["Since he was eight", "Since he was ten", "Since he was twelve"], "answer": 1, "rationale": "He had been cooking at home since he was ten." },
+        { "prompt": "What problem did Ben have during the competition?", "opts": ["He ran out of one ingredient", "He put too much salt in the soup", "His pasta dish was not cooked enough"], "answer": 1, "rationale": "He realised halfway through that he had put too much salt in the soup." },
+        { "prompt": "How did Ben fix the problem with the soup?", "opts": ["He started the soup again", "He added more vegetables and a little cream", "He asked a judge for advice"], "answer": 1, "rationale": "He added more vegetables and a little cream, which improved the flavour." },
+        { "prompt": "What did Ben win as a prize?", "opts": ["A set of cooking equipment", "A trophy and a place at a masterclass", "A cash prize and a certificate"], "answer": 1, "rationale": "He received a trophy and a place at a one-day masterclass with a professional chef." }
+      ]
+    },
+    {
+      "title": "Raising Money for Charity",
+      "paragraphs": [
+        "After learning in a geography lesson about the lack of clean water in some parts of the world, thirteen-year-old Chloe wanted to do something practical to help. She found a charity that built water wells in rural communities and decided to raise money for it. Chloe's first idea was to organise a sponsored silence at school.",
+        "Chloe asked her headteacher for permission to hold the event during one school day. Students who took part agreed not to speak during lessons, and teachers were happy to join in too. Chloe made collection forms and asked students to get sponsorship from family and friends before the day.",
+        "The sponsored silence raised over eight hundred pounds, more than double what Chloe had hoped for. The money was enough to help fund one well. The charity sent the school a letter and a photo of the completed well. Chloe says the project showed her that one person's idea, however simple, can make a real difference."
+      ],
+      "questions": [
+        { "prompt": "What gave Chloe the idea to raise money for charity?", "opts": ["She watched a documentary about clean water", "She learnt about the problem in a geography lesson", "A charity worker visited her school"], "answer": 1, "rationale": "She learned about the lack of clean water in a geography lesson." },
+        { "prompt": "What was Chloe's fundraising idea?", "opts": ["A sponsored run around the school field", "A bake sale at the school entrance", "A sponsored silence during a school day"], "answer": 2, "rationale": "Chloe organised a sponsored silence at school." },
+        { "prompt": "Who gave Chloe permission to hold the event?", "opts": ["Her geography teacher", "The headteacher", "The school governors"], "answer": 1, "rationale": "Chloe asked her headteacher for permission." },
+        { "prompt": "How much money did the sponsored silence raise?", "opts": ["Around four hundred pounds", "Over eight hundred pounds", "Exactly one thousand pounds"], "answer": 1, "rationale": "The sponsored silence raised over eight hundred pounds." },
+        { "prompt": "What did the charity send to the school afterwards?", "opts": ["An invitation to visit the well", "A letter and a photo of the completed well", "A certificate for Chloe"], "answer": 1, "rationale": "The charity sent the school a letter and a photo of the completed well." }
+      ]
+    },
+    {
+      "title": "Learning Sign Language",
+      "paragraphs": [
+        "When a new student called Leo, who was deaf, joined her class, twelve-year-old Nadia wanted to be able to talk to him. She did not know any sign language, so she found a free beginner's course online and started learning in the evenings. After two weeks she knew enough basic signs to say hello and introduce herself to Leo.",
+        "Leo was pleased that Nadia had made the effort. He began teaching her more signs during lunchtime. They communicated a mix of sign language and written notes at first. Over the following months, Nadia's signing improved significantly and she began to help Leo communicate with other students who wanted to talk to him.",
+        "Nadia's story spread through the school, and a teacher set up a sign language club that now has eighteen members. Leo helps to lead the sessions alongside the teacher. Nadia says learning sign language has changed how she thinks about communication and has made her understand how isolating it can feel to be the only person in a room who communicates differently."
+      ],
+      "questions": [
+        { "prompt": "Why did Nadia decide to learn sign language?", "opts": ["It was required for a school project", "She wanted to communicate with a deaf classmate", "A teacher suggested it would be useful"], "answer": 1, "rationale": "She wanted to be able to talk to Leo, a deaf student who joined her class." },
+        { "prompt": "How did Nadia learn the basics of sign language?", "opts": ["She took classes at a community centre", "She used a free online course", "Leo's parents taught her"], "answer": 1, "rationale": "She found a free beginner's course online and started learning in the evenings." },
+        { "prompt": "How did Nadia and Leo first communicate?", "opts": ["Only through written notes", "A mix of sign language and written notes", "Only through sign language"], "answer": 1, "rationale": "They communicated using a mix of sign language and written notes at first." },
+        { "prompt": "How many members does the school sign language club now have?", "opts": ["Eight", "Twelve", "Eighteen"], "answer": 2, "rationale": "The sign language club now has eighteen members." },
+        { "prompt": "What has Nadia learnt from her experience?", "opts": ["That sign language is not as difficult as people think", "How isolating it can feel to communicate differently from everyone else", "That deaf people are very good at communicating in different ways"], "answer": 1, "rationale": "She now understands how isolating it can feel to be the only person who communicates differently." }
+      ]
+    },
+    {
+      "title": "A Young Blogger",
+      "paragraphs": [
+        "Sixteen-year-old Imogen started her blog as a way of sharing her thoughts about the books she was reading. She did not tell anyone at first because she was not sure if her writing was good enough. After three months she had written fourteen posts and had a small number of regular readers who left encouraging comments.",
+        "Imogen's blog focuses on books for young adults and includes reviews, author interviews she conducts by email, and lists of recommended reading. She writes in a friendly and honest style, which her readers appreciate. A small publisher noticed her work and sent her some new books to review before their official release.",
+        "Imogen now has over three thousand followers and has been invited to two book festivals as a guest blogger. She uses her platform to recommend books that feature characters from different backgrounds, which she feels are often overlooked. Imogen says the blog has improved her writing and given her the confidence to share her opinions more freely."
+      ],
+      "questions": [
+        { "prompt": "Why did Imogen not tell anyone about her blog at first?", "opts": ["She wanted to surprise people when it was popular", "She was not sure her writing was good enough", "She was not allowed to share personal blogs at school"], "answer": 1, "rationale": "She did not tell anyone because she was not sure if her writing was good enough." },
+        { "prompt": "How does Imogen conduct author interviews for her blog?", "opts": ["She meets authors at book festivals", "She interviews them by email", "She records video calls with them"], "answer": 1, "rationale": "She conducts author interviews by email." },
+        { "prompt": "Why did a publisher send Imogen books?", "opts": ["She won a writing competition", "They wanted her to review the books before release", "She asked them for free copies"], "answer": 1, "rationale": "A publisher noticed her work and sent her books to review before their official release." },
+        { "prompt": "How many followers does Imogen's blog now have?", "opts": ["Over one thousand", "Over two thousand", "Over three thousand"], "answer": 2, "rationale": "Imogen now has over three thousand followers." },
+        { "prompt": "What types of books does Imogen especially recommend?", "opts": ["Books written by young authors", "Books that have won prizes", "Books featuring characters from different backgrounds"], "answer": 2, "rationale": "She recommends books that feature characters from different backgrounds, which she feels are often overlooked." }
+      ]
+    },
+    {
+      "title": "A School Pet Project",
+      "paragraphs": [
+        "When a group of students at Riverside Primary suggested getting a classroom pet, most people expected the idea to be rejected. But the school agreed, on condition that the students presented a proper plan for looking after the animal. Fourteen-year-old Oliver, who was in the school's junior leadership team, took charge of the project.",
+        "Oliver researched several animals and presented a plan for keeping two guinea pigs. The plan covered feeding, cleaning the cage, and veterinary care. He divided the responsibilities among students from two classes, making a rota so that every student had a turn. He also contacted a local vet, who agreed to answer questions and check on the animals once a term.",
+        "The guinea pigs arrived in September and quickly became popular with the whole school. Teachers noticed that younger students in particular became calmer and more focused during lessons after spending time with the animals. Oliver says the project taught him how important it is to plan carefully before starting something new."
+      ],
+      "questions": [
+        { "prompt": "What did the school ask students to do before agreeing to a class pet?", "opts": ["Get parents to sign a permission form", "Present a proper plan for caring for the animal", "Raise money to buy the animal themselves"], "answer": 1, "rationale": "The school agreed on condition that students presented a proper plan for looking after the animal." },
+        { "prompt": "What animals did Oliver suggest getting?", "opts": ["A rabbit", "Two guinea pigs", "A hamster"], "answer": 1, "rationale": "Oliver presented a plan for keeping two guinea pigs." },
+        { "prompt": "How did Oliver organise who would care for the animals?", "opts": ["He asked for volunteers each week", "He made a rota so every student had a turn", "He chose a team of six students to be responsible"], "answer": 1, "rationale": "He made a rota so that every student had a turn." },
+        { "prompt": "How often did the local vet visit the animals?", "opts": ["Every month", "Once a term", "Once a year"], "answer": 1, "rationale": "The vet agreed to check on the animals once a term." },
+        { "prompt": "What effect did the guinea pigs have on younger students?", "opts": ["They were excited and found it harder to concentrate", "They became calmer and more focused during lessons", "They spent too much time in the room with the animals"], "answer": 1, "rationale": "Teachers noticed that younger students became calmer and more focused after spending time with the animals." }
+      ]
+    },
+    {
+      "title": "A New Sports Club",
+      "paragraphs": [
+        "When seventeen-year-old Fatima moved to a new town, she wanted to find a sport to help her meet people. She tried basketball and swimming but did not enjoy them. A friend suggested ultimate frisbee, a team sport she had never heard of. Fatima found a club forty minutes away and decided to go along to a taster session.",
+        "She enjoyed it immediately. The sport involves throwing a frisbee between team members to score goals, and the rules do not allow physical contact. Fatima liked the fact that matches relied more on strategy and communication than strength. Within two months she had become a regular member of the team.",
+        "Fatima noticed that there was no ultimate frisbee club at her school, so she asked the PE department if she could start one. A teacher agreed to supervise. Fatima designed a poster, gave a short presentation in assembly and recruited twelve students. The club now meets every Tuesday after school and has entered a local schools competition."
+      ],
+      "questions": [
+        { "prompt": "Why did Fatima want to find a sport when she moved to the new town?", "opts": ["She wanted to stay fit after stopping swimming", "She wanted to meet people", "She needed a sport for her school timetable"], "answer": 1, "rationale": "She wanted to find a sport to help her meet people." },
+        { "prompt": "How did Fatima find out about ultimate frisbee?", "opts": ["She read about it online", "A friend suggested it", "She saw a match on television"], "answer": 1, "rationale": "A friend suggested ultimate frisbee to her." },
+        { "prompt": "What does Fatima like about ultimate frisbee?", "opts": ["It is easy to learn quickly", "It relies more on strategy and communication than strength", "The equipment is very cheap to buy"], "answer": 1, "rationale": "She liked that it relied more on strategy and communication than strength." },
+        { "prompt": "How did Fatima recruit students for the school club?", "opts": ["She handed out leaflets at lunchtime", "She gave a short presentation in assembly", "She asked friends to invite their classmates"], "answer": 1, "rationale": "She designed a poster, gave a short presentation in assembly and recruited twelve students." },
+        { "prompt": "When does the school ultimate frisbee club meet?", "opts": ["Monday lunchtimes", "Every Tuesday after school", "Wednesday and Friday mornings"], "answer": 1, "rationale": "The club meets every Tuesday after school." }
+      ]
+    },
+    {
+      "title": "A Young Environmentalist",
+      "paragraphs": [
+        "Fifteen-year-old Zara became passionate about the environment after her class visited a nature reserve where the guide explained that several local species of bird were disappearing because of habitat loss. That evening Zara read more about the problem and felt she had to do something. She started by writing a letter to her local council asking what plans they had to protect green spaces.",
+        "The council replied and invited Zara to attend a public meeting about a planned development near the nature reserve. Zara prepared carefully. She brought photographs, maps and information about the birds at risk. When she spoke at the meeting, the audience listened carefully. Two local journalists reported on what she said.",
+        "As a result of Zara's campaign, the council agreed to change the development plan to protect a section of the habitat. An environmental group contacted Zara and asked her to become a youth ambassador. Zara says she is proof that young people can influence decisions that affect the environment if they are prepared and persistent."
+      ],
+      "questions": [
+        { "prompt": "What made Zara become interested in environmental issues?", "opts": ["She watched a film about endangered animals", "A guide at a nature reserve explained how birds were disappearing", "Her science teacher set a project on habitat loss"], "answer": 1, "rationale": "A guide at a nature reserve explained that local birds were disappearing because of habitat loss." },
+        { "prompt": "What did Zara do first after visiting the nature reserve?", "opts": ["She organised a protest outside the council offices", "She wrote a letter to her local council", "She contacted an environmental group"], "answer": 1, "rationale": "She started by writing a letter to her local council asking about their plans for green spaces." },
+        { "prompt": "What did Zara bring to the public meeting?", "opts": ["A petition signed by classmates", "Photos, maps and information about birds at risk", "A video she had made about the nature reserve"], "answer": 1, "rationale": "She brought photographs, maps and information about the birds at risk." },
+        { "prompt": "What was the result of Zara's campaign?", "opts": ["The development was cancelled completely", "The council changed the plan to protect part of the habitat", "The council agreed to create a new nature reserve"], "answer": 1, "rationale": "The council agreed to change the development plan to protect a section of the habitat." },
+        { "prompt": "What does Zara say about young people and the environment?", "opts": ["Young people should leave environmental decisions to experts", "Young people can influence decisions if they are prepared and persistent", "Young people need to vote before they can make a difference"], "answer": 1, "rationale": "Zara says young people can influence decisions if they are prepared and persistent." }
+      ]
     }
   ]
 }

@@ -159,6 +159,326 @@
         { "accept": ["are"], "rationale": "'Voices are important' — plural subject needs plural verb." },
         { "accept": ["however", "no matter how"], "rationale": "'However small' or 'no matter how small' — concessive clause." }
       ]
+    },
+    {
+      "title": "My Favourite Subject",
+      "paragraphs": [
+        "My favourite subject at school is science. I have always been interested (1) ___ how things work, so science lessons feel like exciting discoveries. Our teacher does experiments (2) ___ us so we can see the ideas in action.",
+        "Last month we learned (3) ___ plants make food from sunlight. I found it amazing that something so small as a leaf can do something so complex. I decided to grow some bean plants at home to (4) ___ what I had learned.",
+        "I hope to study science (5) ___ university one day. My dream job is to work (6) ___ a scientist and carry out research that helps people."
+      ],
+      "gaps": [
+        { "accept": ["in"], "rationale": "'Interested in how things work' — 'interested in' is the fixed collocation." },
+        { "accept": ["for", "with"], "rationale": "'Does experiments for us' or 'does experiments with us' — both natural." },
+        { "accept": ["how"], "rationale": "'Learned how plants make food' — indirect question introduced by 'how'." },
+        { "accept": ["test", "try"], "rationale": "'To test/try what I had learned' — apply knowledge practically." },
+        { "accept": ["at"], "rationale": "'Study science at university' — 'at' is fixed with 'university' in British English." },
+        { "accept": ["as"], "rationale": "'Work as a scientist' — 'as' introduces the role or profession." }
+      ]
+    },
+    {
+      "title": "A Trip to the Zoo",
+      "paragraphs": [
+        "Last Saturday our class went (1) ___ a trip to the city zoo. We travelled there (2) ___ bus and arrived just after nine o'clock in the morning.",
+        "The zoo is home to (3) ___ than two hundred species of animals from all over the world. My favourite was the gorilla enclosure because the gorillas looked almost human. One of them stared (4) ___ me for a long time and I felt a little nervous.",
+        "We also visited the reptile house, (5) ___ I found quite frightening. At the end of the visit, a guide told us about the zoo's programme to protect (6) ___ species that are close to extinction."
+      ],
+      "gaps": [
+        { "accept": ["on"], "rationale": "'Go on a trip' — 'on' is fixed with 'trip'." },
+        { "accept": ["by"], "rationale": "'Travelled by bus' — 'by' introduces the means of transport." },
+        { "accept": ["more"], "rationale": "'More than two hundred species' — 'more than' for exceeding a number." },
+        { "accept": ["at"], "rationale": "'Stared at me' — 'stare at' is the fixed phrasal verb." },
+        { "accept": ["which"], "rationale": "Non-defining relative clause after a comma — 'which' is required." },
+        { "accept": ["endangered", "wild"], "rationale": "'Endangered species' is the natural collocation in conservation contexts." }
+      ]
+    },
+    {
+      "title": "Helping My Family",
+      "paragraphs": [
+        "I try to help (1) ___ home as much as I can. Every morning I make my bed and tidy my room before going to school. At weekends I help my mum (2) ___ the shopping.",
+        "My favourite chore is cooking. I started learning to cook (3) ___ I was ten, and now I can make several simple meals on my own. Last week I cooked pasta for the whole family and everyone said it tasted (4) ___.",
+        "I think it is important for young people to (5) ___ responsibility at home. It teaches you useful skills and makes you appreciate (6) ___ much work your parents do every day."
+      ],
+      "gaps": [
+        { "accept": ["at"], "rationale": "'Help at home' — 'at home' is the fixed locative phrase." },
+        { "accept": ["with", "do"], "rationale": "'Help with the shopping' or 'help do the shopping' — both correct at A2." },
+        { "accept": ["when"], "rationale": "'Started learning when I was ten' — 'when' introduces the time clause." },
+        { "accept": ["delicious", "great", "wonderful", "good", "amazing"], "rationale": "Any positive adjective after a link verb ('tasted + adjective') works here." },
+        { "accept": ["take"], "rationale": "'Take responsibility' — fixed collocation." },
+        { "accept": ["how"], "rationale": "'Appreciate how much work your parents do' — indirect question with 'how'." }
+      ]
+    },
+    {
+      "title": "My Favourite Sport",
+      "paragraphs": [
+        "I have played basketball (1) ___ I was nine years old. My older brother taught me the basics, and I quickly fell (2) ___ love with the sport.",
+        "I train (3) ___ a week with my school team. Our coach is very strict but also very encouraging. She says that (4) ___ you work hard enough, you can always improve.",
+        "Last season we won the regional championship. It was the proudest moment of my life. Playing basketball has taught me a lot (5) ___ teamwork and discipline. I cannot imagine my life (6) ___ it."
+      ],
+      "gaps": [
+        { "accept": ["since"], "rationale": "'Played since I was nine' — 'since' introduces the starting point of a period." },
+        { "accept": ["in"], "rationale": "'Fell in love with the sport' — 'fall in love with' is a fixed expression." },
+        { "accept": ["twice", "three times"], "rationale": "Frequency expression before 'a week' — 'twice a week' or 'three times a week'." },
+        { "accept": ["if"], "rationale": "'If you work hard enough' — conditional clause." },
+        { "accept": ["about"], "rationale": "'Taught me a lot about teamwork' — 'about' introduces the topic learned." },
+        { "accept": ["without"], "rationale": "'Cannot imagine my life without it' — 'without' expresses absence." }
+      ]
+    },
+    {
+      "title": "Getting a New Pet",
+      "paragraphs": [
+        "For my birthday last month my parents gave (1) ___ a puppy. I had always wanted a dog, so I was absolutely delighted. We called him Pip because he made a little pip sound (2) ___ he was happy.",
+        "Looking (3) ___ a puppy is hard work. You have to feed him several times a day, take him for walks and train him not to chew things. At first Pip was very naughty and chewed (4) ___ of my shoes!",
+        "Now Pip is better behaved and we have become very close. I take him for a walk every morning (5) ___ school. Having a pet has made me more responsible and (6) ___ my time more carefully."
+      ],
+      "gaps": [
+        { "accept": ["me"], "rationale": "'Gave me a puppy' — indirect object pronoun." },
+        { "accept": ["when"], "rationale": "'When he was happy' — temporal clause." },
+        { "accept": ["after"], "rationale": "'Looking after a puppy' — 'look after' means to take care of." },
+        { "accept": ["one", "a pair"], "rationale": "'Chewed one of my shoes' — partitive with a countable noun." },
+        { "accept": ["before"], "rationale": "'Every morning before school' — 'before' introduces the time reference." },
+        { "accept": ["manage", "plan", "organise"], "rationale": "'Manage my time more carefully' — 'manage time' is the natural collocation." }
+      ]
+    },
+    {
+      "title": "My Home Town",
+      "paragraphs": [
+        "I come (1) ___ a small town called Riverdale in the north of the country. About twenty thousand people live there, which means everyone knows (2) ___ other.",
+        "There is not much to do for young people, but I like the (3) ___ that it is quiet and safe. There is a river running through the centre and I enjoy walking (4) ___ its banks in the evening.",
+        "Some of my friends want to move to a big city (5) ___ they finish school, but I am not sure I would want to. I love my town and I think I will always feel a strong connection (6) ___ it."
+      ],
+      "gaps": [
+        { "accept": ["from"], "rationale": "'Come from a town' — 'come from' expresses origin." },
+        { "accept": ["each"], "rationale": "'Everyone knows each other' — 'each other' is the fixed reciprocal pronoun." },
+        { "accept": ["fact"], "rationale": "'Like the fact that it is quiet' — 'the fact that' introduces a nominal clause." },
+        { "accept": ["along"], "rationale": "'Walking along its banks' — 'along' describes movement beside a linear feature." },
+        { "accept": ["when", "after", "once"], "rationale": "'When/after/once they finish school' — temporal connectors." },
+        { "accept": ["to"], "rationale": "'A strong connection to it' — 'connection to' is the fixed preposition." }
+      ]
+    },
+    {
+      "title": "Learning to Swim",
+      "paragraphs": [
+        "I learned to swim (1) ___ the age of six at a local swimming pool. My mum took me to lessons every Saturday morning (2) ___ a whole year.",
+        "At first I was very (3) ___ of the water. I clung to the side of the pool and refused to let go. My instructor was patient and encouraged me to try (4) ___ and harder each week.",
+        "By the end of the year I could swim twenty lengths without stopping. I was so proud (5) ___ myself. Now I swim (6) ___ relaxation and I feel completely comfortable in the water."
+      ],
+      "gaps": [
+        { "accept": ["at"], "rationale": "'At the age of six' — 'at' is fixed with 'age'." },
+        { "accept": ["for"], "rationale": "'Every Saturday for a whole year' — 'for' expresses duration." },
+        { "accept": ["afraid", "scared", "frightened"], "rationale": "'Very afraid/scared/frightened of the water' — adjective + 'of'." },
+        { "accept": ["harder"], "rationale": "'Try harder and harder each week' — comparative adverb showing gradual increase." },
+        { "accept": ["of"], "rationale": "'Proud of myself' — 'proud of' is the fixed adjective + preposition." },
+        { "accept": ["for"], "rationale": "'Swim for relaxation' — 'for' introduces the purpose." }
+      ]
+    },
+    {
+      "title": "My Morning Routine",
+      "paragraphs": [
+        "I always set (1) ___ alarm for six forty-five, but I usually press snooze at least once before I actually get up. Then I go straight to the bathroom to have a shower (2) ___ getting dressed.",
+        "Breakfast is the most important part of my morning. I (3) ___ never skip it because I lose concentration during my first lesson if I have not eaten. I usually have cereal or toast (4) ___ a glass of orange juice.",
+        "I leave the house at twenty past seven to catch the bus. If I miss it, I have to walk for (5) ___ minutes, which makes me late. That is (6) ___ I always try to leave on time."
+      ],
+      "gaps": [
+        { "accept": ["my"], "rationale": "'Set my alarm' — possessive pronoun referring to the speaker's alarm." },
+        { "accept": ["before"], "rationale": "'Have a shower before getting dressed' — temporal sequence." },
+        { "accept": ["would", "could", "do"], "rationale": "'I would/could never skip it' or emphatic 'I do never skip it' — modal or emphatic auxiliary." },
+        { "accept": ["with"], "rationale": "'Toast with a glass of orange juice' — 'with' accompanies food items." },
+        { "accept": ["twenty", "thirty", "fifteen"], "rationale": "Any plausible number of walking minutes to school." },
+        { "accept": ["why"], "rationale": "'That is why I always try to leave on time' — reason connector." }
+      ]
+    },
+    {
+      "title": "A Fun School Project",
+      "paragraphs": [
+        "Last term our class worked (1) ___ a project about the history of our town. We were split into groups of four and each group had to research a different period (2) ___ time.",
+        "My group chose the nineteen fifties. We visited the local library and looked (3) ___ old newspapers and photographs. It was fascinating to see how different life was back (4) ___.",
+        "At the end of the term, each group presented their findings to the rest of the class. Our presentation lasted about twenty minutes. I was nervous (5) ___ first, but once I started speaking I began to enjoy it. Our teacher said she was proud (6) ___ all of us."
+      ],
+      "gaps": [
+        { "accept": ["on"], "rationale": "'Worked on a project' — 'work on' is the fixed phrasal verb." },
+        { "accept": ["of"], "rationale": "'A different period of time' — 'period of time' is a fixed noun phrase." },
+        { "accept": ["at", "through"], "rationale": "'Looked at old newspapers' or 'looked through old newspapers' — both correct." },
+        { "accept": ["then"], "rationale": "'How different life was back then' — 'back then' refers to a past time." },
+        { "accept": ["at"], "rationale": "'Nervous at first' — 'at first' is a fixed adverbial phrase." },
+        { "accept": ["of"], "rationale": "'Proud of all of us' — 'proud of' is the fixed adjective + preposition." }
+      ]
+    },
+    {
+      "title": "My First Day at a New School",
+      "paragraphs": [
+        "When I was twelve, my family moved to a new city and I had to start (1) ___ a new school. I felt very nervous the night before because I did not know anyone.",
+        "On the first morning, a girl (2) ___ Maria came and sat next to me. She introduced me to her friends at break time and made sure I did not feel (3) ___ out. By lunchtime I was already feeling much better.",
+        "By the end of the week I had settled (4) ___ well. I realised that starting somewhere new is not as scary as you think (5) ___ you actually do it. Now I am glad my family moved because I have made (6) ___ really good friends here."
+      ],
+      "gaps": [
+        { "accept": ["at"], "rationale": "'Start at a new school' — 'at' is fixed with school as an institution." },
+        { "accept": ["called", "named"], "rationale": "'A girl called/named Maria' — participle used to identify a person by name." },
+        { "accept": ["left"], "rationale": "'Feel left out' — fixed expression meaning excluded." },
+        { "accept": ["in"], "rationale": "'Settled in well' — 'settle in' means to become comfortable in a new place." },
+        { "accept": ["until", "when"], "rationale": "'Not as scary as you think until/when you actually do it' — temporal connector." },
+        { "accept": ["some"], "rationale": "'Made some really good friends' — 'some' is the natural quantifier." }
+      ]
+    },
+    {
+      "title": "Going Camping",
+      "paragraphs": [
+        "Every summer my family goes camping for a week. We usually choose a site near a lake (1) ___ we can swim and fish. This year we went to a forest campsite in the south of the country.",
+        "We arrived in the (2) ___ afternoon and spent two hours putting up the tents. My dad is good (3) ___ this because he has done it so many times, but my little brother and I kept getting in the way.",
+        "The best part of camping is sitting around the fire (4) ___ the evening, telling stories and eating toasted marshmallows. I always sleep (5) ___ well in a tent because the fresh air makes me tired. I am already looking forward (6) ___ next summer."
+      ],
+      "gaps": [
+        { "accept": ["where"], "rationale": "'A site where we can swim' — relative adverb referring to the location." },
+        { "accept": ["late"], "rationale": "'Arrived in the late afternoon' — adjective modifying 'afternoon'." },
+        { "accept": ["at"], "rationale": "'Good at this' — 'be good at' is the fixed adjective + preposition." },
+        { "accept": ["in"], "rationale": "'Sitting around the fire in the evening' — 'in the evening' is a fixed time expression." },
+        { "accept": ["so", "really", "very"], "rationale": "Intensifier before 'well' — 'sleep so/really well'." },
+        { "accept": ["to"], "rationale": "'Looking forward to next summer' — 'look forward to' requires 'to'." }
+      ]
+    },
+    {
+      "title": "A Surprise Party",
+      "paragraphs": [
+        "Last month I organised a surprise birthday party (1) ___ my mum. It was her fiftieth birthday, so I wanted to do something really special. I secretly asked all her friends and family to come (2) ___ giving her any warning.",
+        "I spent two weeks planning everything. I ordered a cake, made (3) ___ of the decorations myself and created a playlist of her favourite songs. On the day, I told Mum we were going out (4) ___ dinner.",
+        "When she walked (5) ___ to find all her friends there, she burst into tears. She said it was the best surprise she had ever had. Seeing how happy she was made (6) ___ feel wonderful."
+      ],
+      "gaps": [
+        { "accept": ["for"], "rationale": "'Organised a party for my mum' — 'for' indicates who benefits." },
+        { "accept": ["without"], "rationale": "'Come without giving her any warning' — 'without' + gerund." },
+        { "accept": ["some", "most"], "rationale": "'Made some/most of the decorations myself' — partitive quantifier." },
+        { "accept": ["for"], "rationale": "'Going out for dinner' — 'go out for dinner' is a fixed expression." },
+        { "accept": ["in"], "rationale": "'Walked in to find all her friends' — 'walk in' means to enter a room." },
+        { "accept": ["me"], "rationale": "'Made me feel wonderful' — accusative pronoun as object of 'made'." }
+      ]
+    },
+    {
+      "title": "Learning to Ride a Bike",
+      "paragraphs": [
+        "I learned to ride a bike (1) ___ the summer I was seven. My dad took me to the park every evening and held the back of the saddle (2) ___ I could balance on my own.",
+        "After about a week I finally managed to ride a few metres (3) ___ falling off. I was so excited that I shouted and nearly crashed into a tree! My dad laughed and said he was (4) ___ of me.",
+        "Now I cycle everywhere. I ride to school, to my friends' houses and to the shops. Cycling is good (5) ___ the environment and good for your health (6) ___ well."
+      ],
+      "gaps": [
+        { "accept": ["during", "in"], "rationale": "'During/in the summer I was seven' — both prepositions work with a named period." },
+        { "accept": ["until"], "rationale": "'Held the saddle until I could balance' — 'until' introduces the end point." },
+        { "accept": ["without"], "rationale": "'Ride a few metres without falling off' — 'without' + gerund." },
+        { "accept": ["proud"], "rationale": "'He was proud of me' — 'be proud of' is fixed; the adjective is 'proud'." },
+        { "accept": ["for"], "rationale": "'Good for the environment' — 'good for' is the fixed adjective + preposition." },
+        { "accept": ["as"], "rationale": "'Good for your health as well' — 'as well' is a fixed additive phrase." }
+      ]
+    },
+    {
+      "title": "Keeping a Diary",
+      "paragraphs": [
+        "I have kept a diary (1) ___ I was eleven. Every night before bed I write about what happened during the day and how I felt (2) ___ it.",
+        "I think writing a diary is a great way to deal (3) ___ stress. When I am upset about something, putting my feelings into words helps me calm (4) ___. It is also interesting to look back at old entries and see how much I have changed.",
+        "Some people prefer to type their diary (5) ___ a phone or computer, but I prefer using a notebook. There is something special about writing by hand. I would recommend keeping a diary to (6) ___ who wants to understand themselves better."
+      ],
+      "gaps": [
+        { "accept": ["since"], "rationale": "'Kept a diary since I was eleven' — 'since' introduces the starting point." },
+        { "accept": ["about"], "rationale": "'How I felt about it' — 'feel about' expresses a reaction to something." },
+        { "accept": ["with"], "rationale": "'Deal with stress' — 'deal with' is the fixed phrasal verb." },
+        { "accept": ["down"], "rationale": "'Helps me calm down' — 'calm down' is the fixed phrasal verb meaning to become less upset." },
+        { "accept": ["on"], "rationale": "'Type their diary on a phone or computer' — 'on' with devices." },
+        { "accept": ["anyone", "everybody", "everyone"], "rationale": "'Recommend to anyone who wants to understand themselves better' — indefinite pronoun." }
+      ]
+    },
+    {
+      "title": "Cooking with My Parents",
+      "paragraphs": [
+        "Every Sunday my family cooks a big meal together. My parents believe that knowing (1) ___ to cook is an essential life skill, so they started teaching me when I was quite young.",
+        "My mum is in (2) ___ of the starters and salads, while my dad is responsible for the main course. I am usually given the task (3) ___ peeling vegetables or stirring sauces. I am slowly learning more difficult techniques.",
+        "Last week I cooked the dessert (4) ___ myself for the first time. I made a chocolate cake and it turned (5) ___ really well. My parents said it was delicious, which made me feel very proud (6) ___ myself."
+      ],
+      "gaps": [
+        { "accept": ["how"], "rationale": "'Knowing how to cook' — 'how to' introduces the indirect question." },
+        { "accept": ["charge"], "rationale": "'In charge of the starters' — 'in charge of' is a fixed expression meaning responsible for." },
+        { "accept": ["of"], "rationale": "'Given the task of peeling' — 'task of' + gerund is fixed." },
+        { "accept": ["by"], "rationale": "'Cooked the dessert by myself' — 'by myself' means alone/without help." },
+        { "accept": ["out"], "rationale": "'Turned out really well' — 'turn out' is the fixed phrasal verb meaning to have a result." },
+        { "accept": ["of"], "rationale": "'Feel very proud of myself' — 'proud of' is the fixed adjective + preposition." }
+      ]
+    },
+    {
+      "title": "A School Competition",
+      "paragraphs": [
+        "Last month I entered a writing competition (1) ___ my school organised. The topic was 'A world without technology' and we had to write a short story of (2) ___ than five hundred words.",
+        "I spent three evenings working (3) ___ my story. I wrote about a family that woke up one morning to find all their devices had stopped working. It was difficult to think (4) ___ new ideas, but I kept going.",
+        "To my surprise I won second place. The prize was a book token and my story was published in the school (5) ___. My teacher said she was impressed (6) ___ my imagination and my use of descriptive language."
+      ],
+      "gaps": [
+        { "accept": ["that", "which"], "rationale": "Relative pronoun for the competition 'that/which my school organised'." },
+        { "accept": ["more", "fewer", "less"], "rationale": "'No more than five hundred words' — 'more' is the standard word-count limiter." },
+        { "accept": ["on"], "rationale": "'Working on my story' — 'work on' is the fixed phrasal verb." },
+        { "accept": ["of"], "rationale": "'Difficult to think of new ideas' — 'think of' means to produce or come up with." },
+        { "accept": ["newsletter", "magazine", "newspaper"], "rationale": "School publication — any of these is natural in context." },
+        { "accept": ["by", "with"], "rationale": "'Impressed by/with my imagination' — both prepositions follow 'impressed'." }
+      ]
+    },
+    {
+      "title": "My Favourite Season",
+      "paragraphs": [
+        "My favourite season is autumn. I love the way the leaves (1) ___ colour and cover the ground in shades of red, orange and yellow. The air becomes cooler and fresher, (2) ___ makes it perfect for walking.",
+        "At the weekends I often go to the park (3) ___ my family. We collect chestnuts and kick piles of leaves. My mum always brings hot chocolate in a flask, (4) ___ keeps us warm.",
+        "I also love the smell of autumn. After it rains, the ground gives off a rich, earthy smell (5) ___ I find really relaxing. I think autumn is the most beautiful season (6) ___ all."
+      ],
+      "gaps": [
+        { "accept": ["change"], "rationale": "'Leaves change colour' — 'change colour' is the fixed collocation." },
+        { "accept": ["which"], "rationale": "Non-defining relative clause after a comma — 'which' is required." },
+        { "accept": ["with"], "rationale": "'Go to the park with my family' — 'with' for company." },
+        { "accept": ["which"], "rationale": "Non-defining relative clause — 'which keeps us warm'." },
+        { "accept": ["that", "which"], "rationale": "Relative pronoun referring to 'smell' — 'that/which I find relaxing'." },
+        { "accept": ["of"], "rationale": "'The most beautiful season of all' — 'of all' is the fixed superlative intensifier." }
+      ]
+    },
+    {
+      "title": "A Day at the Beach",
+      "paragraphs": [
+        "Last weekend my family drove to the coast for the day. We left early in the morning (1) ___ avoid the traffic and arrived at the beach just after nine.",
+        "The weather was perfect — warm and sunny with a light breeze. We spent the morning swimming and building sandcastles. My little sister is (2) ___ good at building sandcastles and hers was the biggest on the beach.",
+        "In the afternoon we had lunch at a small café (3) ___ the seafront. I had fish and chips, (4) ___ is a traditional British seaside meal. We stayed until sunset and drove (5) ___ home. By the time we arrived, I was so tired I fell (6) ___ almost immediately."
+      ],
+      "gaps": [
+        { "accept": ["to"], "rationale": "'Left early to avoid the traffic' — infinitive of purpose." },
+        { "accept": ["really", "so", "very"], "rationale": "Intensifier before 'good at' — 'really/so/very good at building'." },
+        { "accept": ["on"], "rationale": "'A café on the seafront' — 'on' for location along a seafront or street." },
+        { "accept": ["which"], "rationale": "Non-defining relative clause after a comma — 'which is a traditional meal'." },
+        { "accept": ["back"], "rationale": "'Drove back home' — 'drive back' means to return by car." },
+        { "accept": ["asleep"], "rationale": "'Fell asleep almost immediately' — 'fall asleep' is the fixed phrasal verb." }
+      ]
+    },
+    {
+      "title": "Making a Birthday Card",
+      "paragraphs": [
+        "My grandma's birthday is next week and I decided to make her a card (1) ___ of buying one in a shop. I think homemade cards are more personal and show that you care.",
+        "I went to the craft shop and bought coloured card, glue, ribbons and some small stickers. When I got home I sat (2) ___ at the kitchen table and started designing the card. It took me (3) ___ two hours because I kept changing my mind.",
+        "In the end I was really pleased (4) ___ how it looked. I wrote a long message (5) ___ and decorated the envelope too. I cannot wait to see my grandma's face (6) ___ she opens it."
+      ],
+      "gaps": [
+        { "accept": ["instead"], "rationale": "'Instead of buying one in a shop' — 'instead of' + gerund for the alternative." },
+        { "accept": ["down"], "rationale": "'Sat down at the kitchen table' — 'sit down' is the fixed phrasal verb." },
+        { "accept": ["about", "nearly", "almost", "over"], "rationale": "'Took me about/nearly/almost two hours' — approximation adverb." },
+        { "accept": ["with"], "rationale": "'Pleased with how it looked' — 'pleased with' is the fixed adjective + preposition." },
+        { "accept": ["inside"], "rationale": "'Wrote a long message inside' — 'inside' locates the message within the card." },
+        { "accept": ["when"], "rationale": "'Her face when she opens it' — temporal clause." }
+      ]
+    },
+    {
+      "title": "A Family Trip",
+      "paragraphs": [
+        "Last summer my family went (1) ___ holiday to Portugal for two weeks. It was the first time any of us had (2) ___ there, so we were all very excited.",
+        "We stayed in a small apartment near the beach. Every morning we had breakfast on the balcony and watched the sun rise (3) ___ the sea. During the day we explored the local villages and tried different kinds of food.",
+        "The thing I remember (4) ___ is visiting an old castle on top of a hill. The view from the top was breathtaking. I took (5) ___ of photos and put them all in an album when I got (6) ___."
+      ],
+      "gaps": [
+        { "accept": ["on"], "rationale": "'Go on holiday' — 'on' is fixed with 'holiday'." },
+        { "accept": ["been"], "rationale": "'The first time any of us had been there' — past perfect with 'been'." },
+        { "accept": ["over"], "rationale": "'Watch the sun rise over the sea' — 'over' describes the direction of rising." },
+        { "accept": ["most"], "rationale": "'The thing I remember most' — superlative adverb." },
+        { "accept": ["lots", "hundreds", "loads", "plenty"], "rationale": "'Took lots/hundreds/loads of photos' — large quantity expressions." },
+        { "accept": ["home", "back"], "rationale": "'When I got home' or 'when I got back' — both express return." }
+      ]
     }
   ]
 }

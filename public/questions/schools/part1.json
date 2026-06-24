@@ -79,6 +79,166 @@
       "opts": ["The homework is cancelled", "Students must do less than before", "The homework is due next week"],
       "answer": 1,
       "rationale": "Students now only do exercises 3 and 4 instead of the whole page."
+    },
+    {
+      "tag": "Sign",
+      "text": "COMPUTER ROOM\nPlease log out before you leave.\nFood and drinks are not allowed inside.",
+      "prompt": "What is NOT allowed in the computer room?",
+      "opts": ["Food and drinks", "Personal laptops", "Mobile phones"],
+      "answer": 0,
+      "rationale": "The sign says food and drinks are not allowed inside the computer room."
+    },
+    {
+      "tag": "Note",
+      "text": "Hi Lena,\nI can't meet you at the bus stop this morning. I have a dentist appointment. I'll see you in class at 9.",
+      "prompt": "Where will the writer see Lena?",
+      "opts": ["At the bus stop", "At the dentist", "In class"],
+      "answer": 2,
+      "rationale": "The note says the writer will see Lena in class at 9."
+    },
+    {
+      "tag": "Advertisement",
+      "text": "SCHOOL PHOTO DAY — Thursday 10 October\nWear your school uniform.\nPhotos taken in the main hall between 9 am and 12 pm.",
+      "prompt": "Where will the photos be taken?",
+      "opts": ["In the classrooms", "In the sports hall", "In the main hall"],
+      "answer": 2,
+      "rationale": "The advertisement says photos will be taken in the main hall."
+    },
+    {
+      "tag": "Email",
+      "text": "Dear students,\nThe school trip to the museum has been moved to Friday 15 November. Please give your permission slips to your teacher by Wednesday.",
+      "prompt": "What has changed about the school trip?",
+      "opts": ["The date has changed", "The destination has changed", "The trip has been cancelled"],
+      "answer": 0,
+      "rationale": "The email says the trip has been moved to Friday 15 November."
+    },
+    {
+      "tag": "Postcard",
+      "text": "Hi Tom! I'm on holiday in Spain. The weather is hot and sunny every day. I tried paella for the first time — it was delicious! Wish you were here. — Anya",
+      "prompt": "How does Anya describe the weather in Spain?",
+      "opts": ["Hot and sunny", "Warm but cloudy", "Very windy"],
+      "answer": 0,
+      "rationale": "Anya says the weather is hot and sunny every day."
+    },
+    {
+      "tag": "Notice",
+      "text": "SCHOOL DANCE — Friday evening\nTickets: £3 each\nBuy your ticket from the school office before Thursday 5 pm.\nNo tickets sold at the door.",
+      "prompt": "What is the price of a ticket for the dance?",
+      "opts": ["£3", "£5", "Free for students"],
+      "answer": 0,
+      "rationale": "The notice says tickets cost £3 each."
+    },
+    {
+      "tag": "Text message",
+      "text": "Dad, can you pick me up at 5:30 instead of 5? Rehearsal is running late. I'll wait outside the main entrance.",
+      "prompt": "Where will the student wait for their dad?",
+      "opts": ["Inside the school hall", "At the bus stop", "Outside the main entrance"],
+      "answer": 2,
+      "rationale": "The student says they will wait outside the main entrance."
+    },
+    {
+      "tag": "Label",
+      "text": "Art materials\nHandle with care — glass bottles inside.\nStore in a cool, dry place.\nKeep away from young children.",
+      "prompt": "Why should people handle this box carefully?",
+      "opts": ["It contains glass bottles", "It is very heavy", "The materials are expensive"],
+      "answer": 0,
+      "rationale": "The label says to handle with care because there are glass bottles inside."
+    },
+    {
+      "tag": "Website",
+      "text": "Oak Hill Swimming Pool\nOpen to schools Tuesday and Thursday mornings only.\nAll swimmers must bring their own towel.\nShowers available.",
+      "prompt": "What must all swimmers bring to the pool?",
+      "opts": ["Their own towel", "A swimming cap", "Proof of school ID"],
+      "answer": 0,
+      "rationale": "The website says all swimmers must bring their own towel."
+    },
+    {
+      "tag": "Sign",
+      "text": "STAFF CAR PARK\nStudents must not enter this area.\nBicycles must be left at the front entrance.",
+      "prompt": "Who is not allowed in the staff car park?",
+      "opts": ["Students", "Visitors", "Parents"],
+      "answer": 0,
+      "rationale": "The sign says students must not enter the staff car park."
+    },
+    {
+      "tag": "Note",
+      "text": "Jake — I borrowed your maths book to copy the notes I missed. I'll return it tomorrow morning before class. Sorry for not asking first! — Dan",
+      "prompt": "When will Dan return the book?",
+      "opts": ["This afternoon", "Tomorrow morning", "Next week"],
+      "answer": 1,
+      "rationale": "Dan says he will return the book tomorrow morning before class."
+    },
+    {
+      "tag": "Advertisement",
+      "text": "SECOND-HAND BOOK SALE\nThis Saturday in the school gym\n10 am – 1 pm\nAll books 50p or less — great for holiday reading!",
+      "prompt": "Where is the book sale taking place?",
+      "opts": ["In the school library", "In the school gym", "In the town hall"],
+      "answer": 1,
+      "rationale": "The advertisement says the book sale is in the school gym."
+    },
+    {
+      "tag": "Email",
+      "text": "Hi Sam,\nMy train gets in at 7:15 pm on Saturday. Could you meet me at the station? I have two heavy bags. Thanks! — Rosa",
+      "prompt": "What time does Rosa's train arrive?",
+      "opts": ["At 7:00 pm", "At 7:15 pm", "At 7:30 pm"],
+      "answer": 1,
+      "rationale": "Rosa says her train gets in at 7:15 pm."
+    },
+    {
+      "tag": "Postcard",
+      "text": "Hello from Paris! We visited the Eiffel Tower yesterday — it was amazing. Today we're going to a French cookery class. See you next week! — Mia",
+      "prompt": "What did Mia visit yesterday?",
+      "opts": ["A French museum", "The Eiffel Tower", "A cookery school"],
+      "answer": 1,
+      "rationale": "Mia says they visited the Eiffel Tower yesterday."
+    },
+    {
+      "tag": "Notice",
+      "text": "SCHOOL GARDEN PROJECT\nWe need volunteers to help plant vegetables every Saturday morning.\nNo gardening experience necessary.\nMeet at the back gate at 9 am.",
+      "prompt": "Where should volunteers meet on Saturday?",
+      "opts": ["At the school garden", "At the front gate", "At the back gate"],
+      "answer": 2,
+      "rationale": "The notice says volunteers should meet at the back gate at 9 am."
+    },
+    {
+      "tag": "Text message",
+      "text": "Hi! Are you coming to Jess's birthday party on Saturday? It starts at 3 pm. Her mum says we can stay until 8. Bring a small gift if you can!",
+      "prompt": "Until what time can guests stay at the party?",
+      "opts": ["Until 3 pm", "Until 6 pm", "Until 8 pm"],
+      "answer": 2,
+      "rationale": "The message says guests can stay until 8."
+    },
+    {
+      "tag": "Sign",
+      "text": "SPORTS HALL\nTrainers must be worn at all times.\nNo outdoor shoes.\nVisitors must sign in at reception.",
+      "prompt": "What must visitors do before using the sports hall?",
+      "opts": ["Change into trainers", "Pay a fee", "Sign in at reception"],
+      "answer": 2,
+      "rationale": "The sign says visitors must sign in at reception."
+    },
+    {
+      "tag": "Label",
+      "text": "Chocolate chip cookies\nContains: wheat, milk, eggs, nuts.\nBest before: 12 August.\nStore in a cool dry place.",
+      "prompt": "Until when can the cookies be eaten?",
+      "opts": ["Until 12 July", "Until 12 August", "Until 12 September"],
+      "answer": 1,
+      "rationale": "The label says the best before date is 12 August."
+    },
+    {
+      "tag": "Website",
+      "text": "Greenfield Youth Theatre\nAuditions for our summer show are open to ages 11–18.\nNo previous acting experience needed.\nRegister online by 30 June.",
+      "prompt": "What is the last date to register for auditions?",
+      "opts": ["15 June", "30 June", "1 July"],
+      "answer": 1,
+      "rationale": "The website says applicants must register online by 30 June."
+    },
+    {
+      "tag": "Advertisement",
+      "text": "AFTER-SCHOOL ART CLASS\nEvery Tuesday 3:30–5:00 pm\nFor students aged 13 and above\nMaterials provided — just bring yourself!\nSign up in the art room.",
+      "prompt": "What do students need to bring to the art class?",
+      "opts": ["Their own art materials", "A permission letter", "Nothing — materials are provided"],
+      "answer": 2,
+      "rationale": "The advertisement says materials are provided, so students just need to bring themselves."
     }
   ]
 }

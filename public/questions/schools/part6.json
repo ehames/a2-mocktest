@@ -99,6 +99,206 @@
       ],
       "minWords": 25,
       "sampleResponse": "Hi Remy,\n\nOur school fair is on the 15th of next month. There will be food stalls, games and a talent show. It starts at 10 am and finishes at 4 pm.\n\nWould you like to help us prepare? We need more people to work at the food stall.\n\nHope to see you there,\nBlake"
+    },
+    {
+      "intro": "You have just got a new pet. Write an email to your English friend Chris.",
+      "bullets": [
+        "what kind of pet you have",
+        "describe your pet",
+        "ask Chris if they have a pet"
+      ],
+      "minWords": 25,
+      "sampleResponse": "Hi Chris,\n\nI have a new pet! My parents gave me a small rabbit last weekend. She is white with brown spots and her name is Coco. She is very friendly and loves to eat carrots.\n\nDo you have any pets? I would love to hear about them!\n\nBye for now,\nTeo"
+    },
+    {
+      "intro": "You tried a new restaurant last weekend. Write an email to your English friend Alex.",
+      "bullets": [
+        "where the restaurant is",
+        "what food you had",
+        "recommend the restaurant to Alex"
+      ],
+      "minWords": 25,
+      "sampleResponse": "Hi Alex,\n\nLast Saturday I went to a new Italian restaurant near the city centre with my family. I had pasta with tomato sauce and it was delicious! The restaurant is not expensive and the service was very friendly.\n\nYou should go there sometime. I am sure you will like it!\n\nTake care,\nIris"
+    },
+    {
+      "intro": "You won a prize at school. Write an email to your English friend Lee.",
+      "bullets": [
+        "what the prize was for",
+        "what you won",
+        "how you felt about winning"
+      ],
+      "minWords": 25,
+      "sampleResponse": "Hi Lee,\n\nI have some exciting news! I won first prize in our school art competition. I painted a picture of my town and my teacher chose it as the best one. My prize was a set of new art pencils.\n\nI was so surprised and happy! I could not stop smiling all day.\n\nWrite soon,\nNova"
+    },
+    {
+      "intro": "You visited a new city during the holidays. Write an email to your English friend Jess.",
+      "bullets": [
+        "which city you visited",
+        "what you did there",
+        "what you liked most about it"
+      ],
+      "minWords": 25,
+      "sampleResponse": "Hi Jess,\n\nDuring the holidays I visited Lisbon with my parents. We walked around the old part of the city and visited a castle on a hill. The views were amazing! I also tried some local pastries which were really tasty.\n\nI liked the castle most because it was so beautiful. Have you ever been to Portugal?\n\nBest wishes,\nMarcus"
+    },
+    {
+      "intro": "You are learning to cook. Write an email to your English friend Billie.",
+      "bullets": [
+        "what you have learned to cook",
+        "who is teaching you",
+        "invite Billie to try your cooking"
+      ],
+      "minWords": 25,
+      "sampleResponse": "Hi Billie,\n\nI have started learning to cook with my mum. Last week I made a vegetable soup and some pancakes. My mum says I am getting better every day!\n\nWhy don't you come to my house on Saturday? I can cook lunch for us. I think you will enjoy it!\n\nSee you soon,\nDani"
+    },
+    {
+      "intro": "You went to a great sports match. Write an email to your English friend Pat.",
+      "bullets": [
+        "what sport you watched",
+        "what happened in the match",
+        "how you felt watching it"
+      ],
+      "minWords": 25,
+      "sampleResponse": "Hi Pat,\n\nI went to a basketball match at the sports centre yesterday with my dad. Our local team played against a team from another city. It was a very close game but our team won in the last minute!\n\nI was so excited I was jumping and shouting. It was the best match I have ever seen!\n\nCheers,\nFinn"
+    },
+    {
+      "intro": "You are going to a music concert next week. Write an email to your English friend Rosa.",
+      "bullets": [
+        "which band or singer you will see",
+        "where the concert is",
+        "ask Rosa to come with you"
+      ],
+      "minWords": 25,
+      "sampleResponse": "Hi Rosa,\n\nI am going to a concert next Friday! My favourite pop singer is performing at the big arena in the city centre. I have wanted to see her for a long time.\n\nI have an extra ticket. Would you like to come with me? It will be a fantastic night!\n\nLet me know soon,\nGia"
+    },
+    {
+      "intro": "You have just started a part-time job. Write an email to your English friend Drew.",
+      "bullets": [
+        "what job you are doing",
+        "when you work",
+        "what you like about the job"
+      ],
+      "minWords": 25,
+      "sampleResponse": "Hi Drew,\n\nI have some exciting news! I started a part-time job at a bakery near my house. I work on Saturday and Sunday mornings from 8 to 12. I help serve customers and arrange the bread and cakes.\n\nI really like it because I meet lots of interesting people and I earn some pocket money!\n\nBest,\nOliver"
+    },
+    {
+      "intro": "You made a new friend at school. Write an email to your English friend Sam.",
+      "bullets": [
+        "who your new friend is",
+        "how you met",
+        "what you have done together"
+      ],
+      "minWords": 25,
+      "sampleResponse": "Hi Sam,\n\nI want to tell you about my new friend! Her name is Celia and she joined my class last month. We met during a group project in science and we talked a lot. She is very funny and kind.\n\nWe have already been to the cinema together and we go for walks after school. I think you would like her!\n\nTalk soon,\nAmy"
+    },
+    {
+      "intro": "You are going on a family holiday soon. Write an email to your English friend Noel.",
+      "bullets": [
+        "where you are going",
+        "how you will travel",
+        "what you plan to do there"
+      ],
+      "minWords": 25,
+      "sampleResponse": "Hi Noel,\n\nMy family is going on holiday to the coast next month! We are travelling by car and it will take about three hours. We have rented a small house near the beach.\n\nI plan to swim every day and we are also going to visit an old lighthouse nearby. I am really looking forward to it!\n\nSee you when I get back,\nLuca"
+    },
+    {
+      "intro": "You received a gift you really liked. Write an email to your English friend Sky.",
+      "bullets": [
+        "what the gift was",
+        "who gave it to you",
+        "why you liked it so much"
+      ],
+      "minWords": 25,
+      "sampleResponse": "Hi Sky,\n\nI received an amazing gift last week! My grandparents gave me a new camera for my birthday. It is small but takes very good photos.\n\nI love it because I enjoy taking pictures of nature and my friends. I have already taken more than a hundred photos! It is the best present I have ever had.\n\nWrite back soon,\nEva"
+    },
+    {
+      "intro": "You tried a new sport for the first time. Write an email to your English friend Max.",
+      "bullets": [
+        "what sport you tried",
+        "where you did it",
+        "whether you want to do it again"
+      ],
+      "minWords": 25,
+      "sampleResponse": "Hi Max,\n\nI tried rock climbing for the first time last Saturday! My school organised a trip to an indoor climbing centre. I was a little nervous at first but the instructor was very helpful.\n\nI managed to reach the top of the wall and it felt fantastic. I definitely want to go again. Have you ever tried it?\n\nTake care,\nRuby"
+    },
+    {
+      "intro": "You are having a party at your home. Write an email to your English friend Jamie.",
+      "bullets": [
+        "why you are having the party",
+        "what you have planned",
+        "invite Jamie to come"
+      ],
+      "minWords": 25,
+      "sampleResponse": "Hi Jamie,\n\nI am having a party at my house next Saturday to celebrate the end of the school year! We are going to have music, dancing and a barbecue in the garden. My mum is making a big cake too.\n\nIt starts at 4 pm. Please come! It will be a great evening.\n\nHope to see you,\nCarlo"
+    },
+    {
+      "intro": "You visited a famous place in your country. Write an email to your English friend Tess.",
+      "bullets": [
+        "which famous place you visited",
+        "what you did or saw there",
+        "what you thought of the visit"
+      ],
+      "minWords": 25,
+      "sampleResponse": "Hi Tess,\n\nLast weekend I visited an old castle in our region with my school. We walked through the big rooms and learned about the history of the place. There was also a beautiful garden with flowers and a fountain.\n\nI thought it was really interesting and I took lots of photos. I think you would enjoy it if you came to visit me!\n\nBest wishes,\nHana"
+    },
+    {
+      "intro": "You have started learning to play a musical instrument. Write an email to your English friend Cole.",
+      "bullets": [
+        "which instrument you are learning",
+        "how your lessons are going",
+        "ask Cole if they play any instrument"
+      ],
+      "minWords": 25,
+      "sampleResponse": "Hi Cole,\n\nI have started learning to play the piano! I have lessons every Tuesday with a teacher from my neighbourhood. It is quite difficult but I can already play a few simple songs.\n\nMy family enjoys listening to me practise, which makes me happy. Do you play any instruments? I would love to know!\n\nWrite back,\nZara"
+    },
+    {
+      "intro": "You are moving to a new house. Write an email to your English friend Leo.",
+      "bullets": [
+        "where the new house is",
+        "what you like about it",
+        "how you feel about moving"
+      ],
+      "minWords": 25,
+      "sampleResponse": "Hi Leo,\n\nI have some big news! My family is moving to a new house next month. It is in a quiet street near a park and it has a big garden. My new bedroom is larger than my old one, which I really like.\n\nI feel a little sad to leave my old neighbourhood but I am also excited about the new place. I hope you can come and visit soon!\n\nSee you,\nNate"
+    },
+    {
+      "intro": "You spent a weekend in the countryside. Write an email to your English friend Bea.",
+      "bullets": [
+        "where you went",
+        "what activities you did",
+        "how it was different from your normal weekend"
+      ],
+      "minWords": 25,
+      "sampleResponse": "Hi Bea,\n\nLast weekend I went to a small village in the mountains with my family. We went hiking in the hills and had a picnic by a river. In the evening we had dinner at a small local restaurant.\n\nIt was very different from my usual weekends in the city. There was no noise and the air was so clean and fresh. I felt very relaxed! Have you ever spent time in the countryside?\n\nHugs,\nClara"
+    },
+    {
+      "intro": "Your school has just got a new sports field. Write an email to your English friend Theo.",
+      "bullets": [
+        "what the new sports field is like",
+        "what sports you can play on it",
+        "what you think of the new facility"
+      ],
+      "minWords": 25,
+      "sampleResponse": "Hi Theo,\n\nOur school just opened a new sports field and it is amazing! It has a large grass area for football and a running track around it. There are also new changing rooms and seats for spectators.\n\nWe can play football, do athletics and have school sports days there. I think it is fantastic and it makes PE lessons much more fun!\n\nBest,\nMilo"
+    },
+    {
+      "intro": "You baked something for the first time. Write an email to your English friend Jade.",
+      "bullets": [
+        "what you baked",
+        "how it went",
+        "offer to bake something for Jade"
+      ],
+      "minWords": 25,
+      "sampleResponse": "Hi Jade,\n\nI baked chocolate cookies for the first time yesterday! I followed a simple recipe online and my mum helped me a little. They came out really well and my whole family loved them.\n\nI was so proud! Next time you come to visit, I can bake some for you too. I think you will love them!\n\nTalk soon,\nFreya"
+    },
+    {
+      "intro": "You went to a farmers' market last weekend. Write an email to your English friend Ben.",
+      "bullets": [
+        "where the market was",
+        "what you bought or saw",
+        "why you enjoyed it"
+      ],
+      "minWords": 25,
+      "sampleResponse": "Hi Ben,\n\nLast Saturday I went to a farmers' market in the town square with my dad. There were lots of stalls selling fresh vegetables, homemade bread, cheese and honey. We bought strawberries and a jar of local honey.\n\nI really enjoyed it because everything looked so colourful and fresh. The people were very friendly too. You should come next time it is on!\n\nCheers,\nRory"
     }
   ]
 }

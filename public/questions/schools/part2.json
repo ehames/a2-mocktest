@@ -279,6 +279,566 @@
         { "prompt": "Who wants to study a subject related to their hobby at a specialist school?", "answer": 1, "rationale": "Grace wants to study at a famous drama school." },
         { "prompt": "Who is learning about their hobby topic from the internet?", "answer": 0, "rationale": "Theo is learning about nutrition online." }
       ]
+    },
+    {
+      "people": [
+        {
+          "letter": "A",
+          "name": "Amara",
+          "text": "I love going shopping, especially for clothes. Every Saturday I go to the shops with my best friend. I always look for good prices and I enjoy finding things in the sale. I have a blog where I write about fashion and the best shops in my city. I spend my pocket money carefully."
+        },
+        {
+          "letter": "B",
+          "name": "Felix",
+          "text": "I prefer to buy things second-hand. I visit charity shops and markets to find old books, clothes and music. I think it is better for the environment and I spend less money. Last month I found a rare vinyl record at a market and I was very happy. I never buy new things if I can find them used."
+        },
+        {
+          "letter": "C",
+          "name": "Jade",
+          "text": "I enjoy online shopping. I buy most things from websites because it is convenient and easy to compare prices. I read reviews before I buy anything. I once bought something that was the wrong size and returning it was difficult. Now I always check the size guide very carefully."
+        }
+      ],
+      "questions": [
+        { "prompt": "Who shares their shopping opinions on the internet?", "answer": 0, "rationale": "Amara writes a blog about fashion and shops." },
+        { "prompt": "Who goes shopping regularly with another person?", "answer": 0, "rationale": "Amara goes to the shops with her best friend every Saturday." },
+        { "prompt": "Who prefers not to buy brand-new items?", "answer": 1, "rationale": "Felix never buys new things if he can find them used." },
+        { "prompt": "Who found something special and unusual while shopping?", "answer": 1, "rationale": "Felix found a rare vinyl record at a market." },
+        { "prompt": "Who had a bad experience with something they bought?", "answer": 2, "rationale": "Jade bought something that was the wrong size and returning it was difficult." },
+        { "prompt": "Who checks information carefully before making a purchase?", "answer": 2, "rationale": "Jade reads reviews before buying anything." },
+        { "prompt": "Who chooses a shopping style because it helps the environment?", "answer": 1, "rationale": "Felix says buying second-hand is better for the environment." }
+      ]
+    },
+    {
+      "people": [
+        {
+          "letter": "A",
+          "name": "Rosa",
+          "text": "I have two dogs and a cat at home and I love taking care of them. I take the dogs for a walk every morning and evening. I also help at a pet shelter near my school on Fridays. I am interested in animal health and I read about it online. I would like to work as a vet nurse one day."
+        },
+        {
+          "letter": "B",
+          "name": "Callum",
+          "text": "I have a parrot called Pedro. He can say about twenty words and he always makes me laugh. I have had him since I was six years old. I spend a lot of time teaching him new phrases. My friends love visiting my house to see him. I want to learn more about tropical birds."
+        },
+        {
+          "letter": "C",
+          "name": "Mei",
+          "text": "I do not have any pets because my mum is allergic to animals. I would love to have a dog but it is not possible. Instead, I help my neighbour look after her rabbit every time she goes on holiday. I also follow lots of animal accounts on social media and watch videos of cute animals."
+        }
+      ],
+      "questions": [
+        { "prompt": "Who helps look after animals outside their own home?", "answer": 0, "rationale": "Rosa helps at a pet shelter near her school on Fridays." },
+        { "prompt": "Who would like a career working with animals?", "answer": 0, "rationale": "Rosa wants to work as a vet nurse." },
+        { "prompt": "Who has had their pet for a very long time?", "answer": 1, "rationale": "Callum has had his parrot since he was six years old." },
+        { "prompt": "Who is actively teaching their pet new things?", "answer": 1, "rationale": "Callum spends a lot of time teaching his parrot new phrases." },
+        { "prompt": "Who cannot have a pet because of a family member?", "answer": 2, "rationale": "Mei cannot have pets because her mum is allergic to animals." },
+        { "prompt": "Who helps a neighbour with their animal?", "answer": 2, "rationale": "Mei looks after her neighbour's rabbit when the neighbour goes on holiday." },
+        { "prompt": "Who has friends that enjoy visiting because of their pet?", "answer": 1, "rationale": "Callum's friends love visiting his house to see Pedro." }
+      ]
+    },
+    {
+      "people": [
+        {
+          "letter": "A",
+          "name": "Dani",
+          "text": "I am studying English because I want to go to university in the UK. I practise by watching English films without subtitles. I also have a language exchange with a girl from London who wants to learn Spanish. We video-call twice a week and talk for half an hour in each language. My biggest problem is understanding fast speech."
+        },
+        {
+          "letter": "B",
+          "name": "Hiro",
+          "text": "I started learning English two years ago at a language school. Now I also have lessons at my regular school. I enjoy writing in English more than speaking because I have time to think. I keep a notebook where I write new words every day. I want to pass an international English exam this year."
+        },
+        {
+          "letter": "C",
+          "name": "Lena",
+          "text": "I find English difficult, especially the grammar. I have a private teacher who helps me once a week. I use a language app on my phone every morning for fifteen minutes. My English is improving but slowly. I am happy because last month I had a short conversation with a tourist and he understood me."
+        }
+      ],
+      "questions": [
+        { "prompt": "Who practises English with a native speaker regularly?", "answer": 0, "rationale": "Dani has a language exchange with a girl from London and they video-call twice a week." },
+        { "prompt": "Who uses films to improve their English?", "answer": 0, "rationale": "Dani watches English films without subtitles." },
+        { "prompt": "Who collects new vocabulary in a written record?", "answer": 1, "rationale": "Hiro keeps a notebook where he writes new words every day." },
+        { "prompt": "Who plans to take an official English exam soon?", "answer": 1, "rationale": "Hiro wants to pass an international English exam this year." },
+        { "prompt": "Who has a paid teacher to help with English?", "answer": 2, "rationale": "Lena has a private teacher who helps her once a week." },
+        { "prompt": "Who uses a phone application to study English?", "answer": 2, "rationale": "Lena uses a language app on her phone every morning." },
+        { "prompt": "Who finds speaking harder than writing in English?", "answer": 1, "rationale": "Hiro enjoys writing more than speaking because he has time to think." }
+      ]
+    },
+    {
+      "people": [
+        {
+          "letter": "A",
+          "name": "Jorge",
+          "text": "My favourite subject is maths. I find it logical and satisfying when I solve a problem. I usually finish maths homework quickly and then I help my classmates if they do not understand. My teacher has suggested I join the school maths competition team. I also enjoy physics and science in general."
+        },
+        {
+          "letter": "B",
+          "name": "Chloe",
+          "text": "I love art and design at school. I enjoy using different materials and techniques. I am not very good at maths but I do not mind. I spend most of my free time in the art room finishing projects. My art teacher has entered one of my paintings in a national competition."
+        },
+        {
+          "letter": "C",
+          "name": "Nico",
+          "text": "History is my favourite subject. I love learning about wars, famous people and important events. I always do extra reading after lessons. I am not interested in science at all and I find it very boring. I want to be a history teacher one day so I can share what I know with students."
+        }
+      ],
+      "questions": [
+        { "prompt": "Who helps other students with a subject they are good at?", "answer": 0, "rationale": "Jorge helps his classmates who do not understand maths." },
+        { "prompt": "Who has been invited to join a school competition team?", "answer": 0, "rationale": "Jorge's teacher suggested he join the maths competition team." },
+        { "prompt": "Who has a piece of work entered in an external competition?", "answer": 1, "rationale": "Chloe's art teacher entered one of her paintings in a national competition." },
+        { "prompt": "Who spends extra time at school working on a subject they enjoy?", "answer": 1, "rationale": "Chloe spends most of her free time in the art room." },
+        { "prompt": "Who reads more about a subject than their lessons require?", "answer": 2, "rationale": "Nico always does extra reading after history lessons." },
+        { "prompt": "Who wants to teach a subject they love in the future?", "answer": 2, "rationale": "Nico wants to be a history teacher." },
+        { "prompt": "Who dislikes a specific school subject?", "answer": 2, "rationale": "Nico says he is not interested in science at all and finds it boring." }
+      ]
+    },
+    {
+      "people": [
+        {
+          "letter": "A",
+          "name": "Petra",
+          "text": "I try to live in an environmentally friendly way. I always take a reusable bag when I go shopping and I never buy plastic water bottles. I also cycle to school instead of going by car. At home I help sort the recycling. I sometimes feel frustrated when my friends do not care about the environment."
+        },
+        {
+          "letter": "B",
+          "name": "Miles",
+          "text": "I started an environment club at my school this year. We organise litter-picking events and we have given talks to younger students about recycling. We have already collected twelve bags of rubbish from the park near the school. I want our school to use less paper and I am writing a proposal for the head teacher."
+        },
+        {
+          "letter": "C",
+          "name": "Yara",
+          "text": "I am interested in the environment but I find it hard to change all my habits. I started turning off lights when I leave a room and I shower for less time. My biggest challenge is food because I love meat and I know it is not good for the planet. I am trying to eat less meat but it is difficult."
+        }
+      ],
+      "questions": [
+        { "prompt": "Who travels to school in an eco-friendly way?", "answer": 0, "rationale": "Petra cycles to school instead of going by car." },
+        { "prompt": "Who is unhappy when people around them do not share their values?", "answer": 0, "rationale": "Petra feels frustrated when her friends do not care about the environment." },
+        { "prompt": "Who started a group at school focused on the environment?", "answer": 1, "rationale": "Miles started an environment club at his school." },
+        { "prompt": "Who is trying to persuade their school to change something?", "answer": 1, "rationale": "Miles is writing a proposal to the head teacher about using less paper." },
+        { "prompt": "Who is finding it difficult to change one particular habit?", "answer": 2, "rationale": "Yara finds it hard to eat less meat even though she is trying." },
+        { "prompt": "Who has made small changes to save energy at home?", "answer": 2, "rationale": "Yara turns off lights and showers for less time to save energy." },
+        { "prompt": "Who has collected rubbish from a public area?", "answer": 1, "rationale": "Miles's club has collected twelve bags of rubbish from the park." }
+      ]
+    },
+    {
+      "people": [
+        {
+          "letter": "A",
+          "name": "Tomas",
+          "text": "I love cooking for my family. My speciality is pasta dishes and I can make five different kinds. My grandmother taught me her traditional recipes and I always use them. I cook dinner for the family every Sunday. I also enjoy trying recipes from other countries and I have a collection of cookbooks."
+        },
+        {
+          "letter": "B",
+          "name": "Isla",
+          "text": "I became interested in cooking when I was ill and had to eat a special diet. I learned to make meals that were healthy and tasty without using dairy products or gluten. I post photos of my meals on social media and many people follow me for recipe ideas. I am proud that my cooking helps people with similar needs."
+        },
+        {
+          "letter": "C",
+          "name": "Kwame",
+          "text": "I started learning to cook at school in food technology class. Now I practise at home on weekday evenings. I am not very confident yet but I am getting better. Last week I made soup for the first time and my parents liked it. I want to be able to cook a full three-course meal by the end of the year."
+        }
+      ],
+      "questions": [
+        { "prompt": "Who learned to cook from an older family member?", "answer": 0, "rationale": "Tomas's grandmother taught him her traditional recipes." },
+        { "prompt": "Who cooks a meal for their family on the same day each week?", "answer": 0, "rationale": "Tomas cooks dinner for the family every Sunday." },
+        { "prompt": "Who started cooking because of a health reason?", "answer": 1, "rationale": "Isla became interested in cooking when she was ill and had to eat a special diet." },
+        { "prompt": "Who shares pictures of their cooking with a large online audience?", "answer": 1, "rationale": "Isla posts photos of her meals on social media and many people follow her." },
+        { "prompt": "Who first learned to cook at school?", "answer": 2, "rationale": "Kwame started learning to cook in food technology class at school." },
+        { "prompt": "Who has set themselves a cooking goal for the future?", "answer": 2, "rationale": "Kwame wants to cook a full three-course meal by the end of the year." },
+        { "prompt": "Who uses recipes from different parts of the world?", "answer": 0, "rationale": "Tomas enjoys trying recipes from other countries and has a collection of cookbooks." }
+      ]
+    },
+    {
+      "people": [
+        {
+          "letter": "A",
+          "name": "Vera",
+          "text": "My family is very important to me. I have three brothers and one sister and we are always busy at home. At weekends we often do activities together, like going to the cinema or having a barbecue in the garden. My mum works very hard and I often help her cook and look after my younger brothers."
+        },
+        {
+          "letter": "B",
+          "name": "Ethan",
+          "text": "I am an only child and I spend a lot of time with my grandparents. My grandfather teaches me about gardening and my grandmother tells me stories about the past. I visit them every Tuesday after school. I think it is important to learn things from older people. My grandparents live very close to my school."
+        },
+        {
+          "letter": "C",
+          "name": "Amina",
+          "text": "My parents both work long hours so I am quite independent. I do my homework alone, tidy my room and prepare simple snacks for myself. My older sister is at university in another city and I miss her. We call each other every weekend. I am looking forward to visiting her next month."
+        }
+      ],
+      "questions": [
+        { "prompt": "Who helps a parent with tasks at home?", "answer": 0, "rationale": "Vera often helps her mum cook and look after her younger brothers." },
+        { "prompt": "Who regularly does leisure activities with their family?", "answer": 0, "rationale": "Vera's family often goes to the cinema or has a barbecue together at weekends." },
+        { "prompt": "Who has a close relationship with their grandparents?", "answer": 1, "rationale": "Ethan visits his grandparents every Tuesday and learns from them." },
+        { "prompt": "Who learns practical skills from an older relative?", "answer": 1, "rationale": "Ethan's grandfather teaches him about gardening." },
+        { "prompt": "Who does many things around the house on their own?", "answer": 2, "rationale": "Amina does her homework, tidies her room and prepares snacks independently." },
+        { "prompt": "Who is separated from a family member and keeps in regular contact?", "answer": 2, "rationale": "Amina's sister is at university in another city and they call each other every weekend." },
+        { "prompt": "Who is looking forward to seeing a family member soon?", "answer": 2, "rationale": "Amina is looking forward to visiting her sister next month." }
+      ]
+    },
+    {
+      "people": [
+        {
+          "letter": "A",
+          "name": "Preet",
+          "text": "I have a lot of close friends and we spend most of our free time together. We have a group chat where we talk all day. At weekends we usually go to the park, play sport or go to each other's houses. My best friend lives on my street, which is very convenient. I find it easy to make new friends."
+        },
+        {
+          "letter": "B",
+          "name": "Lucie",
+          "text": "I have only two very close friends but we understand each other very well. We became friends because we all love the same kind of music. We go to concerts together when we can. I prefer having a small group of close friends to having many friends I do not know well. I find big groups quite stressful."
+        },
+        {
+          "letter": "C",
+          "name": "Aaron",
+          "text": "I find it quite difficult to make friends. I am quite shy and I get nervous when I meet new people. I have good friends online who share my interests, but I do not see them in person. My school counsellor has helped me practise talking to people. I am slowly getting more confident."
+        }
+      ],
+      "questions": [
+        { "prompt": "Who communicates with friends using a messaging group?", "answer": 0, "rationale": "Preet has a group chat with friends where they talk all day." },
+        { "prompt": "Who lives very near one of their friends?", "answer": 0, "rationale": "Preet's best friend lives on the same street." },
+        { "prompt": "Who became friends with people because of a shared interest?", "answer": 1, "rationale": "Lucie and her friends became friends because they all love the same kind of music." },
+        { "prompt": "Who prefers a small number of close friends to a large social group?", "answer": 1, "rationale": "Lucie prefers having a small group of close friends." },
+        { "prompt": "Who has received help from a school professional to improve social skills?", "answer": 2, "rationale": "Aaron's school counsellor has helped him practise talking to people." },
+        { "prompt": "Who has friendships that exist only online?", "answer": 2, "rationale": "Aaron has good friends online but does not see them in person." },
+        { "prompt": "Who goes to live music events with their friends?", "answer": 1, "rationale": "Lucie and her friends go to concerts together." }
+      ]
+    },
+    {
+      "people": [
+        {
+          "letter": "A",
+          "name": "Selma",
+          "text": "I love listening to music. My favourite style is jazz and I know a lot about its history. I have a large collection of CDs and vinyl records. I go to live jazz concerts whenever I can. I am also learning to play the trumpet because jazz trumpet players are my biggest inspiration."
+        },
+        {
+          "letter": "B",
+          "name": "Ryan",
+          "text": "I am very into films. I watch at least two films a week, mostly science fiction and action. I write reviews on a film website and other users read and comment on them. I have a list of my top 100 films of all time. My dream is to become a film director."
+        },
+        {
+          "letter": "C",
+          "name": "Zara",
+          "text": "I enjoy making short films with my phone. I edit them on my laptop and post them on a video platform. My videos are about everyday life in my city. I have about three hundred subscribers and some of my videos have been shared thousands of times. I hope to make documentary films professionally one day."
+        }
+      ],
+      "questions": [
+        { "prompt": "Who is learning an instrument because of a musical hero?", "answer": 0, "rationale": "Selma is learning trumpet because jazz trumpet players are her biggest inspiration." },
+        { "prompt": "Who has a large physical collection connected to their interest?", "answer": 0, "rationale": "Selma has a large collection of CDs and vinyl records." },
+        { "prompt": "Who writes about a hobby topic for other people to read online?", "answer": 1, "rationale": "Ryan writes film reviews on a film website." },
+        { "prompt": "Who wants to work in the film industry in the future?", "answer": 1, "rationale": "Ryan's dream is to become a film director." },
+        { "prompt": "Who creates video content that has been seen by many people?", "answer": 2, "rationale": "Zara's videos have been shared thousands of times." },
+        { "prompt": "Who makes films about the place where they live?", "answer": 2, "rationale": "Zara's videos are about everyday life in her city." },
+        { "prompt": "Who attends live events connected to their musical interest?", "answer": 0, "rationale": "Selma goes to live jazz concerts whenever she can." }
+      ]
+    },
+    {
+      "people": [
+        {
+          "letter": "A",
+          "name": "Bruno",
+          "text": "I volunteer at a community centre near my home every Saturday. I help serve meals to elderly people who live alone. I started doing this after my school organised a volunteering day. I enjoy talking to the elderly visitors and listening to their stories. I feel it is important to help people in the local community."
+        },
+        {
+          "letter": "B",
+          "name": "Ingrid",
+          "text": "I volunteer at the local library. I help sort and shelve books and I also help organise reading sessions for young children on Wednesday afternoons. I love books so it is the perfect place for me. The librarian says I am one of their most reliable volunteers. I have been doing this for almost two years."
+        },
+        {
+          "letter": "C",
+          "name": "Jerome",
+          "text": "I started volunteering because I wanted to do something useful in my free time. I help at a food bank where people can collect free food. I pack bags and help carry boxes. It is hard physical work but I feel very satisfied at the end of the day. I go every other Sunday and I have already encouraged two of my friends to join."
+        }
+      ],
+      "questions": [
+        { "prompt": "Who started volunteering because of their school?", "answer": 0, "rationale": "Bruno started volunteering after his school organised a volunteering day." },
+        { "prompt": "Who volunteers at a place that serves food to people in need?", "answer": 0, "rationale": "Bruno helps serve meals to elderly people at the community centre." },
+        { "prompt": "Who volunteers somewhere that connects directly to their personal interest?", "answer": 1, "rationale": "Ingrid loves books and volunteers at the local library." },
+        { "prompt": "Who has been doing their volunteering role for nearly two years?", "answer": 1, "rationale": "Ingrid has been volunteering at the library for almost two years." },
+        { "prompt": "Who has persuaded other people to start volunteering?", "answer": 2, "rationale": "Jerome has encouraged two of his friends to join the food bank." },
+        { "prompt": "Who does volunteering work that is physically demanding?", "answer": 2, "rationale": "Jerome says packing bags and carrying boxes at the food bank is hard physical work." },
+        { "prompt": "Who helps with activities for young children during their volunteering?", "answer": 1, "rationale": "Ingrid helps organise reading sessions for young children on Wednesday afternoons." }
+      ]
+    },
+    {
+      "people": [
+        {
+          "letter": "A",
+          "name": "Nour",
+          "text": "I love travelling. Last summer I went to Portugal with my school for a language trip. It was my first time on a plane and I was nervous, but it was amazing. I tried local food, visited historic sites and made friends with students from other countries. Now I want to travel to Asia next."
+        },
+        {
+          "letter": "B",
+          "name": "Stefan",
+          "text": "I have travelled to many places with my parents because my dad works for an international company. I have lived in three different countries. I can speak two languages because of this. Moving a lot was sometimes hard because I had to make new friends, but I think it made me more confident."
+        },
+        {
+          "letter": "C",
+          "name": "Alicia",
+          "text": "I have not travelled outside my country yet but I hope to do so soon. I save part of my pocket money each month for a future trip. I plan to visit Japan because I love Japanese culture, food and language. I am already studying Japanese in my free time to prepare for the trip."
+        }
+      ],
+      "questions": [
+        { "prompt": "Who travelled abroad with their school?", "answer": 0, "rationale": "Nour went to Portugal with her school for a language trip." },
+        { "prompt": "Who travelled by plane for the first time recently?", "answer": 0, "rationale": "Nour says it was her first time on a plane during the Portugal trip." },
+        { "prompt": "Who has moved to different countries because of a parent's job?", "answer": 1, "rationale": "Stefan's dad works for an international company and the family has lived in three countries." },
+        { "prompt": "Who learned a second language as a result of living abroad?", "answer": 1, "rationale": "Stefan can speak two languages because he has lived in different countries." },
+        { "prompt": "Who is saving money to pay for a future trip?", "answer": 2, "rationale": "Alicia saves part of her pocket money each month for a future trip." },
+        { "prompt": "Who is learning a language to prepare for travelling to a specific country?", "answer": 2, "rationale": "Alicia is studying Japanese to prepare for her planned trip to Japan." },
+        { "prompt": "Who says that a travel experience made them more self-assured?", "answer": 1, "rationale": "Stefan says that moving a lot made him more confident." }
+      ]
+    },
+    {
+      "people": [
+        {
+          "letter": "A",
+          "name": "Pippa",
+          "text": "I take part in athletics at my school. I specialise in the 400 metres and I train every Tuesday and Thursday with my coach. Last month I ran my personal best time. I also do some strength training in the gym to help my running. My goal is to get selected for the regional athletics team this year."
+        },
+        {
+          "letter": "B",
+          "name": "Kofi",
+          "text": "I play tennis. I have been playing since I was seven years old and I have a private lesson every Saturday. I have entered several local tournaments and I have reached the semi-final once. My biggest challenge is my serve, which my coach is helping me improve. I watch professional tennis matches on TV to learn from the best players."
+        },
+        {
+          "letter": "C",
+          "name": "Dana",
+          "text": "I swim competitively. My team trains at 6 a.m. before school three days a week, which is very early, but I do not mind because I love swimming. I have won two medals at regional level. My parents drive me to the pool every training morning. I would like to swim at national level one day."
+        }
+      ],
+      "questions": [
+        { "prompt": "Who has recently achieved their best ever result in their sport?", "answer": 0, "rationale": "Pippa ran her personal best time last month." },
+        { "prompt": "Who wants to be selected for a higher-level team this year?", "answer": 0, "rationale": "Pippa's goal is to get selected for the regional athletics team this year." },
+        { "prompt": "Who has been doing their sport since they were very young?", "answer": 1, "rationale": "Kofi has been playing tennis since he was seven years old." },
+        { "prompt": "Who watches professionals to improve their own technique?", "answer": 1, "rationale": "Kofi watches professional tennis on TV to learn from the best players." },
+        { "prompt": "Who trains very early in the morning?", "answer": 2, "rationale": "Dana's team trains at 6 a.m. before school." },
+        { "prompt": "Who has already won medals at regional competitions?", "answer": 2, "rationale": "Dana has won two medals at regional level." },
+        { "prompt": "Who relies on a parent to get to training sessions?", "answer": 2, "rationale": "Dana's parents drive her to the pool every training morning." }
+      ]
+    },
+    {
+      "people": [
+        {
+          "letter": "A",
+          "name": "Bianca",
+          "text": "I use technology a lot for school. I take notes on a tablet, use apps to manage my timetable and submit my homework online. I think it saves a lot of time. I am also good at fixing problems with computers and phones. My classmates often ask me for help when their devices stop working."
+        },
+        {
+          "letter": "B",
+          "name": "Omar",
+          "text": "I enjoy coding. I started learning a year ago using free online tutorials. I have already built a simple game and a basic website. I want to create an app that helps students revise for exams. My school does not offer coding lessons so I am entirely self-taught. I spend about three hours a week practising."
+        },
+        {
+          "letter": "C",
+          "name": "Talia",
+          "text": "I prefer to limit my use of technology. I do not have social media accounts and I only use my phone for calls and messages. I write in a paper diary and take notes by hand. My friends think I am unusual but I feel calmer and more focused this way. I spend my free time reading and being outdoors instead."
+        }
+      ],
+      "questions": [
+        { "prompt": "Who uses digital tools to help organise their school life?", "answer": 0, "rationale": "Bianca uses apps to manage her timetable and submits homework online." },
+        { "prompt": "Who helps other students solve problems with their devices?", "answer": 0, "rationale": "Bianca's classmates often ask her for help when their devices stop working." },
+        { "prompt": "Who has taught themselves a technology skill without lessons at school?", "answer": 1, "rationale": "Omar's school does not offer coding and he is entirely self-taught." },
+        { "prompt": "Who wants to create something to help students with their studies?", "answer": 1, "rationale": "Omar wants to create an app that helps students revise for exams." },
+        { "prompt": "Who deliberately chooses not to use social media?", "answer": 2, "rationale": "Talia does not have social media accounts." },
+        { "prompt": "Who says that using less technology makes them feel better?", "answer": 2, "rationale": "Talia says she feels calmer and more focused by limiting technology use." },
+        { "prompt": "Who prefers to write things down on paper rather than using a device?", "answer": 2, "rationale": "Talia writes in a paper diary and takes notes by hand." }
+      ]
+    },
+    {
+      "people": [
+        {
+          "letter": "A",
+          "name": "Greta",
+          "text": "I love food from other countries. My favourite is Thai food because it is spicy and full of interesting flavours. I go to a Thai restaurant near my home with my family once a month. I also try to cook simple Asian dishes at home using recipes from the internet. I do not like fast food at all."
+        },
+        {
+          "letter": "B",
+          "name": "Andre",
+          "text": "I am a vegetarian and I have been for three years. I decided not to eat meat because of animal welfare and the environment. I enjoy eating vegetables, beans, cheese and eggs. It can be difficult when I eat out because some restaurants do not have many vegetarian options. I feel healthy and I have a lot of energy."
+        },
+        {
+          "letter": "C",
+          "name": "Yuki",
+          "text": "I have a very sweet tooth. I love desserts, cakes and chocolate. My favourite thing to do at weekends is visit bakeries and pastry shops with my friends. I know that eating too much sugar is not good for me and I try to have healthy meals during the week. I can never say no to a good piece of cake."
+        }
+      ],
+      "questions": [
+        { "prompt": "Who visits a specific type of restaurant regularly with their family?", "answer": 0, "rationale": "Greta goes to a Thai restaurant with her family once a month." },
+        { "prompt": "Who tries to cook food from a different culture at home?", "answer": 0, "rationale": "Greta tries to cook simple Asian dishes at home using internet recipes." },
+        { "prompt": "Who made a food choice because of concerns about animals and the environment?", "answer": 1, "rationale": "Andre decided not to eat meat because of animal welfare and the environment." },
+        { "prompt": "Who sometimes finds it hard to eat the way they want when they go out?", "answer": 1, "rationale": "Andre says some restaurants do not have many vegetarian options." },
+        { "prompt": "Who visits food shops as a leisure activity with friends?", "answer": 2, "rationale": "Yuki visits bakeries and pastry shops with friends at weekends." },
+        { "prompt": "Who tries to balance an unhealthy food habit with healthy eating?", "answer": 2, "rationale": "Yuki tries to have healthy meals during the week to balance her love of sweet things." },
+        { "prompt": "Who says they never eat a particular type of food?", "answer": 0, "rationale": "Greta says she does not like fast food at all." }
+      ]
+    },
+    {
+      "people": [
+        {
+          "letter": "A",
+          "name": "Femi",
+          "text": "I am involved in local community activities. I am a member of the youth council for my town. We meet once a month to discuss ideas for improving the local area. Last year we got a new basketball court built in the park. I enjoy being part of decisions that affect my community. I want to study politics at university."
+        },
+        {
+          "letter": "B",
+          "name": "Harriet",
+          "text": "I take part in local theatre productions. Our community theatre group meets every Wednesday evening and we put on two shows a year. I help with both acting and backstage work like costumes and lights. Tickets sell out quickly because many local people come to watch. It is a great way to meet people of all ages."
+        },
+        {
+          "letter": "C",
+          "name": "Sergio",
+          "text": "I coach a junior football team in my neighbourhood. The children are between eight and ten years old. We train on Saturday mornings in the local park. I started doing this after my own football coach encouraged me. I enjoy seeing the children improve and have fun. Some parents have thanked me personally."
+        }
+      ],
+      "questions": [
+        { "prompt": "Who takes part in meetings about how to improve the local area?", "answer": 0, "rationale": "Femi is on the youth council which meets to discuss improving the local area." },
+        { "prompt": "Who helped make a positive change in their local community?", "answer": 0, "rationale": "Femi's youth council got a new basketball court built in the park." },
+        { "prompt": "Who is involved in a community group that does public performances?", "answer": 1, "rationale": "Harriet's community theatre group puts on two shows a year." },
+        { "prompt": "Who does more than one type of job in a group activity?", "answer": 1, "rationale": "Harriet helps with both acting and backstage work like costumes and lights." },
+        { "prompt": "Who started a community role because someone inspired them?", "answer": 2, "rationale": "Sergio started coaching after his own football coach encouraged him." },
+        { "prompt": "Who works with young children in their local area?", "answer": 2, "rationale": "Sergio coaches a junior football team of children aged eight to ten." },
+        { "prompt": "Who has received personal thanks from people in the community?", "answer": 2, "rationale": "Some parents have thanked Sergio personally for coaching their children." }
+      ]
+    },
+    {
+      "people": [
+        {
+          "letter": "A",
+          "name": "Clara",
+          "text": "I enjoy reading very much. I like fantasy novels with magic and adventure. I read on my e-reader because I can carry many books at once. I belong to an online book club where members suggest and discuss books each month. I try to read one book a week. My goal is to read fifty books this year."
+        },
+        {
+          "letter": "B",
+          "name": "Piotr",
+          "text": "I enjoy reading comics and graphic novels. I prefer them because the pictures help tell the story and they are quicker to read. I have a large collection of comics at home. I go to a comic book fair in my city once a year and I always spend a lot of money there. I want to draw my own comic one day."
+        },
+        {
+          "letter": "C",
+          "name": "Leah",
+          "text": "I like reading non-fiction books, especially about history and true stories. I find facts more interesting than made-up stories. I always have a book in my bag in case I have free time. My school librarian recommends books to me and she knows exactly what I like. I have recommended books to three of my friends who have all enjoyed them."
+        }
+      ],
+      "questions": [
+        { "prompt": "Who uses a digital device to read their books?", "answer": 0, "rationale": "Clara reads on her e-reader." },
+        { "prompt": "Who is part of an online group where members discuss books?", "answer": 0, "rationale": "Clara belongs to an online book club." },
+        { "prompt": "Who has a collection of reading material at home?", "answer": 1, "rationale": "Piotr has a large collection of comics at home." },
+        { "prompt": "Who attends a special event connected to their reading interest?", "answer": 1, "rationale": "Piotr goes to a comic book fair in his city once a year." },
+        { "prompt": "Who always carries reading material with them?", "answer": 2, "rationale": "Leah always has a book in her bag." },
+        { "prompt": "Who gets reading recommendations from a school staff member?", "answer": 2, "rationale": "Leah's school librarian recommends books to her." },
+        { "prompt": "Who wants to create their own reading material in the future?", "answer": 1, "rationale": "Piotr wants to draw his own comic one day." }
+      ]
+    },
+    {
+      "people": [
+        {
+          "letter": "A",
+          "name": "Nat",
+          "text": "I enjoy running. I go for a run in the park near my house three times a week after school. I use an app on my phone that tracks my distance and speed. I have taken part in two fun runs for charity and I raised money from my neighbours and family. I find running clears my mind when I am stressed."
+        },
+        {
+          "letter": "B",
+          "name": "Miriam",
+          "text": "I do yoga and meditation every morning before school. I started because I was feeling anxious about exams. Now I feel much calmer and I sleep better at night. I follow videos online and do not go to a class. My younger sister has started doing yoga with me too. I think everyone should try it."
+        },
+        {
+          "letter": "C",
+          "name": "Dmitri",
+          "text": "I play football every day. I am in the school team and we have a match most weekends. I also do push-ups and sit-ups at home to stay strong. My parents are both sporty and they encouraged me to be active from a young age. I eat carefully because I know nutrition affects my performance."
+        }
+      ],
+      "questions": [
+        { "prompt": "Who uses technology to monitor their exercise?", "answer": 0, "rationale": "Nat uses an app to track distance and speed while running." },
+        { "prompt": "Who has done sport to raise money for a good cause?", "answer": 0, "rationale": "Nat has taken part in two fun runs for charity." },
+        { "prompt": "Who started an exercise routine to help with a mental health problem?", "answer": 1, "rationale": "Miriam started yoga because she was feeling anxious about exams." },
+        { "prompt": "Who has introduced a family member to their form of exercise?", "answer": 1, "rationale": "Miriam's younger sister has started doing yoga with her." },
+        { "prompt": "Who was encouraged to be active by their parents?", "answer": 2, "rationale": "Dmitri's parents encouraged him to be active from a young age." },
+        { "prompt": "Who pays attention to their diet because of their sport?", "answer": 2, "rationale": "Dmitri eats carefully because he knows nutrition affects his performance." },
+        { "prompt": "Who says exercise helps them feel less stressed?", "answer": 0, "rationale": "Nat says running clears his mind when he is stressed." }
+      ]
+    },
+    {
+      "people": [
+        {
+          "letter": "A",
+          "name": "Elif",
+          "text": "I love going to the cinema. I see a new film almost every weekend with my friends or my older brother. I prefer comedies and romantic films. I always have popcorn while I watch. I buy tickets online to save time. I have seen over a hundred films in the cinema. My favourite cinema has very comfortable seats and a huge screen."
+        },
+        {
+          "letter": "B",
+          "name": "Mo",
+          "text": "I prefer watching films at home. I have a streaming subscription and I watch films on my laptop in bed. I enjoy thrillers and crime films. I often watch late at night which means I sometimes fall asleep. I like being able to stop and start the film whenever I want. I do not enjoy going out to crowded places."
+        },
+        {
+          "letter": "C",
+          "name": "Beatriz",
+          "text": "I love going to music concerts and festivals. I have been to six concerts this year. My favourite band is playing in my city next month and I bought a ticket the day they went on sale. I also listen to new music every day using a streaming app. I enjoy discovering new artists that not many people know yet."
+        }
+      ],
+      "questions": [
+        { "prompt": "Who goes to see films very regularly at the cinema?", "answer": 0, "rationale": "Elif goes to the cinema almost every weekend and has seen over a hundred films there." },
+        { "prompt": "Who books entertainment tickets online in advance?", "answer": 0, "rationale": "Elif buys cinema tickets online to save time." },
+        { "prompt": "Who prefers to watch films in a private, relaxed setting?", "answer": 1, "rationale": "Mo watches films at home on his laptop in bed." },
+        { "prompt": "Who dislikes being in busy public places for entertainment?", "answer": 1, "rationale": "Mo says he does not enjoy going out to crowded places." },
+        { "prompt": "Who bought a ticket very quickly for an upcoming event?", "answer": 2, "rationale": "Beatriz bought a concert ticket the day they went on sale." },
+        { "prompt": "Who likes finding music by artists that are not yet well known?", "answer": 2, "rationale": "Beatriz enjoys discovering new artists that not many people know yet." },
+        { "prompt": "Who likes a particular feature of their favourite place to watch entertainment?", "answer": 0, "rationale": "Elif says her favourite cinema has very comfortable seats and a huge screen." }
+      ]
+    },
+    {
+      "people": [
+        {
+          "letter": "A",
+          "name": "Linh",
+          "text": "I am very interested in fashion. I follow famous designers online and I read fashion magazines every month. I have my own style and I enjoy putting different clothes together in new ways. I sometimes sell clothes I no longer want at a school market. My friends often ask me for advice about what to wear."
+        },
+        {
+          "letter": "B",
+          "name": "Tobias",
+          "text": "I do not think much about clothes. I usually wear the same few things and I buy new clothes only when I need them. I prefer to spend my money on technology and sports equipment. I find fashion confusing and I do not understand why people spend so much on clothes. Comfort is the most important thing for me."
+        },
+        {
+          "letter": "C",
+          "name": "Nkechi",
+          "text": "I love wearing traditional clothes from my country on special occasions. My mum has taught me about the meanings of different colours and patterns. I also enjoy learning how to make clothes and I have joined a sewing class at the community centre. I am making a traditional outfit for my cousin's wedding."
+        }
+      ],
+      "questions": [
+        { "prompt": "Who gives their friends advice about clothing?", "answer": 0, "rationale": "Linh's friends often ask her for advice about what to wear." },
+        { "prompt": "Who earns money from selling clothes?", "answer": 0, "rationale": "Linh sells clothes she no longer wants at a school market." },
+        { "prompt": "Who spends money on things other than clothes?", "answer": 1, "rationale": "Tobias prefers to spend his money on technology and sports equipment." },
+        { "prompt": "Who says that being comfortable in clothes matters most to them?", "answer": 1, "rationale": "Tobias says comfort is the most important thing for him." },
+        { "prompt": "Who is learning to make clothes in a class?", "answer": 2, "rationale": "Nkechi has joined a sewing class at the community centre." },
+        { "prompt": "Who has learned about the cultural significance of clothing from a family member?", "answer": 2, "rationale": "Nkechi's mum has taught her about the meanings of colours and patterns." },
+        { "prompt": "Who is making a piece of clothing for a family celebration?", "answer": 2, "rationale": "Nkechi is making a traditional outfit for her cousin's wedding." }
+      ]
+    },
+    {
+      "people": [
+        {
+          "letter": "A",
+          "name": "Viktor",
+          "text": "I think about my future career a lot. I want to be a doctor and I am working hard at school to get the grades I need. I have already done some work experience at a local clinic. I enjoy science and biology most. I know the training is very long but I am determined to do it."
+        },
+        {
+          "letter": "B",
+          "name": "Camille",
+          "text": "I am not sure what career I want yet. I enjoy many different things and it is hard to choose. I have spoken to a careers adviser at school and she gave me some useful information. I am thinking about working in media, design or teaching. I plan to try different things before I decide."
+        },
+        {
+          "letter": "C",
+          "name": "Rafael",
+          "text": "I want to start my own business one day. I have already sold handmade bracelets to friends and classmates for a small profit. I enjoy thinking about marketing and how to attract customers. My dad has his own business and he gives me advice. I am studying business and economics at school."
+        }
+      ],
+      "questions": [
+        { "prompt": "Who has already gained some work experience in their chosen field?", "answer": 0, "rationale": "Viktor has done work experience at a local clinic." },
+        { "prompt": "Who is studying subjects at school to help them reach their career goal?", "answer": 0, "rationale": "Viktor enjoys science and biology and is working hard for the grades he needs." },
+        { "prompt": "Who has sought professional advice at school about their future?", "answer": 1, "rationale": "Camille has spoken to a careers adviser at school." },
+        { "prompt": "Who has not yet made a decision about what career to follow?", "answer": 1, "rationale": "Camille is not sure what career she wants yet." },
+        { "prompt": "Who has already earned money from a small business idea?", "answer": 2, "rationale": "Rafael has sold handmade bracelets for a small profit." },
+        { "prompt": "Who gets career guidance from a parent?", "answer": 2, "rationale": "Rafael's dad has his own business and gives him advice." },
+        { "prompt": "Who is determined to follow a career path even though it takes a long time?", "answer": 0, "rationale": "Viktor knows the medical training is very long but is determined to do it." }
+      ]
     }
   ]
 }
