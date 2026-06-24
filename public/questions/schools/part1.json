@@ -4,7 +4,11 @@
       "tag": "Notice",
       "text": "SCHOOL LIBRARY\nAll books must be returned by Friday.\nStudents who keep books longer will pay a small fine.",
       "prompt": "What must students do by Friday?",
-      "opts": ["Pay a fine", "Return their books", "Visit the library"],
+      "opts": [
+        "Pay a fine",
+        "Return their books",
+        "Visit the library"
+      ],
       "answer": 1,
       "rationale": "The notice says books must be returned by Friday."
     },
@@ -12,7 +16,11 @@
       "tag": "Text message",
       "text": "Hey! Football practice is cancelled today because the pitch is wet. We'll play on Thursday instead. Don't forget your kit!",
       "prompt": "Why is football practice cancelled?",
-      "opts": ["The coach is away", "The pitch is wet", "It is raining now"],
+      "opts": [
+        "The coach is away",
+        "The pitch is wet",
+        "It is raining now"
+      ],
       "answer": 1,
       "rationale": "The message says practice is cancelled because the pitch is wet."
     },
@@ -20,7 +28,11 @@
       "tag": "Sign",
       "text": "CANTEEN HOURS\nBreakfast: 7:30–9:00\nLunch: 12:00–14:00\nNo food served outside these times.",
       "prompt": "When can students get food at school?",
-      "opts": ["All day", "Only at lunch", "At set times only"],
+      "opts": [
+        "All day",
+        "Only at lunch",
+        "At set times only"
+      ],
       "answer": 2,
       "rationale": "The sign gives fixed hours — students cannot get food outside those times."
     },
@@ -28,7 +40,11 @@
       "tag": "Email",
       "text": "Hi everyone,\nThe science fair will be on 20 March. Please bring your projects by 8:30 am. Projects must fit on a normal desk.",
       "prompt": "What does the email say about projects?",
-      "opts": ["They must arrive before 8:30", "They must be very small", "They must be about science"],
+      "opts": [
+        "They must arrive before 8:30",
+        "They must be very small",
+        "They must be about science"
+      ],
       "answer": 0,
       "rationale": "The email says projects must be brought by 8:30 am."
     },
@@ -36,7 +52,11 @@
       "tag": "Website",
       "text": "City Youth Sports Club\nNew members welcome!\nFirst month FREE\nBring a friend and both get 10% off",
       "prompt": "What offer does the club give new members?",
-      "opts": ["A free T-shirt", "A free first month", "A free one-year membership"],
+      "opts": [
+        "A free T-shirt",
+        "A free first month",
+        "A free one-year membership"
+      ],
       "answer": 1,
       "rationale": "The website says the first month is free for new members."
     },
@@ -44,7 +64,11 @@
       "tag": "Notice",
       "text": "LOST: One blue school bag\nFound near the gym on Monday morning\nPlease collect from school office.",
       "prompt": "Where can the owner pick up the bag?",
-      "opts": ["Near the gym", "From the school office", "From the sports teacher"],
+      "opts": [
+        "Near the gym",
+        "From the school office",
+        "From the sports teacher"
+      ],
       "answer": 1,
       "rationale": "The notice says the bag can be collected from the school office."
     },
@@ -52,7 +76,11 @@
       "tag": "Text message",
       "text": "Mum, I forgot my PE kit. Can you bring it to school before noon? My lesson is at 2 pm. Thanks!",
       "prompt": "Why does the student contact their mum?",
-      "opts": ["To ask her to watch the PE lesson", "To tell her the lesson time changed", "To ask her to bring forgotten kit"],
+      "opts": [
+        "To ask her to watch the PE lesson",
+        "To tell her the lesson time changed",
+        "To ask her to bring forgotten kit"
+      ],
       "answer": 2,
       "rationale": "The student forgot their PE kit and needs mum to bring it."
     },
@@ -60,7 +88,11 @@
       "tag": "Advertisement",
       "text": "SUMMER CODING CAMP\nLearn to make apps and games\nAges 12–16\nMonday–Friday, 9 am–3 pm\nLimited places — book now!",
       "prompt": "Who is the coding camp for?",
-      "opts": ["All ages", "Teenagers only", "Adults who want to learn"],
+      "opts": [
+        "All ages",
+        "Teenagers only",
+        "Adults who want to learn"
+      ],
       "answer": 1,
       "rationale": "The advertisement says the camp is for ages 12–16."
     },
@@ -68,7 +100,11 @@
       "tag": "Notice",
       "text": "DRAMA CLUB\nJoin us every Wednesday after school\nNo experience needed\nFirst session is free\nRoom 14",
       "prompt": "What does the notice say about experience?",
-      "opts": ["You need some acting experience", "Experience is not necessary", "Students must audition first"],
+      "opts": [
+        "You need some acting experience",
+        "Experience is not necessary",
+        "Students must audition first"
+      ],
       "answer": 1,
       "rationale": "The notice says no experience is needed."
     },
@@ -76,7 +112,11 @@
       "tag": "Text message",
       "text": "The homework for tomorrow has changed. Mr Torres says we only need to do exercises 3 and 4 now, not the whole page.",
       "prompt": "What has changed about the homework?",
-      "opts": ["The homework is cancelled", "Students must do less than before", "The homework is due next week"],
+      "opts": [
+        "The homework is cancelled",
+        "Students must do less than before",
+        "The homework is due next week"
+      ],
       "answer": 1,
       "rationale": "Students now only do exercises 3 and 4 instead of the whole page."
     },
@@ -84,7 +124,11 @@
       "tag": "Sign",
       "text": "COMPUTER ROOM\nPlease log out before you leave.\nFood and drinks are not allowed inside.",
       "prompt": "What is NOT allowed in the computer room?",
-      "opts": ["Food and drinks", "Personal laptops", "Mobile phones"],
+      "opts": [
+        "Food and drinks",
+        "Personal laptops",
+        "Mobile phones"
+      ],
       "answer": 0,
       "rationale": "The sign says food and drinks are not allowed inside the computer room."
     },
@@ -92,7 +136,11 @@
       "tag": "Note",
       "text": "Hi Lena,\nI can't meet you at the bus stop this morning. I have a dentist appointment. I'll see you in class at 9.",
       "prompt": "Where will the writer see Lena?",
-      "opts": ["At the bus stop", "At the dentist", "In class"],
+      "opts": [
+        "At the bus stop",
+        "At the dentist",
+        "In class"
+      ],
       "answer": 2,
       "rationale": "The note says the writer will see Lena in class at 9."
     },
@@ -100,7 +148,11 @@
       "tag": "Advertisement",
       "text": "SCHOOL PHOTO DAY — Thursday 10 October\nWear your school uniform.\nPhotos taken in the main hall between 9 am and 12 pm.",
       "prompt": "Where will the photos be taken?",
-      "opts": ["In the classrooms", "In the sports hall", "In the main hall"],
+      "opts": [
+        "In the classrooms",
+        "In the sports hall",
+        "In the main hall"
+      ],
       "answer": 2,
       "rationale": "The advertisement says photos will be taken in the main hall."
     },
@@ -108,7 +160,11 @@
       "tag": "Email",
       "text": "Dear students,\nThe school trip to the museum has been moved to Friday 15 November. Please give your permission slips to your teacher by Wednesday.",
       "prompt": "What has changed about the school trip?",
-      "opts": ["The date has changed", "The destination has changed", "The trip has been cancelled"],
+      "opts": [
+        "The date has changed",
+        "The destination has changed",
+        "The trip has been cancelled"
+      ],
       "answer": 0,
       "rationale": "The email says the trip has been moved to Friday 15 November."
     },
@@ -116,7 +172,11 @@
       "tag": "Postcard",
       "text": "Hi Tom! I'm on holiday in Spain. The weather is hot and sunny every day. I tried paella for the first time — it was delicious! Wish you were here. — Anya",
       "prompt": "How does Anya describe the weather in Spain?",
-      "opts": ["Hot and sunny", "Warm but cloudy", "Very windy"],
+      "opts": [
+        "Hot and sunny",
+        "Warm but cloudy",
+        "Very windy"
+      ],
       "answer": 0,
       "rationale": "Anya says the weather is hot and sunny every day."
     },
@@ -124,7 +184,11 @@
       "tag": "Notice",
       "text": "SCHOOL DANCE — Friday evening\nTickets: £3 each\nBuy your ticket from the school office before Thursday 5 pm.\nNo tickets sold at the door.",
       "prompt": "What is the price of a ticket for the dance?",
-      "opts": ["£3", "£5", "Free for students"],
+      "opts": [
+        "£3",
+        "£5",
+        "Free for students"
+      ],
       "answer": 0,
       "rationale": "The notice says tickets cost £3 each."
     },
@@ -132,7 +196,11 @@
       "tag": "Text message",
       "text": "Dad, can you pick me up at 5:30 instead of 5? Rehearsal is running late. I'll wait outside the main entrance.",
       "prompt": "Where will the student wait for their dad?",
-      "opts": ["Inside the school hall", "At the bus stop", "Outside the main entrance"],
+      "opts": [
+        "Inside the school hall",
+        "At the bus stop",
+        "Outside the main entrance"
+      ],
       "answer": 2,
       "rationale": "The student says they will wait outside the main entrance."
     },
@@ -140,7 +208,11 @@
       "tag": "Label",
       "text": "Art materials\nHandle with care — glass bottles inside.\nStore in a cool, dry place.\nKeep away from young children.",
       "prompt": "Why should people handle this box carefully?",
-      "opts": ["It contains glass bottles", "It is very heavy", "The materials are expensive"],
+      "opts": [
+        "It contains glass bottles",
+        "It is very heavy",
+        "The materials are expensive"
+      ],
       "answer": 0,
       "rationale": "The label says to handle with care because there are glass bottles inside."
     },
@@ -148,7 +220,11 @@
       "tag": "Website",
       "text": "Oak Hill Swimming Pool\nOpen to schools Tuesday and Thursday mornings only.\nAll swimmers must bring their own towel.\nShowers available.",
       "prompt": "What must all swimmers bring to the pool?",
-      "opts": ["Their own towel", "A swimming cap", "Proof of school ID"],
+      "opts": [
+        "Their own towel",
+        "A swimming cap",
+        "Proof of school ID"
+      ],
       "answer": 0,
       "rationale": "The website says all swimmers must bring their own towel."
     },
@@ -156,7 +232,11 @@
       "tag": "Sign",
       "text": "STAFF CAR PARK\nStudents must not enter this area.\nBicycles must be left at the front entrance.",
       "prompt": "Who is not allowed in the staff car park?",
-      "opts": ["Students", "Visitors", "Parents"],
+      "opts": [
+        "Students",
+        "Visitors",
+        "Parents"
+      ],
       "answer": 0,
       "rationale": "The sign says students must not enter the staff car park."
     },
@@ -164,7 +244,11 @@
       "tag": "Note",
       "text": "Jake — I borrowed your maths book to copy the notes I missed. I'll return it tomorrow morning before class. Sorry for not asking first! — Dan",
       "prompt": "When will Dan return the book?",
-      "opts": ["This afternoon", "Tomorrow morning", "Next week"],
+      "opts": [
+        "This afternoon",
+        "Tomorrow morning",
+        "Next week"
+      ],
       "answer": 1,
       "rationale": "Dan says he will return the book tomorrow morning before class."
     },
@@ -172,7 +256,11 @@
       "tag": "Advertisement",
       "text": "SECOND-HAND BOOK SALE\nThis Saturday in the school gym\n10 am – 1 pm\nAll books 50p or less — great for holiday reading!",
       "prompt": "Where is the book sale taking place?",
-      "opts": ["In the school library", "In the school gym", "In the town hall"],
+      "opts": [
+        "In the school library",
+        "In the school gym",
+        "In the town hall"
+      ],
       "answer": 1,
       "rationale": "The advertisement says the book sale is in the school gym."
     },
@@ -180,7 +268,11 @@
       "tag": "Email",
       "text": "Hi Sam,\nMy train gets in at 7:15 pm on Saturday. Could you meet me at the station? I have two heavy bags. Thanks! — Rosa",
       "prompt": "What time does Rosa's train arrive?",
-      "opts": ["At 7:00 pm", "At 7:15 pm", "At 7:30 pm"],
+      "opts": [
+        "At 7:00 pm",
+        "At 7:15 pm",
+        "At 7:30 pm"
+      ],
       "answer": 1,
       "rationale": "Rosa says her train gets in at 7:15 pm."
     },
@@ -188,7 +280,11 @@
       "tag": "Postcard",
       "text": "Hello from Paris! We visited the Eiffel Tower yesterday — it was amazing. Today we're going to a French cookery class. See you next week! — Mia",
       "prompt": "What did Mia visit yesterday?",
-      "opts": ["A French museum", "The Eiffel Tower", "A cookery school"],
+      "opts": [
+        "A French museum",
+        "The Eiffel Tower",
+        "A cookery school"
+      ],
       "answer": 1,
       "rationale": "Mia says they visited the Eiffel Tower yesterday."
     },
@@ -196,7 +292,11 @@
       "tag": "Notice",
       "text": "SCHOOL GARDEN PROJECT\nWe need volunteers to help plant vegetables every Saturday morning.\nNo gardening experience necessary.\nMeet at the back gate at 9 am.",
       "prompt": "Where should volunteers meet on Saturday?",
-      "opts": ["At the school garden", "At the front gate", "At the back gate"],
+      "opts": [
+        "At the school garden",
+        "At the front gate",
+        "At the back gate"
+      ],
       "answer": 2,
       "rationale": "The notice says volunteers should meet at the back gate at 9 am."
     },
@@ -204,7 +304,11 @@
       "tag": "Text message",
       "text": "Hi! Are you coming to Jess's birthday party on Saturday? It starts at 3 pm. Her mum says we can stay until 8. Bring a small gift if you can!",
       "prompt": "Until what time can guests stay at the party?",
-      "opts": ["Until 3 pm", "Until 6 pm", "Until 8 pm"],
+      "opts": [
+        "Until 3 pm",
+        "Until 6 pm",
+        "Until 8 pm"
+      ],
       "answer": 2,
       "rationale": "The message says guests can stay until 8."
     },
@@ -212,7 +316,11 @@
       "tag": "Sign",
       "text": "SPORTS HALL\nTrainers must be worn at all times.\nNo outdoor shoes.\nVisitors must sign in at reception.",
       "prompt": "What must visitors do before using the sports hall?",
-      "opts": ["Change into trainers", "Pay a fee", "Sign in at reception"],
+      "opts": [
+        "Change into trainers",
+        "Pay a fee",
+        "Sign in at reception"
+      ],
       "answer": 2,
       "rationale": "The sign says visitors must sign in at reception."
     },
@@ -220,7 +328,11 @@
       "tag": "Label",
       "text": "Chocolate chip cookies\nContains: wheat, milk, eggs, nuts.\nBest before: 12 August.\nStore in a cool dry place.",
       "prompt": "Until when can the cookies be eaten?",
-      "opts": ["Until 12 July", "Until 12 August", "Until 12 September"],
+      "opts": [
+        "Until 12 July",
+        "Until 12 August",
+        "Until 12 September"
+      ],
       "answer": 1,
       "rationale": "The label says the best before date is 12 August."
     },
@@ -228,7 +340,11 @@
       "tag": "Website",
       "text": "Greenfield Youth Theatre\nAuditions for our summer show are open to ages 11–18.\nNo previous acting experience needed.\nRegister online by 30 June.",
       "prompt": "What is the last date to register for auditions?",
-      "opts": ["15 June", "30 June", "1 July"],
+      "opts": [
+        "15 June",
+        "30 June",
+        "1 July"
+      ],
       "answer": 1,
       "rationale": "The website says applicants must register online by 30 June."
     },
@@ -236,9 +352,853 @@
       "tag": "Advertisement",
       "text": "AFTER-SCHOOL ART CLASS\nEvery Tuesday 3:30–5:00 pm\nFor students aged 13 and above\nMaterials provided — just bring yourself!\nSign up in the art room.",
       "prompt": "What do students need to bring to the art class?",
-      "opts": ["Their own art materials", "A permission letter", "Nothing — materials are provided"],
+      "opts": [
+        "Their own art materials",
+        "A permission letter",
+        "Nothing — materials are provided"
+      ],
       "answer": 2,
       "rationale": "The advertisement says materials are provided, so students just need to bring themselves."
+    },
+    {
+      "tag": "Notice",
+      "text": "SCHOOL ART EXHIBITION\nYear 7 and Year 8 students can show their artwork in the main hall.\nBring your paintings or drawings to Room 12 before Thursday.",
+      "prompt": "What should students bring to Room 12?",
+      "opts": [
+        "Money for tickets",
+        "A permission form",
+        "Their artwork"
+      ],
+      "answer": 2,
+      "rationale": "The notice says students should bring their paintings or drawings to Room 12."
+    },
+    {
+      "tag": "Advertisement",
+      "text": "SPRING CONCERT — FRIDAY 7PM\nTickets: £3 for students, £5 for adults.\nBuy your tickets at the school office before Wednesday.",
+      "prompt": "Where can students buy concert tickets?",
+      "opts": [
+        "At the school office",
+        "At the door on Friday",
+        "Online only"
+      ],
+      "answer": 0,
+      "rationale": "The advertisement says to buy tickets at the school office."
+    },
+    {
+      "tag": "Poster",
+      "text": "SCHOOL DANCE — SATURDAY 7PM\nDress code: smart casual. No trainers allowed.\nTickets cost £4 and must be bought in advance.",
+      "prompt": "What are students NOT allowed to wear to the dance?",
+      "opts": [
+        "Skirts",
+        "Smart trousers",
+        "Trainers"
+      ],
+      "answer": 2,
+      "rationale": "The poster says no trainers are allowed at the dance."
+    },
+    {
+      "tag": "Sign",
+      "text": "CHARITY BAKE SALE\nAll cakes and biscuits made by students.\nAll money goes to the local children's hospital.\nSale starts at lunchtime in the main hall.",
+      "prompt": "Why is the bake sale being held?",
+      "opts": [
+        "To raise money for a hospital",
+        "To celebrate the end of term",
+        "To welcome new students"
+      ],
+      "answer": 0,
+      "rationale": "The sign says all money goes to the local children's hospital."
+    },
+    {
+      "tag": "Announcement",
+      "text": "TALENT SHOW SIGN-UPS OPEN!\nDo you sing, dance, or play an instrument? Sign up at the main office by next Monday.\nThe show will take place on the last day of term.",
+      "prompt": "When is the deadline to sign up for the talent show?",
+      "opts": [
+        "The last day of term",
+        "Next Monday",
+        "This Friday"
+      ],
+      "answer": 1,
+      "rationale": "The announcement says sign up by next Monday."
+    },
+    {
+      "tag": "Notice",
+      "text": "SPORTS EQUIPMENT RENTAL\nStudents can borrow bats, balls, and skipping ropes at lunchtime.\nLeave your student card at the office to borrow equipment.\nAll items must be returned before 1:30pm.",
+      "prompt": "What must students leave at the office to borrow equipment?",
+      "opts": [
+        "Some money",
+        "A signed letter",
+        "Their student card"
+      ],
+      "answer": 2,
+      "rationale": "The notice says students must leave their student card at the office."
+    },
+    {
+      "tag": "Sign",
+      "text": "BICYCLE PARKING\nPlease lock your bicycle in the area behind the sports hall.\nDo not leave bikes near the main entrance.\nThe school is not responsible for lost or stolen bicycles.",
+      "prompt": "Where should students park their bicycles?",
+      "opts": [
+        "Near the main entrance",
+        "Behind the sports hall",
+        "In the car park"
+      ],
+      "answer": 1,
+      "rationale": "The sign says to lock bicycles in the area behind the sports hall."
+    },
+    {
+      "tag": "Email",
+      "text": "Hi Lily,\nWe need three more volunteers for the school garden this Saturday morning.\nWe will plant new flowers and water the vegetable beds. Can you come?\nMrs Hill",
+      "prompt": "What will volunteers do in the garden on Saturday?",
+      "opts": [
+        "Plant flowers and water beds",
+        "Pick vegetables to sell",
+        "Build a new fence"
+      ],
+      "answer": 0,
+      "rationale": "The email says they will plant new flowers and water the vegetable beds."
+    },
+    {
+      "tag": "Notice",
+      "text": "COMPUTER LAB BOOKING\nStudents must book the computer lab at least one day in advance.\nGroups of more than four need a teacher to be present.\nBooking forms are available from the library.",
+      "prompt": "How far in advance must students book the computer lab?",
+      "opts": [
+        "One week",
+        "One hour",
+        "One day"
+      ],
+      "answer": 2,
+      "rationale": "The notice says students must book at least one day in advance."
+    },
+    {
+      "tag": "Website",
+      "text": "LIBRARY NEW ARRIVALS — JUNE\nWe have 20 new books this month, including adventure stories and science books.\nAll new books are on the display shelf near the entrance.\nYou can borrow up to two new arrivals at a time.",
+      "prompt": "Where are the new library books kept?",
+      "opts": [
+        "In a locked cabinet",
+        "At the main desk",
+        "On the display shelf near the entrance"
+      ],
+      "answer": 2,
+      "rationale": "The website says all new books are on the display shelf near the entrance."
+    },
+    {
+      "tag": "Label",
+      "text": "CAFETERIA ALLERGY WARNING\nThis dish contains NUTS.\nPlease speak to a member of staff if you have a food allergy before eating.",
+      "prompt": "What should students with food allergies do?",
+      "opts": [
+        "Avoid the cafeteria",
+        "Speak to a member of staff",
+        "Check the school website"
+      ],
+      "answer": 1,
+      "rationale": "The label says students with allergies should speak to a member of staff."
+    },
+    {
+      "tag": "Announcement",
+      "text": "SCHOOL NEWSPAPER — CALL FOR WRITERS!\nAre you interested in writing for our school newspaper?\nSend your first article to Mr. Davies in Room 5 by the end of this week.",
+      "prompt": "Where should students send their articles?",
+      "opts": [
+        "To the school office",
+        "By email to the school",
+        "To Mr. Davies in Room 5"
+      ],
+      "answer": 2,
+      "rationale": "The announcement says to send articles to Mr. Davies in Room 5."
+    },
+    {
+      "tag": "Poster",
+      "text": "JOIN THE DRAMA CLUB!\nMeetings every Tuesday at 4pm in the school theatre.\nNo experience needed — everyone is welcome.\nSpeak to Miss Carter to join.",
+      "prompt": "Who should students speak to in order to join drama club?",
+      "opts": [
+        "Miss Carter",
+        "The school office",
+        "Their form teacher"
+      ],
+      "answer": 0,
+      "rationale": "The poster says students should speak to Miss Carter to join."
+    },
+    {
+      "tag": "Notice",
+      "text": "DEBATE TEAM TRYOUTS\nDo you enjoy talking about important topics?\nTryouts for the school debate team will be held on Wednesday at 3:30pm in Room 8.\nAll year groups are welcome to attend.",
+      "prompt": "When are the debate team tryouts?",
+      "opts": [
+        "Thursday at 3:30pm",
+        "Wednesday at 3:30pm",
+        "Friday at 4pm"
+      ],
+      "answer": 1,
+      "rationale": "The notice says tryouts will be held on Wednesday at 3:30pm."
+    },
+    {
+      "tag": "Sign",
+      "text": "CHESS CLUB\nEvery Thursday lunchtime in Room 3.\nBeginners and experienced players welcome.\nBring your own set if you have one.",
+      "prompt": "Where does chess club take place?",
+      "opts": [
+        "Room 5",
+        "The library",
+        "Room 3"
+      ],
+      "answer": 2,
+      "rationale": "The sign says chess club is in Room 3."
+    },
+    {
+      "tag": "Email",
+      "text": "Hi Sam,\nFilm club is showing a new French film next Friday. It has English subtitles.\nCan you bring some snacks for everyone? The room fits about 20 people.\nJake",
+      "prompt": "What does Jake ask Sam to bring?",
+      "opts": [
+        "A French film",
+        "Some snacks",
+        "More chairs"
+      ],
+      "answer": 1,
+      "rationale": "Jake asks Sam to bring some snacks for everyone."
+    },
+    {
+      "tag": "Poster",
+      "text": "LANGUAGE EXCHANGE PROGRAMME\nDo you want to practise your Spanish or French?\nMeet with a partner every Wednesday at 4pm in the library.\nContact Miss Vega to register your interest.",
+      "prompt": "What is the purpose of the language exchange programme?",
+      "opts": [
+        "To learn new languages in class",
+        "To practise Spanish or French with a partner",
+        "To watch foreign films"
+      ],
+      "answer": 1,
+      "rationale": "The poster says the programme is to practise Spanish or French."
+    },
+    {
+      "tag": "Notice",
+      "text": "SCHOOL TRIP ABROAD — IMPORTANT REMINDER\nAll students going to Paris must bring their passport to school by this Friday.\nStudents without a passport cannot travel.\nSee Mrs. Brown if you have any questions.",
+      "prompt": "What must students bring to school by Friday?",
+      "opts": [
+        "Their passport",
+        "Travel money",
+        "A permission form"
+      ],
+      "answer": 0,
+      "rationale": "The notice says all students going to Paris must bring their passport by Friday."
+    },
+    {
+      "tag": "Text message",
+      "text": "Hi! Don't forget — end-of-year party is on Thursday at 6pm in the sports hall. Wear something colourful! Let me know if you need a lift. — Priya",
+      "prompt": "What does Priya tell the reader to wear to the party?",
+      "opts": [
+        "Something colourful",
+        "Smart clothes",
+        "Their school uniform"
+      ],
+      "answer": 0,
+      "rationale": "Priya says to wear something colourful to the party."
+    },
+    {
+      "tag": "Announcement",
+      "text": "SPORTS TROPHY CEREMONY\nThe end-of-year sports awards will be held on Friday at 3pm in the main hall.\nParents and family members are welcome to attend.\nRefreshments will be served after the ceremony.",
+      "prompt": "When will the sports trophy ceremony take place?",
+      "opts": [
+        "Friday at 3pm",
+        "Thursday at 4pm",
+        "Saturday morning"
+      ],
+      "answer": 0,
+      "rationale": "The announcement says the awards will be held on Friday at 3pm."
+    },
+    {
+      "tag": "Poster",
+      "text": "QUIZ NIGHT — THIS FRIDAY!\nTeams of four students. Questions on sport, science, music, and films.\nEntry is free. Winners get a £20 book voucher.\nDoors open at 6:30pm in the library.",
+      "prompt": "How much does it cost to enter the quiz night?",
+      "opts": [
+        "Nothing — it is free",
+        "£2 per team",
+        "£1 per person"
+      ],
+      "answer": 0,
+      "rationale": "The poster says entry is free."
+    },
+    {
+      "tag": "Notice",
+      "text": "HOMEWORK CLUB\nGet help with your homework every Monday and Wednesday from 3:30–4:30pm.\nA teacher will be available to answer questions.\nRoom 14. No need to book — just come along.",
+      "prompt": "How do students join homework club?",
+      "opts": [
+        "They just come along — no booking needed",
+        "They must book a place in advance",
+        "They need a teacher to sign them in"
+      ],
+      "answer": 0,
+      "rationale": "The notice says no need to book — students just come along."
+    },
+    {
+      "tag": "Advertisement",
+      "text": "SUMMER READING CHALLENGE\nRead 6 books this summer and get a special certificate!\nVisit the local library to register before the end of July.\nAll children aged 6–12 can join.",
+      "prompt": "Where must children go to register for the reading challenge?",
+      "opts": [
+        "Their school",
+        "The local library",
+        "An online website"
+      ],
+      "answer": 1,
+      "rationale": "The advertisement says to visit the local library to register."
+    },
+    {
+      "tag": "Announcement",
+      "text": "SPELLING COMPETITION — SIGN UP NOW!\nThe school spelling competition will take place on 14th March.\nAll students from Years 5–8 can enter.\nSign up with your form teacher by next Friday.",
+      "prompt": "What must students do to enter the spelling competition?",
+      "opts": [
+        "Pay an entry fee",
+        "Sign up with their form teacher",
+        "Email the school office"
+      ],
+      "answer": 1,
+      "rationale": "The announcement says students must sign up with their form teacher."
+    },
+    {
+      "tag": "Notice",
+      "text": "SCIENCE EXPERIMENT SAFETY\nAll students must wear safety glasses during experiments.\nDo not touch chemicals without gloves.\nReport any accidents immediately to your teacher.",
+      "prompt": "What must students wear during science experiments?",
+      "opts": [
+        "Safety glasses",
+        "Lab coats",
+        "Gloves only"
+      ],
+      "answer": 0,
+      "rationale": "The notice says all students must wear safety glasses during experiments."
+    },
+    {
+      "tag": "Text message",
+      "text": "Hey, don't forget your PE kit tomorrow! We have football in the morning and swimming after lunch. See you then! — Tom",
+      "prompt": "Why does Tom send this message?",
+      "opts": [
+        "To remind the reader to bring their PE kit",
+        "To cancel football practice",
+        "To ask about swimming lessons"
+      ],
+      "answer": 0,
+      "rationale": "Tom sends the message to remind the reader to bring their PE kit."
+    },
+    {
+      "tag": "Poster",
+      "text": "SCHOOL COUNCIL ELECTIONS\nVote for your class representative next Tuesday.\nAny student in Years 7–9 can stand as a candidate.\nNomination forms are in the main office.",
+      "prompt": "Where can students get nomination forms?",
+      "opts": [
+        "In the main office",
+        "From their form teacher",
+        "On the school website"
+      ],
+      "answer": 0,
+      "rationale": "The poster says nomination forms are available in the main office."
+    },
+    {
+      "tag": "Sign",
+      "text": "WATER BOTTLES\nStudents may bring water bottles to class.\nOnly water is allowed — no juice or fizzy drinks.\nAll bottles must have a lid to prevent spills.",
+      "prompt": "What must all water bottles have?",
+      "opts": [
+        "A school label",
+        "A lid",
+        "The student's name on them"
+      ],
+      "answer": 1,
+      "rationale": "The sign says all bottles must have a lid to prevent spills."
+    },
+    {
+      "tag": "Notice",
+      "text": "MOBILE PHONE POLICY\nPhones must be switched off and kept in your bag during lessons.\nYou may use your phone at break and lunchtime only.\nPhones found in use during lessons will be taken by teachers.",
+      "prompt": "What happens to phones used during lessons?",
+      "opts": [
+        "Students must pay a fine",
+        "The phone is broken",
+        "Teachers take the phone away"
+      ],
+      "answer": 2,
+      "rationale": "The notice says phones found in use during lessons will be taken by teachers."
+    },
+    {
+      "tag": "Advertisement",
+      "text": "SCHOOL SHOP — OPEN MONDAYS AND FRIDAYS\nBuy pens, pencils, rulers, and notebooks at low prices.\nWe also sell school badges and ties.\nOpen at lunchtime only.",
+      "prompt": "When is the school shop open?",
+      "opts": [
+        "At lunchtime on Mondays and Fridays",
+        "Every day after school",
+        "On weekends only"
+      ],
+      "answer": 0,
+      "rationale": "The advertisement says the shop is open at lunchtime on Mondays and Fridays."
+    },
+    {
+      "tag": "Notice",
+      "text": "LOST PROPERTY\nHave you lost something at school?\nAll lost items are kept in the box outside the main office.\nItems not collected by Friday will be given to charity.",
+      "prompt": "Where are lost items kept?",
+      "opts": [
+        "In the headteacher's office",
+        "In a box outside the main office",
+        "In the school canteen"
+      ],
+      "answer": 1,
+      "rationale": "The notice says lost items are kept in the box outside the main office."
+    },
+    {
+      "tag": "Text message",
+      "text": "Hi! My birthday party is on Saturday at 3pm. It's at my house — 14 Oak Street. Please let me know if you can come by Thursday! — Mia",
+      "prompt": "Where is Mia's birthday party?",
+      "opts": [
+        "At the school hall",
+        "At a restaurant",
+        "At her house"
+      ],
+      "answer": 2,
+      "rationale": "Mia says the party is at her house at 14 Oak Street."
+    },
+    {
+      "tag": "Note",
+      "text": "Hi Amir — if you stay for the sleepover, bring your sleeping bag, toothbrush, and something to read. Lights out at 10pm. No screens after 9:30pm. See you Saturday! — Dan",
+      "prompt": "What time do the lights go out at the sleepover?",
+      "opts": [
+        "9:30pm",
+        "10pm",
+        "11pm"
+      ],
+      "answer": 1,
+      "rationale": "The note says lights out at 10pm."
+    },
+    {
+      "tag": "Poster",
+      "text": "PET SHOW — COME AND JOIN IN!\nBring your pet to school on 20th June.\nAll animals welcome — dogs, cats, rabbits, and more!\nPrizes for the friendliest and most unusual pet.",
+      "prompt": "What kinds of animals can students bring to the pet show?",
+      "opts": [
+        "Only dogs and cats",
+        "Only small animals",
+        "All kinds of animals"
+      ],
+      "answer": 2,
+      "rationale": "The poster says all animals are welcome — dogs, cats, rabbits, and more."
+    },
+    {
+      "tag": "Email",
+      "text": "Dear parents and students,\nOur school is organising a community clean-up day on Saturday 8th July from 9am–12pm.\nStudents who join will receive a certificate. Please bring gloves and wear old clothes.\nMr. Patel",
+      "prompt": "What should students wear to the community clean-up day?",
+      "opts": [
+        "Their school uniform",
+        "Their sports kit",
+        "Old clothes"
+      ],
+      "answer": 2,
+      "rationale": "The email says students should wear old clothes to the clean-up day."
+    },
+    {
+      "tag": "Sign",
+      "text": "Cinema — Last entry for evening shows is 15 minutes before the film starts.",
+      "prompt": "What does the sign tell you?",
+      "opts": [
+        "You must arrive at least 15 minutes before the film",
+        "You cannot buy tickets after the film begins",
+        "Evening shows start 15 minutes later than usual"
+      ],
+      "answer": 0,
+      "rationale": "The sign says the last entry is 15 minutes before the film starts, so you must arrive at least that early."
+    },
+    {
+      "tag": "Notice",
+      "text": "GRAND CAFÉ — Today's special: pasta with tomato sauce and salad. €8.50 including a drink.",
+      "prompt": "What does the notice tell customers?",
+      "opts": [
+        "Pasta is always on the menu at this price",
+        "Drinks are free every day",
+        "The café is offering a meal deal today"
+      ],
+      "answer": 2,
+      "rationale": "The notice announces a special meal deal available today that includes food and a drink."
+    },
+    {
+      "tag": "Sign",
+      "text": "SUPERMARKET — We are open Monday–Saturday 08:00–21:00 and Sunday 10:00–17:00.",
+      "prompt": "What does the sign tell shoppers?",
+      "opts": [
+        "The supermarket is open every day of the week",
+        "The supermarket is closed on Sundays",
+        "The supermarket closes at the same time every day"
+      ],
+      "answer": 0,
+      "rationale": "The sign shows opening hours for all seven days, so the supermarket is open every day."
+    },
+    {
+      "tag": "Advertisement",
+      "text": "City Gym — Join now and pay nothing for the first month! Full use of all equipment and classes included.",
+      "prompt": "What is the gym offering new members?",
+      "opts": [
+        "Free equipment to keep when you join",
+        "A free month with access to everything",
+        "Free classes for six months"
+      ],
+      "answer": 1,
+      "rationale": "The advertisement says new members pay nothing for the first month and get full access."
+    },
+    {
+      "tag": "Notice",
+      "text": "Bus Route 14 — Due to road works, this bus will not stop at Market Street from Monday to Friday this week.",
+      "prompt": "What does the notice tell passengers?",
+      "opts": [
+        "One stop is being skipped on weekdays this week",
+        "Route 14 is cancelled this week",
+        "The bus timetable is changing permanently"
+      ],
+      "answer": 0,
+      "rationale": "The notice explains that Market Street will not be a stop from Monday to Friday this week only."
+    },
+    {
+      "tag": "Sign",
+      "text": "PLATFORM 3 — This platform is for trains to the city centre only. For all other destinations, please use platforms 1 or 2.",
+      "prompt": "What does the sign tell travellers going to other destinations?",
+      "opts": [
+        "They should wait at platform 3",
+        "They need to go to platform 1 or 2",
+        "They must check the information board first"
+      ],
+      "answer": 1,
+      "rationale": "The sign tells travellers going anywhere other than the city centre to use platforms 1 or 2."
+    },
+    {
+      "tag": "Announcement",
+      "text": "Attention passengers on flight BT204 to Madrid. Your departure gate has changed from Gate 12 to Gate 19. Please make your way there now.",
+      "prompt": "What must passengers on flight BT204 do now?",
+      "opts": [
+        "Wait at Gate 12 for more information",
+        "Move to Gate 19 straight away",
+        "Check in again at the departure desk"
+      ],
+      "answer": 1,
+      "rationale": "The announcement tells passengers the gate has changed and they must go to Gate 19 now."
+    },
+    {
+      "tag": "Notice",
+      "text": "Hotel Sunrise — Check-in is from 15:00. If you arrive before this time, we are happy to store your luggage.",
+      "prompt": "What can guests do if they arrive at the hotel before 15:00?",
+      "opts": [
+        "Check in straight away",
+        "Leave their bags with the hotel",
+        "Wait in the hotel restaurant"
+      ],
+      "answer": 1,
+      "rationale": "The notice says the hotel will store luggage for guests who arrive before check-in time."
+    },
+    {
+      "tag": "Sign",
+      "text": "CITY PARK — Gates open daily at 07:00 and close at dusk. Dogs must be kept on leads at all times.",
+      "prompt": "What does the sign say about dogs in the park?",
+      "opts": [
+        "Dogs are not allowed in the park",
+        "Dogs may run free in certain areas",
+        "Dogs must always be on a lead"
+      ],
+      "answer": 2,
+      "rationale": "The sign states that dogs must be kept on leads at all times in the park."
+    },
+    {
+      "tag": "Poster",
+      "text": "CITY MUSEUM — Free entry every first Sunday of the month for all visitors. Normal ticket prices apply on other days.",
+      "prompt": "When can visitors enter the museum for free?",
+      "opts": [
+        "Every Sunday of the month",
+        "On public holidays only",
+        "On the first Sunday of each month"
+      ],
+      "answer": 2,
+      "rationale": "The poster says free entry is available on the first Sunday of each month."
+    },
+    {
+      "tag": "Notice",
+      "text": "Sports Centre Pool — All lane bookings must be made online at least 24 hours in advance. No walk-in bookings accepted.",
+      "prompt": "How must swimmers book a lane at the sports centre?",
+      "opts": [
+        "Online, the day before or earlier",
+        "By phone on the day",
+        "In person at the reception desk"
+      ],
+      "answer": 0,
+      "rationale": "The notice says bookings must be made online at least 24 hours in advance."
+    },
+    {
+      "tag": "Sign",
+      "text": "ICE RINK — Skaters must not hold hands across lanes. Always skate in the same direction as other skaters.",
+      "prompt": "What does the sign ask skaters to do?",
+      "opts": [
+        "Skate in the opposite direction to warm up",
+        "Stay in the outer lane at all times",
+        "Move in the same direction as other skaters"
+      ],
+      "answer": 2,
+      "rationale": "The sign says skaters must always move in the same direction as others."
+    },
+    {
+      "tag": "Notice",
+      "text": "SUPER BOWL — Children under 8 must be supervised by an adult at all times. Please return hired shoes before you leave.",
+      "prompt": "What must visitors do when they finish bowling?",
+      "opts": [
+        "Pay for the shoes at the exit",
+        "Leave shoes at the entrance",
+        "Return the hired shoes"
+      ],
+      "answer": 2,
+      "rationale": "The notice asks visitors to return hired shoes before they leave."
+    },
+    {
+      "tag": "Sign",
+      "text": "GO-KART TRACK — Drivers must be at least 12 years old. All drivers must wear a helmet. No overtaking in the pit lane.",
+      "prompt": "What is not allowed on the go-kart track?",
+      "opts": [
+        "Wearing a helmet while driving",
+        "Overtaking in the pit lane",
+        "Driving over the age of 12"
+      ],
+      "answer": 1,
+      "rationale": "The sign says no overtaking is allowed in the pit lane."
+    },
+    {
+      "tag": "Notice",
+      "text": "ADVENTURE WORLD — Ride: The Dragon. Minimum height 1.20 m. Children below this height will not be able to ride.",
+      "prompt": "Who cannot go on The Dragon ride?",
+      "opts": [
+        "Adults above a certain weight",
+        "People without a ticket",
+        "Children shorter than 1.20 m"
+      ],
+      "answer": 2,
+      "rationale": "The notice says children below 1.20 m in height cannot go on the ride."
+    },
+    {
+      "tag": "Sign",
+      "text": "BEACH — Red flag flying means swimming is dangerous. Do not enter the water when the red flag is up.",
+      "prompt": "What does a red flag at the beach mean?",
+      "opts": [
+        "It is too dangerous to swim",
+        "Swimming is allowed in marked areas",
+        "Lifeguards are on duty"
+      ],
+      "answer": 0,
+      "rationale": "The sign says the red flag means swimming is dangerous and people should not enter the water."
+    },
+    {
+      "tag": "Notice",
+      "text": "LAKESIDE CAMPSITE — Campfires are not permitted on the site. Campers may use the BBQ area near the main building.",
+      "prompt": "What does the notice tell campers about fires?",
+      "opts": [
+        "Campfires are banned but a BBQ area is available",
+        "Campfires are only allowed at weekends",
+        "No cooking of any kind is permitted on site"
+      ],
+      "answer": 0,
+      "rationale": "The notice says campfires are not permitted but there is a BBQ area available near the main building."
+    },
+    {
+      "tag": "Sign",
+      "text": "HILLTOP YOUTH HOSTEL — Quiet hours are between 22:00 and 07:00. Please do not disturb other guests during these times.",
+      "prompt": "What are guests asked to do between 22:00 and 07:00?",
+      "opts": [
+        "Be quiet so as not to disturb others",
+        "Use the common room only",
+        "Leave the building"
+      ],
+      "answer": 0,
+      "rationale": "The sign asks guests not to disturb others during the quiet hours of 22:00 to 07:00."
+    },
+    {
+      "tag": "Notice",
+      "text": "SEAVIEW APARTMENT — No parties or loud music after 22:00. Rubbish must be placed in the bins provided outside.",
+      "prompt": "What does the notice say about rubbish?",
+      "opts": [
+        "It must be left in the kitchen",
+        "Bins are inside the apartment",
+        "It must go in the outside bins"
+      ],
+      "answer": 2,
+      "rationale": "The notice says rubbish must be placed in the bins provided outside."
+    },
+    {
+      "tag": "Label",
+      "text": "Tourist Information Centre — Free maps, local guides, and event listings available inside. Ask a member of staff for help.",
+      "prompt": "What can visitors pick up free at the tourist information centre?",
+      "opts": [
+        "Maps and local guides",
+        "Tickets to local events",
+        "A free guided walking tour"
+      ],
+      "answer": 0,
+      "rationale": "The label says free maps, local guides, and event listings are available inside the centre."
+    },
+    {
+      "tag": "Email",
+      "text": "Hi Sam, just a reminder — your travel insurance runs out on 30 June. You need to renew it before your holiday on 5 July. — Mum",
+      "prompt": "Why is Mum writing to Sam?",
+      "opts": [
+        "To book Sam's holiday",
+        "To remind Sam to renew the travel insurance",
+        "To say the holiday has been cancelled"
+      ],
+      "answer": 1,
+      "rationale": "Mum is reminding Sam that the travel insurance expires before the holiday and needs to be renewed."
+    },
+    {
+      "tag": "Advertisement",
+      "text": "STYLE ZONE — This weekend only: 20% off everything in store for customers who show their birthday card. Happy shopping!",
+      "prompt": "Who gets a discount at Style Zone this weekend?",
+      "opts": [
+        "All shoppers who spend over €20",
+        "Store loyalty card holders",
+        "Customers who show a birthday card"
+      ],
+      "answer": 2,
+      "rationale": "The advertisement offers 20% off to customers who show a birthday card, this weekend only."
+    },
+    {
+      "tag": "Poster",
+      "text": "MEGA SPORTS — SUMMER SALE — Up to 50% off selected items. Sale ends Sunday. While stocks last.",
+      "prompt": "What does the poster tell shoppers about the sale?",
+      "opts": [
+        "All items are half price until Sunday",
+        "Chosen items are discounted and the sale finishes Sunday",
+        "The store will close after Sunday"
+      ],
+      "answer": 1,
+      "rationale": "The poster says selected items are up to 50% off and the sale ends on Sunday."
+    },
+    {
+      "tag": "Text message",
+      "text": "Your order #7823 has been confirmed. Estimated delivery: Thursday 10–12am. You will receive a message when it is on its way. — ShopFast",
+      "prompt": "What does the message tell the customer?",
+      "opts": [
+        "The order has not gone through",
+        "Another message will be sent when the parcel is dispatched",
+        "The customer must confirm the delivery time"
+      ],
+      "answer": 1,
+      "rationale": "The message says the customer will receive another message when the parcel is on its way."
+    },
+    {
+      "tag": "Note",
+      "text": "Delivery note: We tried to deliver your parcel today but you were out. Please collect it from the post office on Green Street. It will be kept for 14 days.",
+      "prompt": "What should the person do to get their parcel?",
+      "opts": [
+        "Wait at home for another delivery attempt tomorrow",
+        "Phone the delivery company to rearrange delivery",
+        "Go to the post office on Green Street to collect it"
+      ],
+      "answer": 2,
+      "rationale": "The note says the parcel must be collected from the post office on Green Street."
+    },
+    {
+      "tag": "Label",
+      "text": "WARNING: Keep away from children under 3 years. Contains small parts which may cause choking.",
+      "prompt": "Why does the label warn about small children?",
+      "opts": [
+        "The product is too noisy for babies",
+        "The small parts could be a choking danger",
+        "Children under 3 can break the product easily"
+      ],
+      "answer": 1,
+      "rationale": "The label warns that the product contains small parts that could cause choking in children under 3."
+    },
+    {
+      "tag": "Notice",
+      "text": "EASY COOK PASTA — Boil water, add pasta, and cook for 10 minutes. Drain and serve. For best results, do not overcook.",
+      "prompt": "What is the first step when cooking this pasta?",
+      "opts": [
+        "Boil the water",
+        "Add the pasta to cold water",
+        "Drain the pasta"
+      ],
+      "answer": 0,
+      "rationale": "The instructions say to boil the water first, then add the pasta."
+    },
+    {
+      "tag": "Label",
+      "text": "PAINKILLER TABLETS — Adults: take 1 or 2 tablets every 4–6 hours. Do not take more than 8 tablets in 24 hours. Not suitable for children under 12.",
+      "prompt": "Who should not take these tablets according to the label?",
+      "opts": [
+        "Adults over 65",
+        "Children under 12",
+        "People with a nut allergy"
+      ],
+      "answer": 1,
+      "rationale": "The label says the tablets are not suitable for children under 12."
+    },
+    {
+      "tag": "Notice",
+      "text": "FRESHBAKE BREAD — Contains wheat, nuts, and sesame seeds. May also contain traces of milk. Suitable for vegetarians.",
+      "prompt": "What does the notice warn people about?",
+      "opts": [
+        "The bread may not be fresh",
+        "The bread is not suitable for vegetarians",
+        "The bread contains nuts and may have traces of milk"
+      ],
+      "answer": 2,
+      "rationale": "The notice lists nuts as an ingredient and says the bread may also contain traces of milk."
+    },
+    {
+      "tag": "Poster",
+      "text": "COOK IT! — Beginners' cooking classes every Saturday at 10:00. Limited places — book online or call 555-0192.",
+      "prompt": "How can people reserve a place on the cooking class?",
+      "opts": [
+        "By arriving early on Saturday morning",
+        "By booking online or by phone",
+        "By visiting the studio in person"
+      ],
+      "answer": 1,
+      "rationale": "The poster says people can book online or by calling 555-0192."
+    },
+    {
+      "tag": "Advertisement",
+      "text": "MAKE & CREATE STUDIO — Saturday craft workshop for ages 8–14. Make your own clay pot! Tickets £12. Bring an old T-shirt.",
+      "prompt": "What should participants bring to the workshop?",
+      "opts": [
+        "An old T-shirt",
+        "Their own clay",
+        "A packed lunch"
+      ],
+      "answer": 0,
+      "rationale": "The advertisement tells participants to bring an old T-shirt to the workshop."
+    },
+    {
+      "tag": "Poster",
+      "text": "YOUNG PHOTOGRAPHERS — Annual competition now open! Send up to 3 photos by 31 August. Theme: Nature. Open to under-18s only.",
+      "prompt": "What is the closing date for the photography competition?",
+      "opts": [
+        "31 July",
+        "30 September",
+        "31 August"
+      ],
+      "answer": 2,
+      "rationale": "The poster says photos must be sent by 31 August."
+    },
+    {
+      "tag": "Notice",
+      "text": "BOOKWORMS CLUB — Monthly meeting this Thursday at 18:30 in the library reading room. This month's book: 'The Blue River'. All welcome.",
+      "prompt": "Where will the book club meeting take place?",
+      "opts": [
+        "At a member's home",
+        "In the library reading room",
+        "At the local café"
+      ],
+      "answer": 1,
+      "rationale": "The notice says the meeting will be held in the library reading room."
+    },
+    {
+      "tag": "Invitation",
+      "text": "You are invited to a special screening of 'Journey to the Stars' on Friday 28 June at 19:00, Room B, Community Centre. Free entry. Light refreshments served.",
+      "prompt": "How much does it cost to attend the film screening?",
+      "opts": [
+        "It is free",
+        "£5 per person",
+        "£3 for children"
+      ],
+      "answer": 0,
+      "rationale": "The invitation says entry is free."
+    },
+    {
+      "tag": "Notice",
+      "text": "NEIGHBOURHOOD WATCH — Please report any suspicious activity to the local police on 101. Do not approach strangers. Keep your doors locked.",
+      "prompt": "What does the notice tell residents to do if they see something suspicious?",
+      "opts": [
+        "Call the police on 101",
+        "Approach the person and ask questions",
+        "Call a neighbour for help"
+      ],
+      "answer": 0,
+      "rationale": "The notice tells residents to call the police on 101 and not to approach strangers themselves."
     }
   ]
 }
