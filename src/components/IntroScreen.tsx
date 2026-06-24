@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import licenseText from '../../LICENSE?raw'
 
 interface Props {
   name: string
@@ -9,6 +10,7 @@ interface Props {
 
 export default function IntroScreen({ name, loadError, onName, onStart }: Props) {
   const [loading, setLoading] = useState(false)
+  const [showLicense, setShowLicense] = useState(false)
 
   async function handleStart() {
     setLoading(true)
@@ -22,6 +24,11 @@ export default function IntroScreen({ name, loadError, onName, onStart }: Props)
         <div style={{ width: 46, height: 46, borderRadius: 11, background: 'var(--navy)', color: 'var(--surface)', display: 'flex', alignItems: 'center', justifyContent: 'center', font: "800 19px 'Libre Franklin'", letterSpacing: '.5px' }}>A2</div>
         <div style={{ font: "600 12px 'Libre Franklin'", letterSpacing: '.16em', textTransform: 'uppercase', color: 'var(--muted)' }}>Key · Mock Test · New Set</div>
       </div>
+
+      <p style={{ font: "400 12px/1.5 'Libre Franklin'", color: 'var(--muted)', margin: '0 0 20px', padding: '10px 12px', background: 'var(--page-bg)', borderRadius: 8 }}>
+        This practice tool is independently developed for educational purposes and is not endorsed by or affiliated with Cambridge. Use at your own risk.{' '}
+        <button onClick={() => setShowLicense(true)} style={{ background: 'none', border: 'none', padding: 0, color: 'var(--accent)', textDecoration: 'underline', font: "inherit", cursor: 'pointer' }}>See license for further information.</button>
+      </p>
 
       <h1 style={{ font: "800 31px/1.12 'Libre Franklin'", color: 'var(--navy)', margin: '0 0 10px', letterSpacing: '-.01em' }}>Reading and Writing</h1>
       <p style={{ font: "400 15px/1.55 'Libre Franklin'", color: 'var(--instr-ink)', margin: '0 0 26px' }}>
@@ -76,6 +83,23 @@ export default function IntroScreen({ name, loadError, onName, onStart }: Props)
       >
         {loading ? 'Loading questions…' : 'Start test'}
       </button>
+      {showLicense && (
+        <div onClick={() => setShowLicense(false)} style={{ position: 'fixed', inset: 0, background: 'rgba(0,0,0,.55)', display: 'flex', alignItems: 'flex-end', justifyContent: 'center', zIndex: 100, padding: '0 0 env(safe-area-inset-bottom)' }}>
+          <div onClick={e => e.stopPropagation()} style={{ background: 'var(--surface)', borderRadius: '18px 18px 0 0', width: '100%', maxWidth: 480, maxHeight: '70vh', display: 'flex', flexDirection: 'column', overflow: 'hidden' }}>
+            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '16px 18px', borderBottom: '1px solid var(--border)' }}>
+              <span style={{ font: "700 15px 'Libre Franklin'", color: 'var(--navy)' }}>License</span>
+              <button onClick={() => setShowLicense(false)} style={{ background: 'none', border: 'none', font: "600 14px 'Libre Franklin'", color: 'var(--muted)', cursor: 'pointer' }}>Close</button>
+            </div>
+            <div style={{ overflowY: 'auto', padding: '16px 18px', display: 'flex', flexDirection: 'column', gap: 12 }}>
+              {licenseText.trim().split(/\n\n+/).map((para, i) => (
+                <p key={i} style={{ margin: 0, font: "400 13px/1.6 'Libre Franklin'", color: 'var(--ink)' }}>
+                  {para.replace(/\n/g, ' ')}
+                </p>
+              ))}
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   )
 }
