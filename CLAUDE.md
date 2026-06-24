@@ -19,6 +19,7 @@ src/
   constants.ts     # Non-question constants: part metadata, band thresholds, LS_KEY
   loadBanks.ts     # Fetches all 7 JSON banks in parallel, assembles ActiveTest
   scoring.ts       # computeResults(), wc() — pure functions, no side effects
+  pdfExport.ts     # generatePdfHtml() + openPdf() — full exam PDF via browser print
   hooks/
     useTimer.ts    # setInterval countdown; stable via ref
   components/
@@ -60,7 +61,7 @@ State is persisted to `localStorage` key `a2key_v1` on every dispatch. Restored 
 
 ## Question banks
 
-`public/questions/` — one JSON file per part, fetched in parallel on "Start test":
+`public/questions/schools/` — one JSON file per part, fetched in parallel on "Start test":
 
 | File | Contents | Selection |
 |---|---|---|
