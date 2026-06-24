@@ -1,5 +1,6 @@
 import type { AppState, Action } from '../types'
 import { computeResults } from '../scoring'
+import { openPdf } from '../pdfExport'
 
 interface Props {
   state: AppState
@@ -62,6 +63,13 @@ export default function ResultsScreen({ state, dispatch }: Props) {
             style={{ flex: 1, background: 'var(--surface)', color: 'var(--navy)', border: '1.5px solid var(--input-border)', borderRadius: 12, padding: 15, font: "700 14px 'Libre Franklin'", cursor: 'pointer' }}
           >
             Review answers
+          </button>
+          <button
+            onClick={() => { openPdf(state) }}
+            className="btn-ghost"
+            style={{ flex: 1, background: 'var(--surface)', color: 'var(--navy)', border: '1.5px solid var(--input-border)', borderRadius: 12, padding: 15, font: "700 14px 'Libre Franklin'", cursor: 'pointer' }}
+          >
+            Download PDF
           </button>
           <button
             onClick={() => dispatch({ type: 'RESTART' })}
