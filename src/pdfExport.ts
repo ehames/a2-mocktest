@@ -399,8 +399,8 @@ export function generatePdfHtml(state: AppState, p7ImageUrls: string[] = []): st
   const picCards = pics.map((pic, i) => {
     const src = p7ImageUrls[i] ?? ''
     const imgHtml = src
-      ? `<img src="${src}" alt="${esc(pic.label)}" style="width:100%;height:160px;object-fit:cover;border-radius:5px;display:block;margin-bottom:6px">`
-      : `<div style="width:100%;height:160px;background:#EEF1F5;border-radius:5px;display:flex;align-items:center;justify-content:center;margin-bottom:6px;font-size:11px;color:#8496AA">Image unavailable</div>`
+      ? `<img src="${src}" alt="${esc(pic.label)}" style="width:100%;height:auto;display:block;border-radius:5px;margin-bottom:6px">`
+      : `<div style="width:100%;aspect-ratio:1;background:#EEF1F5;border-radius:5px;display:flex;align-items:center;justify-content:center;margin-bottom:6px;font-size:11px;color:#8496AA">Image unavailable</div>`
     return `
 <div style="flex:1;min-width:0;break-inside:avoid;page-break-inside:avoid">
   ${imgHtml}
