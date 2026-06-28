@@ -1,6 +1,6 @@
 // @vitest-environment jsdom
 import { render, screen, fireEvent, cleanup } from '@testing-library/react'
-import { afterEach, beforeEach, describe, test, expect, vi } from 'vitest'
+import { afterEach, describe, test, expect, vi } from 'vitest'
 import ClozeMC from './ClozeMC'
 import type { Part4Set } from '../../types'
 

@@ -1,6 +1,6 @@
 // @vitest-environment jsdom
 import { render, screen, fireEvent, cleanup } from '@testing-library/react'
-import { afterEach, beforeEach, describe, test, expect, vi } from 'vitest'
+import { afterEach, beforeEach, describe, test, expect, vi, type MockInstance } from 'vitest'
 import ResultsScreen from './ResultsScreen'
 import type { AppState } from '../types'
 
@@ -52,7 +52,7 @@ describe('ResultsScreen', () => {
 })
 
 describe('ResultsScreen — Restart PIN modal', () => {
-  let dispatch: ReturnType<typeof vi.fn>
+  let dispatch: MockInstance
 
   beforeEach(() => {
     dispatch = vi.fn()
