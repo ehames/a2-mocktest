@@ -20,7 +20,7 @@ interface ChipData {
   answered: boolean
 }
 
-function getChips(step: number, answers: Record<number, number>, text: Record<number, string>): ChipData[] | null {
+export function getChips(step: number, answers: Record<number, number>, text: Record<number, string>): ChipData[] | null {
   if (step === 1) return Array.from({ length: 6 }, (_, i) => ({ display: i + 1, scrollId: `q-${i}`, answered: answers[i] !== undefined }))
   if (step === 2) return Array.from({ length: 7 }, (_, i) => ({ display: i + 1, scrollId: `q-${i + 6}`, answered: answers[i + 6] !== undefined }))
   if (step === 3) return Array.from({ length: 5 }, (_, i) => ({ display: i + 1, scrollId: `q-${i + 13}`, answered: answers[i + 13] !== undefined }))
@@ -29,7 +29,7 @@ function getChips(step: number, answers: Record<number, number>, text: Record<nu
   return null
 }
 
-function getCompletion(
+export function getCompletion(
   s: number,
   answers: Record<number, number>,
   text: Record<number, string>,
