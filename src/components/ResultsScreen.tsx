@@ -1,4 +1,4 @@
-import { useState, useRef, useEffect } from 'react'
+import { useState, useRef, useEffect, useMemo } from 'react'
 import type { AppState, Action } from '../types'
 import { computeResults } from '../scoring'
 import { openPdf } from '../pdfExport'
@@ -21,7 +21,11 @@ export default function ResultsScreen({ state, dispatch }: Props) {
   }, [showPin])
 
   const { activeTest, answers, text } = state
-  if (!activeTest) return null
+  const r = useMemo(
+    () => activeTest ? computeResults(activeTest, answers, text) : null,
+    [activeTest, answers, text]
+  )
+  if (!activeTest || !r) return null
 
   function handleRestartClick() {
     setShowPin(true)
@@ -38,7 +42,6 @@ export default function ResultsScreen({ state, dispatch }: Props) {
     }
   }
 
-  const r = computeResults(activeTest, answers, text)
   const ringDeg = r.pct * 3.6
 
   return (

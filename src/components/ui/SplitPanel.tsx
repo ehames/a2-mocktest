@@ -1,4 +1,4 @@
-import { useState, useCallback, useRef } from 'react'
+import { useState, useCallback, useRef, useEffect } from 'react'
 import type { ReactNode } from 'react'
 
 interface Props {
@@ -11,6 +11,11 @@ export default function SplitPanel({ left, right, defaultRatio = 0.45 }: Props) 
   const [ratio, setRatio] = useState(defaultRatio)
   const containerRef = useRef<HTMLDivElement>(null)
   const dragging = useRef(false)
+  const listenerCleanup = useRef<(() => void) | null>(null)
+
+  useEffect(() => {
+    return () => { listenerCleanup.current?.() }
+  }, [])
 
   const applyRatio = useCallback((clientX: number) => {
     if (!containerRef.current) return
@@ -30,10 +35,16 @@ export default function SplitPanel({ left, right, defaultRatio = 0.45 }: Props) 
       dragging.current = false
       window.removeEventListener('mousemove', onMouseMove)
       window.removeEventListener('mouseup', onMouseUp)
+      listenerCleanup.current = null
     }
 
     window.addEventListener('mousemove', onMouseMove)
     window.addEventListener('mouseup', onMouseUp)
+    listenerCleanup.current = () => {
+      dragging.current = false
+      window.removeEventListener('mousemove', onMouseMove)
+      window.removeEventListener('mouseup', onMouseUp)
+    }
   }, [applyRatio])
 
   const handleKeyDown = useCallback((e: React.KeyboardEvent) => {
@@ -58,10 +69,16 @@ export default function SplitPanel({ left, right, defaultRatio = 0.45 }: Props) 
       dragging.current = false
       window.removeEventListener('touchmove', onTouchMove)
       window.removeEventListener('touchend', onTouchEnd)
+      listenerCleanup.current = null
     }
 
     window.addEventListener('touchmove', onTouchMove, { passive: false })
     window.addEventListener('touchend', onTouchEnd)
+    listenerCleanup.current = () => {
+      dragging.current = false
+      window.removeEventListener('touchmove', onTouchMove)
+      window.removeEventListener('touchend', onTouchEnd)
+    }
   }, [applyRatio])
 
   return (

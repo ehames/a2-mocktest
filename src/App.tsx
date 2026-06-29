@@ -82,8 +82,6 @@ export default function App() {
     }
   }, [])
 
-  const d = (a: Action) => dispatch(a)
-
   return (
     <div style={{ minHeight: '100vh', display: 'flex', justifyContent: 'center', alignItems: 'stretch', background: isDesktop ? 'var(--page-bg)' : 'var(--outer-bg)' }}>
       <main className="app-main" style={{ width: '100%', maxWidth: isDesktop ? 1440 : 440, background: 'var(--page-bg)', display: 'flex', flexDirection: 'column', position: 'relative', boxShadow: isDesktop ? 'none' : 'var(--shadow-column)', overflow: 'hidden' }}>
@@ -91,7 +89,7 @@ export default function App() {
           <IntroScreen
             name={state.name}
             loadError={state.loadError}
-            onName={name => d({ type: 'SET_NAME', name })}
+            onName={name => dispatch({ type: 'SET_NAME', name })}
             onStart={handleStart}
           />
         )}
@@ -99,14 +97,14 @@ export default function App() {
           <TestScreen
             step={state.step as 1|2|3|4|5|6|7}
             state={state}
-            dispatch={d}
+            dispatch={dispatch}
             isDesktop={isDesktop}
           />
         )}
         {state.step === 8 && state.activeTest && (
           <ResultsScreen
             state={state}
-            dispatch={d}
+            dispatch={dispatch}
           />
         )}
       </main>
