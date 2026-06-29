@@ -206,6 +206,59 @@ textarea::placeholder {
   opacity: 1;
 }
 
+/* Dialog reset — both modals use <dialog> with showModal() */
+dialog {
+  border: none;
+  padding: 0;
+  background: var(--surface);
+  color: var(--ink);
+}
+
+dialog::backdrop {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/* License sheet — bottom-sheet variant */
+dialog.license-sheet {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 480px;
+  max-height: 70vh;
+  border-radius: 18px 18px 0 0;
+  margin: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+dialog.license-sheet::backdrop {
+  background: rgba(0, 0, 0, 0.55);
+}
+
+/* Part nav tab — button reset for keyboard-accessible part switching */
+.nav-tab {
+  border-top: none;
+  border-left: none;
+  border-bottom: none;
+  border-radius: 0;
+  font: inherit;
+  text-align: left;
+  -webkit-appearance: none;
+  appearance: none;
+  outline-offset: -2px;
+}
+
+.nav-tab[aria-current="step"] {
+  cursor: default;
+}
+
+.nav-tab:not([aria-current="step"]):hover {
+  filter: brightness(0.97);
+}
+
 .gap-inline.gap-correct {
   border-color: var(--green);
   background: var(--green-bg);

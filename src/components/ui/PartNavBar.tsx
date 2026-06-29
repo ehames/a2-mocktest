@@ -80,13 +80,15 @@ export default function PartNavBar({ step, answers, text, writing, review, canBa
           const chips = isActive ? getChips(s, answers, text) : null
 
           return (
-            <div
+            <button
               key={s}
+              type="button"
+              className="nav-tab"
               onClick={() => handlePartClick(s)}
+              aria-current={isActive ? 'step' : undefined}
               style={{
                 borderRight: '1px solid var(--border)',
                 padding: chips ? '8px 10px' : '8px 14px',
-                cursor: isActive ? 'default' : 'pointer',
                 background: isActive ? 'var(--instr-bg)' : 'var(--surface)',
                 display: 'flex',
                 flexDirection: 'column',
@@ -139,7 +141,7 @@ export default function PartNavBar({ step, answers, text, writing, review, canBa
                   {done} of {total}
                 </div>
               )}
-            </div>
+            </button>
           )
         })}
       </div>

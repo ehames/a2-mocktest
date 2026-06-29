@@ -161,6 +161,7 @@ export function Part6Writing({ prompt, value, review, onChange, isDesktop }: Par
         readOnly={review}
         placeholder="Write your answer here..."
         aria-label="Part 6 writing answer"
+        spellCheck={false}
         style={{ ...textareaStyle(review), minHeight: 210 }}
       />
       <WordCountIndicator count={count} min={prompt.minWords} />
@@ -230,6 +231,7 @@ export function Part7Writing({ prompt, value, review, onChange, isDesktop }: Par
         readOnly={review}
         placeholder="Write your answer here..."
         aria-label="Part 7 writing answer"
+        spellCheck={false}
         style={{ ...textareaStyle(review), minHeight: 210 }}
       />
       <WordCountIndicator count={count} min={prompt.minWords} />

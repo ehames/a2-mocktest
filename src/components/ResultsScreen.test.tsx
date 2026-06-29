@@ -1,8 +1,19 @@
 // @vitest-environment jsdom
 import { render, screen, fireEvent, cleanup } from '@testing-library/react'
-import { afterEach, beforeEach, describe, test, expect, vi, type MockInstance } from 'vitest'
+import { afterEach, beforeAll, beforeEach, describe, test, expect, vi, type MockInstance } from 'vitest'
 import ResultsScreen from './ResultsScreen'
 import type { AppState } from '../types'
+
+// jsdom doesn't implement HTMLDialogElement.showModal/close — polyfill them
+beforeAll(() => {
+  HTMLDialogElement.prototype.showModal = vi.fn().mockImplementation(function(this: HTMLDialogElement) {
+    this.setAttribute('open', '')
+  })
+  HTMLDialogElement.prototype.close = vi.fn().mockImplementation(function(this: HTMLDialogElement) {
+    this.removeAttribute('open')
+    this.dispatchEvent(new Event('close'))
+  })
+})
 
 afterEach(cleanup)
 

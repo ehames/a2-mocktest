@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useRef, useEffect } from 'react'
 import licenseText from '../../LICENSE?raw'
 
 interface Props {
@@ -11,6 +11,11 @@ interface Props {
 export default function IntroScreen({ name, loadError, onName, onStart }: Props) {
   const [loading, setLoading] = useState(false)
   const [showLicense, setShowLicense] = useState(false)
+  const licenseDialogRef = useRef<HTMLDialogElement>(null)
+  useEffect(() => {
+    const el = licenseDialogRef.current
+    if (showLicense && el && typeof el.showModal === 'function') el.showModal()
+  }, [showLicense])
 
   async function handleStart() {
     setLoading(true)
@@ -84,21 +89,31 @@ export default function IntroScreen({ name, loadError, onName, onStart }: Props)
         {loading ? 'Loading questions…' : 'Start test'}
       </button>
       {showLicense && (
-        <div onClick={() => setShowLicense(false)} style={{ position: 'fixed', inset: 0, background: 'rgba(0,0,0,.55)', display: 'flex', alignItems: 'flex-end', justifyContent: 'center', zIndex: 100, padding: '0 0 env(safe-area-inset-bottom)' }}>
-          <div onClick={e => e.stopPropagation()} style={{ background: 'var(--surface)', borderRadius: '18px 18px 0 0', width: '100%', maxWidth: 480, maxHeight: '70vh', display: 'flex', flexDirection: 'column', overflow: 'hidden' }}>
-            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '16px 18px', borderBottom: '1px solid var(--border)' }}>
-              <span style={{ font: "700 15px 'Libre Franklin'", color: 'var(--navy)' }}>License</span>
-              <button onClick={() => setShowLicense(false)} style={{ background: 'none', border: 'none', font: "600 14px 'Libre Franklin'", color: 'var(--muted)', cursor: 'pointer' }}>Close</button>
-            </div>
-            <div style={{ overflowY: 'auto', padding: '16px 18px', display: 'flex', flexDirection: 'column', gap: 12 }}>
-              {licenseText.trim().split(/\n\n+/).map((para, i) => (
-                <p key={i} style={{ margin: 0, font: "400 13px/1.6 'Libre Franklin'", color: 'var(--ink)' }}>
-                  {para.replace(/\n/g, ' ')}
-                </p>
-              ))}
-            </div>
+        <dialog
+          ref={licenseDialogRef}
+          className="license-sheet"
+          onClose={() => setShowLicense(false)}
+          onClick={e => { if (e.target === licenseDialogRef.current) setShowLicense(false) }}
+          aria-label="License"
+        >
+          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '16px 18px', borderBottom: '1px solid var(--border)', flexShrink: 0 }}>
+            <span style={{ font: "700 15px 'Libre Franklin'", color: 'var(--navy)' }}>License</span>
+            <button
+              onClick={() => setShowLicense(false)}
+              aria-label="Close license"
+              style={{ background: 'none', border: 'none', padding: '10px 14px', font: "600 14px 'Libre Franklin'", color: 'var(--muted)', cursor: 'pointer' }}
+            >
+              Close
+            </button>
           </div>
-        </div>
+          <div style={{ overflowY: 'auto', padding: '16px 18px', display: 'flex', flexDirection: 'column', gap: 12 }}>
+            {licenseText.trim().split(/\n\n+/).map((para, i) => (
+              <p key={i} style={{ margin: 0, font: "400 13px/1.6 'Libre Franklin'", color: 'var(--ink)' }}>
+                {para.replace(/\n/g, ' ')}
+              </p>
+            ))}
+          </div>
+        </dialog>
       )}
     </div>
   )

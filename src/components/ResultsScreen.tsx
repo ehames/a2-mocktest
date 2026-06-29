@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useRef, useEffect } from 'react'
 import type { AppState, Action } from '../types'
 import { computeResults } from '../scoring'
 import { openPdf } from '../pdfExport'
@@ -14,6 +14,11 @@ export default function ResultsScreen({ state, dispatch }: Props) {
   const [showPin, setShowPin] = useState(false)
   const [pin, setPin] = useState('')
   const [pinError, setPinError] = useState(false)
+  const pinDialogRef = useRef<HTMLDialogElement>(null)
+  useEffect(() => {
+    const el = pinDialogRef.current
+    if (showPin && el && typeof el.showModal === 'function') el.showModal()
+  }, [showPin])
 
   const { activeTest, answers, text } = state
   if (!activeTest) return null
@@ -57,7 +62,7 @@ export default function ResultsScreen({ state, dispatch }: Props) {
           </div>
           <div>
             <div style={{ font: "800 23px 'Libre Franklin'", color: 'var(--navy)' }}>{r.pct}%</div>
-            <div style={{ font: "700 14px 'Libre Franklin'", color: 'var(--accent)', marginTop: 2 }}>{r.band}</div>
+            <div style={{ font: "700 14px 'Libre Franklin'", color: 'var(--ink)', marginTop: 2 }}>{r.band}</div>
             <div style={{ font: "400 13px/1.4 'Libre Franklin'", color: 'var(--muted)', marginTop: 6 }}>Reading & cloze (Parts 1–5)</div>
           </div>
         </div>
@@ -105,66 +110,66 @@ export default function ResultsScreen({ state, dispatch }: Props) {
           </button>
         </div>
 
-        {/* PIN modal */}
-        {showPin && (
-          <div
-            onClick={() => setShowPin(false)}
-            style={{ position: 'fixed', inset: 0, background: 'rgba(0,0,0,0.5)', display: 'flex', alignItems: 'center', justifyContent: 'center', zIndex: 200 }}
-          >
-            <div
-              onClick={e => e.stopPropagation()}
-              style={{ background: 'var(--surface)', borderRadius: 16, padding: 28, width: 320, maxWidth: 'calc(100vw - 40px)', boxShadow: '0 8px 40px rgba(0,0,0,0.25)' }}
-            >
-              <div style={{ font: "800 17px 'Libre Franklin'", color: 'var(--navy)', marginBottom: 6 }}>Restart exam</div>
-              <div style={{ font: "400 13px 'Libre Franklin'", color: 'var(--muted)', marginBottom: 18 }}>Enter the teacher code to start a new test.</div>
-              <input
-                type="password"
-                value={pin}
-                onChange={e => { setPin(e.target.value); setPinError(false) }}
-                onKeyDown={e => { if (e.key === 'Enter') handlePinConfirm() }}
-                placeholder="Teacher's code"
-                maxLength={6}
-                autoFocus
-                style={{
-                  width: '100%',
-                  padding: '11px 14px',
-                  borderRadius: 10,
-                  border: `1.5px solid ${pinError ? 'var(--red)' : 'var(--input-border)'}`,
-                  font: "400 18px 'Libre Franklin'",
-                  color: 'var(--ink)',
-                  background: 'var(--page-bg)',
-                  marginBottom: 6,
-                  outline: 'none',
-                  letterSpacing: '0.25em',
-                  boxSizing: 'border-box',
-                }}
-              />
-              {pinError && (
-                <div style={{ font: "600 12px 'Libre Franklin'", color: 'var(--red)', marginBottom: 12 }}>
-                  Incorrect code — try again
-                </div>
-              )}
-              {!pinError && <div style={{ height: 12 }} />}
-              <div style={{ display: 'flex', gap: 10 }}>
-                <button
-                  onClick={handlePinConfirm}
-                  className="btn-primary"
-                  style={{ flex: 1, background: 'var(--navy)', color: 'var(--surface)', border: 'none', borderRadius: 10, padding: '13px 0', font: "700 14px 'Libre Franklin'", cursor: 'pointer' }}
-                >
-                  Confirm
-                </button>
-                <button
-                  onClick={() => setShowPin(false)}
-                  className="btn-ghost"
-                  style={{ flex: 1, background: 'var(--surface)', color: 'var(--navy)', border: '1.5px solid var(--input-border)', borderRadius: 10, padding: '13px 0', font: "600 14px 'Libre Franklin'", cursor: 'pointer' }}
-                >
-                  Cancel
-                </button>
+      </div>
+
+      {/* PIN dialog — outside scroll container so native top-layer positioning works */}
+      {showPin && (
+        <dialog
+          ref={pinDialogRef}
+          onClose={() => setShowPin(false)}
+          aria-labelledby="pin-dialog-title"
+          style={{ borderRadius: 16, width: 320, maxWidth: 'calc(100vw - 40px)', boxShadow: '0 8px 40px rgba(0,0,0,0.25)' }}
+        >
+          <div style={{ padding: 28 }}>
+            <div id="pin-dialog-title" style={{ font: "800 17px 'Libre Franklin'", color: 'var(--navy)', marginBottom: 6 }}>Restart exam</div>
+            <div style={{ font: "400 13px 'Libre Franklin'", color: 'var(--muted)', marginBottom: 18 }}>Enter the teacher code to start a new test.</div>
+            <input
+              type="password"
+              value={pin}
+              onChange={e => { setPin(e.target.value); setPinError(false) }}
+              onKeyDown={e => { if (e.key === 'Enter') handlePinConfirm() }}
+              placeholder="Teacher's code"
+              aria-label="Teacher's code"
+              maxLength={6}
+              autoFocus
+              style={{
+                width: '100%',
+                padding: '11px 14px',
+                borderRadius: 10,
+                border: `1.5px solid ${pinError ? 'var(--red)' : 'var(--input-border)'}`,
+                font: "400 18px 'Libre Franklin'",
+                color: 'var(--ink)',
+                background: 'var(--page-bg)',
+                marginBottom: 6,
+                letterSpacing: '0.25em',
+                boxSizing: 'border-box',
+              }}
+            />
+            {pinError && (
+              <div style={{ font: "600 12px 'Libre Franklin'", color: 'var(--red)', marginBottom: 12 }}>
+                Incorrect code — try again
               </div>
+            )}
+            {!pinError && <div style={{ height: 12 }} />}
+            <div style={{ display: 'flex', gap: 10 }}>
+              <button
+                onClick={handlePinConfirm}
+                className="btn-primary"
+                style={{ flex: 1, background: 'var(--navy)', color: 'var(--surface)', border: 'none', borderRadius: 10, padding: '13px 0', font: "700 14px 'Libre Franklin'", cursor: 'pointer' }}
+              >
+                Confirm
+              </button>
+              <button
+                onClick={() => setShowPin(false)}
+                className="btn-ghost"
+                style={{ flex: 1, background: 'var(--surface)', color: 'var(--navy)', border: '1.5px solid var(--input-border)', borderRadius: 10, padding: '13px 0', font: "600 14px 'Libre Franklin'", cursor: 'pointer' }}
+              >
+                Cancel
+              </button>
             </div>
           </div>
-        )}
-      </div>
+        </dialog>
+      )}
     </div>
   )
 }
