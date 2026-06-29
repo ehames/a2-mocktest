@@ -32,3 +32,6 @@ support.js
 .impeccable/
 A2 Key Mock Test.dc.html
 .superpowers/
+
+# Local skill symlinks (each dev links ~/.claude/skills/ into the project)
+.claude/skills/
