@@ -173,18 +173,14 @@ test('Part 7 images load successfully (no fallback text)', async ({ page }) => {
   await goToPart7(page)
   const strip = page.getByTestId('part7-image-strip')
 
-  // Wait for all 3 images to finish loading
-  await strip.locator('img').nth(0).waitFor()
-  await strip.locator('img').nth(1).waitFor()
-  await strip.locator('img').nth(2).waitFor()
-
-  // Each img should have loaded (naturalWidth > 0 means the file was fetched)
-  const naturalWidths = await strip.locator('img').evaluateAll(
-    imgs => imgs.map(img => (img as HTMLImageElement).naturalWidth)
-  )
-  for (const w of naturalWidths) {
-    expect(w).toBeGreaterThan(0)
-  }
+  // Poll until all images have loaded — waitFor() only confirms DOM presence,
+  // not that the image data has been fetched (naturalWidth would still be 0)
+  await expect(async () => {
+    const widths = await strip.locator('img').evaluateAll(
+      imgs => imgs.map(img => (img as HTMLImageElement).naturalWidth)
+    )
+    for (const w of widths) expect(w).toBeGreaterThan(0)
+  }).toPass({ timeout: 10_000 })
 })
 
 test('Part 7 panel labels are visible', async ({ page }) => {

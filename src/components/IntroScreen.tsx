@@ -88,6 +88,9 @@ export default function IntroScreen({ name, loadError, onName, onStart }: Props)
       >
         {loading ? 'Loading questions…' : 'Start test'}
       </button>
+      <div style={{ textAlign: 'center', font: "400 11px 'Libre Franklin'", color: 'var(--muted)', marginTop: 14, opacity: 0.7 }}>
+        {__APP_VERSION__}
+      </div>
       {showLicense && (
         <dialog
           ref={licenseDialogRef}

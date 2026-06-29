@@ -2,9 +2,18 @@ import { defineConfig } from 'vitest/config'
 import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 import { VitePWA } from 'vite-plugin-pwa'
+import { execSync } from 'child_process'
+
+let APP_VERSION = 'dev'
+try {
+  APP_VERSION = execSync('git describe --tags --always', { encoding: 'utf-8' }).trim()
+} catch { /* no-op */ }
 
 export default defineConfig({
   base: '/a2-mocktest/',
+  define: {
+    __APP_VERSION__: JSON.stringify(APP_VERSION),
+  },
   test: {
     include: ['src/**/*.test.ts', 'src/**/*.test.tsx'],
     environment: 'node',
