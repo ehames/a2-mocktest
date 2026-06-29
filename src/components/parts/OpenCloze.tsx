@@ -56,7 +56,10 @@ function renderParagraph(
 export default function OpenCloze({ set, textAnswers, review, onsetText }: Props) {
   return (
     <div style={{ background: 'var(--surface)', border: '1px solid var(--border)', borderRadius: 14, padding: 18 }}>
-      <div style={{ font: "700 18px 'Libre Franklin'", color: 'var(--navy)', marginBottom: 11 }}>{set.title}</div>
+      <div style={{ font: "700 18px 'Libre Franklin'", color: 'var(--navy)', marginBottom: 6 }}>{set.title}</div>
+      {!review && (
+        <div style={{ font: "500 12px 'Libre Franklin'", color: 'var(--instr-ink)', marginBottom: 11 }}>Write ONE word only in each gap.</div>
+      )}
       {set.paragraphs.map((p, i) => (
         <p key={i} className="serif" style={{ fontSize: 16, lineHeight: 1.8, color: 'var(--passage-ink)', margin: '0 0 14px' }}>
           {renderParagraph(p, set.gaps, textAnswers, review, onsetText)}

@@ -67,6 +67,7 @@ export default function ResultsScreen({ state, dispatch }: Props) {
             <div style={{ font: "800 23px 'Libre Franklin'", color: 'var(--navy)' }}>{r.pct}%</div>
             <div style={{ font: "700 14px 'Libre Franklin'", color: 'var(--ink)', marginTop: 2 }}>{r.band}</div>
             <div style={{ font: "400 13px/1.4 'Libre Franklin'", color: 'var(--muted)', marginTop: 6 }}>Reading & cloze (Parts 1–5)</div>
+            <div style={{ font: "400 12px 'Libre Franklin'", color: 'var(--muted)', marginTop: 4 }}>A2 Key pass: ≥ 70%</div>
           </div>
         </div>
 
@@ -85,8 +86,13 @@ export default function ResultsScreen({ state, dispatch }: Props) {
           ))}
         </div>
 
+        {/* Writing notice */}
+        <div style={{ background: 'var(--instr-bg)', border: '1px solid var(--border)', borderRadius: 12, padding: '11px 14px', marginBottom: 14, font: "500 13px/1.4 'Libre Franklin'", color: 'var(--instr-ink)' }}>
+          Parts 6 & 7 are writing tasks — review them via <strong>Review answers</strong>.
+        </div>
+
         {/* Actions */}
-        <div style={{ display: 'flex', gap: 12, marginTop: 10 }}>
+        <div style={{ display: 'flex', gap: 12, marginTop: 0 }}>
           <button
             onClick={() => dispatch({ type: 'ENTER_REVIEW' })}
             className="btn-ghost"

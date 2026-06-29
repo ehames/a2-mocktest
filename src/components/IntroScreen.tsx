@@ -30,11 +30,6 @@ export default function IntroScreen({ name, loadError, onName, onStart }: Props)
         <div style={{ font: "600 12px 'Libre Franklin'", letterSpacing: '.16em', textTransform: 'uppercase', color: 'var(--muted)' }}>Key · Mock Test · New Set</div>
       </div>
 
-      <p style={{ font: "400 12px/1.5 'Libre Franklin'", color: 'var(--muted)', margin: '0 0 20px', padding: '10px 12px', background: 'var(--page-bg)', borderRadius: 8 }}>
-        This practice tool is independently developed for educational purposes and is not endorsed by or affiliated with Cambridge. Use at your own risk.{' '}
-        <button onClick={() => setShowLicense(true)} style={{ background: 'none', border: 'none', padding: 0, color: 'var(--navy)', textDecoration: 'underline', font: "inherit", cursor: 'pointer' }}>See license for further information.</button>
-      </p>
-
       <h1 style={{ font: "800 31px/1.12 'Libre Franklin'", color: 'var(--navy)', margin: '0 0 10px', letterSpacing: '-.01em' }}>Reading and Writing</h1>
       <p style={{ font: "400 15px/1.55 'Libre Franklin'", color: 'var(--instr-ink)', margin: '0 0 26px' }}>
         A full practice paper in seven parts. Answer everything, then submit to see your reading score and review your answers.
@@ -48,6 +43,11 @@ export default function IntroScreen({ name, loadError, onName, onStart }: Props)
           </div>
         ))}
       </div>
+
+      <p style={{ font: "400 12px/1.5 'Libre Franklin'", color: 'var(--muted)', margin: '0 0 20px', padding: '10px 12px', background: 'var(--page-bg)', borderRadius: 8 }}>
+        This practice tool is independently developed for educational purposes and is not endorsed by or affiliated with Cambridge. Use at your own risk.{' '}
+        <button onClick={() => setShowLicense(true)} style={{ background: 'none', border: 'none', padding: 0, color: 'var(--navy)', textDecoration: 'underline', font: "inherit", cursor: 'pointer' }}>See license for further information.</button>
+      </p>
 
       <div style={{ font: "700 12px 'Libre Franklin'", letterSpacing: '.1em', textTransform: 'uppercase', color: 'var(--muted)', marginBottom: 12 }}>Before you begin</div>
       <div style={{ display: 'flex', flexDirection: 'column', gap: 11, marginBottom: 26 }}>

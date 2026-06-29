@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import type { AppState, Action, Step } from '../types'
 import { PART_META } from '../constants'
 import TimerPill from './ui/TimerPill'
@@ -20,6 +20,13 @@ interface Props {
 
 export default function TestScreen({ step, state, dispatch, isDesktop }: Props) {
   const [confirmingSubmit, setConfirmingSubmit] = useState(false)
+  const [warnCount, setWarnCount] = useState(0)
+  const warnDialogRef = useRef<HTMLDialogElement>(null)
+  useEffect(() => {
+    if (warnCount > 0 && warnDialogRef.current && typeof warnDialogRef.current.showModal === 'function') {
+      warnDialogRef.current.showModal()
+    }
+  }, [warnCount])
 
   const { activeTest, answers, text, writing, review } = state
   if (!activeTest) return null
@@ -61,10 +68,8 @@ export default function TestScreen({ step, state, dispatch, isDesktop }: Props) 
     } else if (!confirmingSubmit) {
       const missing = countUnanswered()
       if (missing > 0) {
-        const ok = window.confirm(
-          `You have ${missing} unanswered question${missing === 1 ? '' : 's'}. Submit anyway?`
-        )
-        if (!ok) return
+        setWarnCount(missing)
+        return
       }
       setConfirmingSubmit(true)
     } else {
@@ -155,6 +160,15 @@ export default function TestScreen({ step, state, dispatch, isDesktop }: Props) 
         {!isDesktop && <ProgressBar step={step} />}
       </div>
 
+      {/* 30-second countdown warning */}
+      {!state.submitted && state.secondsLeft > 0 && state.secondsLeft <= 30 && (
+        <div style={{ background: 'var(--red-bg)', borderBottom: '1px solid var(--red)', padding: '8px 18px', font: "600 13px 'Libre Franklin'", color: 'var(--red)', textAlign: 'center', flexShrink: 0 }}>
+          {state.secondsLeft <= 10
+            ? `${state.secondsLeft}s — submitting automatically`
+            : 'Time almost up — submitting automatically'}
+        </div>
+      )}
+
       {isDesktop ? (
         <>
           {/* Desktop: instruction strip + content area */}
@@ -220,6 +234,41 @@ export default function TestScreen({ step, state, dispatch, isDesktop }: Props) 
             {nextLabel}
           </button>
         </div>
+      )}
+      {/* Unanswered-questions warning dialog — replaces window.confirm */}
+      {warnCount > 0 && (
+        <dialog
+          ref={warnDialogRef}
+          onClose={() => setWarnCount(0)}
+          onClick={e => { if (e.target === warnDialogRef.current) { warnDialogRef.current.close() } }}
+          aria-label={`${warnCount} unanswered question${warnCount === 1 ? '' : 's'}`}
+          style={{ borderRadius: 16, maxWidth: 340, width: '90%', border: 'none', padding: 0 }}
+        >
+          <div style={{ padding: '22px 22px 18px' }}>
+            <div style={{ font: "700 17px 'Libre Franklin'", color: 'var(--navy)', marginBottom: 8 }}>
+              {warnCount} unanswered question{warnCount === 1 ? '' : 's'}
+            </div>
+            <div style={{ font: "400 14px/1.5 'Libre Franklin'", color: 'var(--muted)', marginBottom: 22 }}>
+              You can go back and answer them, or submit as-is.
+            </div>
+            <div style={{ display: 'flex', gap: 10, justifyContent: 'flex-end' }}>
+              <button
+                onClick={() => { warnDialogRef.current?.close() }}
+                className="btn-ghost"
+                style={{ background: 'var(--surface)', color: 'var(--navy)', border: '1.5px solid var(--input-border)', borderRadius: 10, padding: '12px 18px', font: "600 14px 'Libre Franklin'", cursor: 'pointer' }}
+              >
+                Go back
+              </button>
+              <button
+                onClick={() => { warnDialogRef.current?.close(); setConfirmingSubmit(true) }}
+                className="btn-primary"
+                style={{ background: 'var(--navy)', color: 'var(--surface)', border: 'none', borderRadius: 10, padding: '12px 18px', font: "700 14px 'Libre Franklin'", cursor: 'pointer' }}
+              >
+                Submit anyway
+              </button>
+            </div>
+          </div>
+        </dialog>
       )}
     </div>
   )

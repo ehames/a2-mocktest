@@ -71,7 +71,15 @@ export default function MatchingPart({ set, answers, review, onChoose, baseIndex
   return (
     <>
       {personCards}
-      <div style={{ height: 8 }} />
+      {/* Compact person key above questions — reduces scroll-back working memory burden */}
+      <div style={{ display: 'flex', gap: 8, margin: '4px 0 8px', padding: '8px 12px', background: 'var(--instr-bg)', borderRadius: 10 }}>
+        {set.people.map((p, pi) => (
+          <div key={pi} style={{ display: 'flex', alignItems: 'center', gap: 6, flex: 1, minWidth: 0 }}>
+            <div style={{ width: 22, height: 22, borderRadius: 6, background: 'var(--navy)', color: 'var(--surface)', display: 'flex', alignItems: 'center', justifyContent: 'center', font: "800 11px 'Libre Franklin'", flexShrink: 0 }}>{p.letter}</div>
+            <span style={{ font: "500 11px 'Libre Franklin'", color: 'var(--instr-ink)', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{p.name}</span>
+          </div>
+        ))}
+      </div>
       {questionCards}
     </>
   )
