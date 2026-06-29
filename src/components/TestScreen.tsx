@@ -162,7 +162,7 @@ export default function TestScreen({ step, state, dispatch, isDesktop }: Props) 
 
       {/* 30-second countdown warning */}
       {!state.submitted && state.secondsLeft > 0 && state.secondsLeft <= 30 && (
-        <div style={{ background: 'var(--red-bg)', borderBottom: '1px solid var(--red)', padding: '8px 18px', font: "600 13px 'Libre Franklin'", color: 'var(--red)', textAlign: 'center', flexShrink: 0 }}>
+        <div role="alert" style={{ background: 'var(--red-bg)', borderBottom: '1px solid var(--red)', padding: '8px 18px', font: "600 13px 'Libre Franklin'", color: 'var(--red)', textAlign: 'center', flexShrink: 0 }}>
           {state.secondsLeft <= 10
             ? `${state.secondsLeft}s — submitting automatically`
             : 'Time almost up — submitting automatically'}

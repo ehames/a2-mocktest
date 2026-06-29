@@ -26,6 +26,7 @@
   --button-loading-bg: #4a6a9a;
   --shadow-column: 0 0 80px rgba(0,0,0,.35);
   --shadow-cta: 0 6px 18px rgba(11,36,71,.22);
+  --shadow-dialog: 0 8px 40px rgba(0,0,0,0.25);
   --timer-warn-bg: rgba(198, 40, 40, 0.92);
   --timer-normal-bg: rgba(255, 255, 255, 0.14);
   --progress-track: rgba(255, 255, 255, 0.16);
@@ -264,6 +265,7 @@ dialog {
   padding: 0;
   background: var(--surface);
   color: var(--ink);
+  margin: auto;
 }
 
 dialog::backdrop {

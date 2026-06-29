@@ -128,7 +128,7 @@ export default function ResultsScreen({ state, dispatch }: Props) {
           ref={pinDialogRef}
           onClose={() => setShowPin(false)}
           aria-labelledby="pin-dialog-title"
-          style={{ borderRadius: 16, width: 320, maxWidth: 'calc(100vw - 40px)', boxShadow: '0 8px 40px rgba(0,0,0,0.25)' }}
+          style={{ borderRadius: 16, width: 320, maxWidth: 'calc(100vw - 40px)', boxShadow: 'var(--shadow-dialog)' }}
         >
           <div style={{ padding: 28 }}>
             <div id="pin-dialog-title" style={{ font: "800 17px 'Libre Franklin'", color: 'var(--navy)', marginBottom: 6 }}>Restart exam</div>

@@ -50,7 +50,7 @@ export default function MatchingPart({ set, answers, review, onChoose, baseIndex
                     optionState={optState}
                     onClick={review ? undefined : () => onChoose(qIndex, oi)}
                     showMark={review && (isCorrect || isSel)}
-                    ariaLabel={`${(['A', 'B', 'C'] as const)[oi]}: ${set.people[oi].name}`}
+                    ariaLabel={`${(['A', 'B', 'C'] as const)[oi]}: ${set.people[oi].name}${review ? (optState === 'correct' ? ' — correct answer' : optState === 'wrong' ? ' — your answer, incorrect' : '') : ''}`}
                   />
                 )
               })}

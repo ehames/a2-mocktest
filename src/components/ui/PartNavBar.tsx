@@ -69,7 +69,7 @@ export default function PartNavBar({ step, answers, text, writing, review, canBa
         display: 'flex',
         alignItems: 'stretch',
         flexShrink: 0,
-        minHeight: 56,
+        minHeight: 124,
       }}
     >
       {/* Part tabs */}
@@ -110,12 +110,13 @@ export default function PartNavBar({ step, answers, text, writing, review, canBa
               </div>
 
               {chips ? (
-                <div style={{ display: 'flex', gap: 3, flexWrap: 'wrap', maxWidth: 220 }}>
+                <div style={{ display: 'flex', gap: 3, flexWrap: 'wrap', maxWidth: 220, minHeight: 90, alignContent: 'flex-start' }}>
                   {chips.map(chip => (
                     <button
                       key={chip.display}
                       onClick={e => handleChipClick(e, chip.scrollId)}
                       aria-label={`Question ${chip.display}`}
+                      aria-pressed={chip.answered}
                       className="nav-chip"
                       style={{
                         width: 28,
