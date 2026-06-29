@@ -118,9 +118,9 @@ export default function PartNavBar({ step, answers, text, writing, review, canBa
                       aria-label={`Question ${chip.display}`}
                       className="nav-chip"
                       style={{
-                        width: 20,
-                        height: 20,
-                        borderRadius: 4,
+                        width: 28,
+                        height: 28,
+                        borderRadius: 6,
                         border: `1.5px solid ${chip.answered ? 'var(--navy)' : 'var(--option-border)'}`,
                         background: chip.answered ? 'var(--navy)' : 'var(--surface)',
                         color: chip.answered ? 'var(--surface)' : 'var(--muted)',
@@ -168,7 +168,7 @@ export default function PartNavBar({ step, answers, text, writing, review, canBa
               color: 'var(--navy)',
               border: '1.5px solid var(--input-border)',
               borderRadius: 10,
-              padding: '10px 16px',
+              padding: '14px 16px',
               font: "700 14px 'Libre Franklin'",
               cursor: 'pointer',
             }}
@@ -185,7 +185,7 @@ export default function PartNavBar({ step, answers, text, writing, review, canBa
             color: 'var(--surface)',
             border: 'none',
             borderRadius: 10,
-            padding: '10px 18px',
+            padding: '14px 18px',
             font: "700 14px 'Libre Franklin'",
             cursor: 'pointer',
           }}

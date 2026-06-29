@@ -101,7 +101,7 @@ export default function IntroScreen({ name, loadError, onName, onStart }: Props)
             <button
               onClick={() => setShowLicense(false)}
               aria-label="Close license"
-              style={{ background: 'none', border: 'none', padding: '10px 14px', font: "600 14px 'Libre Franklin'", color: 'var(--muted)', cursor: 'pointer' }}
+              style={{ background: 'none', border: 'none', padding: '15px 14px', font: "600 14px 'Libre Franklin'", color: 'var(--muted)', cursor: 'pointer' }}
             >
               Close
             </button>

@@ -88,7 +88,7 @@ export default function SplitPanel({ left, right, defaultRatio = 0.45 }: Props) 
         onTouchStart={onTouchStart}
         onKeyDown={handleKeyDown}
         style={{
-          width: 12,
+          width: 32,
           flexShrink: 0,
           cursor: 'col-resize',
           display: 'flex',
@@ -99,7 +99,7 @@ export default function SplitPanel({ left, right, defaultRatio = 0.45 }: Props) 
           touchAction: 'none',
         }}
       >
-        <div className="split-line" style={{ position: 'absolute', inset: '0 5px', background: 'var(--border)' }} />
+        <div className="split-line" style={{ position: 'absolute', inset: '0 15px', background: 'var(--border)' }} />
         <div className="split-divider-handle" style={{
           position: 'relative',
           zIndex: 1,
