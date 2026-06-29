@@ -36,6 +36,16 @@ export default function SplitPanel({ left, right, defaultRatio = 0.45 }: Props) 
     window.addEventListener('mouseup', onMouseUp)
   }, [applyRatio])
 
+  const handleKeyDown = useCallback((e: React.KeyboardEvent) => {
+    if (e.key === 'ArrowLeft') {
+      e.preventDefault()
+      setRatio(r => Math.max(0.2, r - 0.05))
+    } else if (e.key === 'ArrowRight') {
+      e.preventDefault()
+      setRatio(r => Math.min(0.8, r + 0.05))
+    }
+  }, [])
+
   const onTouchStart = useCallback((e: React.TouchEvent) => {
     e.preventDefault()
     dragging.current = true
@@ -67,8 +77,16 @@ export default function SplitPanel({ left, right, defaultRatio = 0.45 }: Props) 
       {/* Draggable divider — 12px wide for touch; visual line stays 2px via inner div */}
       <div
         className="split-divider"
+        role="separator"
+        aria-orientation="vertical"
+        aria-label="Resize panels"
+        aria-valuenow={Math.round(ratio * 100)}
+        aria-valuemin={20}
+        aria-valuemax={80}
+        tabIndex={0}
         onMouseDown={onMouseDown}
         onTouchStart={onTouchStart}
+        onKeyDown={handleKeyDown}
         style={{
           width: 12,
           flexShrink: 0,

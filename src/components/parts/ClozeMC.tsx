@@ -82,7 +82,7 @@ function renderParagraph(
 export default function ClozeMC({ set, answers, review, onChoose, baseIndex }: Props) {
   return (
     <div style={{ background: 'var(--surface)', border: '1px solid var(--border)', borderRadius: 14, padding: 18 }}>
-      <div style={{ font: "700 18px 'Libre Franklin'", color: 'var(--navy)', marginBottom: 11 }}>{set.title}</div>
+      <h3 style={{ font: "700 18px 'Libre Franklin'", color: 'var(--navy)', marginBottom: 11 }}>{set.title}</h3>
       {set.paragraphs.map((p, i) => (
         <p key={i} className="serif" style={{ fontSize: 16, lineHeight: 1.8, color: 'var(--passage-ink)', margin: '0 0 14px' }}>
           {renderParagraph(p, set.questions, baseIndex, answers, review, onChoose)}

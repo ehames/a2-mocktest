@@ -147,7 +147,7 @@ export default function TestScreen({ step, state, dispatch, isDesktop }: Props) 
       <div className="test-header" style={{ background: 'var(--navy)', color: 'var(--surface)', flexShrink: 0 }}>
         <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: 12 }}>
           <div>
-            <div style={{ font: "800 19px 'Libre Franklin'", lineHeight: 1.1 }}>{meta.label}</div>
+            <h2 style={{ font: "800 19px 'Libre Franklin'", lineHeight: 1.1 }}>{meta.label}</h2>
             <div className="test-header-subtitle" style={{ font: "500 12px 'Libre Franklin'", color: 'var(--header-muted)', marginTop: 3, letterSpacing: '.02em' }}>{meta.subtitle}</div>
           </div>
           <TimerPill secondsLeft={state.secondsLeft} />

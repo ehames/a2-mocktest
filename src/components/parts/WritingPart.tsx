@@ -29,7 +29,7 @@ function WordCountIndicator({ count, min }: { count: number; min: number }) {
   return (
     <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginTop: 10 }}>
       <span style={{ font: "600 13px 'Libre Franklin'", color: 'var(--muted)' }}>{count} words</span>
-      <span style={{ font: "700 13px 'Libre Franklin'", color: statusColor }}>
+      <span aria-live="polite" aria-atomic="true" style={{ font: "700 13px 'Libre Franklin'", color: statusColor }}>
         {statusText}
       </span>
     </div>

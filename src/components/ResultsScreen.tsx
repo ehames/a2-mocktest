@@ -46,7 +46,7 @@ export default function ResultsScreen({ state, dispatch }: Props) {
       {/* Header */}
       <div style={{ background: 'var(--navy)', color: 'var(--surface)', padding: '22px 18px', flexShrink: 0 }}>
         <div style={{ font: "600 12px 'Libre Franklin'", letterSpacing: '.14em', textTransform: 'uppercase', color: 'var(--header-muted)' }}>A2 Key · Reading & Writing</div>
-        <div style={{ font: "800 25px 'Libre Franklin'", marginTop: 4 }}>Your results</div>
+        <h2 style={{ font: "800 25px 'Libre Franklin'", marginTop: 4 }}>Your results</h2>
       </div>
 
       {/* Scrollable body */}
