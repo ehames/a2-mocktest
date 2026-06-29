@@ -22,6 +22,7 @@ async function goToResults(page: import('playwright/test').Page) {
   await startTest(page)
   for (let i = 0; i < 6; i++) await navNext(page)
   await page.getByRole('button', { name: /Submit/ }).click()
+  await page.getByRole('button', { name: 'Submit anyway' }).click()
   await page.getByRole('button', { name: 'Confirm submission' }).click()
   await expect(page.getByText('Your results')).toBeVisible()
 }
@@ -125,7 +126,10 @@ test('desktop: submitting with incomplete questions triggers warning dialog', as
   await startTest(page)
   for (let i = 0; i < 6; i++) await navNext(page)
   await page.getByRole('button', { name: /Submit/ }).click()
-  // After dialog accepted, confirmation step appears
+  // Native <dialog> warning appears — verify it, then dismiss
+  await expect(page.getByRole('button', { name: 'Submit anyway' })).toBeVisible()
+  await page.getByRole('button', { name: 'Submit anyway' }).click()
+  // Confirmation step now appears
   await expect(page.getByRole('button', { name: 'Confirm submission' })).toBeVisible()
   await page.getByRole('button', { name: 'Confirm submission' }).click()
   await expect(page.getByText('Your results')).toBeVisible()
