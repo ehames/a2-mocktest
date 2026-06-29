@@ -260,7 +260,7 @@ export default function TestScreen({ step, state, dispatch, isDesktop }: Props) 
                 Go back
               </button>
               <button
-                onClick={() => { warnDialogRef.current?.close(); setConfirmingSubmit(true) }}
+                onClick={() => { warnDialogRef.current?.close(); dispatch({ type: 'SUBMIT' }) }}
                 className="btn-primary"
                 style={{ background: 'var(--navy)', color: 'var(--surface)', border: 'none', borderRadius: 10, padding: '12px 18px', font: "700 14px 'Libre Franklin'", cursor: 'pointer' }}
               >

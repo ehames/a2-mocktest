@@ -53,7 +53,6 @@ test('submit test and see results screen', async ({ page }) => {
   // Two-click submit confirmation
   await page.getByRole('button', { name: 'Submit' }).click()
   await page.getByRole('button', { name: 'Submit anyway' }).click()
-  await page.getByRole('button', { name: 'Confirm submission' }).click()
 
   await expect(page.getByText('Your results')).toBeVisible()
 })
@@ -66,7 +65,6 @@ test('results screen shows action buttons', async ({ page }) => {
   }
   await page.getByRole('button', { name: 'Submit' }).click()
   await page.getByRole('button', { name: 'Submit anyway' }).click()
-  await page.getByRole('button', { name: 'Confirm submission' }).click()
   await expect(page.getByText('Your results')).toBeVisible()
 
   await expect(page.getByRole('button', { name: 'Review answers' })).toBeVisible()
@@ -81,7 +79,6 @@ test('review mode navigates all 7 parts and returns to results', async ({ page }
   }
   await page.getByRole('button', { name: 'Submit' }).click()
   await page.getByRole('button', { name: 'Submit anyway' }).click()
-  await page.getByRole('button', { name: 'Confirm submission' }).click()
   await expect(page.getByText('Your results')).toBeVisible()
 
   await page.getByRole('button', { name: 'Review answers' }).click()
@@ -150,7 +147,6 @@ test('results screen shows a score', async ({ page }) => {
   }
   await page.getByRole('button', { name: 'Submit' }).click()
   await page.getByRole('button', { name: 'Submit anyway' }).click()
-  await page.getByRole('button', { name: 'Confirm submission' }).click()
   await expect(page.getByText('Your results')).toBeVisible()
   await expect(page.locator('[aria-label="Score summary"]').locator('text=/\\d+%/').first()).toBeVisible()
 })
