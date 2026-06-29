@@ -115,7 +115,7 @@ export default function PartNavBar({ step, answers, text, writing, review, canBa
                     <button
                       key={chip.display}
                       onClick={e => handleChipClick(e, chip.scrollId)}
-                      title={`Question ${chip.display}`}
+                      aria-label={`Question ${chip.display}`}
                       className="nav-chip"
                       style={{
                         width: 20,

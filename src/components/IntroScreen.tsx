@@ -32,7 +32,7 @@ export default function IntroScreen({ name, loadError, onName, onStart }: Props)
 
       <p style={{ font: "400 12px/1.5 'Libre Franklin'", color: 'var(--muted)', margin: '0 0 20px', padding: '10px 12px', background: 'var(--page-bg)', borderRadius: 8 }}>
         This practice tool is independently developed for educational purposes and is not endorsed by or affiliated with Cambridge. Use at your own risk.{' '}
-        <button onClick={() => setShowLicense(true)} style={{ background: 'none', border: 'none', padding: 0, color: 'var(--accent)', textDecoration: 'underline', font: "inherit", cursor: 'pointer' }}>See license for further information.</button>
+        <button onClick={() => setShowLicense(true)} style={{ background: 'none', border: 'none', padding: 0, color: 'var(--navy)', textDecoration: 'underline', font: "inherit", cursor: 'pointer' }}>See license for further information.</button>
       </p>
 
       <h1 style={{ font: "800 31px/1.12 'Libre Franklin'", color: 'var(--navy)', margin: '0 0 10px', letterSpacing: '-.01em' }}>Reading and Writing</h1>

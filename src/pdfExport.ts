@@ -105,7 +105,7 @@ body{font-family:-apple-system,'Segoe UI',system-ui,sans-serif;background:#C8D0D
 .qm{display:flex;align-items:center;gap:7px;margin-bottom:6px}
 .qn{font-size:10px;font-weight:800;color:#0B2447;background:#EEF1F5;padding:1px 7px;border-radius:4px;font-variant-numeric:tabular-nums}
 .qt{font-size:9.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#8496AA}
-.qs{font-size:12.5px;line-height:1.55;color:#16263D;background:#F7F9FB;border-left:3px solid #C6D0DC;padding:7px 12px;border-radius:0 6px 6px 0;margin-bottom:8px;font-style:italic}
+.qs{font-size:12.5px;line-height:1.55;color:#16263D;background:#F7F9FB;border:1px solid #DDE3EC;padding:7px 12px;border-radius:6px;margin-bottom:8px;font-style:italic}
 .qp{font-size:12.5px;font-weight:600;color:#16263D;margin-bottom:6px}
 .or{display:flex;align-items:center;gap:8px;padding:3.5px 0}
 .ob{width:21px;height:21px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:10.5px;font-weight:700;flex-shrink:0}
