@@ -116,6 +116,7 @@ export default function PartNavBar({ step, answers, text, writing, review, canBa
                       key={chip.display}
                       onClick={e => handleChipClick(e, chip.scrollId)}
                       title={`Question ${chip.display}`}
+                      className="nav-chip"
                       style={{
                         width: 20,
                         height: 20,

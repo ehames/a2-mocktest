@@ -54,7 +54,7 @@ export default function ResultsScreen({ state, dispatch }: Props) {
 
         {/* Score ring */}
         <div role="group" aria-label="Score summary" className="animate-pop" style={{ display: 'flex', alignItems: 'center', gap: 18, background: 'var(--surface)', border: '1px solid var(--border)', borderRadius: 16, padding: 20, marginBottom: 18 }}>
-          <div style={{ flexShrink: 0, width: 128, height: 128, borderRadius: '50%', background: `conic-gradient(var(--accent) ${ringDeg}deg, var(--border) 0)`, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+          <div className="score-ring" style={{ '--ring-deg': `${ringDeg}deg`, flexShrink: 0, width: 128, height: 128, borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center' } as React.CSSProperties}>
             <div style={{ width: 96, height: 96, borderRadius: '50%', background: 'var(--surface)', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
               <div style={{ font: "800 27px 'Libre Franklin'", color: 'var(--navy)', lineHeight: 1 }}>{r.score}</div>
               <div style={{ font: "600 11px 'Libre Franklin'", color: 'var(--muted)', marginTop: 2 }}>/ {r.total}</div>
@@ -104,6 +104,7 @@ export default function ResultsScreen({ state, dispatch }: Props) {
         <div style={{ marginTop: 16 }}>
           <button
             onClick={handleRestartClick}
+            className="btn-tertiary"
             style={{ width: '100%', background: 'transparent', color: 'var(--muted)', border: '1.5px dashed var(--border)', borderRadius: 12, padding: '11px 15px', font: "600 13px 'Libre Franklin'", cursor: 'pointer' }}
           >
             Restart exam

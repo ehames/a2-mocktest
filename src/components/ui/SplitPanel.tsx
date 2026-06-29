@@ -66,6 +66,7 @@ export default function SplitPanel({ left, right, defaultRatio = 0.45 }: Props) 
 
       {/* Draggable divider — 12px wide for touch; visual line stays 2px via inner div */}
       <div
+        className="split-divider"
         onMouseDown={onMouseDown}
         onTouchStart={onTouchStart}
         style={{
@@ -80,8 +81,8 @@ export default function SplitPanel({ left, right, defaultRatio = 0.45 }: Props) 
           touchAction: 'none',
         }}
       >
-        <div style={{ position: 'absolute', inset: '0 5px', background: 'var(--border)' }} />
-        <div style={{
+        <div className="split-line" style={{ position: 'absolute', inset: '0 5px', background: 'var(--border)' }} />
+        <div className="split-divider-handle" style={{
           position: 'relative',
           zIndex: 1,
           width: 24,

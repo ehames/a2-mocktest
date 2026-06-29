@@ -113,7 +113,7 @@ textarea:focus-visible {
 
 input::placeholder,
 textarea::placeholder {
-  color: var(--faint);
+  color: var(--muted);
 }
 
 /* Primary button (navy fill) */
@@ -156,6 +156,20 @@ textarea::placeholder {
   transform: scale(0.98);
 }
 
+/* Tertiary button (transparent fill, dashed border) */
+.btn-tertiary {
+  transition: background 0.12s ease, border-color 0.12s ease, color 0.12s ease;
+}
+.btn-tertiary:hover {
+  background: var(--page-bg) !important;
+  border-color: var(--input-border) !important;
+  color: var(--ink) !important;
+}
+.btn-tertiary:active {
+  background: var(--instr-bg) !important;
+  transform: scale(0.98);
+}
+
 /* Option row buttons — smooth state transitions */
 .option-btn {
   transition: background 0.14s ease, border-color 0.14s ease, color 0.14s ease;
@@ -191,11 +205,17 @@ textarea::placeholder {
   .btn-primary,
   .btn-ghost,
   .btn-danger,
-  .option-btn {
+  .btn-tertiary,
+  .option-btn,
+  .nav-chip,
+  .progress-fill,
+  .split-line,
+  .split-divider-handle {
     transition: none;
   }
   .rationale-body,
-  .bar-animated {
+  .bar-animated,
+  .score-ring {
     animation: none;
   }
 }
@@ -296,4 +316,48 @@ dialog.license-sheet::backdrop {
   border-color: var(--red);
   background: var(--red-bg);
   color: var(--red);
+}
+
+/* PartNavBar question chips */
+.nav-chip {
+  transition: background 0.1s ease, border-color 0.1s ease;
+}
+.nav-chip:hover {
+  filter: brightness(0.88);
+}
+
+/* ProgressBar fill — transition here so prefers-reduced-motion can disable it */
+.progress-fill {
+  transition: transform 0.35s ease;
+}
+
+/* SplitPanel divider hover feedback */
+.split-line {
+  transition: background 0.12s ease;
+}
+.split-divider:hover .split-line {
+  background: var(--input-border);
+}
+.split-divider-handle {
+  transition: border-color 0.12s ease, color 0.12s ease;
+}
+.split-divider:hover .split-divider-handle {
+  border-color: var(--muted);
+  color: var(--ink);
+}
+
+/* Score ring — fills from 0 to score on mount via @property interpolation */
+@property --ring-deg {
+  syntax: '<angle>';
+  inherits: false;
+  initial-value: 0deg;
+}
+
+@keyframes ring-fill {
+  from { --ring-deg: 0deg; }
+}
+
+.score-ring {
+  background: conic-gradient(var(--accent) var(--ring-deg), var(--border) 0);
+  animation: ring-fill 0.8s ease-out forwards;
 }
